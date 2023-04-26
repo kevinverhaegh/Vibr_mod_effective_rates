@@ -1,0 +1,109 @@
+Diagnostic reaction matrix for CRUMPET run in c:\Users\Gebruiker\OneDrive - TU Eindhoven\Documenten\Masters\Internship\Vibr_mod_effective_rates on 2023-04-26 17:44:47
+
+
+
+======== H(n=1) ========
+H(n=1) DEPLETION:
+                 ['+1*H2VIBR_2.0q6*[ni]', '+1*H2VIBR_2.1q6*[ni]', '+1*H2VIBR_2.2q6*[ni]', '+1*H2VIBR_2.3q6*[ni]', '+1*H2VIBR_2.4q6*[ni]', '+1*H2VIBR_2.5q6*[ni]', '+1*H2VIBR_2.6q6*[ni]', '+1*H2VIBR_2.7q6*[ni]', '+1*H2VIBR_2.8q6*[ni]', '+1*H2VIBR_2.9q6*[ni]', '+1*H2VIBR_2.10q6*[ni]', '+1*H2VIBR_2.11q6*[ni]', '+1*H2VIBR_2.12q6*[ni]', '+1*H2VIBR_2.13q6*[ni]', '+1*H2VIBR_2.14q6*[ni]', '+2.0*H2VIBR_2.0l1*[ne]', '+2.0*H2VIBR_2.1l1*[ne]', '+2.0*H2VIBR_2.2l1*[ne]', '+2.0*H2VIBR_2.3l1*[ne]', '+2.0*H2VIBR_2.4l1*[ne]', '+2.0*H2VIBR_2.5l1*[ne]', '+2.0*H2VIBR_2.6l1*[ne]', '+2.0*H2VIBR_2.7l1*[ne]', '+2.0*H2VIBR_2.8l1*[ne]', '+2.0*H2VIBR_2.9l1*[ne]', '+2.0*H2VIBR_2.10l1*[ne]', '+2.0*H2VIBR_2.11l1*[ne]', '+2.0*H2VIBR_2.12l1*[ne]', '+2.0*H2VIBR_2.13l1*[ne]', '+2.0*H2VIBR_2.14l1*[ne]', '+1*H2VIBR_2.0l3*[ne]', '+1*H2VIBR_2.1l3*[ne]', '+1*H2VIBR_2.2l3*[ne]', '+1*H2VIBR_2.3l3*[ne]', '+1*H2VIBR_2.4l3*[ne]', '+1*H2VIBR_2.5l3*[ne]', '+1*H2VIBR_2.6l3*[ne]', '+1*H2VIBR_2.7l3*[ne]', '+1*H2VIBR_2.8l3*[ne]', '+1*H2VIBR_2.9l3*[ne]', '+1*H2VIBR_2.10l3*[ne]', '+1*H2VIBR_2.11l3*[ne]', '+1*H2VIBR_2.12l3*[ne]', '+1*H2VIBR_2.13l3*[ne]', '+1*H2VIBR_2.14l3*[ne]', '+1.0*HYDHEL_2.2.10*[ne]']
+
+
+
+======== H2+ ========
+H2+ DEPLETION:
+                 ['+1*H2VIBR_2.0q6*[ni]', '+1*H2VIBR_2.1q6*[ni]', '+1*H2VIBR_2.2q6*[ni]', '+1*H2VIBR_2.3q6*[ni]', '+1*H2VIBR_2.4q6*[ni]', '+1*H2VIBR_2.5q6*[ni]', '+1*H2VIBR_2.6q6*[ni]', '+1*H2VIBR_2.7q6*[ni]', '+1*H2VIBR_2.8q6*[ni]', '+1*H2VIBR_2.9q6*[ni]', '+1*H2VIBR_2.10q6*[ni]', '+1*H2VIBR_2.11q6*[ni]', '+1*H2VIBR_2.12q6*[ni]', '+1*H2VIBR_2.13q6*[ni]', '+1*H2VIBR_2.14q6*[ni]', '+1.0*H2VIBR_2.0l4*[ne]', '+1.0*H2VIBR_2.1l4*[ne]', '+1.0*H2VIBR_2.2l4*[ne]', '+1.0*H2VIBR_2.3l4*[ne]', '+1.0*H2VIBR_2.4l4*[ne]', '+1.0*H2VIBR_2.5l4*[ne]', '+1.0*H2VIBR_2.6l4*[ne]', '+1.0*H2VIBR_2.7l4*[ne]', '+1.0*H2VIBR_2.8l4*[ne]', '+1.0*H2VIBR_2.9l4*[ne]', '+1.0*H2VIBR_2.10l4*[ne]', '+1.0*H2VIBR_2.11l4*[ne]', '+1.0*H2VIBR_2.12l4*[ne]', '+1.0*H2VIBR_2.13l4*[ne]', '+1.0*H2VIBR_2.14l4*[ne]']
+
+
+
+======== H2(v=0) ========
+H2(v=0) DEPLETION:
+                 ['-1*H2VIBR_2.0v1*[ne]', '+1*H2VIBR_2.1v0*[ne]', '-1*H2VIBR_2.0q6*[ni]', '-1*H2VIBR_2.0l1*[ne]', '-1*H2VIBR_2.0l4*[ne]', '-1*H2VIBR_2.0l3*[ne]', '-1*HYDHEL_2.2.10*[ne]']
+
+
+
+======== H2(v=1) ========
+H2(v=1) DEPLETION:
+                 ['+1*H2VIBR_2.0v1*[ne]', '-1*H2VIBR_2.1v0*[ne]', '-1*H2VIBR_2.1v2*[ne]', '+1*H2VIBR_2.2v1*[ne]', '-1*H2VIBR_2.1q6*[ni]', '-1*H2VIBR_2.1l1*[ne]', '-1*H2VIBR_2.1l4*[ne]', '-1*H2VIBR_2.1l3*[ne]']
+
+
+
+======== H2(v=2) ========
+H2(v=2) DEPLETION:
+                 ['+1*H2VIBR_2.1v2*[ne]', '-1*H2VIBR_2.2v1*[ne]', '-1*H2VIBR_2.2v3*[ne]', '+1*H2VIBR_2.3v2*[ne]', '-1*H2VIBR_2.2q6*[ni]', '-1*H2VIBR_2.2l1*[ne]', '-1*H2VIBR_2.2l4*[ne]', '-1*H2VIBR_2.2l3*[ne]']
+
+
+
+======== H2(v=3) ========
+H2(v=3) DEPLETION:
+                 ['+1*H2VIBR_2.2v3*[ne]', '-1*H2VIBR_2.3v2*[ne]', '-1*H2VIBR_2.3v4*[ne]', '+1*H2VIBR_2.4v3*[ne]', '-1*H2VIBR_2.3q6*[ni]', '-1*H2VIBR_2.3l1*[ne]', '-1*H2VIBR_2.3l4*[ne]', '-1*H2VIBR_2.3l3*[ne]']
+
+
+
+======== H2(v=4) ========
+H2(v=4) DEPLETION:
+                 ['+1*H2VIBR_2.3v4*[ne]', '-1*H2VIBR_2.4v3*[ne]', '-1*H2VIBR_2.4v5*[ne]', '+1*H2VIBR_2.5v4*[ne]', '-1*H2VIBR_2.4q6*[ni]', '-1*H2VIBR_2.4l1*[ne]', '-1*H2VIBR_2.4l4*[ne]', '-1*H2VIBR_2.4l3*[ne]']
+
+
+
+======== H2(v=5) ========
+H2(v=5) DEPLETION:
+                 ['+1*H2VIBR_2.4v5*[ne]', '-1*H2VIBR_2.5v4*[ne]', '-1*H2VIBR_2.5v6*[ne]', '+1*H2VIBR_2.6v5*[ne]', '-1*H2VIBR_2.5q6*[ni]', '-1*H2VIBR_2.5l1*[ne]', '-1*H2VIBR_2.5l4*[ne]', '-1*H2VIBR_2.5l3*[ne]']
+
+
+
+======== H2(v=6) ========
+H2(v=6) DEPLETION:
+                 ['+1*H2VIBR_2.5v6*[ne]', '-1*H2VIBR_2.6v5*[ne]', '-1*H2VIBR_2.6v7*[ne]', '+1*H2VIBR_2.7v6*[ne]', '-1*H2VIBR_2.6q6*[ni]', '-1*H2VIBR_2.6l1*[ne]', '-1*H2VIBR_2.6l4*[ne]', '-1*H2VIBR_2.6l3*[ne]']
+
+
+
+======== H2(v=7) ========
+H2(v=7) DEPLETION:
+                 ['+1*H2VIBR_2.6v7*[ne]', '-1*H2VIBR_2.7v6*[ne]', '-1*H2VIBR_2.7v8*[ne]', '+1*H2VIBR_2.8v7*[ne]', '-1*H2VIBR_2.7q6*[ni]', '-1*H2VIBR_2.7l1*[ne]', '-1*H2VIBR_2.7l4*[ne]', '-1*H2VIBR_2.7l3*[ne]']
+
+
+
+======== H2(v=8) ========
+H2(v=8) DEPLETION:
+                 ['+1*H2VIBR_2.7v8*[ne]', '-1*H2VIBR_2.8v7*[ne]', '-1*H2VIBR_2.8v9*[ne]', '+1*H2VIBR_2.9v8*[ne]', '-1*H2VIBR_2.8q6*[ni]', '-1*H2VIBR_2.8l1*[ne]', '-1*H2VIBR_2.8l4*[ne]', '-1*H2VIBR_2.8l3*[ne]']
+
+
+
+======== H2(v=9) ========
+H2(v=9) DEPLETION:
+                 ['+1*H2VIBR_2.8v9*[ne]', '-1*H2VIBR_2.9v8*[ne]', '-1*H2VIBR_2.9v10*[ne]', '+1*H2VIBR_2.10v9*[ne]', '-1*H2VIBR_2.9q6*[ni]', '-1*H2VIBR_2.9l1*[ne]', '-1*H2VIBR_2.9l4*[ne]', '-1*H2VIBR_2.9l3*[ne]']
+
+
+
+======== H2(v=10) ========
+H2(v=10) DEPLETION:
+                 ['+1*H2VIBR_2.9v10*[ne]', '-1*H2VIBR_2.10v9*[ne]', '-1*H2VIBR_2.10v11*[ne]', '+1*H2VIBR_2.11v10*[ne]', '-1*H2VIBR_2.10q6*[ni]', '-1*H2VIBR_2.10l1*[ne]', '-1*H2VIBR_2.10l4*[ne]', '-1*H2VIBR_2.10l3*[ne]']
+
+
+
+======== H2(v=11) ========
+H2(v=11) DEPLETION:
+                 ['+1*H2VIBR_2.10v11*[ne]', '-1*H2VIBR_2.11v10*[ne]', '-1*H2VIBR_2.11v12*[ne]', '+1*H2VIBR_2.12v11*[ne]', '-1*H2VIBR_2.11q6*[ni]', '-1*H2VIBR_2.11l1*[ne]', '-1*H2VIBR_2.11l4*[ne]', '-1*H2VIBR_2.11l3*[ne]']
+
+
+
+======== H2(v=12) ========
+H2(v=12) DEPLETION:
+                 ['+1*H2VIBR_2.11v12*[ne]', '-1*H2VIBR_2.12v11*[ne]', '-1*H2VIBR_2.12v13*[ne]', '+1*H2VIBR_2.13v12*[ne]', '-1*H2VIBR_2.12q6*[ni]', '-1*H2VIBR_2.12l1*[ne]', '-1*H2VIBR_2.12l4*[ne]', '-1*H2VIBR_2.12l3*[ne]']
+
+
+
+======== H2(v=13) ========
+H2(v=13) DEPLETION:
+                 ['+1*H2VIBR_2.12v13*[ne]', '-1*H2VIBR_2.13v12*[ne]', '-1*H2VIBR_2.13v14*[ne]', '+1*H2VIBR_2.14v13*[ne]', '-1*H2VIBR_2.13q6*[ni]', '-1*H2VIBR_2.13l1*[ne]', '-1*H2VIBR_2.13l4*[ne]', '-1*H2VIBR_2.13l3*[ne]']
+
+
+
+======== H2(v=14) ========
+H2(v=14) DEPLETION:
+                 ['+1*H2VIBR_2.13v14*[ne]', '-1*H2VIBR_2.14v13*[ne]', '-1*H2VIBR_2.14q6*[ni]', '-1*H2VIBR_2.14l1*[ne]', '-1*H2VIBR_2.14l4*[ne]', '-1*H2VIBR_2.14l3*[ne]']
+
+
+
+======== H- ========
+H- DEPLETION:
+                 ['+1*H2VIBR_2.0l3*[ne]', '+1*H2VIBR_2.1l3*[ne]', '+1*H2VIBR_2.2l3*[ne]', '+1*H2VIBR_2.3l3*[ne]', '+1*H2VIBR_2.4l3*[ne]', '+1*H2VIBR_2.5l3*[ne]', '+1*H2VIBR_2.6l3*[ne]', '+1*H2VIBR_2.7l3*[ne]', '+1*H2VIBR_2.8l3*[ne]', '+1*H2VIBR_2.9l3*[ne]', '+1*H2VIBR_2.10l3*[ne]', '+1*H2VIBR_2.11l3*[ne]', '+1*H2VIBR_2.12l3*[ne]', '+1*H2VIBR_2.13l3*[ne]', '+1*H2VIBR_2.14l3*[ne]']
