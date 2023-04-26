@@ -55,11 +55,11 @@ def numpy_to_string(i):
                 "Rate coeff. for H2 at rest, derived from HYDHEL rate coeff. data.\n"+\
                 "Taken at $E(H_2) = 0.1 \\approx 0.0$ eV,  and fit is for temperature $T_p=T$ with $H_2$ at rest.\n"+\
                 "\n"+\
-                "\\begin{{small}}\\begin{{verbatim}}\n"+\
+                "\\begin{small}\\begin{verbatim}\n"+\
                 "\n"
                 
     part_2 =   "\n"+\
-                "\\end{{verbatim}}\end{{small}}\n"+\
+                "\\end{verbatim}\end{small}\n"+\
                 "\n"+\
                 "\\newpage\n"
     return part_1, part_2
