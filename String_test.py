@@ -22,11 +22,11 @@ def numpy_to_string(i):
                 "Rate coeff. for H2 at rest, derived from HYDHEL rate coeff. data.\n"+\
                 "Taken at $E(H_2) = 0.1 \\approx 0.0$ eV,  and fit is for temperature $T_p=T$ with $H_2$ at rest.\n"+\
                 "\n"+\
-                "\\begin{{small}}\\begin{{verbatim}}\n"+\
+                "\\begin{small}\\begin{verbatim}\n"+\
                 "\n"
                 
     part_2 =   "\n"+\
-                "\\end{{verbatim}}\end{{small}}\n"+\
+                "\\end{verbatim}\end{small}\n"+\
                 "\n"+\
                 "\\newpage\n"
     return part_1, part_2
@@ -39,5 +39,22 @@ for i in range(15):
     str1, str2 = numpy_to_string(i)
     full_string += str1+block_string(coeffs[i,:])+str2
 
-print(full_string)
+
+def insert_string(file_name, file_name_new, string, line_num):
+    
+    # Copy file into new file
+    import shutil
+    shutil.copyfile(file_name, file_name_new)
+
+    # Create lines variable with all the line numbers of the file
+    with open(file_name_new,'r') as f:
+        lines = f.readlines()
+    
+    with open(file_name_new, 'r+') as f: 
+        for i, line in enumerate(lines):
+            if i == line_num:
+                f.write(string + '\n')
+            f.write(line)
+
+insert_string('Test.tex', 'Test_insert.tex', full_string, 4)
 

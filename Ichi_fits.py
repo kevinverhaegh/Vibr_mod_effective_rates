@@ -77,21 +77,44 @@ def gen_full_string():
 
 
 
+def insert_string(file_name, file_name_new, string, line_num):
+    
+    # Copy file into new file
+    import shutil
+    shutil.copyfile(file_name, file_name_new)
+
+    # Create lines variable with all the line numbers of the file
+    with open(file_name_new,'r') as f:
+        lines = f.readlines()
+    
+    with open(file_name_new, 'r+') as f: 
+        for i, line in enumerate(lines):
+            if i == line_num:
+                f.write(string + '\n')
+            f.write(line)
+   
 rates = ichihara_rates()
 coeffs = ichi_fit(rates)
 full_string = gen_full_string()
 
+# insert_string('rates/h2vibr.tex', 'rates/h2vibr_ichi.tex', full_string, 2565)
+
 # print(numpy_to_string(coeff))
 
-dat_file = open("rates/custom_ichi.tex", 'w')
-dat_file.write(full_string)
-dat_file.close()
+# dat_file = open("rates/custom_ichi.tex", 'w')
+# dat_file.write(full_string)
+# dat_file.close()
 
-# import matplotlib.pyplot as plt
-# plt.figure()
-# plt.loglog(Tev,rates[0,:],label='Effective rate (NEW)')
-# fit = eval_1D(coeff[:,0],Tev)
-# plt.plot(Tev, fit,  '--', label='Fit')
-# plt.xlabel('Temperature (eV)')
-# plt.legend()
-# plt.show()
+
+import matplotlib.pyplot as plt
+
+colors = plt.cm.rainbow(np.linspace(0, 1, 15))
+plt.figure()
+for i in range(15):
+    # plt.loglog(Tev,rates[i,:],label='v=%i' %i)
+    fit = eval_1D(coeffs[i,:],Tev)
+    plt.loglog(Tev, fit, c=colors[i], label='v=%i' %i)
+plt.xlabel('Temperature (eV)')
+plt.legend()
+plt.show()
+
