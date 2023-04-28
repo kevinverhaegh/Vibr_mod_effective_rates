@@ -1,11 +1,11 @@
 import numpy as np
 import matplotlib
 
-Tev = np.linspace(0.2,10,100)
+Tev = np.linspace(0.01,100,1000)
 Tiv = Tev # Assume Ti=Te
 
 
-def ichihara_rates(iso_mass = 2):
+def ichihara_rates(iso_mass = 1):
 
     #calculate effective molecular CX rate using Ichihara rates
     import mat73, os
@@ -97,13 +97,13 @@ rates = ichihara_rates()
 coeffs = ichi_fit(rates)
 full_string = gen_full_string()
 
-# insert_string('rates/h2vibr.tex', 'rates/h2vibr_ichi.tex', full_string, 2565)
+insert_string('rates/h2vibr.tex', 'rates/h2vibr_ichi.tex', full_string, 2565)
 
-# print(numpy_to_string(coeff))
+print(numpy_to_string(coeffs))
 
-# dat_file = open("rates/custom_ichi.tex", 'w')
-# dat_file.write(full_string)
-# dat_file.close()
+dat_file = open("rates/custom_ichi.tex", 'w')
+dat_file.write(full_string)
+dat_file.close()
 
 
 import matplotlib.pyplot as plt
@@ -111,9 +111,9 @@ import matplotlib.pyplot as plt
 colors = plt.cm.rainbow(np.linspace(0, 1, 15))
 plt.figure()
 for i in range(15):
-    # plt.loglog(Tev,rates[i,:],label='v=%i' %i)
+    plt.loglog(Tev,rates[i,:],c=colors[i],label='v=%i' %i)
     fit = eval_1D(coeffs[i,:],Tev)
-    plt.loglog(Tev, fit, c=colors[i], label='v=%i' %i)
+    plt.loglog(Tev, fit, '--', c=colors[i], label='vf=%i' %i)
 plt.xlabel('Temperature (eV)')
 plt.legend()
 plt.show()
