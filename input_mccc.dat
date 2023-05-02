@@ -70,9 +70,10 @@ e + H2(v=$) > 2*e + H2+
 * HYDHEL H.2 2.2.10
 e + H2(v=0) > 2*e + p + H(n=1)
 
-* MCCCDB k $
+* MCCCDB k $v&
 e + H2(v=$) > e + H2(n=B)
 rates\MCCC\X1Sg-excitation\vi=$\MCCC-el-D2-B1Su_bound.X1Sg_vi=$.txt
+
 
 
 
