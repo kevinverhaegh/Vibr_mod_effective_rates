@@ -1,16 +1,17 @@
 def eval_1D(coeff, T):
+    import numpy as np
     o = np.zeros(np.shape(T))
     for i in range(0, len(coeff)):
         o = o + coeff[i] * (np.log(T) ** i)
     return 1e-6 * np.exp(o)
+
+
 def run_demo(input_crm,iso_mass=1,T_request=1, ichi=False,Te_max=100,Te_reso=int(1e3),Te_min=0.1):
     import CRUMPET
     import numpy as np
 
     print('Running DEMO with input:')
     print(input_crm)
-
-    from scipy.optimize import curve_fit
 
     indx_H2v = np.append(2,np.arange(3,17))
 

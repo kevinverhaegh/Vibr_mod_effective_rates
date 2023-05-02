@@ -1,0 +1,43 @@
+# MCCC calculations of electron scattering on molecular hydrogen and isotopologues
+# Adiabatic nuclei calculations performed with the spheroidal MCCC(210) model
+# Reference: Scarlett et al., Atom. Data Nucl. Data Tables (2021)
+# MCCC Database: mccc-db.org
+# This file: e + D2(X1Sg,vi=5) -> e + D2(g3Sg,vf=28)
+# Initial-state energy: -1.10456 Hartrees
+# Final-state energy:   -0.55556 Hartrees
+# Threshold: 1.49390E+01 eV
+#
+# Energy (eV)   CS (a_0^2)
+  1.49390E+01   0.00000E+00
+  1.50000E+01   6.47048E-09
+  1.55000E+01   1.47590E-08
+  1.60000E+01   1.58291E-08
+  1.65000E+01   1.56577E-08
+  1.70000E+01   1.51215E-08
+  1.75000E+01   1.44214E-08
+  1.80000E+01   1.36591E-08
+  1.85000E+01   1.28853E-08
+  1.90000E+01   1.21251E-08
+  1.95000E+01   1.13999E-08
+  2.00000E+01   1.07048E-08
+  2.10000E+01   9.42964E-09
+  2.20000E+01   8.14588E-09
+  2.30000E+01   7.03277E-09
+  2.40000E+01   6.17923E-09
+  2.50000E+01   5.50487E-09
+  2.60000E+01   4.91787E-09
+  2.70000E+01   4.40769E-09
+  2.80000E+01   3.96306E-09
+  2.90000E+01   3.57754E-09
+  3.00000E+01   3.23314E-09
+  3.50000E+01   2.05672E-09
+  4.00000E+01   1.38908E-09
+  4.50000E+01   9.83658E-10
+  5.00000E+01   7.22499E-10
+  6.00000E+01   4.21566E-10
+  7.00000E+01   2.53863E-10
+  8.00000E+01   1.27732E-10
+  9.00000E+01   6.35775E-11
+  1.00000E+02   2.50394E-11
+  1.25000E+02   1.70641E-12
+  1.50000E+02   3.74433E-11
