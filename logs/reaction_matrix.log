@@ -1,4 +1,4 @@
-Diagnostic reaction matrix for CRUMPET run in c:\Users\Gebruiker\OneDrive - TU Eindhoven\Documenten\Masters\Internship\Vibr_mod_effective_rates on 2023-05-02 13:35:57
+Diagnostic reaction matrix for CRUMPET run in c:\Users\Gebruiker\OneDrive - TU Eindhoven\Documenten\Masters\Internship\Vibr_mod_effective_rates on 2023-05-02 15:41:04
 
 
 
@@ -16,88 +16,94 @@ H2+ DEPLETION:
 
 ======== H2(v=0) ========
 H2(v=0) DEPLETION:
-                 ['-1*H2VIBR_2.0v1*[ne]', '+1*H2VIBR_2.1v0*[ne]', '-1*HYDHEL_2.2.10*[ne]', '-1*MCCCDB_0v0*[ne]', '+1*MCCCDB_0v0*[ne]', '-1*MCCCDB_0v1*[ne]', '-1*MCCCDB_0v2*[ne]', '-1*MCCCDB_0v3*[ne]', '-1*MCCCDB_0v4*[ne]', '-1*MCCCDB_0v5*[ne]', '-1*MCCCDB_0v6*[ne]', '-1*MCCCDB_0v7*[ne]', '-1*MCCCDB_0v8*[ne]', '-1*MCCCDB_0v9*[ne]', '-1*MCCCDB_0v10*[ne]', '-1*MCCCDB_0v11*[ne]', '-1*MCCCDB_0v12*[ne]', '-1*MCCCDB_0v13*[ne]', '-1*MCCCDB_0v14*[ne]']
+                 ['-1*H2VIBR_2.0v1*[ne]', '+1*H2VIBR_2.1v0*[ne]', '-1*HYDHEL_2.2.10*[ne]', '-1*MCCCDB_0*[ne]', '+1*USER_0']
 
 
 
 ======== H2(v=1) ========
 H2(v=1) DEPLETION:
-                 ['+1*H2VIBR_2.0v1*[ne]', '-1*H2VIBR_2.1v0*[ne]', '-1*H2VIBR_2.1v2*[ne]', '+1*H2VIBR_2.2v1*[ne]', '+1*MCCCDB_0v1*[ne]', '-1*MCCCDB_1v1*[ne]', '+1*MCCCDB_1v1*[ne]', '-1*MCCCDB_1v2*[ne]', '-1*MCCCDB_1v3*[ne]', '-1*MCCCDB_1v4*[ne]', '-1*MCCCDB_1v5*[ne]', '-1*MCCCDB_1v6*[ne]', '-1*MCCCDB_1v7*[ne]', '-1*MCCCDB_1v8*[ne]', '-1*MCCCDB_1v9*[ne]', '-1*MCCCDB_1v10*[ne]', '-1*MCCCDB_1v11*[ne]', '-1*MCCCDB_1v12*[ne]', '-1*MCCCDB_1v13*[ne]', '-1*MCCCDB_1v14*[ne]']
+                 ['+1*H2VIBR_2.0v1*[ne]', '-1*H2VIBR_2.1v0*[ne]', '-1*H2VIBR_2.1v2*[ne]', '+1*H2VIBR_2.2v1*[ne]', '-1*MCCCDB_1*[ne]', '+1*USER_1']
 
 
 
 ======== H2(v=2) ========
 H2(v=2) DEPLETION:
-                 ['+1*H2VIBR_2.1v2*[ne]', '-1*H2VIBR_2.2v1*[ne]', '-1*H2VIBR_2.2v3*[ne]', '+1*H2VIBR_2.3v2*[ne]', '+1*MCCCDB_0v2*[ne]', '+1*MCCCDB_1v2*[ne]', '-1*MCCCDB_2v2*[ne]', '+1*MCCCDB_2v2*[ne]', '-1*MCCCDB_2v3*[ne]', '-1*MCCCDB_2v4*[ne]', '-1*MCCCDB_2v5*[ne]', '-1*MCCCDB_2v6*[ne]', '-1*MCCCDB_2v7*[ne]', '-1*MCCCDB_2v8*[ne]', '-1*MCCCDB_2v9*[ne]', '-1*MCCCDB_2v10*[ne]', '-1*MCCCDB_2v11*[ne]', '-1*MCCCDB_2v12*[ne]', '-1*MCCCDB_2v13*[ne]', '-1*MCCCDB_2v14*[ne]']
+                 ['+1*H2VIBR_2.1v2*[ne]', '-1*H2VIBR_2.2v1*[ne]', '-1*H2VIBR_2.2v3*[ne]', '+1*H2VIBR_2.3v2*[ne]', '-1*MCCCDB_2*[ne]', '+1*USER_2']
 
 
 
 ======== H2(v=3) ========
 H2(v=3) DEPLETION:
-                 ['+1*H2VIBR_2.2v3*[ne]', '-1*H2VIBR_2.3v2*[ne]', '-1*H2VIBR_2.3v4*[ne]', '+1*H2VIBR_2.4v3*[ne]', '+1*MCCCDB_0v3*[ne]', '+1*MCCCDB_1v3*[ne]', '+1*MCCCDB_2v3*[ne]', '-1*MCCCDB_3v3*[ne]', '+1*MCCCDB_3v3*[ne]', '-1*MCCCDB_3v4*[ne]', '-1*MCCCDB_3v5*[ne]', '-1*MCCCDB_3v6*[ne]', '-1*MCCCDB_3v7*[ne]', '-1*MCCCDB_3v8*[ne]', '-1*MCCCDB_3v9*[ne]', '-1*MCCCDB_3v10*[ne]', '-1*MCCCDB_3v11*[ne]', '-1*MCCCDB_3v12*[ne]', '-1*MCCCDB_3v13*[ne]', '-1*MCCCDB_3v14*[ne]']
+                 ['+1*H2VIBR_2.2v3*[ne]', '-1*H2VIBR_2.3v2*[ne]', '-1*H2VIBR_2.3v4*[ne]', '+1*H2VIBR_2.4v3*[ne]', '-1*MCCCDB_3*[ne]', '+1*USER_3']
 
 
 
 ======== H2(v=4) ========
 H2(v=4) DEPLETION:
-                 ['+1*H2VIBR_2.3v4*[ne]', '-1*H2VIBR_2.4v3*[ne]', '-1*H2VIBR_2.4v5*[ne]', '+1*H2VIBR_2.5v4*[ne]', '+1*MCCCDB_0v4*[ne]', '+1*MCCCDB_1v4*[ne]', '+1*MCCCDB_2v4*[ne]', '+1*MCCCDB_3v4*[ne]', '-1*MCCCDB_4v4*[ne]', '+1*MCCCDB_4v4*[ne]', '-1*MCCCDB_4v5*[ne]', '-1*MCCCDB_4v6*[ne]', '-1*MCCCDB_4v7*[ne]', '-1*MCCCDB_4v8*[ne]', '-1*MCCCDB_4v9*[ne]', '-1*MCCCDB_4v10*[ne]', '-1*MCCCDB_4v11*[ne]', '-1*MCCCDB_4v12*[ne]', '-1*MCCCDB_4v13*[ne]', '-1*MCCCDB_4v14*[ne]']
+                 ['+1*H2VIBR_2.3v4*[ne]', '-1*H2VIBR_2.4v3*[ne]', '-1*H2VIBR_2.4v5*[ne]', '+1*H2VIBR_2.5v4*[ne]', '-1*MCCCDB_4*[ne]', '+1*USER_4']
 
 
 
 ======== H2(v=5) ========
 H2(v=5) DEPLETION:
-                 ['+1*H2VIBR_2.4v5*[ne]', '-1*H2VIBR_2.5v4*[ne]', '-1*H2VIBR_2.5v6*[ne]', '+1*H2VIBR_2.6v5*[ne]', '+1*MCCCDB_0v5*[ne]', '+1*MCCCDB_1v5*[ne]', '+1*MCCCDB_2v5*[ne]', '+1*MCCCDB_3v5*[ne]', '+1*MCCCDB_4v5*[ne]', '-1*MCCCDB_5v5*[ne]', '+1*MCCCDB_5v5*[ne]', '-1*MCCCDB_5v6*[ne]', '-1*MCCCDB_5v7*[ne]', '-1*MCCCDB_5v8*[ne]', '-1*MCCCDB_5v9*[ne]', '-1*MCCCDB_5v10*[ne]', '-1*MCCCDB_5v11*[ne]', '-1*MCCCDB_5v12*[ne]', '-1*MCCCDB_5v13*[ne]', '-1*MCCCDB_5v14*[ne]']
+                 ['+1*H2VIBR_2.4v5*[ne]', '-1*H2VIBR_2.5v4*[ne]', '-1*H2VIBR_2.5v6*[ne]', '+1*H2VIBR_2.6v5*[ne]', '-1*MCCCDB_5*[ne]', '+1*USER_5']
 
 
 
 ======== H2(v=6) ========
 H2(v=6) DEPLETION:
-                 ['+1*H2VIBR_2.5v6*[ne]', '-1*H2VIBR_2.6v5*[ne]', '-1*H2VIBR_2.6v7*[ne]', '+1*H2VIBR_2.7v6*[ne]', '+1*MCCCDB_0v6*[ne]', '+1*MCCCDB_1v6*[ne]', '+1*MCCCDB_2v6*[ne]', '+1*MCCCDB_3v6*[ne]', '+1*MCCCDB_4v6*[ne]', '+1*MCCCDB_5v6*[ne]', '-1*MCCCDB_6v6*[ne]', '+1*MCCCDB_6v6*[ne]', '-1*MCCCDB_6v7*[ne]', '-1*MCCCDB_6v8*[ne]', '-1*MCCCDB_6v9*[ne]', '-1*MCCCDB_6v10*[ne]', '-1*MCCCDB_6v11*[ne]', '-1*MCCCDB_6v12*[ne]', '-1*MCCCDB_6v13*[ne]', '-1*MCCCDB_6v14*[ne]']
+                 ['+1*H2VIBR_2.5v6*[ne]', '-1*H2VIBR_2.6v5*[ne]', '-1*H2VIBR_2.6v7*[ne]', '+1*H2VIBR_2.7v6*[ne]', '-1*MCCCDB_6*[ne]', '+1*USER_6']
 
 
 
 ======== H2(v=7) ========
 H2(v=7) DEPLETION:
-                 ['+1*H2VIBR_2.6v7*[ne]', '-1*H2VIBR_2.7v6*[ne]', '-1*H2VIBR_2.7v8*[ne]', '+1*H2VIBR_2.8v7*[ne]', '+1*MCCCDB_0v7*[ne]', '+1*MCCCDB_1v7*[ne]', '+1*MCCCDB_2v7*[ne]', '+1*MCCCDB_3v7*[ne]', '+1*MCCCDB_4v7*[ne]', '+1*MCCCDB_5v7*[ne]', '+1*MCCCDB_6v7*[ne]', '-1*MCCCDB_7v7*[ne]', '+1*MCCCDB_7v7*[ne]', '-1*MCCCDB_7v8*[ne]', '-1*MCCCDB_7v9*[ne]', '-1*MCCCDB_7v10*[ne]', '-1*MCCCDB_7v11*[ne]', '-1*MCCCDB_7v12*[ne]', '-1*MCCCDB_7v13*[ne]', '-1*MCCCDB_7v14*[ne]']
+                 ['+1*H2VIBR_2.6v7*[ne]', '-1*H2VIBR_2.7v6*[ne]', '-1*H2VIBR_2.7v8*[ne]', '+1*H2VIBR_2.8v7*[ne]', '-1*MCCCDB_7*[ne]', '+1*USER_7']
 
 
 
 ======== H2(v=8) ========
 H2(v=8) DEPLETION:
-                 ['+1*H2VIBR_2.7v8*[ne]', '-1*H2VIBR_2.8v7*[ne]', '-1*H2VIBR_2.8v9*[ne]', '+1*H2VIBR_2.9v8*[ne]', '+1*MCCCDB_0v8*[ne]', '+1*MCCCDB_1v8*[ne]', '+1*MCCCDB_2v8*[ne]', '+1*MCCCDB_3v8*[ne]', '+1*MCCCDB_4v8*[ne]', '+1*MCCCDB_5v8*[ne]', '+1*MCCCDB_6v8*[ne]', '+1*MCCCDB_7v8*[ne]', '-1*MCCCDB_8v8*[ne]', '+1*MCCCDB_8v8*[ne]', '-1*MCCCDB_8v9*[ne]', '-1*MCCCDB_8v10*[ne]', '-1*MCCCDB_8v11*[ne]', '-1*MCCCDB_8v12*[ne]', '-1*MCCCDB_8v13*[ne]', '-1*MCCCDB_8v14*[ne]']
+                 ['+1*H2VIBR_2.7v8*[ne]', '-1*H2VIBR_2.8v7*[ne]', '-1*H2VIBR_2.8v9*[ne]', '+1*H2VIBR_2.9v8*[ne]', '-1*MCCCDB_8*[ne]', '+1*USER_8']
 
 
 
 ======== H2(v=9) ========
 H2(v=9) DEPLETION:
-                 ['+1*H2VIBR_2.8v9*[ne]', '-1*H2VIBR_2.9v8*[ne]', '-1*H2VIBR_2.9v10*[ne]', '+1*H2VIBR_2.10v9*[ne]', '+1*MCCCDB_0v9*[ne]', '+1*MCCCDB_1v9*[ne]', '+1*MCCCDB_2v9*[ne]', '+1*MCCCDB_3v9*[ne]', '+1*MCCCDB_4v9*[ne]', '+1*MCCCDB_5v9*[ne]', '+1*MCCCDB_6v9*[ne]', '+1*MCCCDB_7v9*[ne]', '+1*MCCCDB_8v9*[ne]', '-1*MCCCDB_9v9*[ne]', '+1*MCCCDB_9v9*[ne]', '-1*MCCCDB_9v10*[ne]', '-1*MCCCDB_9v11*[ne]', '-1*MCCCDB_9v12*[ne]', '-1*MCCCDB_9v13*[ne]', '-1*MCCCDB_9v14*[ne]']
+                 ['+1*H2VIBR_2.8v9*[ne]', '-1*H2VIBR_2.9v8*[ne]', '-1*H2VIBR_2.9v10*[ne]', '+1*H2VIBR_2.10v9*[ne]', '-1*MCCCDB_9*[ne]', '+1*USER_9']
 
 
 
 ======== H2(v=10) ========
 H2(v=10) DEPLETION:
-                 ['+1*H2VIBR_2.9v10*[ne]', '-1*H2VIBR_2.10v9*[ne]', '-1*H2VIBR_2.10v11*[ne]', '+1*H2VIBR_2.11v10*[ne]', '+1*MCCCDB_0v10*[ne]', '+1*MCCCDB_1v10*[ne]', '+1*MCCCDB_2v10*[ne]', '+1*MCCCDB_3v10*[ne]', '+1*MCCCDB_4v10*[ne]', '+1*MCCCDB_5v10*[ne]', '+1*MCCCDB_6v10*[ne]', '+1*MCCCDB_7v10*[ne]', '+1*MCCCDB_8v10*[ne]', '+1*MCCCDB_9v10*[ne]', '-1*MCCCDB_10v10*[ne]', '+1*MCCCDB_10v10*[ne]', '-1*MCCCDB_10v11*[ne]', '-1*MCCCDB_10v12*[ne]', '-1*MCCCDB_10v13*[ne]', '-1*MCCCDB_10v14*[ne]']
+                 ['+1*H2VIBR_2.9v10*[ne]', '-1*H2VIBR_2.10v9*[ne]', '-1*H2VIBR_2.10v11*[ne]', '+1*H2VIBR_2.11v10*[ne]', '-1*MCCCDB_10*[ne]', '+1*USER_10']
 
 
 
 ======== H2(v=11) ========
 H2(v=11) DEPLETION:
-                 ['+1*H2VIBR_2.10v11*[ne]', '-1*H2VIBR_2.11v10*[ne]', '-1*H2VIBR_2.11v12*[ne]', '+1*H2VIBR_2.12v11*[ne]', '+1*MCCCDB_0v11*[ne]', '+1*MCCCDB_1v11*[ne]', '+1*MCCCDB_2v11*[ne]', '+1*MCCCDB_3v11*[ne]', '+1*MCCCDB_4v11*[ne]', '+1*MCCCDB_5v11*[ne]', '+1*MCCCDB_6v11*[ne]', '+1*MCCCDB_7v11*[ne]', '+1*MCCCDB_8v11*[ne]', '+1*MCCCDB_9v11*[ne]', '+1*MCCCDB_10v11*[ne]', '-1*MCCCDB_11v11*[ne]', '+1*MCCCDB_11v11*[ne]', '-1*MCCCDB_11v12*[ne]', '-1*MCCCDB_11v13*[ne]', '-1*MCCCDB_11v14*[ne]']
+                 ['+1*H2VIBR_2.10v11*[ne]', '-1*H2VIBR_2.11v10*[ne]', '-1*H2VIBR_2.11v12*[ne]', '+1*H2VIBR_2.12v11*[ne]', '-1*MCCCDB_11*[ne]', '+1*USER_11']
 
 
 
 ======== H2(v=12) ========
 H2(v=12) DEPLETION:
-                 ['+1*H2VIBR_2.11v12*[ne]', '-1*H2VIBR_2.12v11*[ne]', '-1*H2VIBR_2.12v13*[ne]', '+1*H2VIBR_2.13v12*[ne]', '+1*MCCCDB_0v12*[ne]', '+1*MCCCDB_1v12*[ne]', '+1*MCCCDB_2v12*[ne]', '+1*MCCCDB_3v12*[ne]', '+1*MCCCDB_4v12*[ne]', '+1*MCCCDB_5v12*[ne]', '+1*MCCCDB_6v12*[ne]', '+1*MCCCDB_7v12*[ne]', '+1*MCCCDB_8v12*[ne]', '+1*MCCCDB_9v12*[ne]', '+1*MCCCDB_10v12*[ne]', '+1*MCCCDB_11v12*[ne]', '-1*MCCCDB_12v12*[ne]', '+1*MCCCDB_12v12*[ne]', '-1*MCCCDB_12v13*[ne]', '-1*MCCCDB_12v14*[ne]']
+                 ['+1*H2VIBR_2.11v12*[ne]', '-1*H2VIBR_2.12v11*[ne]', '-1*H2VIBR_2.12v13*[ne]', '+1*H2VIBR_2.13v12*[ne]', '-1*MCCCDB_12*[ne]', '+1*USER_12']
 
 
 
 ======== H2(v=13) ========
 H2(v=13) DEPLETION:
-                 ['+1*H2VIBR_2.12v13*[ne]', '-1*H2VIBR_2.13v12*[ne]', '-1*H2VIBR_2.13v14*[ne]', '+1*H2VIBR_2.14v13*[ne]', '+1*MCCCDB_0v13*[ne]', '+1*MCCCDB_1v13*[ne]', '+1*MCCCDB_2v13*[ne]', '+1*MCCCDB_3v13*[ne]', '+1*MCCCDB_4v13*[ne]', '+1*MCCCDB_5v13*[ne]', '+1*MCCCDB_6v13*[ne]', '+1*MCCCDB_7v13*[ne]', '+1*MCCCDB_8v13*[ne]', '+1*MCCCDB_9v13*[ne]', '+1*MCCCDB_10v13*[ne]', '+1*MCCCDB_11v13*[ne]', '+1*MCCCDB_12v13*[ne]', '-1*MCCCDB_13v13*[ne]', '+1*MCCCDB_13v13*[ne]', '-1*MCCCDB_13v14*[ne]']
+                 ['+1*H2VIBR_2.12v13*[ne]', '-1*H2VIBR_2.13v12*[ne]', '-1*H2VIBR_2.13v14*[ne]', '+1*H2VIBR_2.14v13*[ne]', '-1*MCCCDB_13*[ne]', '+1*USER_13']
 
 
 
 ======== H2(v=14) ========
 H2(v=14) DEPLETION:
-                 ['+1*H2VIBR_2.13v14*[ne]', '-1*H2VIBR_2.14v13*[ne]', '+1*MCCCDB_0v14*[ne]', '+1*MCCCDB_1v14*[ne]', '+1*MCCCDB_2v14*[ne]', '+1*MCCCDB_3v14*[ne]', '+1*MCCCDB_4v14*[ne]', '+1*MCCCDB_5v14*[ne]', '+1*MCCCDB_6v14*[ne]', '+1*MCCCDB_7v14*[ne]', '+1*MCCCDB_8v14*[ne]', '+1*MCCCDB_9v14*[ne]', '+1*MCCCDB_10v14*[ne]', '+1*MCCCDB_11v14*[ne]', '+1*MCCCDB_12v14*[ne]', '+1*MCCCDB_13v14*[ne]', '-1*MCCCDB_14v14*[ne]', '+1*MCCCDB_14v14*[ne]']
+                 ['+1*H2VIBR_2.13v14*[ne]', '-1*H2VIBR_2.14v13*[ne]', '-1*MCCCDB_14*[ne]', '+1*USER_14']
+
+
+
+======== H2(n=B) ========
+H2(n=B) DEPLETION:
+                 ['+1*MCCCDB_0*[ne]', '+1*MCCCDB_1*[ne]', '+1*MCCCDB_2*[ne]', '+1*MCCCDB_3*[ne]', '+1*MCCCDB_4*[ne]', '+1*MCCCDB_5*[ne]', '+1*MCCCDB_6*[ne]', '+1*MCCCDB_7*[ne]', '+1*MCCCDB_8*[ne]', '+1*MCCCDB_9*[ne]', '+1*MCCCDB_10*[ne]', '+1*MCCCDB_11*[ne]', '+1*MCCCDB_12*[ne]', '+1*MCCCDB_13*[ne]', '+1*MCCCDB_14*[ne]', '-1*USER_0', '-1*USER_1', '-1*USER_2', '-1*USER_3', '-1*USER_4', '-1*USER_5', '-1*USER_6', '-1*USER_7', '-1*USER_8', '-1*USER_9', '-1*USER_10', '-1*USER_11', '-1*USER_12', '-1*USER_13', '-1*USER_14']

@@ -1,3 +1,5 @@
+import numpy as np
+
 def insert_string(file_name, file_name_new, string, line_num):
     
     # Copy file into new file
@@ -27,7 +29,31 @@ def reactions(arr):
 
 
 
-insert_string('input.dat', 'input_mccc.dat', reactions(arr), )
+def FC_factors(file_name):
+
+    nu_eff = 7.7771e08
+
+    with open(file_name, 'r') as f:
+        lines  = f.read().splitlines()
+        data = []
+        for line in lines:
+            columns = line.split()
+            data.append(columns)
+
+    arr = np.array(data)[1:16, 1:]
+
+    table = np.zeros(np.shape(arr))
+    for i in range(np.shape(arr)[0]):
+        for j in range(np.shape(arr)[1]):
+            table[i,j] = float(arr[i,j])
+
+    coeffs = nu_eff*np.sum(table, axis = 1)/15
+
+    return coeffs
+    
+arr = FC_factors('Table 2 Franck-Condon Factors\D2_B1-X1_FCF.dat')
+
+insert_string('input.dat', 'input_mccc.dat', reactions(arr), 71)
 
 
         

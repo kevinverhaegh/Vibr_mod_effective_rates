@@ -41,7 +41,6 @@
 * H2(n=B)
 	V 11.36832
 
-
 ** BACKGROUND
 * e
 	V 0
@@ -70,11 +69,125 @@ e + H2(v=$) > 2*e + H2+
 * HYDHEL H.2 2.2.10
 e + H2(v=0) > 2*e + p + H(n=1)
 
-* MCCCDB k $v&
-e + H2(v=$) > e + H2(n=B)
-rates\MCCC\X1Sg-excitation\vi=$\MCCC-el-D2-B1Su_bound.X1Sg_vi=$.txt
+* MCCCDB k 0 
+e + H2(v=0) > e + H2(n=B)
+rates\MCCC\X1Sg-excitation\vi=0\MCCC-el-D2-B1Su_bound.X1Sg_vi=0.txt
 
+* USER COEFFICIENT 0
+H2(n=B) > H2(v=0)
+51840306.25173792
 
+* MCCCDB k 1 
+e + H2(v=1) > e + H2(n=B)
+rates\MCCC\X1Sg-excitation\vi=1\MCCC-el-D2-B1Su_bound.X1Sg_vi=1.txt
+
+* USER COEFFICIENT 1
+H2(n=B) > H2(v=1)
+51852616.6801372
+
+* MCCCDB k 2 
+e + H2(v=2) > e + H2(n=B)
+rates\MCCC\X1Sg-excitation\vi=2\MCCC-el-D2-B1Su_bound.X1Sg_vi=2.txt
+
+* USER COEFFICIENT 2
+H2(n=B) > H2(v=2)
+51855246.23299909
+
+* MCCCDB k 3 
+e + H2(v=3) > e + H2(n=B)
+rates\MCCC\X1Sg-excitation\vi=3\MCCC-el-D2-B1Su_bound.X1Sg_vi=3.txt
+
+* USER COEFFICIENT 3
+H2(n=B) > H2(v=3)
+51846698.33622917
+
+* MCCCDB k 4 
+e + H2(v=4) > e + H2(n=B)
+rates\MCCC\X1Sg-excitation\vi=4\MCCC-el-D2-B1Su_bound.X1Sg_vi=4.txt
+
+* USER COEFFICIENT 4
+H2(n=B) > H2(v=4)
+51843373.92358287
+
+* MCCCDB k 5 
+e + H2(v=5) > e + H2(n=B)
+rates\MCCC\X1Sg-excitation\vi=5\MCCC-el-D2-B1Su_bound.X1Sg_vi=5.txt
+
+* USER COEFFICIENT 5
+H2(n=B) > H2(v=5)
+51838191.83446352
+
+* MCCCDB k 6 
+e + H2(v=6) > e + H2(n=B)
+rates\MCCC\X1Sg-excitation\vi=6\MCCC-el-D2-B1Su_bound.X1Sg_vi=6.txt
+
+* USER COEFFICIENT 6
+H2(n=B) > H2(v=6)
+51777687.84741333
+
+* MCCCDB k 7 
+e + H2(v=7) > e + H2(n=B)
+rates\MCCC\X1Sg-excitation\vi=7\MCCC-el-D2-B1Su_bound.X1Sg_vi=7.txt
+
+* USER COEFFICIENT 7
+H2(n=B) > H2(v=7)
+51687647.84999534
+
+* MCCCDB k 8 
+e + H2(v=8) > e + H2(n=B)
+rates\MCCC\X1Sg-excitation\vi=8\MCCC-el-D2-B1Su_bound.X1Sg_vi=8.txt
+
+* USER COEFFICIENT 8
+H2(n=B) > H2(v=8)
+49774087.10656733
+
+* MCCCDB k 9 
+e + H2(v=9) > e + H2(n=B)
+rates\MCCC\X1Sg-excitation\vi=9\MCCC-el-D2-B1Su_bound.X1Sg_vi=9.txt
+
+* USER COEFFICIENT 9
+H2(n=B) > H2(v=9)
+47585772.8784
+
+* MCCCDB k 10 
+e + H2(v=10) > e + H2(n=B)
+rates\MCCC\X1Sg-excitation\vi=10\MCCC-el-D2-B1Su_bound.X1Sg_vi=10.txt
+
+* USER COEFFICIENT 10
+H2(n=B) > H2(v=10)
+40465321.79189134
+
+* MCCCDB k 11 
+e + H2(v=11) > e + H2(n=B)
+rates\MCCC\X1Sg-excitation\vi=11\MCCC-el-D2-B1Su_bound.X1Sg_vi=11.txt
+
+* USER COEFFICIENT 11
+H2(n=B) > H2(v=11)
+27048364.426526666
+
+* MCCCDB k 12 
+e + H2(v=12) > e + H2(n=B)
+rates\MCCC\X1Sg-excitation\vi=12\MCCC-el-D2-B1Su_bound.X1Sg_vi=12.txt
+
+* USER COEFFICIENT 12
+H2(n=B) > H2(v=12)
+25400674.31976
+
+* MCCCDB k 13 
+e + H2(v=13) > e + H2(n=B)
+rates\MCCC\X1Sg-excitation\vi=13\MCCC-el-D2-B1Su_bound.X1Sg_vi=13.txt
+
+* USER COEFFICIENT 13
+H2(n=B) > H2(v=13)
+24214435.330653336
+
+* MCCCDB k 14 
+e + H2(v=14) > e + H2(n=B)
+rates\MCCC\X1Sg-excitation\vi=14\MCCC-el-D2-B1Su_bound.X1Sg_vi=14.txt
+
+* USER COEFFICIENT 14
+H2(n=B) > H2(v=14)
+24135677.624052666
 
 
 
@@ -82,7 +195,6 @@ rates\MCCC\X1Sg-excitation\vi=$\MCCC-el-D2-B1Su_bound.X1Sg_vi=$.txt
 # Define the files for the standard inputs
 H2VIBR  rates/h2vibr.tex
 HYDHEL rates/hydhel.tex
-MCCCDB rates/MCCC
 
 ** SETTINGS
 # Define the most central parameters to the simulations
