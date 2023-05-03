@@ -98,7 +98,7 @@ def run_demo(input_crm,iso_mass=1,T_request=1):
 
 
 
-input_crm = 'input_mccc.dat'
+input_crm = 'input_complete_unr.dat'
 # simple input file with specified reactions (input_simple is only electron-impact interactions)
 run_demo(input_crm)
 # #run demo with deuterium mass rescaling (e.g. molecular CX depends on relative velocity D+ and D2, which is different (at same Ti) for D than H)

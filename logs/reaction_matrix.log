@@ -1,109 +1,115 @@
-Diagnostic reaction matrix for CRUMPET run in c:\Users\Gebruiker\OneDrive - TU Eindhoven\Documenten\Masters\Internship\Vibr_mod_effective_rates on 2023-05-02 15:41:04
+Diagnostic reaction matrix for CRUMPET run in C:\Users\Gebruiker\OneDrive - TU Eindhoven\Documenten\Masters\Internship\Vibr_mod_effective_rates on 2023-05-03 10:54:05
 
 
 
 ======== H(n=1) ========
 H(n=1) DEPLETION:
-                 ['+1.0*HYDHEL_2.2.10*[ne]']
+                 ['+1*H2VIBR_2.0q6*[ni]', '+1*H2VIBR_2.1q6*[ni]', '+1*H2VIBR_2.2q6*[ni]', '+1*H2VIBR_2.3q6*[ni]', '+1*H2VIBR_2.4q6*[ni]', '+1*H2VIBR_2.5q6*[ni]', '+1*H2VIBR_2.6q6*[ni]', '+1*H2VIBR_2.7q6*[ni]', '+1*H2VIBR_2.8q6*[ni]', '+1*H2VIBR_2.9q6*[ni]', '+1*H2VIBR_2.10q6*[ni]', '+1*H2VIBR_2.11q6*[ni]', '+1*H2VIBR_2.12q6*[ni]', '+1*H2VIBR_2.13q6*[ni]', '+1*H2VIBR_2.14q6*[ni]', '+1.0*HYDHEL_2.2.10*[ne]', '+2.0*MCCCDB_X_a3Sgu0*[ne]', '+2.0*MCCCDB_X_B1Suu0*[ne]', '+2.0*MCCCDB_X_Bp1Suu0*[ne]', '+2.0*MCCCDB_X_C1Puu0*[ne]', '+2.0*MCCCDB_X_c3Puu0*[ne]', '+2.0*MCCCDB_X_D1Puu0*[ne]', '+2.0*MCCCDB_X_d3Puu0*[ne]', '+2.0*MCCCDB_X_e3Suu0*[ne]', '+2.0*MCCCDB_X_EF1Sgu0*[ne]', '+2.0*MCCCDB_X_g3Sgu0*[ne]', '+2.0*MCCCDB_X_GK1Sgu0*[ne]', '+2.0*MCCCDB_X_H1Sgu0*[ne]', '+2.0*MCCCDB_X_h3Sgu0*[ne]', '+2.0*MCCCDB_X_I1Pgu0*[ne]', '+2.0*MCCCDB_X_i3Pgu0*[ne]', '+2.0*MCCCDB_X_J1Dgu0*[ne]', '+2.0*MCCCDB_X_j3Dgu0*[ne]', '+2.0*MCCCDB_X_a3Sgu1*[ne]', '+2.0*MCCCDB_X_B1Suu1*[ne]', '+2.0*MCCCDB_X_Bp1Suu1*[ne]', '+2.0*MCCCDB_X_C1Puu1*[ne]', '+2.0*MCCCDB_X_c3Puu1*[ne]', '+2.0*MCCCDB_X_D1Puu1*[ne]', '+2.0*MCCCDB_X_d3Puu1*[ne]', '+2.0*MCCCDB_X_e3Suu1*[ne]', '+2.0*MCCCDB_X_EF1Sgu1*[ne]', '+2.0*MCCCDB_X_g3Sgu1*[ne]', '+2.0*MCCCDB_X_GK1Sgu1*[ne]', '+2.0*MCCCDB_X_H1Sgu1*[ne]', '+2.0*MCCCDB_X_h3Sgu1*[ne]', '+2.0*MCCCDB_X_I1Pgu1*[ne]', '+2.0*MCCCDB_X_i3Pgu1*[ne]', '+2.0*MCCCDB_X_J1Dgu1*[ne]', '+2.0*MCCCDB_X_j3Dgu1*[ne]', '+2.0*MCCCDB_X_a3Sgu2*[ne]', '+2.0*MCCCDB_X_B1Suu2*[ne]', '+2.0*MCCCDB_X_Bp1Suu2*[ne]', '+2.0*MCCCDB_X_C1Puu2*[ne]', '+2.0*MCCCDB_X_c3Puu2*[ne]', '+2.0*MCCCDB_X_D1Puu2*[ne]', '+2.0*MCCCDB_X_d3Puu2*[ne]', '+2.0*MCCCDB_X_e3Suu2*[ne]', '+2.0*MCCCDB_X_EF1Sgu2*[ne]', '+2.0*MCCCDB_X_g3Sgu2*[ne]', '+2.0*MCCCDB_X_GK1Sgu2*[ne]', '+2.0*MCCCDB_X_H1Sgu2*[ne]', '+2.0*MCCCDB_X_h3Sgu2*[ne]', '+2.0*MCCCDB_X_I1Pgu2*[ne]', '+2.0*MCCCDB_X_i3Pgu2*[ne]', '+2.0*MCCCDB_X_J1Dgu2*[ne]', '+2.0*MCCCDB_X_j3Dgu2*[ne]', '+2.0*MCCCDB_X_a3Sgu3*[ne]', '+2.0*MCCCDB_X_B1Suu3*[ne]', '+2.0*MCCCDB_X_Bp1Suu3*[ne]', '+2.0*MCCCDB_X_C1Puu3*[ne]', '+2.0*MCCCDB_X_c3Puu3*[ne]', '+2.0*MCCCDB_X_D1Puu3*[ne]', '+2.0*MCCCDB_X_d3Puu3*[ne]', '+2.0*MCCCDB_X_e3Suu3*[ne]', '+2.0*MCCCDB_X_EF1Sgu3*[ne]', '+2.0*MCCCDB_X_g3Sgu3*[ne]', '+2.0*MCCCDB_X_GK1Sgu3*[ne]', '+2.0*MCCCDB_X_H1Sgu3*[ne]', '+2.0*MCCCDB_X_h3Sgu3*[ne]', '+2.0*MCCCDB_X_I1Pgu3*[ne]', '+2.0*MCCCDB_X_i3Pgu3*[ne]', '+2.0*MCCCDB_X_J1Dgu3*[ne]', '+2.0*MCCCDB_X_j3Dgu3*[ne]', '+2.0*MCCCDB_X_a3Sgu4*[ne]', '+2.0*MCCCDB_X_B1Suu4*[ne]', '+2.0*MCCCDB_X_Bp1Suu4*[ne]', '+2.0*MCCCDB_X_C1Puu4*[ne]', '+2.0*MCCCDB_X_c3Puu4*[ne]', '+2.0*MCCCDB_X_D1Puu4*[ne]', '+2.0*MCCCDB_X_d3Puu4*[ne]', '+2.0*MCCCDB_X_e3Suu4*[ne]', '+2.0*MCCCDB_X_EF1Sgu4*[ne]', '+2.0*MCCCDB_X_g3Sgu4*[ne]', '+2.0*MCCCDB_X_GK1Sgu4*[ne]', '+2.0*MCCCDB_X_H1Sgu4*[ne]', '+2.0*MCCCDB_X_h3Sgu4*[ne]', '+2.0*MCCCDB_X_I1Pgu4*[ne]', '+2.0*MCCCDB_X_i3Pgu4*[ne]', '+2.0*MCCCDB_X_J1Dgu4*[ne]', '+2.0*MCCCDB_X_j3Dgu4*[ne]', '+2.0*MCCCDB_X_a3Sgu5*[ne]', '+2.0*MCCCDB_X_B1Suu5*[ne]', '+2.0*MCCCDB_X_Bp1Suu5*[ne]', '+2.0*MCCCDB_X_C1Puu5*[ne]', '+2.0*MCCCDB_X_c3Puu5*[ne]', '+2.0*MCCCDB_X_D1Puu5*[ne]', '+2.0*MCCCDB_X_d3Puu5*[ne]', '+2.0*MCCCDB_X_e3Suu5*[ne]', '+2.0*MCCCDB_X_EF1Sgu5*[ne]', '+2.0*MCCCDB_X_g3Sgu5*[ne]', '+2.0*MCCCDB_X_GK1Sgu5*[ne]', '+2.0*MCCCDB_X_H1Sgu5*[ne]', '+2.0*MCCCDB_X_h3Sgu5*[ne]', '+2.0*MCCCDB_X_I1Pgu5*[ne]', '+2.0*MCCCDB_X_i3Pgu5*[ne]', '+2.0*MCCCDB_X_J1Dgu5*[ne]', '+2.0*MCCCDB_X_j3Dgu5*[ne]', '+2.0*MCCCDB_X_a3Sgu6*[ne]', '+2.0*MCCCDB_X_B1Suu6*[ne]', '+2.0*MCCCDB_X_Bp1Suu6*[ne]', '+2.0*MCCCDB_X_C1Puu6*[ne]', '+2.0*MCCCDB_X_c3Puu6*[ne]', '+2.0*MCCCDB_X_D1Puu6*[ne]', '+2.0*MCCCDB_X_d3Puu6*[ne]', '+2.0*MCCCDB_X_e3Suu6*[ne]', '+2.0*MCCCDB_X_EF1Sgu6*[ne]', '+2.0*MCCCDB_X_g3Sgu6*[ne]', '+2.0*MCCCDB_X_GK1Sgu6*[ne]', '+2.0*MCCCDB_X_H1Sgu6*[ne]', '+2.0*MCCCDB_X_h3Sgu6*[ne]', '+2.0*MCCCDB_X_I1Pgu6*[ne]', '+2.0*MCCCDB_X_i3Pgu6*[ne]', '+2.0*MCCCDB_X_J1Dgu6*[ne]', '+2.0*MCCCDB_X_j3Dgu6*[ne]', '+2.0*MCCCDB_X_a3Sgu7*[ne]', '+2.0*MCCCDB_X_B1Suu7*[ne]', '+2.0*MCCCDB_X_Bp1Suu7*[ne]', '+2.0*MCCCDB_X_C1Puu7*[ne]', '+2.0*MCCCDB_X_c3Puu7*[ne]', '+2.0*MCCCDB_X_D1Puu7*[ne]', '+2.0*MCCCDB_X_d3Puu7*[ne]', '+2.0*MCCCDB_X_e3Suu7*[ne]', '+2.0*MCCCDB_X_EF1Sgu7*[ne]', '+2.0*MCCCDB_X_g3Sgu7*[ne]', '+2.0*MCCCDB_X_GK1Sgu7*[ne]', '+2.0*MCCCDB_X_H1Sgu7*[ne]', '+2.0*MCCCDB_X_h3Sgu7*[ne]', '+2.0*MCCCDB_X_I1Pgu7*[ne]', '+2.0*MCCCDB_X_i3Pgu7*[ne]', '+2.0*MCCCDB_X_J1Dgu7*[ne]', '+2.0*MCCCDB_X_j3Dgu7*[ne]', '+2.0*MCCCDB_X_a3Sgu8*[ne]', '+2.0*MCCCDB_X_B1Suu8*[ne]', '+2.0*MCCCDB_X_Bp1Suu8*[ne]', '+2.0*MCCCDB_X_C1Puu8*[ne]', '+2.0*MCCCDB_X_c3Puu8*[ne]', '+2.0*MCCCDB_X_D1Puu8*[ne]', '+2.0*MCCCDB_X_d3Puu8*[ne]', '+2.0*MCCCDB_X_e3Suu8*[ne]', '+2.0*MCCCDB_X_EF1Sgu8*[ne]', '+2.0*MCCCDB_X_g3Sgu8*[ne]', '+2.0*MCCCDB_X_GK1Sgu8*[ne]', '+2.0*MCCCDB_X_H1Sgu8*[ne]', '+2.0*MCCCDB_X_h3Sgu8*[ne]', '+2.0*MCCCDB_X_I1Pgu8*[ne]', '+2.0*MCCCDB_X_i3Pgu8*[ne]', '+2.0*MCCCDB_X_J1Dgu8*[ne]', '+2.0*MCCCDB_X_j3Dgu8*[ne]', '+2.0*MCCCDB_X_a3Sgu9*[ne]', '+2.0*MCCCDB_X_B1Suu9*[ne]', '+2.0*MCCCDB_X_Bp1Suu9*[ne]', '+2.0*MCCCDB_X_C1Puu9*[ne]', '+2.0*MCCCDB_X_c3Puu9*[ne]', '+2.0*MCCCDB_X_D1Puu9*[ne]', '+2.0*MCCCDB_X_d3Puu9*[ne]', '+2.0*MCCCDB_X_e3Suu9*[ne]', '+2.0*MCCCDB_X_EF1Sgu9*[ne]', '+2.0*MCCCDB_X_g3Sgu9*[ne]', '+2.0*MCCCDB_X_GK1Sgu9*[ne]', '+2.0*MCCCDB_X_H1Sgu9*[ne]', '+2.0*MCCCDB_X_h3Sgu9*[ne]', '+2.0*MCCCDB_X_I1Pgu9*[ne]', '+2.0*MCCCDB_X_i3Pgu9*[ne]', '+2.0*MCCCDB_X_J1Dgu9*[ne]', '+2.0*MCCCDB_X_j3Dgu9*[ne]', '+2.0*MCCCDB_X_a3Sgu10*[ne]', '+2.0*MCCCDB_X_B1Suu10*[ne]', '+2.0*MCCCDB_X_Bp1Suu10*[ne]', '+2.0*MCCCDB_X_C1Puu10*[ne]', '+2.0*MCCCDB_X_c3Puu10*[ne]', '+2.0*MCCCDB_X_D1Puu10*[ne]', '+2.0*MCCCDB_X_d3Puu10*[ne]', '+2.0*MCCCDB_X_e3Suu10*[ne]', '+2.0*MCCCDB_X_EF1Sgu10*[ne]', '+2.0*MCCCDB_X_g3Sgu10*[ne]', '+2.0*MCCCDB_X_GK1Sgu10*[ne]', '+2.0*MCCCDB_X_H1Sgu10*[ne]', '+2.0*MCCCDB_X_h3Sgu10*[ne]', '+2.0*MCCCDB_X_I1Pgu10*[ne]', '+2.0*MCCCDB_X_i3Pgu10*[ne]', '+2.0*MCCCDB_X_J1Dgu10*[ne]', '+2.0*MCCCDB_X_j3Dgu10*[ne]', '+2.0*MCCCDB_X_a3Sgu11*[ne]', '+2.0*MCCCDB_X_B1Suu11*[ne]', '+2.0*MCCCDB_X_Bp1Suu11*[ne]', '+2.0*MCCCDB_X_C1Puu11*[ne]', '+2.0*MCCCDB_X_c3Puu11*[ne]', '+2.0*MCCCDB_X_D1Puu11*[ne]', '+2.0*MCCCDB_X_d3Puu11*[ne]', '+2.0*MCCCDB_X_e3Suu11*[ne]', '+2.0*MCCCDB_X_EF1Sgu11*[ne]', '+2.0*MCCCDB_X_g3Sgu11*[ne]', '+2.0*MCCCDB_X_GK1Sgu11*[ne]', '+2.0*MCCCDB_X_H1Sgu11*[ne]', '+2.0*MCCCDB_X_h3Sgu11*[ne]', '+2.0*MCCCDB_X_I1Pgu11*[ne]', '+2.0*MCCCDB_X_i3Pgu11*[ne]', '+2.0*MCCCDB_X_J1Dgu11*[ne]', '+2.0*MCCCDB_X_j3Dgu11*[ne]', '+2.0*MCCCDB_X_a3Sgu12*[ne]', '+2.0*MCCCDB_X_B1Suu12*[ne]', '+2.0*MCCCDB_X_Bp1Suu12*[ne]', '+2.0*MCCCDB_X_C1Puu12*[ne]', '+2.0*MCCCDB_X_c3Puu12*[ne]', '+2.0*MCCCDB_X_D1Puu12*[ne]', '+2.0*MCCCDB_X_d3Puu12*[ne]', '+2.0*MCCCDB_X_e3Suu12*[ne]', '+2.0*MCCCDB_X_EF1Sgu12*[ne]', '+2.0*MCCCDB_X_g3Sgu12*[ne]', '+2.0*MCCCDB_X_GK1Sgu12*[ne]', '+2.0*MCCCDB_X_H1Sgu12*[ne]', '+2.0*MCCCDB_X_h3Sgu12*[ne]', '+2.0*MCCCDB_X_I1Pgu12*[ne]', '+2.0*MCCCDB_X_i3Pgu12*[ne]', '+2.0*MCCCDB_X_J1Dgu12*[ne]', '+2.0*MCCCDB_X_j3Dgu12*[ne]', '+2.0*MCCCDB_X_a3Sgu13*[ne]', '+2.0*MCCCDB_X_B1Suu13*[ne]', '+2.0*MCCCDB_X_Bp1Suu13*[ne]', '+2.0*MCCCDB_X_C1Puu13*[ne]', '+2.0*MCCCDB_X_c3Puu13*[ne]', '+2.0*MCCCDB_X_D1Puu13*[ne]', '+2.0*MCCCDB_X_d3Puu13*[ne]', '+2.0*MCCCDB_X_e3Suu13*[ne]', '+2.0*MCCCDB_X_EF1Sgu13*[ne]', '+2.0*MCCCDB_X_g3Sgu13*[ne]', '+2.0*MCCCDB_X_GK1Sgu13*[ne]', '+2.0*MCCCDB_X_H1Sgu13*[ne]', '+2.0*MCCCDB_X_h3Sgu13*[ne]', '+2.0*MCCCDB_X_I1Pgu13*[ne]', '+2.0*MCCCDB_X_i3Pgu13*[ne]', '+2.0*MCCCDB_X_J1Dgu13*[ne]', '+2.0*MCCCDB_X_j3Dgu13*[ne]', '+2.0*MCCCDB_X_a3Sgu14*[ne]', '+2.0*MCCCDB_X_B1Suu14*[ne]', '+2.0*MCCCDB_X_Bp1Suu14*[ne]', '+2.0*MCCCDB_X_C1Puu14*[ne]', '+2.0*MCCCDB_X_c3Puu14*[ne]', '+2.0*MCCCDB_X_D1Puu14*[ne]', '+2.0*MCCCDB_X_d3Puu14*[ne]', '+2.0*MCCCDB_X_e3Suu14*[ne]', '+2.0*MCCCDB_X_EF1Sgu14*[ne]', '+2.0*MCCCDB_X_g3Sgu14*[ne]', '+2.0*MCCCDB_X_GK1Sgu14*[ne]', '+2.0*MCCCDB_X_H1Sgu14*[ne]', '+2.0*MCCCDB_X_h3Sgu14*[ne]', '+2.0*MCCCDB_X_I1Pgu14*[ne]', '+2.0*MCCCDB_X_i3Pgu14*[ne]', '+2.0*MCCCDB_X_J1Dgu14*[ne]', '+2.0*MCCCDB_X_j3Dgu14*[ne]']
 
 
 
 ======== H2+ ========
 H2+ DEPLETION:
-                 []
+                 ['+1*H2VIBR_2.0q6*[ni]', '+1*H2VIBR_2.1q6*[ni]', '+1*H2VIBR_2.2q6*[ni]', '+1*H2VIBR_2.3q6*[ni]', '+1*H2VIBR_2.4q6*[ni]', '+1*H2VIBR_2.5q6*[ni]', '+1*H2VIBR_2.6q6*[ni]', '+1*H2VIBR_2.7q6*[ni]', '+1*H2VIBR_2.8q6*[ni]', '+1*H2VIBR_2.9q6*[ni]', '+1*H2VIBR_2.10q6*[ni]', '+1*H2VIBR_2.11q6*[ni]', '+1*H2VIBR_2.12q6*[ni]', '+1*H2VIBR_2.13q6*[ni]', '+1*H2VIBR_2.14q6*[ni]', '+1.0*MCCCDB_0*[ne]', '+1.0*MCCCDB_1*[ne]', '+1.0*MCCCDB_2*[ne]', '+1.0*MCCCDB_3*[ne]', '+1.0*MCCCDB_4*[ne]', '+1.0*MCCCDB_5*[ne]', '+1.0*MCCCDB_6*[ne]', '+1.0*MCCCDB_7*[ne]', '+1.0*MCCCDB_8*[ne]', '+1.0*MCCCDB_9*[ne]', '+1.0*MCCCDB_10*[ne]', '+1.0*MCCCDB_11*[ne]', '+1.0*MCCCDB_12*[ne]', '+1.0*MCCCDB_13*[ne]', '+1.0*MCCCDB_14*[ne]']
 
 
 
 ======== H2(v=0) ========
 H2(v=0) DEPLETION:
-                 ['-1*H2VIBR_2.0v1*[ne]', '+1*H2VIBR_2.1v0*[ne]', '-1*HYDHEL_2.2.10*[ne]', '-1*MCCCDB_0*[ne]', '+1*USER_0']
+                 ['-1*H2VIBR_2.0v1*[ne]', '+1*H2VIBR_2.1v0*[ne]', '-1*H2VIBR_2.0q6*[ni]', '-1*HYDHEL_2.2.10*[ne]', '-1*MCCCDB_0*[ne]', '-1*MCCCDB_0*[ne]', '-1*MCCCDB_0*[ne]', '-1*MCCCDB_X_a3Sgu0*[ne]', '-1*MCCCDB_X_B1Suu0*[ne]', '-1*MCCCDB_X_Bp1Suu0*[ne]', '-1*MCCCDB_X_C1Puu0*[ne]', '-1*MCCCDB_X_c3Puu0*[ne]', '-1*MCCCDB_X_D1Puu0*[ne]', '-1*MCCCDB_X_d3Puu0*[ne]', '-1*MCCCDB_X_e3Suu0*[ne]', '-1*MCCCDB_X_EF1Sgu0*[ne]', '-1*MCCCDB_X_g3Sgu0*[ne]', '-1*MCCCDB_X_GK1Sgu0*[ne]', '-1*MCCCDB_X_H1Sgu0*[ne]', '-1*MCCCDB_X_h3Sgu0*[ne]', '-1*MCCCDB_X_I1Pgu0*[ne]', '-1*MCCCDB_X_i3Pgu0*[ne]', '-1*MCCCDB_X_J1Dgu0*[ne]', '-1*MCCCDB_X_j3Dgu0*[ne]', '+1*USER_B_X0', '+1*USER_C_X0']
 
 
 
 ======== H2(v=1) ========
 H2(v=1) DEPLETION:
-                 ['+1*H2VIBR_2.0v1*[ne]', '-1*H2VIBR_2.1v0*[ne]', '-1*H2VIBR_2.1v2*[ne]', '+1*H2VIBR_2.2v1*[ne]', '-1*MCCCDB_1*[ne]', '+1*USER_1']
+                 ['+1*H2VIBR_2.0v1*[ne]', '-1*H2VIBR_2.1v0*[ne]', '-1*H2VIBR_2.1v2*[ne]', '+1*H2VIBR_2.2v1*[ne]', '-1*H2VIBR_2.1q6*[ni]', '-1*MCCCDB_1*[ne]', '-1*MCCCDB_1*[ne]', '-1*MCCCDB_1*[ne]', '-1*MCCCDB_X_a3Sgu1*[ne]', '-1*MCCCDB_X_B1Suu1*[ne]', '-1*MCCCDB_X_Bp1Suu1*[ne]', '-1*MCCCDB_X_C1Puu1*[ne]', '-1*MCCCDB_X_c3Puu1*[ne]', '-1*MCCCDB_X_D1Puu1*[ne]', '-1*MCCCDB_X_d3Puu1*[ne]', '-1*MCCCDB_X_e3Suu1*[ne]', '-1*MCCCDB_X_EF1Sgu1*[ne]', '-1*MCCCDB_X_g3Sgu1*[ne]', '-1*MCCCDB_X_GK1Sgu1*[ne]', '-1*MCCCDB_X_H1Sgu1*[ne]', '-1*MCCCDB_X_h3Sgu1*[ne]', '-1*MCCCDB_X_I1Pgu1*[ne]', '-1*MCCCDB_X_i3Pgu1*[ne]', '-1*MCCCDB_X_J1Dgu1*[ne]', '-1*MCCCDB_X_j3Dgu1*[ne]', '+1*USER_B_X1', '+1*USER_C_X1']
 
 
 
 ======== H2(v=2) ========
 H2(v=2) DEPLETION:
-                 ['+1*H2VIBR_2.1v2*[ne]', '-1*H2VIBR_2.2v1*[ne]', '-1*H2VIBR_2.2v3*[ne]', '+1*H2VIBR_2.3v2*[ne]', '-1*MCCCDB_2*[ne]', '+1*USER_2']
+                 ['+1*H2VIBR_2.1v2*[ne]', '-1*H2VIBR_2.2v1*[ne]', '-1*H2VIBR_2.2v3*[ne]', '+1*H2VIBR_2.3v2*[ne]', '-1*H2VIBR_2.2q6*[ni]', '-1*MCCCDB_2*[ne]', '-1*MCCCDB_2*[ne]', '-1*MCCCDB_2*[ne]', '-1*MCCCDB_X_a3Sgu2*[ne]', '-1*MCCCDB_X_B1Suu2*[ne]', '-1*MCCCDB_X_Bp1Suu2*[ne]', '-1*MCCCDB_X_C1Puu2*[ne]', '-1*MCCCDB_X_c3Puu2*[ne]', '-1*MCCCDB_X_D1Puu2*[ne]', '-1*MCCCDB_X_d3Puu2*[ne]', '-1*MCCCDB_X_e3Suu2*[ne]', '-1*MCCCDB_X_EF1Sgu2*[ne]', '-1*MCCCDB_X_g3Sgu2*[ne]', '-1*MCCCDB_X_GK1Sgu2*[ne]', '-1*MCCCDB_X_H1Sgu2*[ne]', '-1*MCCCDB_X_h3Sgu2*[ne]', '-1*MCCCDB_X_I1Pgu2*[ne]', '-1*MCCCDB_X_i3Pgu2*[ne]', '-1*MCCCDB_X_J1Dgu2*[ne]', '-1*MCCCDB_X_j3Dgu2*[ne]', '+1*USER_B_X2', '+1*USER_C_X2']
 
 
 
 ======== H2(v=3) ========
 H2(v=3) DEPLETION:
-                 ['+1*H2VIBR_2.2v3*[ne]', '-1*H2VIBR_2.3v2*[ne]', '-1*H2VIBR_2.3v4*[ne]', '+1*H2VIBR_2.4v3*[ne]', '-1*MCCCDB_3*[ne]', '+1*USER_3']
+                 ['+1*H2VIBR_2.2v3*[ne]', '-1*H2VIBR_2.3v2*[ne]', '-1*H2VIBR_2.3v4*[ne]', '+1*H2VIBR_2.4v3*[ne]', '-1*H2VIBR_2.3q6*[ni]', '-1*MCCCDB_3*[ne]', '-1*MCCCDB_3*[ne]', '-1*MCCCDB_3*[ne]', '-1*MCCCDB_X_a3Sgu3*[ne]', '-1*MCCCDB_X_B1Suu3*[ne]', '-1*MCCCDB_X_Bp1Suu3*[ne]', '-1*MCCCDB_X_C1Puu3*[ne]', '-1*MCCCDB_X_c3Puu3*[ne]', '-1*MCCCDB_X_D1Puu3*[ne]', '-1*MCCCDB_X_d3Puu3*[ne]', '-1*MCCCDB_X_e3Suu3*[ne]', '-1*MCCCDB_X_EF1Sgu3*[ne]', '-1*MCCCDB_X_g3Sgu3*[ne]', '-1*MCCCDB_X_GK1Sgu3*[ne]', '-1*MCCCDB_X_H1Sgu3*[ne]', '-1*MCCCDB_X_h3Sgu3*[ne]', '-1*MCCCDB_X_I1Pgu3*[ne]', '-1*MCCCDB_X_i3Pgu3*[ne]', '-1*MCCCDB_X_J1Dgu3*[ne]', '-1*MCCCDB_X_j3Dgu3*[ne]', '+1*USER_B_X3', '+1*USER_C_X3']
 
 
 
 ======== H2(v=4) ========
 H2(v=4) DEPLETION:
-                 ['+1*H2VIBR_2.3v4*[ne]', '-1*H2VIBR_2.4v3*[ne]', '-1*H2VIBR_2.4v5*[ne]', '+1*H2VIBR_2.5v4*[ne]', '-1*MCCCDB_4*[ne]', '+1*USER_4']
+                 ['+1*H2VIBR_2.3v4*[ne]', '-1*H2VIBR_2.4v3*[ne]', '-1*H2VIBR_2.4v5*[ne]', '+1*H2VIBR_2.5v4*[ne]', '-1*H2VIBR_2.4q6*[ni]', '-1*MCCCDB_4*[ne]', '-1*MCCCDB_4*[ne]', '-1*MCCCDB_4*[ne]', '-1*MCCCDB_X_a3Sgu4*[ne]', '-1*MCCCDB_X_B1Suu4*[ne]', '-1*MCCCDB_X_Bp1Suu4*[ne]', '-1*MCCCDB_X_C1Puu4*[ne]', '-1*MCCCDB_X_c3Puu4*[ne]', '-1*MCCCDB_X_D1Puu4*[ne]', '-1*MCCCDB_X_d3Puu4*[ne]', '-1*MCCCDB_X_e3Suu4*[ne]', '-1*MCCCDB_X_EF1Sgu4*[ne]', '-1*MCCCDB_X_g3Sgu4*[ne]', '-1*MCCCDB_X_GK1Sgu4*[ne]', '-1*MCCCDB_X_H1Sgu4*[ne]', '-1*MCCCDB_X_h3Sgu4*[ne]', '-1*MCCCDB_X_I1Pgu4*[ne]', '-1*MCCCDB_X_i3Pgu4*[ne]', '-1*MCCCDB_X_J1Dgu4*[ne]', '-1*MCCCDB_X_j3Dgu4*[ne]', '+1*USER_B_X4', '+1*USER_C_X4']
 
 
 
 ======== H2(v=5) ========
 H2(v=5) DEPLETION:
-                 ['+1*H2VIBR_2.4v5*[ne]', '-1*H2VIBR_2.5v4*[ne]', '-1*H2VIBR_2.5v6*[ne]', '+1*H2VIBR_2.6v5*[ne]', '-1*MCCCDB_5*[ne]', '+1*USER_5']
+                 ['+1*H2VIBR_2.4v5*[ne]', '-1*H2VIBR_2.5v4*[ne]', '-1*H2VIBR_2.5v6*[ne]', '+1*H2VIBR_2.6v5*[ne]', '-1*H2VIBR_2.5q6*[ni]', '-1*MCCCDB_5*[ne]', '-1*MCCCDB_5*[ne]', '-1*MCCCDB_5*[ne]', '-1*MCCCDB_X_a3Sgu5*[ne]', '-1*MCCCDB_X_B1Suu5*[ne]', '-1*MCCCDB_X_Bp1Suu5*[ne]', '-1*MCCCDB_X_C1Puu5*[ne]', '-1*MCCCDB_X_c3Puu5*[ne]', '-1*MCCCDB_X_D1Puu5*[ne]', '-1*MCCCDB_X_d3Puu5*[ne]', '-1*MCCCDB_X_e3Suu5*[ne]', '-1*MCCCDB_X_EF1Sgu5*[ne]', '-1*MCCCDB_X_g3Sgu5*[ne]', '-1*MCCCDB_X_GK1Sgu5*[ne]', '-1*MCCCDB_X_H1Sgu5*[ne]', '-1*MCCCDB_X_h3Sgu5*[ne]', '-1*MCCCDB_X_I1Pgu5*[ne]', '-1*MCCCDB_X_i3Pgu5*[ne]', '-1*MCCCDB_X_J1Dgu5*[ne]', '-1*MCCCDB_X_j3Dgu5*[ne]', '+1*USER_B_X5', '+1*USER_C_X5']
 
 
 
 ======== H2(v=6) ========
 H2(v=6) DEPLETION:
-                 ['+1*H2VIBR_2.5v6*[ne]', '-1*H2VIBR_2.6v5*[ne]', '-1*H2VIBR_2.6v7*[ne]', '+1*H2VIBR_2.7v6*[ne]', '-1*MCCCDB_6*[ne]', '+1*USER_6']
+                 ['+1*H2VIBR_2.5v6*[ne]', '-1*H2VIBR_2.6v5*[ne]', '-1*H2VIBR_2.6v7*[ne]', '+1*H2VIBR_2.7v6*[ne]', '-1*H2VIBR_2.6q6*[ni]', '-1*MCCCDB_6*[ne]', '-1*MCCCDB_6*[ne]', '-1*MCCCDB_6*[ne]', '-1*MCCCDB_X_a3Sgu6*[ne]', '-1*MCCCDB_X_B1Suu6*[ne]', '-1*MCCCDB_X_Bp1Suu6*[ne]', '-1*MCCCDB_X_C1Puu6*[ne]', '-1*MCCCDB_X_c3Puu6*[ne]', '-1*MCCCDB_X_D1Puu6*[ne]', '-1*MCCCDB_X_d3Puu6*[ne]', '-1*MCCCDB_X_e3Suu6*[ne]', '-1*MCCCDB_X_EF1Sgu6*[ne]', '-1*MCCCDB_X_g3Sgu6*[ne]', '-1*MCCCDB_X_GK1Sgu6*[ne]', '-1*MCCCDB_X_H1Sgu6*[ne]', '-1*MCCCDB_X_h3Sgu6*[ne]', '-1*MCCCDB_X_I1Pgu6*[ne]', '-1*MCCCDB_X_i3Pgu6*[ne]', '-1*MCCCDB_X_J1Dgu6*[ne]', '-1*MCCCDB_X_j3Dgu6*[ne]', '+1*USER_B_X6', '+1*USER_C_X6']
 
 
 
 ======== H2(v=7) ========
 H2(v=7) DEPLETION:
-                 ['+1*H2VIBR_2.6v7*[ne]', '-1*H2VIBR_2.7v6*[ne]', '-1*H2VIBR_2.7v8*[ne]', '+1*H2VIBR_2.8v7*[ne]', '-1*MCCCDB_7*[ne]', '+1*USER_7']
+                 ['+1*H2VIBR_2.6v7*[ne]', '-1*H2VIBR_2.7v6*[ne]', '-1*H2VIBR_2.7v8*[ne]', '+1*H2VIBR_2.8v7*[ne]', '-1*H2VIBR_2.7q6*[ni]', '-1*MCCCDB_7*[ne]', '-1*MCCCDB_7*[ne]', '-1*MCCCDB_7*[ne]', '-1*MCCCDB_X_a3Sgu7*[ne]', '-1*MCCCDB_X_B1Suu7*[ne]', '-1*MCCCDB_X_Bp1Suu7*[ne]', '-1*MCCCDB_X_C1Puu7*[ne]', '-1*MCCCDB_X_c3Puu7*[ne]', '-1*MCCCDB_X_D1Puu7*[ne]', '-1*MCCCDB_X_d3Puu7*[ne]', '-1*MCCCDB_X_e3Suu7*[ne]', '-1*MCCCDB_X_EF1Sgu7*[ne]', '-1*MCCCDB_X_g3Sgu7*[ne]', '-1*MCCCDB_X_GK1Sgu7*[ne]', '-1*MCCCDB_X_H1Sgu7*[ne]', '-1*MCCCDB_X_h3Sgu7*[ne]', '-1*MCCCDB_X_I1Pgu7*[ne]', '-1*MCCCDB_X_i3Pgu7*[ne]', '-1*MCCCDB_X_J1Dgu7*[ne]', '-1*MCCCDB_X_j3Dgu7*[ne]', '+1*USER_B_X7', '+1*USER_C_X7']
 
 
 
 ======== H2(v=8) ========
 H2(v=8) DEPLETION:
-                 ['+1*H2VIBR_2.7v8*[ne]', '-1*H2VIBR_2.8v7*[ne]', '-1*H2VIBR_2.8v9*[ne]', '+1*H2VIBR_2.9v8*[ne]', '-1*MCCCDB_8*[ne]', '+1*USER_8']
+                 ['+1*H2VIBR_2.7v8*[ne]', '-1*H2VIBR_2.8v7*[ne]', '-1*H2VIBR_2.8v9*[ne]', '+1*H2VIBR_2.9v8*[ne]', '-1*H2VIBR_2.8q6*[ni]', '-1*MCCCDB_8*[ne]', '-1*MCCCDB_8*[ne]', '-1*MCCCDB_8*[ne]', '-1*MCCCDB_X_a3Sgu8*[ne]', '-1*MCCCDB_X_B1Suu8*[ne]', '-1*MCCCDB_X_Bp1Suu8*[ne]', '-1*MCCCDB_X_C1Puu8*[ne]', '-1*MCCCDB_X_c3Puu8*[ne]', '-1*MCCCDB_X_D1Puu8*[ne]', '-1*MCCCDB_X_d3Puu8*[ne]', '-1*MCCCDB_X_e3Suu8*[ne]', '-1*MCCCDB_X_EF1Sgu8*[ne]', '-1*MCCCDB_X_g3Sgu8*[ne]', '-1*MCCCDB_X_GK1Sgu8*[ne]', '-1*MCCCDB_X_H1Sgu8*[ne]', '-1*MCCCDB_X_h3Sgu8*[ne]', '-1*MCCCDB_X_I1Pgu8*[ne]', '-1*MCCCDB_X_i3Pgu8*[ne]', '-1*MCCCDB_X_J1Dgu8*[ne]', '-1*MCCCDB_X_j3Dgu8*[ne]', '+1*USER_B_X8', '+1*USER_C_X8']
 
 
 
 ======== H2(v=9) ========
 H2(v=9) DEPLETION:
-                 ['+1*H2VIBR_2.8v9*[ne]', '-1*H2VIBR_2.9v8*[ne]', '-1*H2VIBR_2.9v10*[ne]', '+1*H2VIBR_2.10v9*[ne]', '-1*MCCCDB_9*[ne]', '+1*USER_9']
+                 ['+1*H2VIBR_2.8v9*[ne]', '-1*H2VIBR_2.9v8*[ne]', '-1*H2VIBR_2.9v10*[ne]', '+1*H2VIBR_2.10v9*[ne]', '-1*H2VIBR_2.9q6*[ni]', '-1*MCCCDB_9*[ne]', '-1*MCCCDB_9*[ne]', '-1*MCCCDB_9*[ne]', '-1*MCCCDB_X_a3Sgu9*[ne]', '-1*MCCCDB_X_B1Suu9*[ne]', '-1*MCCCDB_X_Bp1Suu9*[ne]', '-1*MCCCDB_X_C1Puu9*[ne]', '-1*MCCCDB_X_c3Puu9*[ne]', '-1*MCCCDB_X_D1Puu9*[ne]', '-1*MCCCDB_X_d3Puu9*[ne]', '-1*MCCCDB_X_e3Suu9*[ne]', '-1*MCCCDB_X_EF1Sgu9*[ne]', '-1*MCCCDB_X_g3Sgu9*[ne]', '-1*MCCCDB_X_GK1Sgu9*[ne]', '-1*MCCCDB_X_H1Sgu9*[ne]', '-1*MCCCDB_X_h3Sgu9*[ne]', '-1*MCCCDB_X_I1Pgu9*[ne]', '-1*MCCCDB_X_i3Pgu9*[ne]', '-1*MCCCDB_X_J1Dgu9*[ne]', '-1*MCCCDB_X_j3Dgu9*[ne]', '+1*USER_B_X9', '+1*USER_C_X9']
 
 
 
 ======== H2(v=10) ========
 H2(v=10) DEPLETION:
-                 ['+1*H2VIBR_2.9v10*[ne]', '-1*H2VIBR_2.10v9*[ne]', '-1*H2VIBR_2.10v11*[ne]', '+1*H2VIBR_2.11v10*[ne]', '-1*MCCCDB_10*[ne]', '+1*USER_10']
+                 ['+1*H2VIBR_2.9v10*[ne]', '-1*H2VIBR_2.10v9*[ne]', '-1*H2VIBR_2.10v11*[ne]', '+1*H2VIBR_2.11v10*[ne]', '-1*H2VIBR_2.10q6*[ni]', '-1*MCCCDB_10*[ne]', '-1*MCCCDB_10*[ne]', '-1*MCCCDB_10*[ne]', '-1*MCCCDB_X_a3Sgu10*[ne]', '-1*MCCCDB_X_B1Suu10*[ne]', '-1*MCCCDB_X_Bp1Suu10*[ne]', '-1*MCCCDB_X_C1Puu10*[ne]', '-1*MCCCDB_X_c3Puu10*[ne]', '-1*MCCCDB_X_D1Puu10*[ne]', '-1*MCCCDB_X_d3Puu10*[ne]', '-1*MCCCDB_X_e3Suu10*[ne]', '-1*MCCCDB_X_EF1Sgu10*[ne]', '-1*MCCCDB_X_g3Sgu10*[ne]', '-1*MCCCDB_X_GK1Sgu10*[ne]', '-1*MCCCDB_X_H1Sgu10*[ne]', '-1*MCCCDB_X_h3Sgu10*[ne]', '-1*MCCCDB_X_I1Pgu10*[ne]', '-1*MCCCDB_X_i3Pgu10*[ne]', '-1*MCCCDB_X_J1Dgu10*[ne]', '-1*MCCCDB_X_j3Dgu10*[ne]', '+1*USER_B_X10', '+1*USER_C_X10']
 
 
 
 ======== H2(v=11) ========
 H2(v=11) DEPLETION:
-                 ['+1*H2VIBR_2.10v11*[ne]', '-1*H2VIBR_2.11v10*[ne]', '-1*H2VIBR_2.11v12*[ne]', '+1*H2VIBR_2.12v11*[ne]', '-1*MCCCDB_11*[ne]', '+1*USER_11']
+                 ['+1*H2VIBR_2.10v11*[ne]', '-1*H2VIBR_2.11v10*[ne]', '-1*H2VIBR_2.11v12*[ne]', '+1*H2VIBR_2.12v11*[ne]', '-1*H2VIBR_2.11q6*[ni]', '-1*MCCCDB_11*[ne]', '-1*MCCCDB_11*[ne]', '-1*MCCCDB_11*[ne]', '-1*MCCCDB_X_a3Sgu11*[ne]', '-1*MCCCDB_X_B1Suu11*[ne]', '-1*MCCCDB_X_Bp1Suu11*[ne]', '-1*MCCCDB_X_C1Puu11*[ne]', '-1*MCCCDB_X_c3Puu11*[ne]', '-1*MCCCDB_X_D1Puu11*[ne]', '-1*MCCCDB_X_d3Puu11*[ne]', '-1*MCCCDB_X_e3Suu11*[ne]', '-1*MCCCDB_X_EF1Sgu11*[ne]', '-1*MCCCDB_X_g3Sgu11*[ne]', '-1*MCCCDB_X_GK1Sgu11*[ne]', '-1*MCCCDB_X_H1Sgu11*[ne]', '-1*MCCCDB_X_h3Sgu11*[ne]', '-1*MCCCDB_X_I1Pgu11*[ne]', '-1*MCCCDB_X_i3Pgu11*[ne]', '-1*MCCCDB_X_J1Dgu11*[ne]', '-1*MCCCDB_X_j3Dgu11*[ne]', '+1*USER_B_X11', '+1*USER_C_X11']
 
 
 
 ======== H2(v=12) ========
 H2(v=12) DEPLETION:
-                 ['+1*H2VIBR_2.11v12*[ne]', '-1*H2VIBR_2.12v11*[ne]', '-1*H2VIBR_2.12v13*[ne]', '+1*H2VIBR_2.13v12*[ne]', '-1*MCCCDB_12*[ne]', '+1*USER_12']
+                 ['+1*H2VIBR_2.11v12*[ne]', '-1*H2VIBR_2.12v11*[ne]', '-1*H2VIBR_2.12v13*[ne]', '+1*H2VIBR_2.13v12*[ne]', '-1*H2VIBR_2.12q6*[ni]', '-1*MCCCDB_12*[ne]', '-1*MCCCDB_12*[ne]', '-1*MCCCDB_12*[ne]', '-1*MCCCDB_X_a3Sgu12*[ne]', '-1*MCCCDB_X_B1Suu12*[ne]', '-1*MCCCDB_X_Bp1Suu12*[ne]', '-1*MCCCDB_X_C1Puu12*[ne]', '-1*MCCCDB_X_c3Puu12*[ne]', '-1*MCCCDB_X_D1Puu12*[ne]', '-1*MCCCDB_X_d3Puu12*[ne]', '-1*MCCCDB_X_e3Suu12*[ne]', '-1*MCCCDB_X_EF1Sgu12*[ne]', '-1*MCCCDB_X_g3Sgu12*[ne]', '-1*MCCCDB_X_GK1Sgu12*[ne]', '-1*MCCCDB_X_H1Sgu12*[ne]', '-1*MCCCDB_X_h3Sgu12*[ne]', '-1*MCCCDB_X_I1Pgu12*[ne]', '-1*MCCCDB_X_i3Pgu12*[ne]', '-1*MCCCDB_X_J1Dgu12*[ne]', '-1*MCCCDB_X_j3Dgu12*[ne]', '+1*USER_B_X12', '+1*USER_C_X12']
 
 
 
 ======== H2(v=13) ========
 H2(v=13) DEPLETION:
-                 ['+1*H2VIBR_2.12v13*[ne]', '-1*H2VIBR_2.13v12*[ne]', '-1*H2VIBR_2.13v14*[ne]', '+1*H2VIBR_2.14v13*[ne]', '-1*MCCCDB_13*[ne]', '+1*USER_13']
+                 ['+1*H2VIBR_2.12v13*[ne]', '-1*H2VIBR_2.13v12*[ne]', '-1*H2VIBR_2.13v14*[ne]', '+1*H2VIBR_2.14v13*[ne]', '-1*H2VIBR_2.13q6*[ni]', '-1*MCCCDB_13*[ne]', '-1*MCCCDB_13*[ne]', '-1*MCCCDB_13*[ne]', '-1*MCCCDB_X_a3Sgu13*[ne]', '-1*MCCCDB_X_B1Suu13*[ne]', '-1*MCCCDB_X_Bp1Suu13*[ne]', '-1*MCCCDB_X_C1Puu13*[ne]', '-1*MCCCDB_X_c3Puu13*[ne]', '-1*MCCCDB_X_D1Puu13*[ne]', '-1*MCCCDB_X_d3Puu13*[ne]', '-1*MCCCDB_X_e3Suu13*[ne]', '-1*MCCCDB_X_EF1Sgu13*[ne]', '-1*MCCCDB_X_g3Sgu13*[ne]', '-1*MCCCDB_X_GK1Sgu13*[ne]', '-1*MCCCDB_X_H1Sgu13*[ne]', '-1*MCCCDB_X_h3Sgu13*[ne]', '-1*MCCCDB_X_I1Pgu13*[ne]', '-1*MCCCDB_X_i3Pgu13*[ne]', '-1*MCCCDB_X_J1Dgu13*[ne]', '-1*MCCCDB_X_j3Dgu13*[ne]', '+1*USER_B_X13', '+1*USER_C_X13']
 
 
 
 ======== H2(v=14) ========
 H2(v=14) DEPLETION:
-                 ['+1*H2VIBR_2.13v14*[ne]', '-1*H2VIBR_2.14v13*[ne]', '-1*MCCCDB_14*[ne]', '+1*USER_14']
+                 ['+1*H2VIBR_2.13v14*[ne]', '-1*H2VIBR_2.14v13*[ne]', '-1*H2VIBR_2.14q6*[ni]', '-1*MCCCDB_14*[ne]', '-1*MCCCDB_14*[ne]', '-1*MCCCDB_14*[ne]', '-1*MCCCDB_X_a3Sgu14*[ne]', '-1*MCCCDB_X_B1Suu14*[ne]', '-1*MCCCDB_X_Bp1Suu14*[ne]', '-1*MCCCDB_X_C1Puu14*[ne]', '-1*MCCCDB_X_c3Puu14*[ne]', '-1*MCCCDB_X_D1Puu14*[ne]', '-1*MCCCDB_X_d3Puu14*[ne]', '-1*MCCCDB_X_e3Suu14*[ne]', '-1*MCCCDB_X_EF1Sgu14*[ne]', '-1*MCCCDB_X_g3Sgu14*[ne]', '-1*MCCCDB_X_GK1Sgu14*[ne]', '-1*MCCCDB_X_H1Sgu14*[ne]', '-1*MCCCDB_X_h3Sgu14*[ne]', '-1*MCCCDB_X_I1Pgu14*[ne]', '-1*MCCCDB_X_i3Pgu14*[ne]', '-1*MCCCDB_X_J1Dgu14*[ne]', '-1*MCCCDB_X_j3Dgu14*[ne]', '+1*USER_B_X14', '+1*USER_C_X14']
 
 
 
 ======== H2(n=B) ========
 H2(n=B) DEPLETION:
-                 ['+1*MCCCDB_0*[ne]', '+1*MCCCDB_1*[ne]', '+1*MCCCDB_2*[ne]', '+1*MCCCDB_3*[ne]', '+1*MCCCDB_4*[ne]', '+1*MCCCDB_5*[ne]', '+1*MCCCDB_6*[ne]', '+1*MCCCDB_7*[ne]', '+1*MCCCDB_8*[ne]', '+1*MCCCDB_9*[ne]', '+1*MCCCDB_10*[ne]', '+1*MCCCDB_11*[ne]', '+1*MCCCDB_12*[ne]', '+1*MCCCDB_13*[ne]', '+1*MCCCDB_14*[ne]', '-1*USER_0', '-1*USER_1', '-1*USER_2', '-1*USER_3', '-1*USER_4', '-1*USER_5', '-1*USER_6', '-1*USER_7', '-1*USER_8', '-1*USER_9', '-1*USER_10', '-1*USER_11', '-1*USER_12', '-1*USER_13', '-1*USER_14']
+                 ['+1*MCCCDB_0*[ne]', '+1*MCCCDB_1*[ne]', '+1*MCCCDB_2*[ne]', '+1*MCCCDB_3*[ne]', '+1*MCCCDB_4*[ne]', '+1*MCCCDB_5*[ne]', '+1*MCCCDB_6*[ne]', '+1*MCCCDB_7*[ne]', '+1*MCCCDB_8*[ne]', '+1*MCCCDB_9*[ne]', '+1*MCCCDB_10*[ne]', '+1*MCCCDB_11*[ne]', '+1*MCCCDB_12*[ne]', '+1*MCCCDB_13*[ne]', '+1*MCCCDB_14*[ne]', '-1*USER_B_X0', '-1*USER_B_X1', '-1*USER_B_X2', '-1*USER_B_X3', '-1*USER_B_X4', '-1*USER_B_X5', '-1*USER_B_X6', '-1*USER_B_X7', '-1*USER_B_X8', '-1*USER_B_X9', '-1*USER_B_X10', '-1*USER_B_X11', '-1*USER_B_X12', '-1*USER_B_X13', '-1*USER_B_X14']
+
+
+
+======== H2(n=C) ========
+H2(n=C) DEPLETION:
+                 ['+1*MCCCDB_0*[ne]', '+1*MCCCDB_1*[ne]', '+1*MCCCDB_2*[ne]', '+1*MCCCDB_3*[ne]', '+1*MCCCDB_4*[ne]', '+1*MCCCDB_5*[ne]', '+1*MCCCDB_6*[ne]', '+1*MCCCDB_7*[ne]', '+1*MCCCDB_8*[ne]', '+1*MCCCDB_9*[ne]', '+1*MCCCDB_10*[ne]', '+1*MCCCDB_11*[ne]', '+1*MCCCDB_12*[ne]', '+1*MCCCDB_13*[ne]', '+1*MCCCDB_14*[ne]', '-1*USER_C_X0', '-1*USER_C_X1', '-1*USER_C_X2', '-1*USER_C_X3', '-1*USER_C_X4', '-1*USER_C_X5', '-1*USER_C_X6', '-1*USER_C_X7', '-1*USER_C_X8', '-1*USER_C_X9', '-1*USER_C_X10', '-1*USER_C_X11', '-1*USER_C_X12', '-1*USER_C_X13', '-1*USER_C_X14']

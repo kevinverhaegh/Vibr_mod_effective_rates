@@ -73,7 +73,7 @@ e + H2(v=0) > 2*e + p + H(n=1)
 e + H2(v=0) > e + H2(n=B)
 rates\MCCC\X1Sg-excitation\vi=0\MCCC-el-D2-B1Su_bound.X1Sg_vi=0.txt
 
-* USER COEFFICIENT 0
+* USER COEFFICIENT $
 H2(n=B) > H2(v=0)
 51840306.25173792
 
