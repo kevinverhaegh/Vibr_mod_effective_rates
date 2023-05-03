@@ -76,7 +76,7 @@ e + H2(v=0) > 2*e + p + H(n=1)
 
 * MCCCDB B 0 
 e + H2(v=0) > e + H2(n=B)
-rates\MCCC\X1Sg-excitation\vi=0\MCCC-el-D2-B1Su_bound.X1Sg_vi=0.txt
+rates/MCCC/X1Sg-excitation/vi=0/MCCC-el-D2-B1Su_bound.X1Sg_vi=0.txt
 
 * USER COEFFICIENT B_X0
 H2(n=B) > H2(v=0)
@@ -84,7 +84,7 @@ H2(n=B) > H2(v=0)
 
 * MCCCDB B 1 
 e + H2(v=1) > e + H2(n=B)
-rates\MCCC\X1Sg-excitation\vi=1\MCCC-el-D2-B1Su_bound.X1Sg_vi=1.txt
+rates/MCCC/X1Sg-excitation/vi=1/MCCC-el-D2-B1Su_bound.X1Sg_vi=1.txt
 
 * USER COEFFICIENT B_X1
 H2(n=B) > H2(v=1)
@@ -92,7 +92,7 @@ H2(n=B) > H2(v=1)
 
 * MCCCDB B 2 
 e + H2(v=2) > e + H2(n=B)
-rates\MCCC\X1Sg-excitation\vi=2\MCCC-el-D2-B1Su_bound.X1Sg_vi=2.txt
+rates/MCCC/X1Sg-excitation/vi=2/MCCC-el-D2-B1Su_bound.X1Sg_vi=2.txt
 
 * USER COEFFICIENT B_X2
 H2(n=B) > H2(v=2)
@@ -100,7 +100,7 @@ H2(n=B) > H2(v=2)
 
 * MCCCDB B 3 
 e + H2(v=3) > e + H2(n=B)
-rates\MCCC\X1Sg-excitation\vi=3\MCCC-el-D2-B1Su_bound.X1Sg_vi=3.txt
+rates/MCCC/X1Sg-excitation/vi=3/MCCC-el-D2-B1Su_bound.X1Sg_vi=3.txt
 
 * USER COEFFICIENT B_X3
 H2(n=B) > H2(v=3)
@@ -108,7 +108,7 @@ H2(n=B) > H2(v=3)
 
 * MCCCDB B 4 
 e + H2(v=4) > e + H2(n=B)
-rates\MCCC\X1Sg-excitation\vi=4\MCCC-el-D2-B1Su_bound.X1Sg_vi=4.txt
+rates/MCCC/X1Sg-excitation/vi=4/MCCC-el-D2-B1Su_bound.X1Sg_vi=4.txt
 
 * USER COEFFICIENT B_X4
 H2(n=B) > H2(v=4)
@@ -116,7 +116,7 @@ H2(n=B) > H2(v=4)
 
 * MCCCDB B 5 
 e + H2(v=5) > e + H2(n=B)
-rates\MCCC\X1Sg-excitation\vi=5\MCCC-el-D2-B1Su_bound.X1Sg_vi=5.txt
+rates/MCCC/X1Sg-excitation/vi=5/MCCC-el-D2-B1Su_bound.X1Sg_vi=5.txt
 
 * USER COEFFICIENT B_X5
 H2(n=B) > H2(v=5)
@@ -124,7 +124,7 @@ H2(n=B) > H2(v=5)
 
 * MCCCDB B 6 
 e + H2(v=6) > e + H2(n=B)
-rates\MCCC\X1Sg-excitation\vi=6\MCCC-el-D2-B1Su_bound.X1Sg_vi=6.txt
+rates/MCCC/X1Sg-excitation/vi=6/MCCC-el-D2-B1Su_bound.X1Sg_vi=6.txt
 
 * USER COEFFICIENT B_X6
 H2(n=B) > H2(v=6)
@@ -132,7 +132,7 @@ H2(n=B) > H2(v=6)
 
 * MCCCDB B 7 
 e + H2(v=7) > e + H2(n=B)
-rates\MCCC\X1Sg-excitation\vi=7\MCCC-el-D2-B1Su_bound.X1Sg_vi=7.txt
+rates/MCCC/X1Sg-excitation/vi=7/MCCC-el-D2-B1Su_bound.X1Sg_vi=7.txt
 
 * USER COEFFICIENT B_X7
 H2(n=B) > H2(v=7)
@@ -140,7 +140,7 @@ H2(n=B) > H2(v=7)
 
 * MCCCDB B 8 
 e + H2(v=8) > e + H2(n=B)
-rates\MCCC\X1Sg-excitation\vi=8\MCCC-el-D2-B1Su_bound.X1Sg_vi=8.txt
+rates/MCCC/X1Sg-excitation/vi=8/MCCC-el-D2-B1Su_bound.X1Sg_vi=8.txt
 
 * USER COEFFICIENT B_X8
 H2(n=B) > H2(v=8)
@@ -148,7 +148,7 @@ H2(n=B) > H2(v=8)
 
 * MCCCDB B 9 
 e + H2(v=9) > e + H2(n=B)
-rates\MCCC\X1Sg-excitation\vi=9\MCCC-el-D2-B1Su_bound.X1Sg_vi=9.txt
+rates/MCCC/X1Sg-excitation/vi=9/MCCC-el-D2-B1Su_bound.X1Sg_vi=9.txt
 
 * USER COEFFICIENT B_X9
 H2(n=B) > H2(v=9)
@@ -156,7 +156,7 @@ H2(n=B) > H2(v=9)
 
 * MCCCDB B 10 
 e + H2(v=10) > e + H2(n=B)
-rates\MCCC\X1Sg-excitation\vi=10\MCCC-el-D2-B1Su_bound.X1Sg_vi=10.txt
+rates/MCCC/X1Sg-excitation/vi=10/MCCC-el-D2-B1Su_bound.X1Sg_vi=10.txt
 
 * USER COEFFICIENT B_X10
 H2(n=B) > H2(v=10)
@@ -164,7 +164,7 @@ H2(n=B) > H2(v=10)
 
 * MCCCDB B 11 
 e + H2(v=11) > e + H2(n=B)
-rates\MCCC\X1Sg-excitation\vi=11\MCCC-el-D2-B1Su_bound.X1Sg_vi=11.txt
+rates/MCCC/X1Sg-excitation/vi=11/MCCC-el-D2-B1Su_bound.X1Sg_vi=11.txt
 
 * USER COEFFICIENT B_X11
 H2(n=B) > H2(v=11)
@@ -172,7 +172,7 @@ H2(n=B) > H2(v=11)
 
 * MCCCDB B 12 
 e + H2(v=12) > e + H2(n=B)
-rates\MCCC\X1Sg-excitation\vi=12\MCCC-el-D2-B1Su_bound.X1Sg_vi=12.txt
+rates/MCCC/X1Sg-excitation/vi=12/MCCC-el-D2-B1Su_bound.X1Sg_vi=12.txt
 
 * USER COEFFICIENT B_X12
 H2(n=B) > H2(v=12)
@@ -180,7 +180,7 @@ H2(n=B) > H2(v=12)
 
 * MCCCDB B 13 
 e + H2(v=13) > e + H2(n=B)
-rates\MCCC\X1Sg-excitation\vi=13\MCCC-el-D2-B1Su_bound.X1Sg_vi=13.txt
+rates/MCCC/X1Sg-excitation/vi=13/MCCC-el-D2-B1Su_bound.X1Sg_vi=13.txt
 
 * USER COEFFICIENT B_X13
 H2(n=B) > H2(v=13)
@@ -188,7 +188,7 @@ H2(n=B) > H2(v=13)
 
 * MCCCDB B 14 
 e + H2(v=14) > e + H2(n=B)
-rates\MCCC\X1Sg-excitation\vi=14\MCCC-el-D2-B1Su_bound.X1Sg_vi=14.txt
+rates/MCCC/X1Sg-excitation/vi=14/MCCC-el-D2-B1Su_bound.X1Sg_vi=14.txt
 
 * USER COEFFICIENT B_X14
 H2(n=B) > H2(v=14)
@@ -196,7 +196,7 @@ H2(n=B) > H2(v=14)
 
 * MCCCDB C 0 
 e + H2(v=0) > e + H2(n=C)
-rates\MCCC\X1Sg-excitation\vi=0\MCCC-el-D2-C1Pu_bound.X1Sg_vi=0.txt
+rates/MCCC/X1Sg-excitation/vi=0/MCCC-el-D2-C1Pu_bound.X1Sg_vi=0.txt
 
 * USER COEFFICIENT C_X0
 H2(n=C) > H2(v=0)
@@ -204,7 +204,7 @@ H2(n=C) > H2(v=0)
 
 * MCCCDB C 1 
 e + H2(v=1) > e + H2(n=C)
-rates\MCCC\X1Sg-excitation\vi=1\MCCC-el-D2-C1Pu_bound.X1Sg_vi=1.txt
+rates/MCCC/X1Sg-excitation/vi=1/MCCC-el-D2-C1Pu_bound.X1Sg_vi=1.txt
 
 * USER COEFFICIENT C_X1
 H2(n=C) > H2(v=1)
@@ -212,7 +212,7 @@ H2(n=C) > H2(v=1)
 
 * MCCCDB C 2 
 e + H2(v=2) > e + H2(n=C)
-rates\MCCC\X1Sg-excitation\vi=2\MCCC-el-D2-C1Pu_bound.X1Sg_vi=2.txt
+rates/MCCC/X1Sg-excitation/vi=2/MCCC-el-D2-C1Pu_bound.X1Sg_vi=2.txt
 
 * USER COEFFICIENT C_X2
 H2(n=C) > H2(v=2)
@@ -220,7 +220,7 @@ H2(n=C) > H2(v=2)
 
 * MCCCDB C 3 
 e + H2(v=3) > e + H2(n=C)
-rates\MCCC\X1Sg-excitation\vi=3\MCCC-el-D2-C1Pu_bound.X1Sg_vi=3.txt
+rates/MCCC/X1Sg-excitation/vi=3/MCCC-el-D2-C1Pu_bound.X1Sg_vi=3.txt
 
 * USER COEFFICIENT C_X3
 H2(n=C) > H2(v=3)
@@ -228,7 +228,7 @@ H2(n=C) > H2(v=3)
 
 * MCCCDB C 4 
 e + H2(v=4) > e + H2(n=C)
-rates\MCCC\X1Sg-excitation\vi=4\MCCC-el-D2-C1Pu_bound.X1Sg_vi=4.txt
+rates/MCCC/X1Sg-excitation/vi=4/MCCC-el-D2-C1Pu_bound.X1Sg_vi=4.txt
 
 * USER COEFFICIENT C_X4
 H2(n=C) > H2(v=4)
@@ -236,7 +236,7 @@ H2(n=C) > H2(v=4)
 
 * MCCCDB C 5 
 e + H2(v=5) > e + H2(n=C)
-rates\MCCC\X1Sg-excitation\vi=5\MCCC-el-D2-C1Pu_bound.X1Sg_vi=5.txt
+rates/MCCC/X1Sg-excitation/vi=5/MCCC-el-D2-C1Pu_bound.X1Sg_vi=5.txt
 
 * USER COEFFICIENT C_X5
 H2(n=C) > H2(v=5)
@@ -244,7 +244,7 @@ H2(n=C) > H2(v=5)
 
 * MCCCDB C 6 
 e + H2(v=6) > e + H2(n=C)
-rates\MCCC\X1Sg-excitation\vi=6\MCCC-el-D2-C1Pu_bound.X1Sg_vi=6.txt
+rates/MCCC/X1Sg-excitation/vi=6/MCCC-el-D2-C1Pu_bound.X1Sg_vi=6.txt
 
 * USER COEFFICIENT C_X6
 H2(n=C) > H2(v=6)
@@ -252,7 +252,7 @@ H2(n=C) > H2(v=6)
 
 * MCCCDB C 7 
 e + H2(v=7) > e + H2(n=C)
-rates\MCCC\X1Sg-excitation\vi=7\MCCC-el-D2-C1Pu_bound.X1Sg_vi=7.txt
+rates/MCCC/X1Sg-excitation/vi=7/MCCC-el-D2-C1Pu_bound.X1Sg_vi=7.txt
 
 * USER COEFFICIENT C_X7
 H2(n=C) > H2(v=7)
@@ -260,7 +260,7 @@ H2(n=C) > H2(v=7)
 
 * MCCCDB C 8 
 e + H2(v=8) > e + H2(n=C)
-rates\MCCC\X1Sg-excitation\vi=8\MCCC-el-D2-C1Pu_bound.X1Sg_vi=8.txt
+rates/MCCC/X1Sg-excitation/vi=8/MCCC-el-D2-C1Pu_bound.X1Sg_vi=8.txt
 
 * USER COEFFICIENT C_X8
 H2(n=C) > H2(v=8)
@@ -268,7 +268,7 @@ H2(n=C) > H2(v=8)
 
 * MCCCDB C 9 
 e + H2(v=9) > e + H2(n=C)
-rates\MCCC\X1Sg-excitation\vi=9\MCCC-el-D2-C1Pu_bound.X1Sg_vi=9.txt
+rates/MCCC/X1Sg-excitation/vi=9/MCCC-el-D2-C1Pu_bound.X1Sg_vi=9.txt
 
 * USER COEFFICIENT C_X9
 H2(n=C) > H2(v=9)
@@ -276,7 +276,7 @@ H2(n=C) > H2(v=9)
 
 * MCCCDB C 10 
 e + H2(v=10) > e + H2(n=C)
-rates\MCCC\X1Sg-excitation\vi=10\MCCC-el-D2-C1Pu_bound.X1Sg_vi=10.txt
+rates/MCCC/X1Sg-excitation/vi=10/MCCC-el-D2-C1Pu_bound.X1Sg_vi=10.txt
 
 * USER COEFFICIENT C_X10
 H2(n=C) > H2(v=10)
@@ -284,7 +284,7 @@ H2(n=C) > H2(v=10)
 
 * MCCCDB C 11 
 e + H2(v=11) > e + H2(n=C)
-rates\MCCC\X1Sg-excitation\vi=11\MCCC-el-D2-C1Pu_bound.X1Sg_vi=11.txt
+rates/MCCC/X1Sg-excitation/vi=11/MCCC-el-D2-C1Pu_bound.X1Sg_vi=11.txt
 
 * USER COEFFICIENT C_X11
 H2(n=C) > H2(v=11)
@@ -292,7 +292,7 @@ H2(n=C) > H2(v=11)
 
 * MCCCDB C 12 
 e + H2(v=12) > e + H2(n=C)
-rates\MCCC\X1Sg-excitation\vi=12\MCCC-el-D2-C1Pu_bound.X1Sg_vi=12.txt
+rates/MCCC/X1Sg-excitation/vi=12/MCCC-el-D2-C1Pu_bound.X1Sg_vi=12.txt
 
 * USER COEFFICIENT C_X12
 H2(n=C) > H2(v=12)
@@ -300,7 +300,7 @@ H2(n=C) > H2(v=12)
 
 * MCCCDB C 13 
 e + H2(v=13) > e + H2(n=C)
-rates\MCCC\X1Sg-excitation\vi=13\MCCC-el-D2-C1Pu_bound.X1Sg_vi=13.txt
+rates/MCCC/X1Sg-excitation/vi=13/MCCC-el-D2-C1Pu_bound.X1Sg_vi=13.txt
 
 * USER COEFFICIENT C_X13
 H2(n=C) > H2(v=13)
@@ -308,7 +308,7 @@ H2(n=C) > H2(v=13)
 
 * MCCCDB C 14 
 e + H2(v=14) > e + H2(n=C)
-rates\MCCC\X1Sg-excitation\vi=14\MCCC-el-D2-C1Pu_bound.X1Sg_vi=14.txt
+rates/MCCC/X1Sg-excitation/vi=14/MCCC-el-D2-C1Pu_bound.X1Sg_vi=14.txt
 
 * USER COEFFICIENT C_X14
 H2(n=C) > H2(v=14)
@@ -316,1090 +316,1090 @@ H2(n=C) > H2(v=14)
 
 * MCCCDB ion 0 
 e + H2(v=0) > 2*e + H2+
-rates\MCCC\X1Sg-ionization\vi=0\MCCC-el-D2-TICS.X1Sg_vi=0.txt
+rates/MCCC/X1Sg-ionization/vi=0/MCCC-el-D2-TICS.X1Sg_vi=0.txt
 
 * MCCCDB ion 1 
 e + H2(v=1) > 2*e + H2+
-rates\MCCC\X1Sg-ionization\vi=1\MCCC-el-D2-TICS.X1Sg_vi=1.txt
+rates/MCCC/X1Sg-ionization/vi=1/MCCC-el-D2-TICS.X1Sg_vi=1.txt
 
 * MCCCDB ion 2 
 e + H2(v=2) > 2*e + H2+
-rates\MCCC\X1Sg-ionization\vi=2\MCCC-el-D2-TICS.X1Sg_vi=2.txt
+rates/MCCC/X1Sg-ionization/vi=2/MCCC-el-D2-TICS.X1Sg_vi=2.txt
 
 * MCCCDB ion 3 
 e + H2(v=3) > 2*e + H2+
-rates\MCCC\X1Sg-ionization\vi=3\MCCC-el-D2-TICS.X1Sg_vi=3.txt
+rates/MCCC/X1Sg-ionization/vi=3/MCCC-el-D2-TICS.X1Sg_vi=3.txt
 
 * MCCCDB ion 4 
 e + H2(v=4) > 2*e + H2+
-rates\MCCC\X1Sg-ionization\vi=4\MCCC-el-D2-TICS.X1Sg_vi=4.txt
+rates/MCCC/X1Sg-ionization/vi=4/MCCC-el-D2-TICS.X1Sg_vi=4.txt
 
 * MCCCDB ion 5 
 e + H2(v=5) > 2*e + H2+
-rates\MCCC\X1Sg-ionization\vi=5\MCCC-el-D2-TICS.X1Sg_vi=5.txt
+rates/MCCC/X1Sg-ionization/vi=5/MCCC-el-D2-TICS.X1Sg_vi=5.txt
 
 * MCCCDB ion 6 
 e + H2(v=6) > 2*e + H2+
-rates\MCCC\X1Sg-ionization\vi=6\MCCC-el-D2-TICS.X1Sg_vi=6.txt
+rates/MCCC/X1Sg-ionization/vi=6/MCCC-el-D2-TICS.X1Sg_vi=6.txt
 
 * MCCCDB ion 7 
 e + H2(v=7) > 2*e + H2+
-rates\MCCC\X1Sg-ionization\vi=7\MCCC-el-D2-TICS.X1Sg_vi=7.txt
+rates/MCCC/X1Sg-ionization/vi=7/MCCC-el-D2-TICS.X1Sg_vi=7.txt
 
 * MCCCDB ion 8 
 e + H2(v=8) > 2*e + H2+
-rates\MCCC\X1Sg-ionization\vi=8\MCCC-el-D2-TICS.X1Sg_vi=8.txt
+rates/MCCC/X1Sg-ionization/vi=8/MCCC-el-D2-TICS.X1Sg_vi=8.txt
 
 * MCCCDB ion 9 
 e + H2(v=9) > 2*e + H2+
-rates\MCCC\X1Sg-ionization\vi=9\MCCC-el-D2-TICS.X1Sg_vi=9.txt
+rates/MCCC/X1Sg-ionization/vi=9/MCCC-el-D2-TICS.X1Sg_vi=9.txt
 
 * MCCCDB ion 10 
 e + H2(v=10) > 2*e + H2+
-rates\MCCC\X1Sg-ionization\vi=10\MCCC-el-D2-TICS.X1Sg_vi=10.txt
+rates/MCCC/X1Sg-ionization/vi=10/MCCC-el-D2-TICS.X1Sg_vi=10.txt
 
 * MCCCDB ion 11 
 e + H2(v=11) > 2*e + H2+
-rates\MCCC\X1Sg-ionization\vi=11\MCCC-el-D2-TICS.X1Sg_vi=11.txt
+rates/MCCC/X1Sg-ionization/vi=11/MCCC-el-D2-TICS.X1Sg_vi=11.txt
 
 * MCCCDB ion 12 
 e + H2(v=12) > 2*e + H2+
-rates\MCCC\X1Sg-ionization\vi=12\MCCC-el-D2-TICS.X1Sg_vi=12.txt
+rates/MCCC/X1Sg-ionization/vi=12/MCCC-el-D2-TICS.X1Sg_vi=12.txt
 
 * MCCCDB ion 13 
 e + H2(v=13) > 2*e + H2+
-rates\MCCC\X1Sg-ionization\vi=13\MCCC-el-D2-TICS.X1Sg_vi=13.txt
+rates/MCCC/X1Sg-ionization/vi=13/MCCC-el-D2-TICS.X1Sg_vi=13.txt
 
 * MCCCDB ion 14 
 e + H2(v=14) > 2*e + H2+
-rates\MCCC\X1Sg-ionization\vi=14\MCCC-el-D2-TICS.X1Sg_vi=14.txt
+rates/MCCC/X1Sg-ionization/vi=14/MCCC-el-D2-TICS.X1Sg_vi=14.txt
 
-* MCCCDB diss X_a3Sgu0 
+* MCCCDB diss X_a3Sg0 
 e + H2(v=0) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=0\MCCC-el-D2-a3Sg_DE.X1Sg_vi=0.txt
+rates/MCCC/X1Sg-excitation/vi=0/MCCC-el-D2-a3Sg_DE.X1Sg_vi=0.txt
 
-* MCCCDB diss X_B1Suu0 
+* MCCCDB diss X_B1Su0 
 e + H2(v=0) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=0\MCCC-el-D2-B1Su_DE.X1Sg_vi=0.txt
+rates/MCCC/X1Sg-excitation/vi=0/MCCC-el-D2-B1Su_DE.X1Sg_vi=0.txt
 
-* MCCCDB diss X_Bp1Suu0 
+* MCCCDB diss X_Bp1Su0 
 e + H2(v=0) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=0\MCCC-el-D2-Bp1Su_DE.X1Sg_vi=0.txt
+rates/MCCC/X1Sg-excitation/vi=0/MCCC-el-D2-Bp1Su_DE.X1Sg_vi=0.txt
 
-* MCCCDB diss X_C1Puu0 
+* MCCCDB diss X_C1Pu0 
 e + H2(v=0) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=0\MCCC-el-D2-C1Pu_DE.X1Sg_vi=0.txt
+rates/MCCC/X1Sg-excitation/vi=0/MCCC-el-D2-C1Pu_DE.X1Sg_vi=0.txt
 
-* MCCCDB diss X_c3Puu0 
+* MCCCDB diss X_c3Pu0 
 e + H2(v=0) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=0\MCCC-el-D2-c3Pu_DE.X1Sg_vi=0.txt
+rates/MCCC/X1Sg-excitation/vi=0/MCCC-el-D2-c3Pu_DE.X1Sg_vi=0.txt
 
-* MCCCDB diss X_D1Puu0 
+* MCCCDB diss X_D1Pu0 
 e + H2(v=0) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=0\MCCC-el-D2-D1Pu_DE.X1Sg_vi=0.txt
+rates/MCCC/X1Sg-excitation/vi=0/MCCC-el-D2-D1Pu_DE.X1Sg_vi=0.txt
 
-* MCCCDB diss X_d3Puu0 
+* MCCCDB diss X_d3Pu0 
 e + H2(v=0) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=0\MCCC-el-D2-d3Pu_DE.X1Sg_vi=0.txt
+rates/MCCC/X1Sg-excitation/vi=0/MCCC-el-D2-d3Pu_DE.X1Sg_vi=0.txt
 
-* MCCCDB diss X_e3Suu0 
+* MCCCDB diss X_e3Su0 
 e + H2(v=0) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=0\MCCC-el-D2-e3Su_DE.X1Sg_vi=0.txt
+rates/MCCC/X1Sg-excitation/vi=0/MCCC-el-D2-e3Su_DE.X1Sg_vi=0.txt
 
-* MCCCDB diss X_EF1Sgu0 
+* MCCCDB diss X_EF1Sg0 
 e + H2(v=0) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=0\MCCC-el-D2-EF1Sg_DE.X1Sg_vi=0.txt
+rates/MCCC/X1Sg-excitation/vi=0/MCCC-el-D2-EF1Sg_DE.X1Sg_vi=0.txt
 
-* MCCCDB diss X_g3Sgu0 
+* MCCCDB diss X_g3Sg0 
 e + H2(v=0) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=0\MCCC-el-D2-g3Sg_DE.X1Sg_vi=0.txt
+rates/MCCC/X1Sg-excitation/vi=0/MCCC-el-D2-g3Sg_DE.X1Sg_vi=0.txt
 
-* MCCCDB diss X_GK1Sgu0 
+* MCCCDB diss X_GK1Sg0 
 e + H2(v=0) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=0\MCCC-el-D2-GK1Sg_DE.X1Sg_vi=0.txt
+rates/MCCC/X1Sg-excitation/vi=0/MCCC-el-D2-GK1Sg_DE.X1Sg_vi=0.txt
 
-* MCCCDB diss X_H1Sgu0 
+* MCCCDB diss X_H1Sg0 
 e + H2(v=0) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=0\MCCC-el-D2-H1Sg_DE.X1Sg_vi=0.txt
+rates/MCCC/X1Sg-excitation/vi=0/MCCC-el-D2-H1Sg_DE.X1Sg_vi=0.txt
 
-* MCCCDB diss X_h3Sgu0 
+* MCCCDB diss X_h3Sg0 
 e + H2(v=0) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=0\MCCC-el-D2-h3Sg_DE.X1Sg_vi=0.txt
+rates/MCCC/X1Sg-excitation/vi=0/MCCC-el-D2-h3Sg_DE.X1Sg_vi=0.txt
 
-* MCCCDB diss X_I1Pgu0 
+* MCCCDB diss X_I1Pg0 
 e + H2(v=0) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=0\MCCC-el-D2-I1Pg_DE.X1Sg_vi=0.txt
+rates/MCCC/X1Sg-excitation/vi=0/MCCC-el-D2-I1Pg_DE.X1Sg_vi=0.txt
 
-* MCCCDB diss X_i3Pgu0 
+* MCCCDB diss X_i3Pg0 
 e + H2(v=0) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=0\MCCC-el-D2-i3Pg_DE.X1Sg_vi=0.txt
+rates/MCCC/X1Sg-excitation/vi=0/MCCC-el-D2-i3Pg_DE.X1Sg_vi=0.txt
 
-* MCCCDB diss X_J1Dgu0 
+* MCCCDB diss X_J1Dg0 
 e + H2(v=0) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=0\MCCC-el-D2-J1Dg_DE.X1Sg_vi=0.txt
+rates/MCCC/X1Sg-excitation/vi=0/MCCC-el-D2-J1Dg_DE.X1Sg_vi=0.txt
 
-* MCCCDB diss X_j3Dgu0 
+* MCCCDB diss X_j3Dg0 
 e + H2(v=0) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=0\MCCC-el-D2-j3Dg_DE.X1Sg_vi=0.txt
+rates/MCCC/X1Sg-excitation/vi=0/MCCC-el-D2-j3Dg_DE.X1Sg_vi=0.txt
 
-* MCCCDB diss X_a3Sgu1 
+* MCCCDB diss X_a3Sg1 
 e + H2(v=1) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=1\MCCC-el-D2-a3Sg_DE.X1Sg_vi=1.txt
+rates/MCCC/X1Sg-excitation/vi=1/MCCC-el-D2-a3Sg_DE.X1Sg_vi=1.txt
 
-* MCCCDB diss X_B1Suu1 
+* MCCCDB diss X_B1Su1 
 e + H2(v=1) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=1\MCCC-el-D2-B1Su_DE.X1Sg_vi=1.txt
+rates/MCCC/X1Sg-excitation/vi=1/MCCC-el-D2-B1Su_DE.X1Sg_vi=1.txt
 
-* MCCCDB diss X_Bp1Suu1 
+* MCCCDB diss X_Bp1Su1 
 e + H2(v=1) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=1\MCCC-el-D2-Bp1Su_DE.X1Sg_vi=1.txt
+rates/MCCC/X1Sg-excitation/vi=1/MCCC-el-D2-Bp1Su_DE.X1Sg_vi=1.txt
 
-* MCCCDB diss X_C1Puu1 
+* MCCCDB diss X_C1Pu1 
 e + H2(v=1) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=1\MCCC-el-D2-C1Pu_DE.X1Sg_vi=1.txt
+rates/MCCC/X1Sg-excitation/vi=1/MCCC-el-D2-C1Pu_DE.X1Sg_vi=1.txt
 
-* MCCCDB diss X_c3Puu1 
+* MCCCDB diss X_c3Pu1 
 e + H2(v=1) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=1\MCCC-el-D2-c3Pu_DE.X1Sg_vi=1.txt
+rates/MCCC/X1Sg-excitation/vi=1/MCCC-el-D2-c3Pu_DE.X1Sg_vi=1.txt
 
-* MCCCDB diss X_D1Puu1 
+* MCCCDB diss X_D1Pu1 
 e + H2(v=1) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=1\MCCC-el-D2-D1Pu_DE.X1Sg_vi=1.txt
+rates/MCCC/X1Sg-excitation/vi=1/MCCC-el-D2-D1Pu_DE.X1Sg_vi=1.txt
 
-* MCCCDB diss X_d3Puu1 
+* MCCCDB diss X_d3Pu1 
 e + H2(v=1) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=1\MCCC-el-D2-d3Pu_DE.X1Sg_vi=1.txt
+rates/MCCC/X1Sg-excitation/vi=1/MCCC-el-D2-d3Pu_DE.X1Sg_vi=1.txt
 
-* MCCCDB diss X_e3Suu1 
+* MCCCDB diss X_e3Su1 
 e + H2(v=1) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=1\MCCC-el-D2-e3Su_DE.X1Sg_vi=1.txt
+rates/MCCC/X1Sg-excitation/vi=1/MCCC-el-D2-e3Su_DE.X1Sg_vi=1.txt
 
-* MCCCDB diss X_EF1Sgu1 
+* MCCCDB diss X_EF1Sg1 
 e + H2(v=1) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=1\MCCC-el-D2-EF1Sg_DE.X1Sg_vi=1.txt
+rates/MCCC/X1Sg-excitation/vi=1/MCCC-el-D2-EF1Sg_DE.X1Sg_vi=1.txt
 
-* MCCCDB diss X_g3Sgu1 
+* MCCCDB diss X_g3Sg1 
 e + H2(v=1) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=1\MCCC-el-D2-g3Sg_DE.X1Sg_vi=1.txt
+rates/MCCC/X1Sg-excitation/vi=1/MCCC-el-D2-g3Sg_DE.X1Sg_vi=1.txt
 
-* MCCCDB diss X_GK1Sgu1 
+* MCCCDB diss X_GK1Sg1 
 e + H2(v=1) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=1\MCCC-el-D2-GK1Sg_DE.X1Sg_vi=1.txt
+rates/MCCC/X1Sg-excitation/vi=1/MCCC-el-D2-GK1Sg_DE.X1Sg_vi=1.txt
 
-* MCCCDB diss X_H1Sgu1 
+* MCCCDB diss X_H1Sg1 
 e + H2(v=1) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=1\MCCC-el-D2-H1Sg_DE.X1Sg_vi=1.txt
+rates/MCCC/X1Sg-excitation/vi=1/MCCC-el-D2-H1Sg_DE.X1Sg_vi=1.txt
 
-* MCCCDB diss X_h3Sgu1 
+* MCCCDB diss X_h3Sg1 
 e + H2(v=1) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=1\MCCC-el-D2-h3Sg_DE.X1Sg_vi=1.txt
+rates/MCCC/X1Sg-excitation/vi=1/MCCC-el-D2-h3Sg_DE.X1Sg_vi=1.txt
 
-* MCCCDB diss X_I1Pgu1 
+* MCCCDB diss X_I1Pg1 
 e + H2(v=1) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=1\MCCC-el-D2-I1Pg_DE.X1Sg_vi=1.txt
+rates/MCCC/X1Sg-excitation/vi=1/MCCC-el-D2-I1Pg_DE.X1Sg_vi=1.txt
 
-* MCCCDB diss X_i3Pgu1 
+* MCCCDB diss X_i3Pg1 
 e + H2(v=1) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=1\MCCC-el-D2-i3Pg_DE.X1Sg_vi=1.txt
+rates/MCCC/X1Sg-excitation/vi=1/MCCC-el-D2-i3Pg_DE.X1Sg_vi=1.txt
 
-* MCCCDB diss X_J1Dgu1 
+* MCCCDB diss X_J1Dg1 
 e + H2(v=1) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=1\MCCC-el-D2-J1Dg_DE.X1Sg_vi=1.txt
+rates/MCCC/X1Sg-excitation/vi=1/MCCC-el-D2-J1Dg_DE.X1Sg_vi=1.txt
 
-* MCCCDB diss X_j3Dgu1 
+* MCCCDB diss X_j3Dg1 
 e + H2(v=1) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=1\MCCC-el-D2-j3Dg_DE.X1Sg_vi=1.txt
+rates/MCCC/X1Sg-excitation/vi=1/MCCC-el-D2-j3Dg_DE.X1Sg_vi=1.txt
 
-* MCCCDB diss X_a3Sgu2 
+* MCCCDB diss X_a3Sg2 
 e + H2(v=2) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=2\MCCC-el-D2-a3Sg_DE.X1Sg_vi=2.txt
+rates/MCCC/X1Sg-excitation/vi=2/MCCC-el-D2-a3Sg_DE.X1Sg_vi=2.txt
 
-* MCCCDB diss X_B1Suu2 
+* MCCCDB diss X_B1Su2 
 e + H2(v=2) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=2\MCCC-el-D2-B1Su_DE.X1Sg_vi=2.txt
+rates/MCCC/X1Sg-excitation/vi=2/MCCC-el-D2-B1Su_DE.X1Sg_vi=2.txt
 
-* MCCCDB diss X_Bp1Suu2 
+* MCCCDB diss X_Bp1Su2 
 e + H2(v=2) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=2\MCCC-el-D2-Bp1Su_DE.X1Sg_vi=2.txt
+rates/MCCC/X1Sg-excitation/vi=2/MCCC-el-D2-Bp1Su_DE.X1Sg_vi=2.txt
 
-* MCCCDB diss X_C1Puu2 
+* MCCCDB diss X_C1Pu2 
 e + H2(v=2) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=2\MCCC-el-D2-C1Pu_DE.X1Sg_vi=2.txt
+rates/MCCC/X1Sg-excitation/vi=2/MCCC-el-D2-C1Pu_DE.X1Sg_vi=2.txt
 
-* MCCCDB diss X_c3Puu2 
+* MCCCDB diss X_c3Pu2 
 e + H2(v=2) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=2\MCCC-el-D2-c3Pu_DE.X1Sg_vi=2.txt
+rates/MCCC/X1Sg-excitation/vi=2/MCCC-el-D2-c3Pu_DE.X1Sg_vi=2.txt
 
-* MCCCDB diss X_D1Puu2 
+* MCCCDB diss X_D1Pu2 
 e + H2(v=2) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=2\MCCC-el-D2-D1Pu_DE.X1Sg_vi=2.txt
+rates/MCCC/X1Sg-excitation/vi=2/MCCC-el-D2-D1Pu_DE.X1Sg_vi=2.txt
 
-* MCCCDB diss X_d3Puu2 
+* MCCCDB diss X_d3Pu2 
 e + H2(v=2) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=2\MCCC-el-D2-d3Pu_DE.X1Sg_vi=2.txt
+rates/MCCC/X1Sg-excitation/vi=2/MCCC-el-D2-d3Pu_DE.X1Sg_vi=2.txt
 
-* MCCCDB diss X_e3Suu2 
+* MCCCDB diss X_e3Su2 
 e + H2(v=2) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=2\MCCC-el-D2-e3Su_DE.X1Sg_vi=2.txt
+rates/MCCC/X1Sg-excitation/vi=2/MCCC-el-D2-e3Su_DE.X1Sg_vi=2.txt
 
-* MCCCDB diss X_EF1Sgu2 
+* MCCCDB diss X_EF1Sg2 
 e + H2(v=2) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=2\MCCC-el-D2-EF1Sg_DE.X1Sg_vi=2.txt
+rates/MCCC/X1Sg-excitation/vi=2/MCCC-el-D2-EF1Sg_DE.X1Sg_vi=2.txt
 
-* MCCCDB diss X_g3Sgu2 
+* MCCCDB diss X_g3Sg2 
 e + H2(v=2) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=2\MCCC-el-D2-g3Sg_DE.X1Sg_vi=2.txt
+rates/MCCC/X1Sg-excitation/vi=2/MCCC-el-D2-g3Sg_DE.X1Sg_vi=2.txt
 
-* MCCCDB diss X_GK1Sgu2 
+* MCCCDB diss X_GK1Sg2 
 e + H2(v=2) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=2\MCCC-el-D2-GK1Sg_DE.X1Sg_vi=2.txt
+rates/MCCC/X1Sg-excitation/vi=2/MCCC-el-D2-GK1Sg_DE.X1Sg_vi=2.txt
 
-* MCCCDB diss X_H1Sgu2 
+* MCCCDB diss X_H1Sg2 
 e + H2(v=2) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=2\MCCC-el-D2-H1Sg_DE.X1Sg_vi=2.txt
+rates/MCCC/X1Sg-excitation/vi=2/MCCC-el-D2-H1Sg_DE.X1Sg_vi=2.txt
 
-* MCCCDB diss X_h3Sgu2 
+* MCCCDB diss X_h3Sg2 
 e + H2(v=2) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=2\MCCC-el-D2-h3Sg_DE.X1Sg_vi=2.txt
+rates/MCCC/X1Sg-excitation/vi=2/MCCC-el-D2-h3Sg_DE.X1Sg_vi=2.txt
 
-* MCCCDB diss X_I1Pgu2 
+* MCCCDB diss X_I1Pg2 
 e + H2(v=2) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=2\MCCC-el-D2-I1Pg_DE.X1Sg_vi=2.txt
+rates/MCCC/X1Sg-excitation/vi=2/MCCC-el-D2-I1Pg_DE.X1Sg_vi=2.txt
 
-* MCCCDB diss X_i3Pgu2 
+* MCCCDB diss X_i3Pg2 
 e + H2(v=2) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=2\MCCC-el-D2-i3Pg_DE.X1Sg_vi=2.txt
+rates/MCCC/X1Sg-excitation/vi=2/MCCC-el-D2-i3Pg_DE.X1Sg_vi=2.txt
 
-* MCCCDB diss X_J1Dgu2 
+* MCCCDB diss X_J1Dg2 
 e + H2(v=2) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=2\MCCC-el-D2-J1Dg_DE.X1Sg_vi=2.txt
+rates/MCCC/X1Sg-excitation/vi=2/MCCC-el-D2-J1Dg_DE.X1Sg_vi=2.txt
 
-* MCCCDB diss X_j3Dgu2 
+* MCCCDB diss X_j3Dg2 
 e + H2(v=2) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=2\MCCC-el-D2-j3Dg_DE.X1Sg_vi=2.txt
+rates/MCCC/X1Sg-excitation/vi=2/MCCC-el-D2-j3Dg_DE.X1Sg_vi=2.txt
 
-* MCCCDB diss X_a3Sgu3 
+* MCCCDB diss X_a3Sg3 
 e + H2(v=3) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=3\MCCC-el-D2-a3Sg_DE.X1Sg_vi=3.txt
+rates/MCCC/X1Sg-excitation/vi=3/MCCC-el-D2-a3Sg_DE.X1Sg_vi=3.txt
 
-* MCCCDB diss X_B1Suu3 
+* MCCCDB diss X_B1Su3 
 e + H2(v=3) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=3\MCCC-el-D2-B1Su_DE.X1Sg_vi=3.txt
+rates/MCCC/X1Sg-excitation/vi=3/MCCC-el-D2-B1Su_DE.X1Sg_vi=3.txt
 
-* MCCCDB diss X_Bp1Suu3 
+* MCCCDB diss X_Bp1Su3 
 e + H2(v=3) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=3\MCCC-el-D2-Bp1Su_DE.X1Sg_vi=3.txt
+rates/MCCC/X1Sg-excitation/vi=3/MCCC-el-D2-Bp1Su_DE.X1Sg_vi=3.txt
 
-* MCCCDB diss X_C1Puu3 
+* MCCCDB diss X_C1Pu3 
 e + H2(v=3) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=3\MCCC-el-D2-C1Pu_DE.X1Sg_vi=3.txt
+rates/MCCC/X1Sg-excitation/vi=3/MCCC-el-D2-C1Pu_DE.X1Sg_vi=3.txt
 
-* MCCCDB diss X_c3Puu3 
+* MCCCDB diss X_c3Pu3 
 e + H2(v=3) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=3\MCCC-el-D2-c3Pu_DE.X1Sg_vi=3.txt
+rates/MCCC/X1Sg-excitation/vi=3/MCCC-el-D2-c3Pu_DE.X1Sg_vi=3.txt
 
-* MCCCDB diss X_D1Puu3 
+* MCCCDB diss X_D1Pu3 
 e + H2(v=3) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=3\MCCC-el-D2-D1Pu_DE.X1Sg_vi=3.txt
+rates/MCCC/X1Sg-excitation/vi=3/MCCC-el-D2-D1Pu_DE.X1Sg_vi=3.txt
 
-* MCCCDB diss X_d3Puu3 
+* MCCCDB diss X_d3Pu3 
 e + H2(v=3) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=3\MCCC-el-D2-d3Pu_DE.X1Sg_vi=3.txt
+rates/MCCC/X1Sg-excitation/vi=3/MCCC-el-D2-d3Pu_DE.X1Sg_vi=3.txt
 
-* MCCCDB diss X_e3Suu3 
+* MCCCDB diss X_e3Su3 
 e + H2(v=3) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=3\MCCC-el-D2-e3Su_DE.X1Sg_vi=3.txt
+rates/MCCC/X1Sg-excitation/vi=3/MCCC-el-D2-e3Su_DE.X1Sg_vi=3.txt
 
-* MCCCDB diss X_EF1Sgu3 
+* MCCCDB diss X_EF1Sg3 
 e + H2(v=3) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=3\MCCC-el-D2-EF1Sg_DE.X1Sg_vi=3.txt
+rates/MCCC/X1Sg-excitation/vi=3/MCCC-el-D2-EF1Sg_DE.X1Sg_vi=3.txt
 
-* MCCCDB diss X_g3Sgu3 
+* MCCCDB diss X_g3Sg3 
 e + H2(v=3) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=3\MCCC-el-D2-g3Sg_DE.X1Sg_vi=3.txt
+rates/MCCC/X1Sg-excitation/vi=3/MCCC-el-D2-g3Sg_DE.X1Sg_vi=3.txt
 
-* MCCCDB diss X_GK1Sgu3 
+* MCCCDB diss X_GK1Sg3 
 e + H2(v=3) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=3\MCCC-el-D2-GK1Sg_DE.X1Sg_vi=3.txt
+rates/MCCC/X1Sg-excitation/vi=3/MCCC-el-D2-GK1Sg_DE.X1Sg_vi=3.txt
 
-* MCCCDB diss X_H1Sgu3 
+* MCCCDB diss X_H1Sg3 
 e + H2(v=3) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=3\MCCC-el-D2-H1Sg_DE.X1Sg_vi=3.txt
+rates/MCCC/X1Sg-excitation/vi=3/MCCC-el-D2-H1Sg_DE.X1Sg_vi=3.txt
 
-* MCCCDB diss X_h3Sgu3 
+* MCCCDB diss X_h3Sg3 
 e + H2(v=3) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=3\MCCC-el-D2-h3Sg_DE.X1Sg_vi=3.txt
+rates/MCCC/X1Sg-excitation/vi=3/MCCC-el-D2-h3Sg_DE.X1Sg_vi=3.txt
 
-* MCCCDB diss X_I1Pgu3 
+* MCCCDB diss X_I1Pg3 
 e + H2(v=3) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=3\MCCC-el-D2-I1Pg_DE.X1Sg_vi=3.txt
+rates/MCCC/X1Sg-excitation/vi=3/MCCC-el-D2-I1Pg_DE.X1Sg_vi=3.txt
 
-* MCCCDB diss X_i3Pgu3 
+* MCCCDB diss X_i3Pg3 
 e + H2(v=3) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=3\MCCC-el-D2-i3Pg_DE.X1Sg_vi=3.txt
+rates/MCCC/X1Sg-excitation/vi=3/MCCC-el-D2-i3Pg_DE.X1Sg_vi=3.txt
 
-* MCCCDB diss X_J1Dgu3 
+* MCCCDB diss X_J1Dg3 
 e + H2(v=3) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=3\MCCC-el-D2-J1Dg_DE.X1Sg_vi=3.txt
+rates/MCCC/X1Sg-excitation/vi=3/MCCC-el-D2-J1Dg_DE.X1Sg_vi=3.txt
 
-* MCCCDB diss X_j3Dgu3 
+* MCCCDB diss X_j3Dg3 
 e + H2(v=3) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=3\MCCC-el-D2-j3Dg_DE.X1Sg_vi=3.txt
+rates/MCCC/X1Sg-excitation/vi=3/MCCC-el-D2-j3Dg_DE.X1Sg_vi=3.txt
 
-* MCCCDB diss X_a3Sgu4 
+* MCCCDB diss X_a3Sg4 
 e + H2(v=4) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=4\MCCC-el-D2-a3Sg_DE.X1Sg_vi=4.txt
+rates/MCCC/X1Sg-excitation/vi=4/MCCC-el-D2-a3Sg_DE.X1Sg_vi=4.txt
 
-* MCCCDB diss X_B1Suu4 
+* MCCCDB diss X_B1Su4 
 e + H2(v=4) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=4\MCCC-el-D2-B1Su_DE.X1Sg_vi=4.txt
+rates/MCCC/X1Sg-excitation/vi=4/MCCC-el-D2-B1Su_DE.X1Sg_vi=4.txt
 
-* MCCCDB diss X_Bp1Suu4 
+* MCCCDB diss X_Bp1Su4 
 e + H2(v=4) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=4\MCCC-el-D2-Bp1Su_DE.X1Sg_vi=4.txt
+rates/MCCC/X1Sg-excitation/vi=4/MCCC-el-D2-Bp1Su_DE.X1Sg_vi=4.txt
 
-* MCCCDB diss X_C1Puu4 
+* MCCCDB diss X_C1Pu4 
 e + H2(v=4) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=4\MCCC-el-D2-C1Pu_DE.X1Sg_vi=4.txt
+rates/MCCC/X1Sg-excitation/vi=4/MCCC-el-D2-C1Pu_DE.X1Sg_vi=4.txt
 
-* MCCCDB diss X_c3Puu4 
+* MCCCDB diss X_c3Pu4 
 e + H2(v=4) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=4\MCCC-el-D2-c3Pu_DE.X1Sg_vi=4.txt
+rates/MCCC/X1Sg-excitation/vi=4/MCCC-el-D2-c3Pu_DE.X1Sg_vi=4.txt
 
-* MCCCDB diss X_D1Puu4 
+* MCCCDB diss X_D1Pu4 
 e + H2(v=4) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=4\MCCC-el-D2-D1Pu_DE.X1Sg_vi=4.txt
+rates/MCCC/X1Sg-excitation/vi=4/MCCC-el-D2-D1Pu_DE.X1Sg_vi=4.txt
 
-* MCCCDB diss X_d3Puu4 
+* MCCCDB diss X_d3Pu4 
 e + H2(v=4) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=4\MCCC-el-D2-d3Pu_DE.X1Sg_vi=4.txt
+rates/MCCC/X1Sg-excitation/vi=4/MCCC-el-D2-d3Pu_DE.X1Sg_vi=4.txt
 
-* MCCCDB diss X_e3Suu4 
+* MCCCDB diss X_e3Su4 
 e + H2(v=4) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=4\MCCC-el-D2-e3Su_DE.X1Sg_vi=4.txt
+rates/MCCC/X1Sg-excitation/vi=4/MCCC-el-D2-e3Su_DE.X1Sg_vi=4.txt
 
-* MCCCDB diss X_EF1Sgu4 
+* MCCCDB diss X_EF1Sg4 
 e + H2(v=4) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=4\MCCC-el-D2-EF1Sg_DE.X1Sg_vi=4.txt
+rates/MCCC/X1Sg-excitation/vi=4/MCCC-el-D2-EF1Sg_DE.X1Sg_vi=4.txt
 
-* MCCCDB diss X_g3Sgu4 
+* MCCCDB diss X_g3Sg4 
 e + H2(v=4) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=4\MCCC-el-D2-g3Sg_DE.X1Sg_vi=4.txt
+rates/MCCC/X1Sg-excitation/vi=4/MCCC-el-D2-g3Sg_DE.X1Sg_vi=4.txt
 
-* MCCCDB diss X_GK1Sgu4 
+* MCCCDB diss X_GK1Sg4 
 e + H2(v=4) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=4\MCCC-el-D2-GK1Sg_DE.X1Sg_vi=4.txt
+rates/MCCC/X1Sg-excitation/vi=4/MCCC-el-D2-GK1Sg_DE.X1Sg_vi=4.txt
 
-* MCCCDB diss X_H1Sgu4 
+* MCCCDB diss X_H1Sg4 
 e + H2(v=4) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=4\MCCC-el-D2-H1Sg_DE.X1Sg_vi=4.txt
+rates/MCCC/X1Sg-excitation/vi=4/MCCC-el-D2-H1Sg_DE.X1Sg_vi=4.txt
 
-* MCCCDB diss X_h3Sgu4 
+* MCCCDB diss X_h3Sg4 
 e + H2(v=4) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=4\MCCC-el-D2-h3Sg_DE.X1Sg_vi=4.txt
+rates/MCCC/X1Sg-excitation/vi=4/MCCC-el-D2-h3Sg_DE.X1Sg_vi=4.txt
 
-* MCCCDB diss X_I1Pgu4 
+* MCCCDB diss X_I1Pg4 
 e + H2(v=4) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=4\MCCC-el-D2-I1Pg_DE.X1Sg_vi=4.txt
+rates/MCCC/X1Sg-excitation/vi=4/MCCC-el-D2-I1Pg_DE.X1Sg_vi=4.txt
 
-* MCCCDB diss X_i3Pgu4 
+* MCCCDB diss X_i3Pg4 
 e + H2(v=4) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=4\MCCC-el-D2-i3Pg_DE.X1Sg_vi=4.txt
+rates/MCCC/X1Sg-excitation/vi=4/MCCC-el-D2-i3Pg_DE.X1Sg_vi=4.txt
 
-* MCCCDB diss X_J1Dgu4 
+* MCCCDB diss X_J1Dg4 
 e + H2(v=4) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=4\MCCC-el-D2-J1Dg_DE.X1Sg_vi=4.txt
+rates/MCCC/X1Sg-excitation/vi=4/MCCC-el-D2-J1Dg_DE.X1Sg_vi=4.txt
 
-* MCCCDB diss X_j3Dgu4 
+* MCCCDB diss X_j3Dg4 
 e + H2(v=4) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=4\MCCC-el-D2-j3Dg_DE.X1Sg_vi=4.txt
+rates/MCCC/X1Sg-excitation/vi=4/MCCC-el-D2-j3Dg_DE.X1Sg_vi=4.txt
 
-* MCCCDB diss X_a3Sgu5 
+* MCCCDB diss X_a3Sg5 
 e + H2(v=5) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=5\MCCC-el-D2-a3Sg_DE.X1Sg_vi=5.txt
+rates/MCCC/X1Sg-excitation/vi=5/MCCC-el-D2-a3Sg_DE.X1Sg_vi=5.txt
 
-* MCCCDB diss X_B1Suu5 
+* MCCCDB diss X_B1Su5 
 e + H2(v=5) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=5\MCCC-el-D2-B1Su_DE.X1Sg_vi=5.txt
+rates/MCCC/X1Sg-excitation/vi=5/MCCC-el-D2-B1Su_DE.X1Sg_vi=5.txt
 
-* MCCCDB diss X_Bp1Suu5 
+* MCCCDB diss X_Bp1Su5 
 e + H2(v=5) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=5\MCCC-el-D2-Bp1Su_DE.X1Sg_vi=5.txt
+rates/MCCC/X1Sg-excitation/vi=5/MCCC-el-D2-Bp1Su_DE.X1Sg_vi=5.txt
 
-* MCCCDB diss X_C1Puu5 
+* MCCCDB diss X_C1Pu5 
 e + H2(v=5) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=5\MCCC-el-D2-C1Pu_DE.X1Sg_vi=5.txt
+rates/MCCC/X1Sg-excitation/vi=5/MCCC-el-D2-C1Pu_DE.X1Sg_vi=5.txt
 
-* MCCCDB diss X_c3Puu5 
+* MCCCDB diss X_c3Pu5 
 e + H2(v=5) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=5\MCCC-el-D2-c3Pu_DE.X1Sg_vi=5.txt
+rates/MCCC/X1Sg-excitation/vi=5/MCCC-el-D2-c3Pu_DE.X1Sg_vi=5.txt
 
-* MCCCDB diss X_D1Puu5 
+* MCCCDB diss X_D1Pu5 
 e + H2(v=5) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=5\MCCC-el-D2-D1Pu_DE.X1Sg_vi=5.txt
+rates/MCCC/X1Sg-excitation/vi=5/MCCC-el-D2-D1Pu_DE.X1Sg_vi=5.txt
 
-* MCCCDB diss X_d3Puu5 
+* MCCCDB diss X_d3Pu5 
 e + H2(v=5) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=5\MCCC-el-D2-d3Pu_DE.X1Sg_vi=5.txt
+rates/MCCC/X1Sg-excitation/vi=5/MCCC-el-D2-d3Pu_DE.X1Sg_vi=5.txt
 
-* MCCCDB diss X_e3Suu5 
+* MCCCDB diss X_e3Su5 
 e + H2(v=5) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=5\MCCC-el-D2-e3Su_DE.X1Sg_vi=5.txt
+rates/MCCC/X1Sg-excitation/vi=5/MCCC-el-D2-e3Su_DE.X1Sg_vi=5.txt
 
-* MCCCDB diss X_EF1Sgu5 
+* MCCCDB diss X_EF1Sg5 
 e + H2(v=5) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=5\MCCC-el-D2-EF1Sg_DE.X1Sg_vi=5.txt
+rates/MCCC/X1Sg-excitation/vi=5/MCCC-el-D2-EF1Sg_DE.X1Sg_vi=5.txt
 
-* MCCCDB diss X_g3Sgu5 
+* MCCCDB diss X_g3Sg5 
 e + H2(v=5) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=5\MCCC-el-D2-g3Sg_DE.X1Sg_vi=5.txt
+rates/MCCC/X1Sg-excitation/vi=5/MCCC-el-D2-g3Sg_DE.X1Sg_vi=5.txt
 
-* MCCCDB diss X_GK1Sgu5 
+* MCCCDB diss X_GK1Sg5 
 e + H2(v=5) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=5\MCCC-el-D2-GK1Sg_DE.X1Sg_vi=5.txt
+rates/MCCC/X1Sg-excitation/vi=5/MCCC-el-D2-GK1Sg_DE.X1Sg_vi=5.txt
 
-* MCCCDB diss X_H1Sgu5 
+* MCCCDB diss X_H1Sg5 
 e + H2(v=5) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=5\MCCC-el-D2-H1Sg_DE.X1Sg_vi=5.txt
+rates/MCCC/X1Sg-excitation/vi=5/MCCC-el-D2-H1Sg_DE.X1Sg_vi=5.txt
 
-* MCCCDB diss X_h3Sgu5 
+* MCCCDB diss X_h3Sg5 
 e + H2(v=5) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=5\MCCC-el-D2-h3Sg_DE.X1Sg_vi=5.txt
+rates/MCCC/X1Sg-excitation/vi=5/MCCC-el-D2-h3Sg_DE.X1Sg_vi=5.txt
 
-* MCCCDB diss X_I1Pgu5 
+* MCCCDB diss X_I1Pg5 
 e + H2(v=5) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=5\MCCC-el-D2-I1Pg_DE.X1Sg_vi=5.txt
+rates/MCCC/X1Sg-excitation/vi=5/MCCC-el-D2-I1Pg_DE.X1Sg_vi=5.txt
 
-* MCCCDB diss X_i3Pgu5 
+* MCCCDB diss X_i3Pg5 
 e + H2(v=5) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=5\MCCC-el-D2-i3Pg_DE.X1Sg_vi=5.txt
+rates/MCCC/X1Sg-excitation/vi=5/MCCC-el-D2-i3Pg_DE.X1Sg_vi=5.txt
 
-* MCCCDB diss X_J1Dgu5 
+* MCCCDB diss X_J1Dg5 
 e + H2(v=5) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=5\MCCC-el-D2-J1Dg_DE.X1Sg_vi=5.txt
+rates/MCCC/X1Sg-excitation/vi=5/MCCC-el-D2-J1Dg_DE.X1Sg_vi=5.txt
 
-* MCCCDB diss X_j3Dgu5 
+* MCCCDB diss X_j3Dg5 
 e + H2(v=5) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=5\MCCC-el-D2-j3Dg_DE.X1Sg_vi=5.txt
+rates/MCCC/X1Sg-excitation/vi=5/MCCC-el-D2-j3Dg_DE.X1Sg_vi=5.txt
 
-* MCCCDB diss X_a3Sgu6 
+* MCCCDB diss X_a3Sg6 
 e + H2(v=6) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=6\MCCC-el-D2-a3Sg_DE.X1Sg_vi=6.txt
+rates/MCCC/X1Sg-excitation/vi=6/MCCC-el-D2-a3Sg_DE.X1Sg_vi=6.txt
 
-* MCCCDB diss X_B1Suu6 
+* MCCCDB diss X_B1Su6 
 e + H2(v=6) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=6\MCCC-el-D2-B1Su_DE.X1Sg_vi=6.txt
+rates/MCCC/X1Sg-excitation/vi=6/MCCC-el-D2-B1Su_DE.X1Sg_vi=6.txt
 
-* MCCCDB diss X_Bp1Suu6 
+* MCCCDB diss X_Bp1Su6 
 e + H2(v=6) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=6\MCCC-el-D2-Bp1Su_DE.X1Sg_vi=6.txt
+rates/MCCC/X1Sg-excitation/vi=6/MCCC-el-D2-Bp1Su_DE.X1Sg_vi=6.txt
 
-* MCCCDB diss X_C1Puu6 
+* MCCCDB diss X_C1Pu6 
 e + H2(v=6) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=6\MCCC-el-D2-C1Pu_DE.X1Sg_vi=6.txt
+rates/MCCC/X1Sg-excitation/vi=6/MCCC-el-D2-C1Pu_DE.X1Sg_vi=6.txt
 
-* MCCCDB diss X_c3Puu6 
+* MCCCDB diss X_c3Pu6 
 e + H2(v=6) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=6\MCCC-el-D2-c3Pu_DE.X1Sg_vi=6.txt
+rates/MCCC/X1Sg-excitation/vi=6/MCCC-el-D2-c3Pu_DE.X1Sg_vi=6.txt
 
-* MCCCDB diss X_D1Puu6 
+* MCCCDB diss X_D1Pu6 
 e + H2(v=6) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=6\MCCC-el-D2-D1Pu_DE.X1Sg_vi=6.txt
+rates/MCCC/X1Sg-excitation/vi=6/MCCC-el-D2-D1Pu_DE.X1Sg_vi=6.txt
 
-* MCCCDB diss X_d3Puu6 
+* MCCCDB diss X_d3Pu6 
 e + H2(v=6) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=6\MCCC-el-D2-d3Pu_DE.X1Sg_vi=6.txt
+rates/MCCC/X1Sg-excitation/vi=6/MCCC-el-D2-d3Pu_DE.X1Sg_vi=6.txt
 
-* MCCCDB diss X_e3Suu6 
+* MCCCDB diss X_e3Su6 
 e + H2(v=6) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=6\MCCC-el-D2-e3Su_DE.X1Sg_vi=6.txt
+rates/MCCC/X1Sg-excitation/vi=6/MCCC-el-D2-e3Su_DE.X1Sg_vi=6.txt
 
-* MCCCDB diss X_EF1Sgu6 
+* MCCCDB diss X_EF1Sg6 
 e + H2(v=6) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=6\MCCC-el-D2-EF1Sg_DE.X1Sg_vi=6.txt
+rates/MCCC/X1Sg-excitation/vi=6/MCCC-el-D2-EF1Sg_DE.X1Sg_vi=6.txt
 
-* MCCCDB diss X_g3Sgu6 
+* MCCCDB diss X_g3Sg6 
 e + H2(v=6) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=6\MCCC-el-D2-g3Sg_DE.X1Sg_vi=6.txt
+rates/MCCC/X1Sg-excitation/vi=6/MCCC-el-D2-g3Sg_DE.X1Sg_vi=6.txt
 
-* MCCCDB diss X_GK1Sgu6 
+* MCCCDB diss X_GK1Sg6 
 e + H2(v=6) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=6\MCCC-el-D2-GK1Sg_DE.X1Sg_vi=6.txt
+rates/MCCC/X1Sg-excitation/vi=6/MCCC-el-D2-GK1Sg_DE.X1Sg_vi=6.txt
 
-* MCCCDB diss X_H1Sgu6 
+* MCCCDB diss X_H1Sg6 
 e + H2(v=6) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=6\MCCC-el-D2-H1Sg_DE.X1Sg_vi=6.txt
+rates/MCCC/X1Sg-excitation/vi=6/MCCC-el-D2-H1Sg_DE.X1Sg_vi=6.txt
 
-* MCCCDB diss X_h3Sgu6 
+* MCCCDB diss X_h3Sg6 
 e + H2(v=6) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=6\MCCC-el-D2-h3Sg_DE.X1Sg_vi=6.txt
+rates/MCCC/X1Sg-excitation/vi=6/MCCC-el-D2-h3Sg_DE.X1Sg_vi=6.txt
 
-* MCCCDB diss X_I1Pgu6 
+* MCCCDB diss X_I1Pg6 
 e + H2(v=6) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=6\MCCC-el-D2-I1Pg_DE.X1Sg_vi=6.txt
+rates/MCCC/X1Sg-excitation/vi=6/MCCC-el-D2-I1Pg_DE.X1Sg_vi=6.txt
 
-* MCCCDB diss X_i3Pgu6 
+* MCCCDB diss X_i3Pg6 
 e + H2(v=6) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=6\MCCC-el-D2-i3Pg_DE.X1Sg_vi=6.txt
+rates/MCCC/X1Sg-excitation/vi=6/MCCC-el-D2-i3Pg_DE.X1Sg_vi=6.txt
 
-* MCCCDB diss X_J1Dgu6 
+* MCCCDB diss X_J1Dg6 
 e + H2(v=6) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=6\MCCC-el-D2-J1Dg_DE.X1Sg_vi=6.txt
+rates/MCCC/X1Sg-excitation/vi=6/MCCC-el-D2-J1Dg_DE.X1Sg_vi=6.txt
 
-* MCCCDB diss X_j3Dgu6 
+* MCCCDB diss X_j3Dg6 
 e + H2(v=6) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=6\MCCC-el-D2-j3Dg_DE.X1Sg_vi=6.txt
+rates/MCCC/X1Sg-excitation/vi=6/MCCC-el-D2-j3Dg_DE.X1Sg_vi=6.txt
 
-* MCCCDB diss X_a3Sgu7 
+* MCCCDB diss X_a3Sg7 
 e + H2(v=7) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=7\MCCC-el-D2-a3Sg_DE.X1Sg_vi=7.txt
+rates/MCCC/X1Sg-excitation/vi=7/MCCC-el-D2-a3Sg_DE.X1Sg_vi=7.txt
 
-* MCCCDB diss X_B1Suu7 
+* MCCCDB diss X_B1Su7 
 e + H2(v=7) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=7\MCCC-el-D2-B1Su_DE.X1Sg_vi=7.txt
+rates/MCCC/X1Sg-excitation/vi=7/MCCC-el-D2-B1Su_DE.X1Sg_vi=7.txt
 
-* MCCCDB diss X_Bp1Suu7 
+* MCCCDB diss X_Bp1Su7 
 e + H2(v=7) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=7\MCCC-el-D2-Bp1Su_DE.X1Sg_vi=7.txt
+rates/MCCC/X1Sg-excitation/vi=7/MCCC-el-D2-Bp1Su_DE.X1Sg_vi=7.txt
 
-* MCCCDB diss X_C1Puu7 
+* MCCCDB diss X_C1Pu7 
 e + H2(v=7) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=7\MCCC-el-D2-C1Pu_DE.X1Sg_vi=7.txt
+rates/MCCC/X1Sg-excitation/vi=7/MCCC-el-D2-C1Pu_DE.X1Sg_vi=7.txt
 
-* MCCCDB diss X_c3Puu7 
+* MCCCDB diss X_c3Pu7 
 e + H2(v=7) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=7\MCCC-el-D2-c3Pu_DE.X1Sg_vi=7.txt
+rates/MCCC/X1Sg-excitation/vi=7/MCCC-el-D2-c3Pu_DE.X1Sg_vi=7.txt
 
-* MCCCDB diss X_D1Puu7 
+* MCCCDB diss X_D1Pu7 
 e + H2(v=7) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=7\MCCC-el-D2-D1Pu_DE.X1Sg_vi=7.txt
+rates/MCCC/X1Sg-excitation/vi=7/MCCC-el-D2-D1Pu_DE.X1Sg_vi=7.txt
 
-* MCCCDB diss X_d3Puu7 
+* MCCCDB diss X_d3Pu7 
 e + H2(v=7) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=7\MCCC-el-D2-d3Pu_DE.X1Sg_vi=7.txt
+rates/MCCC/X1Sg-excitation/vi=7/MCCC-el-D2-d3Pu_DE.X1Sg_vi=7.txt
 
-* MCCCDB diss X_e3Suu7 
+* MCCCDB diss X_e3Su7 
 e + H2(v=7) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=7\MCCC-el-D2-e3Su_DE.X1Sg_vi=7.txt
+rates/MCCC/X1Sg-excitation/vi=7/MCCC-el-D2-e3Su_DE.X1Sg_vi=7.txt
 
-* MCCCDB diss X_EF1Sgu7 
+* MCCCDB diss X_EF1Sg7 
 e + H2(v=7) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=7\MCCC-el-D2-EF1Sg_DE.X1Sg_vi=7.txt
+rates/MCCC/X1Sg-excitation/vi=7/MCCC-el-D2-EF1Sg_DE.X1Sg_vi=7.txt
 
-* MCCCDB diss X_g3Sgu7 
+* MCCCDB diss X_g3Sg7 
 e + H2(v=7) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=7\MCCC-el-D2-g3Sg_DE.X1Sg_vi=7.txt
+rates/MCCC/X1Sg-excitation/vi=7/MCCC-el-D2-g3Sg_DE.X1Sg_vi=7.txt
 
-* MCCCDB diss X_GK1Sgu7 
+* MCCCDB diss X_GK1Sg7 
 e + H2(v=7) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=7\MCCC-el-D2-GK1Sg_DE.X1Sg_vi=7.txt
+rates/MCCC/X1Sg-excitation/vi=7/MCCC-el-D2-GK1Sg_DE.X1Sg_vi=7.txt
 
-* MCCCDB diss X_H1Sgu7 
+* MCCCDB diss X_H1Sg7 
 e + H2(v=7) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=7\MCCC-el-D2-H1Sg_DE.X1Sg_vi=7.txt
+rates/MCCC/X1Sg-excitation/vi=7/MCCC-el-D2-H1Sg_DE.X1Sg_vi=7.txt
 
-* MCCCDB diss X_h3Sgu7 
+* MCCCDB diss X_h3Sg7 
 e + H2(v=7) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=7\MCCC-el-D2-h3Sg_DE.X1Sg_vi=7.txt
+rates/MCCC/X1Sg-excitation/vi=7/MCCC-el-D2-h3Sg_DE.X1Sg_vi=7.txt
 
-* MCCCDB diss X_I1Pgu7 
+* MCCCDB diss X_I1Pg7 
 e + H2(v=7) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=7\MCCC-el-D2-I1Pg_DE.X1Sg_vi=7.txt
+rates/MCCC/X1Sg-excitation/vi=7/MCCC-el-D2-I1Pg_DE.X1Sg_vi=7.txt
 
-* MCCCDB diss X_i3Pgu7 
+* MCCCDB diss X_i3Pg7 
 e + H2(v=7) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=7\MCCC-el-D2-i3Pg_DE.X1Sg_vi=7.txt
+rates/MCCC/X1Sg-excitation/vi=7/MCCC-el-D2-i3Pg_DE.X1Sg_vi=7.txt
 
-* MCCCDB diss X_J1Dgu7 
+* MCCCDB diss X_J1Dg7 
 e + H2(v=7) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=7\MCCC-el-D2-J1Dg_DE.X1Sg_vi=7.txt
+rates/MCCC/X1Sg-excitation/vi=7/MCCC-el-D2-J1Dg_DE.X1Sg_vi=7.txt
 
-* MCCCDB diss X_j3Dgu7 
+* MCCCDB diss X_j3Dg7 
 e + H2(v=7) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=7\MCCC-el-D2-j3Dg_DE.X1Sg_vi=7.txt
+rates/MCCC/X1Sg-excitation/vi=7/MCCC-el-D2-j3Dg_DE.X1Sg_vi=7.txt
 
-* MCCCDB diss X_a3Sgu8 
+* MCCCDB diss X_a3Sg8 
 e + H2(v=8) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=8\MCCC-el-D2-a3Sg_DE.X1Sg_vi=8.txt
+rates/MCCC/X1Sg-excitation/vi=8/MCCC-el-D2-a3Sg_DE.X1Sg_vi=8.txt
 
-* MCCCDB diss X_B1Suu8 
+* MCCCDB diss X_B1Su8 
 e + H2(v=8) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=8\MCCC-el-D2-B1Su_DE.X1Sg_vi=8.txt
+rates/MCCC/X1Sg-excitation/vi=8/MCCC-el-D2-B1Su_DE.X1Sg_vi=8.txt
 
-* MCCCDB diss X_Bp1Suu8 
+* MCCCDB diss X_Bp1Su8 
 e + H2(v=8) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=8\MCCC-el-D2-Bp1Su_DE.X1Sg_vi=8.txt
+rates/MCCC/X1Sg-excitation/vi=8/MCCC-el-D2-Bp1Su_DE.X1Sg_vi=8.txt
 
-* MCCCDB diss X_C1Puu8 
+* MCCCDB diss X_C1Pu8 
 e + H2(v=8) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=8\MCCC-el-D2-C1Pu_DE.X1Sg_vi=8.txt
+rates/MCCC/X1Sg-excitation/vi=8/MCCC-el-D2-C1Pu_DE.X1Sg_vi=8.txt
 
-* MCCCDB diss X_c3Puu8 
+* MCCCDB diss X_c3Pu8 
 e + H2(v=8) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=8\MCCC-el-D2-c3Pu_DE.X1Sg_vi=8.txt
+rates/MCCC/X1Sg-excitation/vi=8/MCCC-el-D2-c3Pu_DE.X1Sg_vi=8.txt
 
-* MCCCDB diss X_D1Puu8 
+* MCCCDB diss X_D1Pu8 
 e + H2(v=8) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=8\MCCC-el-D2-D1Pu_DE.X1Sg_vi=8.txt
+rates/MCCC/X1Sg-excitation/vi=8/MCCC-el-D2-D1Pu_DE.X1Sg_vi=8.txt
 
-* MCCCDB diss X_d3Puu8 
+* MCCCDB diss X_d3Pu8 
 e + H2(v=8) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=8\MCCC-el-D2-d3Pu_DE.X1Sg_vi=8.txt
+rates/MCCC/X1Sg-excitation/vi=8/MCCC-el-D2-d3Pu_DE.X1Sg_vi=8.txt
 
-* MCCCDB diss X_e3Suu8 
+* MCCCDB diss X_e3Su8 
 e + H2(v=8) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=8\MCCC-el-D2-e3Su_DE.X1Sg_vi=8.txt
+rates/MCCC/X1Sg-excitation/vi=8/MCCC-el-D2-e3Su_DE.X1Sg_vi=8.txt
 
-* MCCCDB diss X_EF1Sgu8 
+* MCCCDB diss X_EF1Sg8 
 e + H2(v=8) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=8\MCCC-el-D2-EF1Sg_DE.X1Sg_vi=8.txt
+rates/MCCC/X1Sg-excitation/vi=8/MCCC-el-D2-EF1Sg_DE.X1Sg_vi=8.txt
 
-* MCCCDB diss X_g3Sgu8 
+* MCCCDB diss X_g3Sg8 
 e + H2(v=8) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=8\MCCC-el-D2-g3Sg_DE.X1Sg_vi=8.txt
+rates/MCCC/X1Sg-excitation/vi=8/MCCC-el-D2-g3Sg_DE.X1Sg_vi=8.txt
 
-* MCCCDB diss X_GK1Sgu8 
+* MCCCDB diss X_GK1Sg8 
 e + H2(v=8) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=8\MCCC-el-D2-GK1Sg_DE.X1Sg_vi=8.txt
+rates/MCCC/X1Sg-excitation/vi=8/MCCC-el-D2-GK1Sg_DE.X1Sg_vi=8.txt
 
-* MCCCDB diss X_H1Sgu8 
+* MCCCDB diss X_H1Sg8 
 e + H2(v=8) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=8\MCCC-el-D2-H1Sg_DE.X1Sg_vi=8.txt
+rates/MCCC/X1Sg-excitation/vi=8/MCCC-el-D2-H1Sg_DE.X1Sg_vi=8.txt
 
-* MCCCDB diss X_h3Sgu8 
+* MCCCDB diss X_h3Sg8 
 e + H2(v=8) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=8\MCCC-el-D2-h3Sg_DE.X1Sg_vi=8.txt
+rates/MCCC/X1Sg-excitation/vi=8/MCCC-el-D2-h3Sg_DE.X1Sg_vi=8.txt
 
-* MCCCDB diss X_I1Pgu8 
+* MCCCDB diss X_I1Pg8 
 e + H2(v=8) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=8\MCCC-el-D2-I1Pg_DE.X1Sg_vi=8.txt
+rates/MCCC/X1Sg-excitation/vi=8/MCCC-el-D2-I1Pg_DE.X1Sg_vi=8.txt
 
-* MCCCDB diss X_i3Pgu8 
+* MCCCDB diss X_i3Pg8 
 e + H2(v=8) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=8\MCCC-el-D2-i3Pg_DE.X1Sg_vi=8.txt
+rates/MCCC/X1Sg-excitation/vi=8/MCCC-el-D2-i3Pg_DE.X1Sg_vi=8.txt
 
-* MCCCDB diss X_J1Dgu8 
+* MCCCDB diss X_J1Dg8 
 e + H2(v=8) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=8\MCCC-el-D2-J1Dg_DE.X1Sg_vi=8.txt
+rates/MCCC/X1Sg-excitation/vi=8/MCCC-el-D2-J1Dg_DE.X1Sg_vi=8.txt
 
-* MCCCDB diss X_j3Dgu8 
+* MCCCDB diss X_j3Dg8 
 e + H2(v=8) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=8\MCCC-el-D2-j3Dg_DE.X1Sg_vi=8.txt
+rates/MCCC/X1Sg-excitation/vi=8/MCCC-el-D2-j3Dg_DE.X1Sg_vi=8.txt
 
-* MCCCDB diss X_a3Sgu9 
+* MCCCDB diss X_a3Sg9 
 e + H2(v=9) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=9\MCCC-el-D2-a3Sg_DE.X1Sg_vi=9.txt
+rates/MCCC/X1Sg-excitation/vi=9/MCCC-el-D2-a3Sg_DE.X1Sg_vi=9.txt
 
-* MCCCDB diss X_B1Suu9 
+* MCCCDB diss X_B1Su9 
 e + H2(v=9) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=9\MCCC-el-D2-B1Su_DE.X1Sg_vi=9.txt
+rates/MCCC/X1Sg-excitation/vi=9/MCCC-el-D2-B1Su_DE.X1Sg_vi=9.txt
 
-* MCCCDB diss X_Bp1Suu9 
+* MCCCDB diss X_Bp1Su9 
 e + H2(v=9) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=9\MCCC-el-D2-Bp1Su_DE.X1Sg_vi=9.txt
+rates/MCCC/X1Sg-excitation/vi=9/MCCC-el-D2-Bp1Su_DE.X1Sg_vi=9.txt
 
-* MCCCDB diss X_C1Puu9 
+* MCCCDB diss X_C1Pu9 
 e + H2(v=9) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=9\MCCC-el-D2-C1Pu_DE.X1Sg_vi=9.txt
+rates/MCCC/X1Sg-excitation/vi=9/MCCC-el-D2-C1Pu_DE.X1Sg_vi=9.txt
 
-* MCCCDB diss X_c3Puu9 
+* MCCCDB diss X_c3Pu9 
 e + H2(v=9) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=9\MCCC-el-D2-c3Pu_DE.X1Sg_vi=9.txt
+rates/MCCC/X1Sg-excitation/vi=9/MCCC-el-D2-c3Pu_DE.X1Sg_vi=9.txt
 
-* MCCCDB diss X_D1Puu9 
+* MCCCDB diss X_D1Pu9 
 e + H2(v=9) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=9\MCCC-el-D2-D1Pu_DE.X1Sg_vi=9.txt
+rates/MCCC/X1Sg-excitation/vi=9/MCCC-el-D2-D1Pu_DE.X1Sg_vi=9.txt
 
-* MCCCDB diss X_d3Puu9 
+* MCCCDB diss X_d3Pu9 
 e + H2(v=9) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=9\MCCC-el-D2-d3Pu_DE.X1Sg_vi=9.txt
+rates/MCCC/X1Sg-excitation/vi=9/MCCC-el-D2-d3Pu_DE.X1Sg_vi=9.txt
 
-* MCCCDB diss X_e3Suu9 
+* MCCCDB diss X_e3Su9 
 e + H2(v=9) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=9\MCCC-el-D2-e3Su_DE.X1Sg_vi=9.txt
+rates/MCCC/X1Sg-excitation/vi=9/MCCC-el-D2-e3Su_DE.X1Sg_vi=9.txt
 
-* MCCCDB diss X_EF1Sgu9 
+* MCCCDB diss X_EF1Sg9 
 e + H2(v=9) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=9\MCCC-el-D2-EF1Sg_DE.X1Sg_vi=9.txt
+rates/MCCC/X1Sg-excitation/vi=9/MCCC-el-D2-EF1Sg_DE.X1Sg_vi=9.txt
 
-* MCCCDB diss X_g3Sgu9 
+* MCCCDB diss X_g3Sg9 
 e + H2(v=9) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=9\MCCC-el-D2-g3Sg_DE.X1Sg_vi=9.txt
+rates/MCCC/X1Sg-excitation/vi=9/MCCC-el-D2-g3Sg_DE.X1Sg_vi=9.txt
 
-* MCCCDB diss X_GK1Sgu9 
+* MCCCDB diss X_GK1Sg9 
 e + H2(v=9) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=9\MCCC-el-D2-GK1Sg_DE.X1Sg_vi=9.txt
+rates/MCCC/X1Sg-excitation/vi=9/MCCC-el-D2-GK1Sg_DE.X1Sg_vi=9.txt
 
-* MCCCDB diss X_H1Sgu9 
+* MCCCDB diss X_H1Sg9 
 e + H2(v=9) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=9\MCCC-el-D2-H1Sg_DE.X1Sg_vi=9.txt
+rates/MCCC/X1Sg-excitation/vi=9/MCCC-el-D2-H1Sg_DE.X1Sg_vi=9.txt
 
-* MCCCDB diss X_h3Sgu9 
+* MCCCDB diss X_h3Sg9 
 e + H2(v=9) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=9\MCCC-el-D2-h3Sg_DE.X1Sg_vi=9.txt
+rates/MCCC/X1Sg-excitation/vi=9/MCCC-el-D2-h3Sg_DE.X1Sg_vi=9.txt
 
-* MCCCDB diss X_I1Pgu9 
+* MCCCDB diss X_I1Pg9 
 e + H2(v=9) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=9\MCCC-el-D2-I1Pg_DE.X1Sg_vi=9.txt
+rates/MCCC/X1Sg-excitation/vi=9/MCCC-el-D2-I1Pg_DE.X1Sg_vi=9.txt
 
-* MCCCDB diss X_i3Pgu9 
+* MCCCDB diss X_i3Pg9 
 e + H2(v=9) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=9\MCCC-el-D2-i3Pg_DE.X1Sg_vi=9.txt
+rates/MCCC/X1Sg-excitation/vi=9/MCCC-el-D2-i3Pg_DE.X1Sg_vi=9.txt
 
-* MCCCDB diss X_J1Dgu9 
+* MCCCDB diss X_J1Dg9 
 e + H2(v=9) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=9\MCCC-el-D2-J1Dg_DE.X1Sg_vi=9.txt
+rates/MCCC/X1Sg-excitation/vi=9/MCCC-el-D2-J1Dg_DE.X1Sg_vi=9.txt
 
-* MCCCDB diss X_j3Dgu9 
+* MCCCDB diss X_j3Dg9 
 e + H2(v=9) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=9\MCCC-el-D2-j3Dg_DE.X1Sg_vi=9.txt
+rates/MCCC/X1Sg-excitation/vi=9/MCCC-el-D2-j3Dg_DE.X1Sg_vi=9.txt
 
-* MCCCDB diss X_a3Sgu10 
+* MCCCDB diss X_a3Sg10 
 e + H2(v=10) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=10\MCCC-el-D2-a3Sg_DE.X1Sg_vi=10.txt
+rates/MCCC/X1Sg-excitation/vi=10/MCCC-el-D2-a3Sg_DE.X1Sg_vi=10.txt
 
-* MCCCDB diss X_B1Suu10 
+* MCCCDB diss X_B1Su10 
 e + H2(v=10) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=10\MCCC-el-D2-B1Su_DE.X1Sg_vi=10.txt
+rates/MCCC/X1Sg-excitation/vi=10/MCCC-el-D2-B1Su_DE.X1Sg_vi=10.txt
 
-* MCCCDB diss X_Bp1Suu10 
+* MCCCDB diss X_Bp1Su10 
 e + H2(v=10) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=10\MCCC-el-D2-Bp1Su_DE.X1Sg_vi=10.txt
+rates/MCCC/X1Sg-excitation/vi=10/MCCC-el-D2-Bp1Su_DE.X1Sg_vi=10.txt
 
-* MCCCDB diss X_C1Puu10 
+* MCCCDB diss X_C1Pu10 
 e + H2(v=10) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=10\MCCC-el-D2-C1Pu_DE.X1Sg_vi=10.txt
+rates/MCCC/X1Sg-excitation/vi=10/MCCC-el-D2-C1Pu_DE.X1Sg_vi=10.txt
 
-* MCCCDB diss X_c3Puu10 
+* MCCCDB diss X_c3Pu10 
 e + H2(v=10) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=10\MCCC-el-D2-c3Pu_DE.X1Sg_vi=10.txt
+rates/MCCC/X1Sg-excitation/vi=10/MCCC-el-D2-c3Pu_DE.X1Sg_vi=10.txt
 
-* MCCCDB diss X_D1Puu10 
+* MCCCDB diss X_D1Pu10 
 e + H2(v=10) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=10\MCCC-el-D2-D1Pu_DE.X1Sg_vi=10.txt
+rates/MCCC/X1Sg-excitation/vi=10/MCCC-el-D2-D1Pu_DE.X1Sg_vi=10.txt
 
-* MCCCDB diss X_d3Puu10 
+* MCCCDB diss X_d3Pu10 
 e + H2(v=10) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=10\MCCC-el-D2-d3Pu_DE.X1Sg_vi=10.txt
+rates/MCCC/X1Sg-excitation/vi=10/MCCC-el-D2-d3Pu_DE.X1Sg_vi=10.txt
 
-* MCCCDB diss X_e3Suu10 
+* MCCCDB diss X_e3Su10 
 e + H2(v=10) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=10\MCCC-el-D2-e3Su_DE.X1Sg_vi=10.txt
+rates/MCCC/X1Sg-excitation/vi=10/MCCC-el-D2-e3Su_DE.X1Sg_vi=10.txt
 
-* MCCCDB diss X_EF1Sgu10 
+* MCCCDB diss X_EF1Sg10 
 e + H2(v=10) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=10\MCCC-el-D2-EF1Sg_DE.X1Sg_vi=10.txt
+rates/MCCC/X1Sg-excitation/vi=10/MCCC-el-D2-EF1Sg_DE.X1Sg_vi=10.txt
 
-* MCCCDB diss X_g3Sgu10 
+* MCCCDB diss X_g3Sg10 
 e + H2(v=10) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=10\MCCC-el-D2-g3Sg_DE.X1Sg_vi=10.txt
+rates/MCCC/X1Sg-excitation/vi=10/MCCC-el-D2-g3Sg_DE.X1Sg_vi=10.txt
 
-* MCCCDB diss X_GK1Sgu10 
+* MCCCDB diss X_GK1Sg10 
 e + H2(v=10) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=10\MCCC-el-D2-GK1Sg_DE.X1Sg_vi=10.txt
+rates/MCCC/X1Sg-excitation/vi=10/MCCC-el-D2-GK1Sg_DE.X1Sg_vi=10.txt
 
-* MCCCDB diss X_H1Sgu10 
+* MCCCDB diss X_H1Sg10 
 e + H2(v=10) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=10\MCCC-el-D2-H1Sg_DE.X1Sg_vi=10.txt
+rates/MCCC/X1Sg-excitation/vi=10/MCCC-el-D2-H1Sg_DE.X1Sg_vi=10.txt
 
-* MCCCDB diss X_h3Sgu10 
+* MCCCDB diss X_h3Sg10 
 e + H2(v=10) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=10\MCCC-el-D2-h3Sg_DE.X1Sg_vi=10.txt
+rates/MCCC/X1Sg-excitation/vi=10/MCCC-el-D2-h3Sg_DE.X1Sg_vi=10.txt
 
-* MCCCDB diss X_I1Pgu10 
+* MCCCDB diss X_I1Pg10 
 e + H2(v=10) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=10\MCCC-el-D2-I1Pg_DE.X1Sg_vi=10.txt
+rates/MCCC/X1Sg-excitation/vi=10/MCCC-el-D2-I1Pg_DE.X1Sg_vi=10.txt
 
-* MCCCDB diss X_i3Pgu10 
+* MCCCDB diss X_i3Pg10 
 e + H2(v=10) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=10\MCCC-el-D2-i3Pg_DE.X1Sg_vi=10.txt
+rates/MCCC/X1Sg-excitation/vi=10/MCCC-el-D2-i3Pg_DE.X1Sg_vi=10.txt
 
-* MCCCDB diss X_J1Dgu10 
+* MCCCDB diss X_J1Dg10 
 e + H2(v=10) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=10\MCCC-el-D2-J1Dg_DE.X1Sg_vi=10.txt
+rates/MCCC/X1Sg-excitation/vi=10/MCCC-el-D2-J1Dg_DE.X1Sg_vi=10.txt
 
-* MCCCDB diss X_j3Dgu10 
+* MCCCDB diss X_j3Dg10 
 e + H2(v=10) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=10\MCCC-el-D2-j3Dg_DE.X1Sg_vi=10.txt
+rates/MCCC/X1Sg-excitation/vi=10/MCCC-el-D2-j3Dg_DE.X1Sg_vi=10.txt
 
-* MCCCDB diss X_a3Sgu11 
+* MCCCDB diss X_a3Sg11 
 e + H2(v=11) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=11\MCCC-el-D2-a3Sg_DE.X1Sg_vi=11.txt
+rates/MCCC/X1Sg-excitation/vi=11/MCCC-el-D2-a3Sg_DE.X1Sg_vi=11.txt
 
-* MCCCDB diss X_B1Suu11 
+* MCCCDB diss X_B1Su11 
 e + H2(v=11) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=11\MCCC-el-D2-B1Su_DE.X1Sg_vi=11.txt
+rates/MCCC/X1Sg-excitation/vi=11/MCCC-el-D2-B1Su_DE.X1Sg_vi=11.txt
 
-* MCCCDB diss X_Bp1Suu11 
+* MCCCDB diss X_Bp1Su11 
 e + H2(v=11) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=11\MCCC-el-D2-Bp1Su_DE.X1Sg_vi=11.txt
+rates/MCCC/X1Sg-excitation/vi=11/MCCC-el-D2-Bp1Su_DE.X1Sg_vi=11.txt
 
-* MCCCDB diss X_C1Puu11 
+* MCCCDB diss X_C1Pu11 
 e + H2(v=11) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=11\MCCC-el-D2-C1Pu_DE.X1Sg_vi=11.txt
+rates/MCCC/X1Sg-excitation/vi=11/MCCC-el-D2-C1Pu_DE.X1Sg_vi=11.txt
 
-* MCCCDB diss X_c3Puu11 
+* MCCCDB diss X_c3Pu11 
 e + H2(v=11) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=11\MCCC-el-D2-c3Pu_DE.X1Sg_vi=11.txt
+rates/MCCC/X1Sg-excitation/vi=11/MCCC-el-D2-c3Pu_DE.X1Sg_vi=11.txt
 
-* MCCCDB diss X_D1Puu11 
+* MCCCDB diss X_D1Pu11 
 e + H2(v=11) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=11\MCCC-el-D2-D1Pu_DE.X1Sg_vi=11.txt
+rates/MCCC/X1Sg-excitation/vi=11/MCCC-el-D2-D1Pu_DE.X1Sg_vi=11.txt
 
-* MCCCDB diss X_d3Puu11 
+* MCCCDB diss X_d3Pu11 
 e + H2(v=11) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=11\MCCC-el-D2-d3Pu_DE.X1Sg_vi=11.txt
+rates/MCCC/X1Sg-excitation/vi=11/MCCC-el-D2-d3Pu_DE.X1Sg_vi=11.txt
 
-* MCCCDB diss X_e3Suu11 
+* MCCCDB diss X_e3Su11 
 e + H2(v=11) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=11\MCCC-el-D2-e3Su_DE.X1Sg_vi=11.txt
+rates/MCCC/X1Sg-excitation/vi=11/MCCC-el-D2-e3Su_DE.X1Sg_vi=11.txt
 
-* MCCCDB diss X_EF1Sgu11 
+* MCCCDB diss X_EF1Sg11 
 e + H2(v=11) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=11\MCCC-el-D2-EF1Sg_DE.X1Sg_vi=11.txt
+rates/MCCC/X1Sg-excitation/vi=11/MCCC-el-D2-EF1Sg_DE.X1Sg_vi=11.txt
 
-* MCCCDB diss X_g3Sgu11 
+* MCCCDB diss X_g3Sg11 
 e + H2(v=11) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=11\MCCC-el-D2-g3Sg_DE.X1Sg_vi=11.txt
+rates/MCCC/X1Sg-excitation/vi=11/MCCC-el-D2-g3Sg_DE.X1Sg_vi=11.txt
 
-* MCCCDB diss X_GK1Sgu11 
+* MCCCDB diss X_GK1Sg11 
 e + H2(v=11) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=11\MCCC-el-D2-GK1Sg_DE.X1Sg_vi=11.txt
+rates/MCCC/X1Sg-excitation/vi=11/MCCC-el-D2-GK1Sg_DE.X1Sg_vi=11.txt
 
-* MCCCDB diss X_H1Sgu11 
+* MCCCDB diss X_H1Sg11 
 e + H2(v=11) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=11\MCCC-el-D2-H1Sg_DE.X1Sg_vi=11.txt
+rates/MCCC/X1Sg-excitation/vi=11/MCCC-el-D2-H1Sg_DE.X1Sg_vi=11.txt
 
-* MCCCDB diss X_h3Sgu11 
+* MCCCDB diss X_h3Sg11 
 e + H2(v=11) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=11\MCCC-el-D2-h3Sg_DE.X1Sg_vi=11.txt
+rates/MCCC/X1Sg-excitation/vi=11/MCCC-el-D2-h3Sg_DE.X1Sg_vi=11.txt
 
-* MCCCDB diss X_I1Pgu11 
+* MCCCDB diss X_I1Pg11 
 e + H2(v=11) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=11\MCCC-el-D2-I1Pg_DE.X1Sg_vi=11.txt
+rates/MCCC/X1Sg-excitation/vi=11/MCCC-el-D2-I1Pg_DE.X1Sg_vi=11.txt
 
-* MCCCDB diss X_i3Pgu11 
+* MCCCDB diss X_i3Pg11 
 e + H2(v=11) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=11\MCCC-el-D2-i3Pg_DE.X1Sg_vi=11.txt
+rates/MCCC/X1Sg-excitation/vi=11/MCCC-el-D2-i3Pg_DE.X1Sg_vi=11.txt
 
-* MCCCDB diss X_J1Dgu11 
+* MCCCDB diss X_J1Dg11 
 e + H2(v=11) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=11\MCCC-el-D2-J1Dg_DE.X1Sg_vi=11.txt
+rates/MCCC/X1Sg-excitation/vi=11/MCCC-el-D2-J1Dg_DE.X1Sg_vi=11.txt
 
-* MCCCDB diss X_j3Dgu11 
+* MCCCDB diss X_j3Dg11 
 e + H2(v=11) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=11\MCCC-el-D2-j3Dg_DE.X1Sg_vi=11.txt
+rates/MCCC/X1Sg-excitation/vi=11/MCCC-el-D2-j3Dg_DE.X1Sg_vi=11.txt
 
-* MCCCDB diss X_a3Sgu12 
+* MCCCDB diss X_a3Sg12 
 e + H2(v=12) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=12\MCCC-el-D2-a3Sg_DE.X1Sg_vi=12.txt
+rates/MCCC/X1Sg-excitation/vi=12/MCCC-el-D2-a3Sg_DE.X1Sg_vi=12.txt
 
-* MCCCDB diss X_B1Suu12 
+* MCCCDB diss X_B1Su12 
 e + H2(v=12) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=12\MCCC-el-D2-B1Su_DE.X1Sg_vi=12.txt
+rates/MCCC/X1Sg-excitation/vi=12/MCCC-el-D2-B1Su_DE.X1Sg_vi=12.txt
 
-* MCCCDB diss X_Bp1Suu12 
+* MCCCDB diss X_Bp1Su12 
 e + H2(v=12) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=12\MCCC-el-D2-Bp1Su_DE.X1Sg_vi=12.txt
+rates/MCCC/X1Sg-excitation/vi=12/MCCC-el-D2-Bp1Su_DE.X1Sg_vi=12.txt
 
-* MCCCDB diss X_C1Puu12 
+* MCCCDB diss X_C1Pu12 
 e + H2(v=12) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=12\MCCC-el-D2-C1Pu_DE.X1Sg_vi=12.txt
+rates/MCCC/X1Sg-excitation/vi=12/MCCC-el-D2-C1Pu_DE.X1Sg_vi=12.txt
 
-* MCCCDB diss X_c3Puu12 
+* MCCCDB diss X_c3Pu12 
 e + H2(v=12) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=12\MCCC-el-D2-c3Pu_DE.X1Sg_vi=12.txt
+rates/MCCC/X1Sg-excitation/vi=12/MCCC-el-D2-c3Pu_DE.X1Sg_vi=12.txt
 
-* MCCCDB diss X_D1Puu12 
+* MCCCDB diss X_D1Pu12 
 e + H2(v=12) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=12\MCCC-el-D2-D1Pu_DE.X1Sg_vi=12.txt
+rates/MCCC/X1Sg-excitation/vi=12/MCCC-el-D2-D1Pu_DE.X1Sg_vi=12.txt
 
-* MCCCDB diss X_d3Puu12 
+* MCCCDB diss X_d3Pu12 
 e + H2(v=12) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=12\MCCC-el-D2-d3Pu_DE.X1Sg_vi=12.txt
+rates/MCCC/X1Sg-excitation/vi=12/MCCC-el-D2-d3Pu_DE.X1Sg_vi=12.txt
 
-* MCCCDB diss X_e3Suu12 
+* MCCCDB diss X_e3Su12 
 e + H2(v=12) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=12\MCCC-el-D2-e3Su_DE.X1Sg_vi=12.txt
+rates/MCCC/X1Sg-excitation/vi=12/MCCC-el-D2-e3Su_DE.X1Sg_vi=12.txt
 
-* MCCCDB diss X_EF1Sgu12 
+* MCCCDB diss X_EF1Sg12 
 e + H2(v=12) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=12\MCCC-el-D2-EF1Sg_DE.X1Sg_vi=12.txt
+rates/MCCC/X1Sg-excitation/vi=12/MCCC-el-D2-EF1Sg_DE.X1Sg_vi=12.txt
 
-* MCCCDB diss X_g3Sgu12 
+* MCCCDB diss X_g3Sg12 
 e + H2(v=12) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=12\MCCC-el-D2-g3Sg_DE.X1Sg_vi=12.txt
+rates/MCCC/X1Sg-excitation/vi=12/MCCC-el-D2-g3Sg_DE.X1Sg_vi=12.txt
 
-* MCCCDB diss X_GK1Sgu12 
+* MCCCDB diss X_GK1Sg12 
 e + H2(v=12) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=12\MCCC-el-D2-GK1Sg_DE.X1Sg_vi=12.txt
+rates/MCCC/X1Sg-excitation/vi=12/MCCC-el-D2-GK1Sg_DE.X1Sg_vi=12.txt
 
-* MCCCDB diss X_H1Sgu12 
+* MCCCDB diss X_H1Sg12 
 e + H2(v=12) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=12\MCCC-el-D2-H1Sg_DE.X1Sg_vi=12.txt
+rates/MCCC/X1Sg-excitation/vi=12/MCCC-el-D2-H1Sg_DE.X1Sg_vi=12.txt
 
-* MCCCDB diss X_h3Sgu12 
+* MCCCDB diss X_h3Sg12 
 e + H2(v=12) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=12\MCCC-el-D2-h3Sg_DE.X1Sg_vi=12.txt
+rates/MCCC/X1Sg-excitation/vi=12/MCCC-el-D2-h3Sg_DE.X1Sg_vi=12.txt
 
-* MCCCDB diss X_I1Pgu12 
+* MCCCDB diss X_I1Pg12 
 e + H2(v=12) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=12\MCCC-el-D2-I1Pg_DE.X1Sg_vi=12.txt
+rates/MCCC/X1Sg-excitation/vi=12/MCCC-el-D2-I1Pg_DE.X1Sg_vi=12.txt
 
-* MCCCDB diss X_i3Pgu12 
+* MCCCDB diss X_i3Pg12 
 e + H2(v=12) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=12\MCCC-el-D2-i3Pg_DE.X1Sg_vi=12.txt
+rates/MCCC/X1Sg-excitation/vi=12/MCCC-el-D2-i3Pg_DE.X1Sg_vi=12.txt
 
-* MCCCDB diss X_J1Dgu12 
+* MCCCDB diss X_J1Dg12 
 e + H2(v=12) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=12\MCCC-el-D2-J1Dg_DE.X1Sg_vi=12.txt
+rates/MCCC/X1Sg-excitation/vi=12/MCCC-el-D2-J1Dg_DE.X1Sg_vi=12.txt
 
-* MCCCDB diss X_j3Dgu12 
+* MCCCDB diss X_j3Dg12 
 e + H2(v=12) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=12\MCCC-el-D2-j3Dg_DE.X1Sg_vi=12.txt
+rates/MCCC/X1Sg-excitation/vi=12/MCCC-el-D2-j3Dg_DE.X1Sg_vi=12.txt
 
-* MCCCDB diss X_a3Sgu13 
+* MCCCDB diss X_a3Sg13 
 e + H2(v=13) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=13\MCCC-el-D2-a3Sg_DE.X1Sg_vi=13.txt
+rates/MCCC/X1Sg-excitation/vi=13/MCCC-el-D2-a3Sg_DE.X1Sg_vi=13.txt
 
-* MCCCDB diss X_B1Suu13 
+* MCCCDB diss X_B1Su13 
 e + H2(v=13) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=13\MCCC-el-D2-B1Su_DE.X1Sg_vi=13.txt
+rates/MCCC/X1Sg-excitation/vi=13/MCCC-el-D2-B1Su_DE.X1Sg_vi=13.txt
 
-* MCCCDB diss X_Bp1Suu13 
+* MCCCDB diss X_Bp1Su13 
 e + H2(v=13) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=13\MCCC-el-D2-Bp1Su_DE.X1Sg_vi=13.txt
+rates/MCCC/X1Sg-excitation/vi=13/MCCC-el-D2-Bp1Su_DE.X1Sg_vi=13.txt
 
-* MCCCDB diss X_C1Puu13 
+* MCCCDB diss X_C1Pu13 
 e + H2(v=13) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=13\MCCC-el-D2-C1Pu_DE.X1Sg_vi=13.txt
+rates/MCCC/X1Sg-excitation/vi=13/MCCC-el-D2-C1Pu_DE.X1Sg_vi=13.txt
 
-* MCCCDB diss X_c3Puu13 
+* MCCCDB diss X_c3Pu13 
 e + H2(v=13) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=13\MCCC-el-D2-c3Pu_DE.X1Sg_vi=13.txt
+rates/MCCC/X1Sg-excitation/vi=13/MCCC-el-D2-c3Pu_DE.X1Sg_vi=13.txt
 
-* MCCCDB diss X_D1Puu13 
+* MCCCDB diss X_D1Pu13 
 e + H2(v=13) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=13\MCCC-el-D2-D1Pu_DE.X1Sg_vi=13.txt
+rates/MCCC/X1Sg-excitation/vi=13/MCCC-el-D2-D1Pu_DE.X1Sg_vi=13.txt
 
-* MCCCDB diss X_d3Puu13 
+* MCCCDB diss X_d3Pu13 
 e + H2(v=13) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=13\MCCC-el-D2-d3Pu_DE.X1Sg_vi=13.txt
+rates/MCCC/X1Sg-excitation/vi=13/MCCC-el-D2-d3Pu_DE.X1Sg_vi=13.txt
 
-* MCCCDB diss X_e3Suu13 
+* MCCCDB diss X_e3Su13 
 e + H2(v=13) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=13\MCCC-el-D2-e3Su_DE.X1Sg_vi=13.txt
+rates/MCCC/X1Sg-excitation/vi=13/MCCC-el-D2-e3Su_DE.X1Sg_vi=13.txt
 
-* MCCCDB diss X_EF1Sgu13 
+* MCCCDB diss X_EF1Sg13 
 e + H2(v=13) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=13\MCCC-el-D2-EF1Sg_DE.X1Sg_vi=13.txt
+rates/MCCC/X1Sg-excitation/vi=13/MCCC-el-D2-EF1Sg_DE.X1Sg_vi=13.txt
 
-* MCCCDB diss X_g3Sgu13 
+* MCCCDB diss X_g3Sg13 
 e + H2(v=13) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=13\MCCC-el-D2-g3Sg_DE.X1Sg_vi=13.txt
+rates/MCCC/X1Sg-excitation/vi=13/MCCC-el-D2-g3Sg_DE.X1Sg_vi=13.txt
 
-* MCCCDB diss X_GK1Sgu13 
+* MCCCDB diss X_GK1Sg13 
 e + H2(v=13) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=13\MCCC-el-D2-GK1Sg_DE.X1Sg_vi=13.txt
+rates/MCCC/X1Sg-excitation/vi=13/MCCC-el-D2-GK1Sg_DE.X1Sg_vi=13.txt
 
-* MCCCDB diss X_H1Sgu13 
+* MCCCDB diss X_H1Sg13 
 e + H2(v=13) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=13\MCCC-el-D2-H1Sg_DE.X1Sg_vi=13.txt
+rates/MCCC/X1Sg-excitation/vi=13/MCCC-el-D2-H1Sg_DE.X1Sg_vi=13.txt
 
-* MCCCDB diss X_h3Sgu13 
+* MCCCDB diss X_h3Sg13 
 e + H2(v=13) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=13\MCCC-el-D2-h3Sg_DE.X1Sg_vi=13.txt
+rates/MCCC/X1Sg-excitation/vi=13/MCCC-el-D2-h3Sg_DE.X1Sg_vi=13.txt
 
-* MCCCDB diss X_I1Pgu13 
+* MCCCDB diss X_I1Pg13 
 e + H2(v=13) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=13\MCCC-el-D2-I1Pg_DE.X1Sg_vi=13.txt
+rates/MCCC/X1Sg-excitation/vi=13/MCCC-el-D2-I1Pg_DE.X1Sg_vi=13.txt
 
-* MCCCDB diss X_i3Pgu13 
+* MCCCDB diss X_i3Pg13 
 e + H2(v=13) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=13\MCCC-el-D2-i3Pg_DE.X1Sg_vi=13.txt
+rates/MCCC/X1Sg-excitation/vi=13/MCCC-el-D2-i3Pg_DE.X1Sg_vi=13.txt
 
-* MCCCDB diss X_J1Dgu13 
+* MCCCDB diss X_J1Dg13 
 e + H2(v=13) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=13\MCCC-el-D2-J1Dg_DE.X1Sg_vi=13.txt
+rates/MCCC/X1Sg-excitation/vi=13/MCCC-el-D2-J1Dg_DE.X1Sg_vi=13.txt
 
-* MCCCDB diss X_j3Dgu13 
+* MCCCDB diss X_j3Dg13 
 e + H2(v=13) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=13\MCCC-el-D2-j3Dg_DE.X1Sg_vi=13.txt
+rates/MCCC/X1Sg-excitation/vi=13/MCCC-el-D2-j3Dg_DE.X1Sg_vi=13.txt
 
-* MCCCDB diss X_a3Sgu14 
+* MCCCDB diss X_a3Sg14 
 e + H2(v=14) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=14\MCCC-el-D2-a3Sg_DE.X1Sg_vi=14.txt
+rates/MCCC/X1Sg-excitation/vi=14/MCCC-el-D2-a3Sg_DE.X1Sg_vi=14.txt
 
-* MCCCDB diss X_B1Suu14 
+* MCCCDB diss X_B1Su14 
 e + H2(v=14) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=14\MCCC-el-D2-B1Su_DE.X1Sg_vi=14.txt
+rates/MCCC/X1Sg-excitation/vi=14/MCCC-el-D2-B1Su_DE.X1Sg_vi=14.txt
 
-* MCCCDB diss X_Bp1Suu14 
+* MCCCDB diss X_Bp1Su14 
 e + H2(v=14) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=14\MCCC-el-D2-Bp1Su_DE.X1Sg_vi=14.txt
+rates/MCCC/X1Sg-excitation/vi=14/MCCC-el-D2-Bp1Su_DE.X1Sg_vi=14.txt
 
-* MCCCDB diss X_C1Puu14 
+* MCCCDB diss X_C1Pu14 
 e + H2(v=14) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=14\MCCC-el-D2-C1Pu_DE.X1Sg_vi=14.txt
+rates/MCCC/X1Sg-excitation/vi=14/MCCC-el-D2-C1Pu_DE.X1Sg_vi=14.txt
 
-* MCCCDB diss X_c3Puu14 
+* MCCCDB diss X_c3Pu14 
 e + H2(v=14) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=14\MCCC-el-D2-c3Pu_DE.X1Sg_vi=14.txt
+rates/MCCC/X1Sg-excitation/vi=14/MCCC-el-D2-c3Pu_DE.X1Sg_vi=14.txt
 
-* MCCCDB diss X_D1Puu14 
+* MCCCDB diss X_D1Pu14 
 e + H2(v=14) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=14\MCCC-el-D2-D1Pu_DE.X1Sg_vi=14.txt
+rates/MCCC/X1Sg-excitation/vi=14/MCCC-el-D2-D1Pu_DE.X1Sg_vi=14.txt
 
-* MCCCDB diss X_d3Puu14 
+* MCCCDB diss X_d3Pu14 
 e + H2(v=14) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=14\MCCC-el-D2-d3Pu_DE.X1Sg_vi=14.txt
+rates/MCCC/X1Sg-excitation/vi=14/MCCC-el-D2-d3Pu_DE.X1Sg_vi=14.txt
 
-* MCCCDB diss X_e3Suu14 
+* MCCCDB diss X_e3Su14 
 e + H2(v=14) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=14\MCCC-el-D2-e3Su_DE.X1Sg_vi=14.txt
+rates/MCCC/X1Sg-excitation/vi=14/MCCC-el-D2-e3Su_DE.X1Sg_vi=14.txt
 
-* MCCCDB diss X_EF1Sgu14 
+* MCCCDB diss X_EF1Sg14 
 e + H2(v=14) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=14\MCCC-el-D2-EF1Sg_DE.X1Sg_vi=14.txt
+rates/MCCC/X1Sg-excitation/vi=14/MCCC-el-D2-EF1Sg_DE.X1Sg_vi=14.txt
 
-* MCCCDB diss X_g3Sgu14 
+* MCCCDB diss X_g3Sg14 
 e + H2(v=14) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=14\MCCC-el-D2-g3Sg_DE.X1Sg_vi=14.txt
+rates/MCCC/X1Sg-excitation/vi=14/MCCC-el-D2-g3Sg_DE.X1Sg_vi=14.txt
 
-* MCCCDB diss X_GK1Sgu14 
+* MCCCDB diss X_GK1Sg14 
 e + H2(v=14) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=14\MCCC-el-D2-GK1Sg_DE.X1Sg_vi=14.txt
+rates/MCCC/X1Sg-excitation/vi=14/MCCC-el-D2-GK1Sg_DE.X1Sg_vi=14.txt
 
-* MCCCDB diss X_H1Sgu14 
+* MCCCDB diss X_H1Sg14 
 e + H2(v=14) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=14\MCCC-el-D2-H1Sg_DE.X1Sg_vi=14.txt
+rates/MCCC/X1Sg-excitation/vi=14/MCCC-el-D2-H1Sg_DE.X1Sg_vi=14.txt
 
-* MCCCDB diss X_h3Sgu14 
+* MCCCDB diss X_h3Sg14 
 e + H2(v=14) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=14\MCCC-el-D2-h3Sg_DE.X1Sg_vi=14.txt
+rates/MCCC/X1Sg-excitation/vi=14/MCCC-el-D2-h3Sg_DE.X1Sg_vi=14.txt
 
-* MCCCDB diss X_I1Pgu14 
+* MCCCDB diss X_I1Pg14 
 e + H2(v=14) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=14\MCCC-el-D2-I1Pg_DE.X1Sg_vi=14.txt
+rates/MCCC/X1Sg-excitation/vi=14/MCCC-el-D2-I1Pg_DE.X1Sg_vi=14.txt
 
-* MCCCDB diss X_i3Pgu14 
+* MCCCDB diss X_i3Pg14 
 e + H2(v=14) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=14\MCCC-el-D2-i3Pg_DE.X1Sg_vi=14.txt
+rates/MCCC/X1Sg-excitation/vi=14/MCCC-el-D2-i3Pg_DE.X1Sg_vi=14.txt
 
-* MCCCDB diss X_J1Dgu14 
+* MCCCDB diss X_J1Dg14 
 e + H2(v=14) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=14\MCCC-el-D2-J1Dg_DE.X1Sg_vi=14.txt
+rates/MCCC/X1Sg-excitation/vi=14/MCCC-el-D2-J1Dg_DE.X1Sg_vi=14.txt
 
-* MCCCDB diss X_j3Dgu14 
+* MCCCDB diss X_j3Dg14 
 e + H2(v=14) > e + 2*H(n=1)
-rates\MCCC\X1Sg-excitation\vi=14\MCCC-el-D2-j3Dg_DE.X1Sg_vi=14.txt
+rates/MCCC/X1Sg-excitation/vi=14/MCCC-el-D2-j3Dg_DE.X1Sg_vi=14.txt
 
 
 
 ** RATES
 # Define the files for the standard inputs
 H2VIBR  rates/h2vibr.tex
-HYDHEL rates/hydhel.tex
+HYDHEL rates/HYDHEL.tex
 
 ** SETTINGS
 # Define the most central parameters to the simulations

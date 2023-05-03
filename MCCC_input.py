@@ -1,5 +1,5 @@
 import numpy as np
-import tifffile
+
 
 def insert_string(file_name, file_name_new, string, line_num, overwrite=False):
     
@@ -25,7 +25,7 @@ def rea_X1_B1Su(arr):
     for i in range(15):
         t +=f'* MCCCDB B {i} \n'+\
             f'e + H2(v={i}) > e + H2(n=B)\n'+\
-            f'rates\MCCC\X1Sg-excitation\\vi={i}\MCCC-el-D2-B1Su_bound.X1Sg_vi={i}.txt\n\n'+\
+            f'rates/MCCC/X1Sg-excitation/vi={i}/MCCC-el-D2-B1Su_bound.X1Sg_vi={i}.txt\n\n'+\
             f'* USER COEFFICIENT B_X{i}\n'+\
             f'H2(n=B) > H2(v={i})\n'+\
             f'{arr[i]}\n\n'
@@ -36,7 +36,7 @@ def rea_X1_C1Pu(arr):
     for i in range(15):
         t +=f'* MCCCDB C {i} \n'+\
             f'e + H2(v={i}) > e + H2(n=C)\n'+\
-            f'rates\MCCC\X1Sg-excitation\\vi={i}\MCCC-el-D2-C1Pu_bound.X1Sg_vi={i}.txt\n\n'+\
+            f'rates/MCCC/X1Sg-excitation/vi={i}/MCCC-el-D2-C1Pu_bound.X1Sg_vi={i}.txt\n\n'+\
             f'* USER COEFFICIENT C_X{i}\n'+\
             f'H2(n=C) > H2(v={i})\n'+\
             f'{arr[i]}\n\n'
@@ -47,7 +47,7 @@ def rea_X1_ion():
     for i in range(15):
         t +=f'* MCCCDB ion {i} \n'+\
             f'e + H2(v={i}) > 2*e + H2+\n'+\
-            f'rates\MCCC\X1Sg-ionization\\vi={i}\MCCC-el-D2-TICS.X1Sg_vi={i}.txt\n\n'
+            f'rates/MCCC/X1Sg-ionization/vi={i}/MCCC-el-D2-TICS.X1Sg_vi={i}.txt\n\n'
     return t
 
 def rea_X1_diss():
@@ -57,9 +57,13 @@ def rea_X1_diss():
         for j in states:
             t +=f'* MCCCDB diss X_'+j+f'{i} \n'+\
                 f'e + H2(v={i}) > e + 2*H(n=1)\n'+\
+<<<<<<< HEAD
                 f'rates\MCCC\X1Sg-excitation\\vi={i}\MCCC-el-D2-'+j+f'_DE.X1Sg_vi={i}.txt\n\n'
 
     
+=======
+                f'rates/MCCC/X1Sg-excitation/vi={i}/MCCC-el-D2-'+j+f'_DE.X1Sg_vi={i}.txt\n\n'
+>>>>>>> 311966925ae993110b8676b62963bd7ba9081315
     return t
 
 
@@ -94,7 +98,7 @@ def gen_input(new_file_name, B_X = True, C_X = True, ion = True, diss = True):
 
     # Excitation and emission from B1Su to ground
     if B_X:
-        B_X_rate = FC_factors('Table 2 Franck-Condon Factors\D2_B1-X1_FCF.dat', 7.7771e+08)
+        B_X_rate = FC_factors('Table 2 Franck-Condon Factors/D2_B1-X1_FCF.dat', 7.7771e+08)
         string += rea_X1_B1Su(B_X_rate)
 
         H2B = '* H2(n=B)\n'+\
@@ -102,7 +106,7 @@ def gen_input(new_file_name, B_X = True, C_X = True, ion = True, diss = True):
         
     # Excitation and emission from C1Pu to ground
     if C_X: 
-        C_X_rate = FC_factors('Table 2 Franck-Condon Factors\D2_C1-X1_FCF.dat', 1.0532e+09)
+        C_X_rate = FC_factors('Table 2 Franck-Condon Factors/D2_C1-X1_FCF.dat', 1.0532e+09)
         string += rea_X1_C1Pu(C_X_rate)
 
         H2C = '* H2(n=C)\n'+\
