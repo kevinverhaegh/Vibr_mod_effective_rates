@@ -58,6 +58,8 @@ def rea_X1_diss():
             t +=f'* MCCCDB diss X_'+j+f'{i} \n'+\
                 f'e + H2(v={i}) > e + 2*H(n=1)\n'+\
                 f'rates\MCCC\X1Sg-excitation\\vi={i}\MCCC-el-D2-'+j+f'_DE.X1Sg_vi={i}.txt\n\n'
+
+    
     return t
 
 
