@@ -1,24 +1,5 @@
 import numpy as np
 
-def insert_string(file_name, file_name_new, string, line_num, overwrite=False):
-    
-    # Copy file into new file
-    if not overwrite: 
-        import shutil
-        shutil.copyfile(file_name, file_name_new)
-    else: 
-        file_name_new = file_name
-
-    # Create lines variable with all the line numbers of the file
-    with open(file_name_new,'r') as f:
-        lines = f.readlines()
-    
-    with open(file_name_new, 'r+') as f: 
-        for i, line in enumerate(lines):
-            if i == line_num:
-                f.write(string + '\n')
-            f.write(line)
-
 def rea_X1_B1Su(arr):
     t = ''
     for i in range(15):
@@ -105,7 +86,7 @@ def FC_factors(file_name, nu_eff):
         for j in range(np.shape(arr)[1]):
             table[i,j] = float(arr[i,j])
 
-    coeffs = nu_eff*np.sum(table, axis = 1)/15
+    coeffs = nu_eff*np.sum(table, axis = 1)/15 #??? Sum or average??? 
 
     return coeffs
     

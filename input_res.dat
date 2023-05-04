@@ -1,0 +1,1896 @@
+# This is an input file for the UEDGE Python CRM
+# Created from scratch by Stijn Kobussen
+# May 2023
+
+** SPECIES
+* H(n=1)
+    V 2.375
+* H2+
+    V 15.56
+* H2(n=X1,v=0)
+   V 0.19652
+* H2(n=X1,v=1)
+   V 0.56765
+* H2(n=X1,v=2)
+   V 0.92411
+* H2(n=X1,v=3)
+   V 1.2662
+* H2(n=X1,v=4)
+   V 1.59408
+* H2(n=X1,v=5)
+   V 1.9078
+* H2(n=X1,v=6)
+   V 2.20734
+* H2(n=X1,v=7)
+   V 2.49267
+* H2(n=X1,v=8)
+   V 2.76373
+* H2(n=X1,v=9)
+   V 3.02042
+* H2(n=X1,v=10)
+   V 3.26256
+* H2(n=X1,v=11)
+   V 3.48988
+* H2(n=X1,v=12)
+   V 3.70193
+* H2(n=X1,v=13)
+   V 3.8981
+* H2(n=X1,v=14)
+   V 4.07762
+* H2(n=B1,v=0)
+   V 11.4287
+* H2(n=B1,v=1)
+   V 11.54571
+* H2(n=B1,v=2)
+   V 11.6603
+* H2(n=B1,v=3)
+   V 11.77259
+* H2(n=B1,v=4)
+   V 11.88269
+* H2(n=B1,v=5)
+   V 11.99067
+* H2(n=B1,v=6)
+   V 12.09655
+* H2(n=B1,v=7)
+   V 12.20037
+* H2(n=B1,v=8)
+   V 12.30215
+* H2(n=B1,v=9)
+   V 12.40192
+* H2(n=B1,v=10)
+   V 12.49971
+* H2(n=B1,v=11)
+   V 12.59552
+* H2(n=B1,v=12)
+   V 12.68939
+* H2(n=B1,v=13)
+   V 12.78133
+* H2(n=B1,v=14)
+   V 12.87136
+
+
+** BACKGROUND
+* e
+    V 0
+* p
+    V 15.975
+
+
+** REACTIONS
+
+* H2VIBR H.2 2.$v&
+e + H2(v=$) > e + H2(v=&)
+
+* MCCCDB B 0to0 
+e + H2(n=X1,v=0) > e + H2(n=B1,v=0)
+rates/MCCC/X1Sg-excitation/vi=0/MCCC-el-D2-B1Su_vf=0.X1Sg_vi=0.txt
+
+* USER COEFFICIENT B1_X1_0to0
+H2(n=B1,v=0) > H2(n=X1,v=0)
+403522.6106
+
+* MCCCDB B 0to1 
+e + H2(n=X1,v=0) > e + H2(n=B1,v=0)
+rates/MCCC/X1Sg-excitation/vi=0/MCCC-el-D2-B1Su_vf=1.X1Sg_vi=0.txt
+
+* USER COEFFICIENT B1_X1_1to0
+H2(n=B1,v=1) > H2(n=X1,v=0)
+3886139.0990000004
+
+* MCCCDB B 0to2 
+e + H2(n=X1,v=0) > e + H2(n=B1,v=0)
+rates/MCCC/X1Sg-excitation/vi=0/MCCC-el-D2-B1Su_vf=2.X1Sg_vi=0.txt
+
+* USER COEFFICIENT B1_X1_2to0
+H2(n=B1,v=2) > H2(n=X1,v=0)
+17563024.93
+
+* MCCCDB B 0to3 
+e + H2(n=X1,v=0) > e + H2(n=B1,v=0)
+rates/MCCC/X1Sg-excitation/vi=0/MCCC-el-D2-B1Su_vf=3.X1Sg_vi=0.txt
+
+* USER COEFFICIENT B1_X1_3to0
+H2(n=B1,v=3) > H2(n=X1,v=0)
+49607787.769999996
+
+* MCCCDB B 0to4 
+e + H2(n=X1,v=0) > e + H2(n=B1,v=0)
+rates/MCCC/X1Sg-excitation/vi=0/MCCC-el-D2-B1Su_vf=4.X1Sg_vi=0.txt
+
+* USER COEFFICIENT B1_X1_4to0
+H2(n=B1,v=4) > H2(n=X1,v=0)
+98007014.19999999
+
+* MCCCDB B 0to5 
+e + H2(n=X1,v=0) > e + H2(n=B1,v=0)
+rates/MCCC/X1Sg-excitation/vi=0/MCCC-el-D2-B1Su_vf=5.X1Sg_vi=0.txt
+
+* USER COEFFICIENT B1_X1_5to0
+H2(n=B1,v=5) > H2(n=X1,v=0)
+143479717.89999998
+
+* MCCCDB B 0to6 
+e + H2(n=X1,v=0) > e + H2(n=B1,v=0)
+rates/MCCC/X1Sg-excitation/vi=0/MCCC-el-D2-B1Su_vf=6.X1Sg_vi=0.txt
+
+* USER COEFFICIENT B1_X1_6to0
+H2(n=B1,v=6) > H2(n=X1,v=0)
+160433795.9
+
+* MCCCDB B 0to7 
+e + H2(n=X1,v=0) > e + H2(n=B1,v=0)
+rates/MCCC/X1Sg-excitation/vi=0/MCCC-el-D2-B1Su_vf=7.X1Sg_vi=0.txt
+
+* USER COEFFICIENT B1_X1_7to0
+H2(n=B1,v=7) > H2(n=X1,v=0)
+138906783.1
+
+* MCCCDB B 0to8 
+e + H2(n=X1,v=0) > e + H2(n=B1,v=0)
+rates/MCCC/X1Sg-excitation/vi=0/MCCC-el-D2-B1Su_vf=8.X1Sg_vi=0.txt
+
+* USER COEFFICIENT B1_X1_8to0
+H2(n=B1,v=8) > H2(n=X1,v=0)
+93208543.5
+
+* MCCCDB B 0to9 
+e + H2(n=X1,v=0) > e + H2(n=B1,v=0)
+rates/MCCC/X1Sg-excitation/vi=0/MCCC-el-D2-B1Su_vf=9.X1Sg_vi=0.txt
+
+* USER COEFFICIENT B1_X1_9to0
+H2(n=B1,v=9) > H2(n=X1,v=0)
+47896825.77
+
+* MCCCDB B 0to10 
+e + H2(n=X1,v=0) > e + H2(n=B1,v=0)
+rates/MCCC/X1Sg-excitation/vi=0/MCCC-el-D2-B1Su_vf=10.X1Sg_vi=0.txt
+
+* USER COEFFICIENT B1_X1_10to0
+H2(n=B1,v=10) > H2(n=X1,v=0)
+18330624.7
+
+* MCCCDB B 0to11 
+e + H2(n=X1,v=0) > e + H2(n=B1,v=0)
+rates/MCCC/X1Sg-excitation/vi=0/MCCC-el-D2-B1Su_vf=11.X1Sg_vi=0.txt
+
+* USER COEFFICIENT B1_X1_11to0
+H2(n=B1,v=11) > H2(n=X1,v=0)
+4952379.509000001
+
+* MCCCDB B 0to12 
+e + H2(n=X1,v=0) > e + H2(n=B1,v=0)
+rates/MCCC/X1Sg-excitation/vi=0/MCCC-el-D2-B1Su_vf=12.X1Sg_vi=0.txt
+
+* USER COEFFICIENT B1_X1_12to0
+H2(n=B1,v=12) > H2(n=X1,v=0)
+852292.389
+
+* MCCCDB B 0to13 
+e + H2(n=X1,v=0) > e + H2(n=B1,v=0)
+rates/MCCC/X1Sg-excitation/vi=0/MCCC-el-D2-B1Su_vf=13.X1Sg_vi=0.txt
+
+* USER COEFFICIENT B1_X1_13to0
+H2(n=B1,v=13) > H2(n=X1,v=0)
+74545.05892
+
+* MCCCDB B 0to14 
+e + H2(n=X1,v=0) > e + H2(n=B1,v=0)
+rates/MCCC/X1Sg-excitation/vi=0/MCCC-el-D2-B1Su_vf=14.X1Sg_vi=0.txt
+
+* USER COEFFICIENT B1_X1_14to0
+H2(n=B1,v=14) > H2(n=X1,v=0)
+1525.944791
+
+* MCCCDB B 1to0 
+e + H2(n=X1,v=1) > e + H2(n=B1,v=1)
+rates/MCCC/X1Sg-excitation/vi=1/MCCC-el-D2-B1Su_vf=0.X1Sg_vi=1.txt
+
+* USER COEFFICIENT B1_X1_0to1
+H2(n=B1,v=0) > H2(n=X1,v=1)
+1965739.796
+
+* MCCCDB B 1to1 
+e + H2(n=X1,v=1) > e + H2(n=B1,v=1)
+rates/MCCC/X1Sg-excitation/vi=1/MCCC-el-D2-B1Su_vf=1.X1Sg_vi=1.txt
+
+* USER COEFFICIENT B1_X1_1to1
+H2(n=B1,v=1) > H2(n=X1,v=1)
+14806042.979999999
+
+* MCCCDB B 1to2 
+e + H2(n=X1,v=1) > e + H2(n=B1,v=1)
+rates/MCCC/X1Sg-excitation/vi=1/MCCC-el-D2-B1Su_vf=2.X1Sg_vi=1.txt
+
+* USER COEFFICIENT B1_X1_2to1
+H2(n=B1,v=2) > H2(n=X1,v=1)
+48750751.35
+
+* MCCCDB B 1to3 
+e + H2(n=X1,v=1) > e + H2(n=B1,v=1)
+rates/MCCC/X1Sg-excitation/vi=1/MCCC-el-D2-B1Su_vf=3.X1Sg_vi=1.txt
+
+* USER COEFFICIENT B1_X1_3to1
+H2(n=B1,v=3) > H2(n=X1,v=1)
+89755511.1
+
+* MCCCDB B 1to4 
+e + H2(n=X1,v=1) > e + H2(n=B1,v=1)
+rates/MCCC/X1Sg-excitation/vi=1/MCCC-el-D2-B1Su_vf=4.X1Sg_vi=1.txt
+
+* USER COEFFICIENT B1_X1_4to1
+H2(n=B1,v=4) > H2(n=X1,v=1)
+95160595.6
+
+* MCCCDB B 1to5 
+e + H2(n=X1,v=1) > e + H2(n=B1,v=1)
+rates/MCCC/X1Sg-excitation/vi=1/MCCC-el-D2-B1Su_vf=5.X1Sg_vi=1.txt
+
+* USER COEFFICIENT B1_X1_5to1
+H2(n=B1,v=5) > H2(n=X1,v=1)
+48242906.72
+
+* MCCCDB B 1to6 
+e + H2(n=X1,v=1) > e + H2(n=B1,v=1)
+rates/MCCC/X1Sg-excitation/vi=1/MCCC-el-D2-B1Su_vf=6.X1Sg_vi=1.txt
+
+* USER COEFFICIENT B1_X1_6to1
+H2(n=B1,v=6) > H2(n=X1,v=1)
+2327297.175
+
+* MCCCDB B 1to7 
+e + H2(n=X1,v=1) > e + H2(n=B1,v=1)
+rates/MCCC/X1Sg-excitation/vi=1/MCCC-el-D2-B1Su_vf=7.X1Sg_vi=1.txt
+
+* USER COEFFICIENT B1_X1_7to1
+H2(n=B1,v=7) > H2(n=X1,v=1)
+22713020.549999997
+
+* MCCCDB B 1to8 
+e + H2(n=X1,v=1) > e + H2(n=B1,v=1)
+rates/MCCC/X1Sg-excitation/vi=1/MCCC-el-D2-B1Su_vf=8.X1Sg_vi=1.txt
+
+* USER COEFFICIENT B1_X1_8to1
+H2(n=B1,v=8) > H2(n=X1,v=1)
+95246143.7
+
+* MCCCDB B 1to9 
+e + H2(n=X1,v=1) > e + H2(n=B1,v=1)
+rates/MCCC/X1Sg-excitation/vi=1/MCCC-el-D2-B1Su_vf=9.X1Sg_vi=1.txt
+
+* USER COEFFICIENT B1_X1_9to1
+H2(n=B1,v=9) > H2(n=X1,v=1)
+142367592.6
+
+* MCCCDB B 1to10 
+e + H2(n=X1,v=1) > e + H2(n=B1,v=1)
+rates/MCCC/X1Sg-excitation/vi=1/MCCC-el-D2-B1Su_vf=10.X1Sg_vi=1.txt
+
+* USER COEFFICIENT B1_X1_10to1
+H2(n=B1,v=10) > H2(n=X1,v=1)
+122512656.3
+
+* MCCCDB B 1to11 
+e + H2(n=X1,v=1) > e + H2(n=B1,v=1)
+rates/MCCC/X1Sg-excitation/vi=1/MCCC-el-D2-B1Su_vf=11.X1Sg_vi=1.txt
+
+* USER COEFFICIENT B1_X1_11to1
+H2(n=B1,v=11) > H2(n=X1,v=1)
+66754737.849999994
+
+* MCCCDB B 1to12 
+e + H2(n=X1,v=1) > e + H2(n=B1,v=1)
+rates/MCCC/X1Sg-excitation/vi=1/MCCC-el-D2-B1Su_vf=12.X1Sg_vi=1.txt
+
+* USER COEFFICIENT B1_X1_12to1
+H2(n=B1,v=12) > H2(n=X1,v=1)
+22631361.0
+
+* MCCCDB B 1to13 
+e + H2(n=X1,v=1) > e + H2(n=B1,v=1)
+rates/MCCC/X1Sg-excitation/vi=1/MCCC-el-D2-B1Su_vf=13.X1Sg_vi=1.txt
+
+* USER COEFFICIENT B1_X1_13to1
+H2(n=B1,v=13) > H2(n=X1,v=1)
+4242641.363
+
+* MCCCDB B 1to14 
+e + H2(n=X1,v=1) > e + H2(n=B1,v=1)
+rates/MCCC/X1Sg-excitation/vi=1/MCCC-el-D2-B1Su_vf=14.X1Sg_vi=1.txt
+
+* USER COEFFICIENT B1_X1_14to1
+H2(n=B1,v=14) > H2(n=X1,v=1)
+310446.2778
+
+* MCCCDB B 2to0 
+e + H2(n=X1,v=2) > e + H2(n=B1,v=2)
+rates/MCCC/X1Sg-excitation/vi=2/MCCC-el-D2-B1Su_vf=0.X1Sg_vi=2.txt
+
+* USER COEFFICIENT B1_X1_0to2
+H2(n=B1,v=0) > H2(n=X1,v=2)
+5361532.74
+
+* MCCCDB B 2to1 
+e + H2(n=X1,v=2) > e + H2(n=B1,v=2)
+rates/MCCC/X1Sg-excitation/vi=2/MCCC-el-D2-B1Su_vf=1.X1Sg_vi=2.txt
+
+* USER COEFFICIENT B1_X1_1to2
+H2(n=B1,v=1) > H2(n=X1,v=2)
+31199392.07
+
+* MCCCDB B 2to2 
+e + H2(n=X1,v=2) > e + H2(n=B1,v=2)
+rates/MCCC/X1Sg-excitation/vi=2/MCCC-el-D2-B1Su_vf=2.X1Sg_vi=2.txt
+
+* USER COEFFICIENT B1_X1_2to2
+H2(n=B1,v=2) > H2(n=X1,v=2)
+71977838.21
+
+* MCCCDB B 2to3 
+e + H2(n=X1,v=2) > e + H2(n=B1,v=2)
+rates/MCCC/X1Sg-excitation/vi=2/MCCC-el-D2-B1Su_vf=3.X1Sg_vi=2.txt
+
+* USER COEFFICIENT B1_X1_3to2
+H2(n=B1,v=3) > H2(n=X1,v=2)
+76535996.52
+
+* MCCCDB B 2to4 
+e + H2(n=X1,v=2) > e + H2(n=B1,v=2)
+rates/MCCC/X1Sg-excitation/vi=2/MCCC-el-D2-B1Su_vf=4.X1Sg_vi=2.txt
+
+* USER COEFFICIENT B1_X1_4to2
+H2(n=B1,v=4) > H2(n=X1,v=2)
+26593793.450000003
+
+* MCCCDB B 2to5 
+e + H2(n=X1,v=2) > e + H2(n=B1,v=2)
+rates/MCCC/X1Sg-excitation/vi=2/MCCC-el-D2-B1Su_vf=5.X1Sg_vi=2.txt
+
+* USER COEFFICIENT B1_X1_5to2
+H2(n=B1,v=5) > H2(n=X1,v=2)
+1288043.3020000001
+
+* MCCCDB B 2to6 
+e + H2(n=X1,v=2) > e + H2(n=B1,v=2)
+rates/MCCC/X1Sg-excitation/vi=2/MCCC-el-D2-B1Su_vf=6.X1Sg_vi=2.txt
+
+* USER COEFFICIENT B1_X1_6to2
+H2(n=B1,v=6) > H2(n=X1,v=2)
+47141669.36
+
+* MCCCDB B 2to7 
+e + H2(n=X1,v=2) > e + H2(n=B1,v=2)
+rates/MCCC/X1Sg-excitation/vi=2/MCCC-el-D2-B1Su_vf=7.X1Sg_vi=2.txt
+
+* USER COEFFICIENT B1_X1_7to2
+H2(n=B1,v=7) > H2(n=X1,v=2)
+74237863.47
+
+* MCCCDB B 2to8 
+e + H2(n=X1,v=2) > e + H2(n=B1,v=2)
+rates/MCCC/X1Sg-excitation/vi=2/MCCC-el-D2-B1Su_vf=8.X1Sg_vi=2.txt
+
+* USER COEFFICIENT B1_X1_8to2
+H2(n=B1,v=8) > H2(n=X1,v=2)
+25949849.57
+
+* MCCCDB B 2to9 
+e + H2(n=X1,v=2) > e + H2(n=B1,v=2)
+rates/MCCC/X1Sg-excitation/vi=2/MCCC-el-D2-B1Su_vf=9.X1Sg_vi=2.txt
+
+* USER COEFFICIENT B1_X1_9to2
+H2(n=B1,v=9) > H2(n=X1,v=2)
+3738063.115
+
+* MCCCDB B 2to10 
+e + H2(n=X1,v=2) > e + H2(n=B1,v=2)
+rates/MCCC/X1Sg-excitation/vi=2/MCCC-el-D2-B1Su_vf=10.X1Sg_vi=2.txt
+
+* USER COEFFICIENT B1_X1_10to2
+H2(n=B1,v=10) > H2(n=X1,v=2)
+76952071.36999999
+
+* MCCCDB B 2to11 
+e + H2(n=X1,v=2) > e + H2(n=B1,v=2)
+rates/MCCC/X1Sg-excitation/vi=2/MCCC-el-D2-B1Su_vf=11.X1Sg_vi=2.txt
+
+* USER COEFFICIENT B1_X1_11to2
+H2(n=B1,v=11) > H2(n=X1,v=2)
+148005990.1
+
+* MCCCDB B 2to12 
+e + H2(n=X1,v=2) > e + H2(n=B1,v=2)
+rates/MCCC/X1Sg-excitation/vi=2/MCCC-el-D2-B1Su_vf=12.X1Sg_vi=2.txt
+
+* USER COEFFICIENT B1_X1_12to2
+H2(n=B1,v=12) > H2(n=X1,v=2)
+124635804.60000001
+
+* MCCCDB B 2to13 
+e + H2(n=X1,v=2) > e + H2(n=B1,v=2)
+rates/MCCC/X1Sg-excitation/vi=2/MCCC-el-D2-B1Su_vf=13.X1Sg_vi=2.txt
+
+* USER COEFFICIENT B1_X1_13to2
+H2(n=B1,v=13) > H2(n=X1,v=2)
+53424788.45
+
+* MCCCDB B 2to14 
+e + H2(n=X1,v=2) > e + H2(n=B1,v=2)
+rates/MCCC/X1Sg-excitation/vi=2/MCCC-el-D2-B1Su_vf=14.X1Sg_vi=2.txt
+
+* USER COEFFICIENT B1_X1_14to2
+H2(n=B1,v=14) > H2(n=X1,v=2)
+10297658.11
+
+* MCCCDB B 3to0 
+e + H2(n=X1,v=3) > e + H2(n=B1,v=3)
+rates/MCCC/X1Sg-excitation/vi=3/MCCC-el-D2-B1Su_vf=0.X1Sg_vi=3.txt
+
+* USER COEFFICIENT B1_X1_0to3
+H2(n=B1,v=0) > H2(n=X1,v=3)
+10795392.51
+
+* MCCCDB B 3to1 
+e + H2(n=X1,v=3) > e + H2(n=B1,v=3)
+rates/MCCC/X1Sg-excitation/vi=3/MCCC-el-D2-B1Su_vf=1.X1Sg_vi=3.txt
+
+* USER COEFFICIENT B1_X1_1to3
+H2(n=B1,v=1) > H2(n=X1,v=3)
+47795723.47
+
+* MCCCDB B 3to2 
+e + H2(n=X1,v=3) > e + H2(n=B1,v=3)
+rates/MCCC/X1Sg-excitation/vi=3/MCCC-el-D2-B1Su_vf=2.X1Sg_vi=3.txt
+
+* USER COEFFICIENT B1_X1_2to3
+H2(n=B1,v=2) > H2(n=X1,v=3)
+72854317.38
+
+* MCCCDB B 3to3 
+e + H2(n=X1,v=3) > e + H2(n=B1,v=3)
+rates/MCCC/X1Sg-excitation/vi=3/MCCC-el-D2-B1Su_vf=3.X1Sg_vi=3.txt
+
+* USER COEFFICIENT B1_X1_3to3
+H2(n=B1,v=3) > H2(n=X1,v=3)
+34176465.949999996
+
+* MCCCDB B 3to4 
+e + H2(n=X1,v=3) > e + H2(n=B1,v=3)
+rates/MCCC/X1Sg-excitation/vi=3/MCCC-el-D2-B1Su_vf=4.X1Sg_vi=3.txt
+
+* USER COEFFICIENT B1_X1_4to3
+H2(n=B1,v=4) > H2(n=X1,v=3)
+190725.6004
+
+* MCCCDB B 3to5 
+e + H2(n=X1,v=3) > e + H2(n=B1,v=3)
+rates/MCCC/X1Sg-excitation/vi=3/MCCC-el-D2-B1Su_vf=5.X1Sg_vi=3.txt
+
+* USER COEFFICIENT B1_X1_5to3
+H2(n=B1,v=5) > H2(n=X1,v=3)
+39622769.08
+
+* MCCCDB B 3to6 
+e + H2(n=X1,v=3) > e + H2(n=B1,v=3)
+rates/MCCC/X1Sg-excitation/vi=3/MCCC-el-D2-B1Su_vf=6.X1Sg_vi=3.txt
+
+* USER COEFFICIENT B1_X1_6to3
+H2(n=B1,v=6) > H2(n=X1,v=3)
+52986160.01
+
+* MCCCDB B 3to7 
+e + H2(n=X1,v=3) > e + H2(n=B1,v=3)
+rates/MCCC/X1Sg-excitation/vi=3/MCCC-el-D2-B1Su_vf=7.X1Sg_vi=3.txt
+
+* USER COEFFICIENT B1_X1_7to3
+H2(n=B1,v=7) > H2(n=X1,v=3)
+5476556.049000001
+
+* MCCCDB B 3to8 
+e + H2(n=X1,v=3) > e + H2(n=B1,v=3)
+rates/MCCC/X1Sg-excitation/vi=3/MCCC-el-D2-B1Su_vf=8.X1Sg_vi=3.txt
+
+* USER COEFFICIENT B1_X1_8to3
+H2(n=B1,v=8) > H2(n=X1,v=3)
+23325078.32
+
+* MCCCDB B 3to9 
+e + H2(n=X1,v=3) > e + H2(n=B1,v=3)
+rates/MCCC/X1Sg-excitation/vi=3/MCCC-el-D2-B1Su_vf=9.X1Sg_vi=3.txt
+
+* USER COEFFICIENT B1_X1_9to3
+H2(n=B1,v=9) > H2(n=X1,v=3)
+71125468.05
+
+* MCCCDB B 3to10 
+e + H2(n=X1,v=3) > e + H2(n=B1,v=3)
+rates/MCCC/X1Sg-excitation/vi=3/MCCC-el-D2-B1Su_vf=10.X1Sg_vi=3.txt
+
+* USER COEFFICIENT B1_X1_10to3
+H2(n=B1,v=10) > H2(n=X1,v=3)
+26948429.21
+
+* MCCCDB B 3to11 
+e + H2(n=X1,v=3) > e + H2(n=B1,v=3)
+rates/MCCC/X1Sg-excitation/vi=3/MCCC-el-D2-B1Su_vf=11.X1Sg_vi=3.txt
+
+* USER COEFFICIENT B1_X1_11to3
+H2(n=B1,v=11) > H2(n=X1,v=3)
+9012881.19
+
+* MCCCDB B 3to12 
+e + H2(n=X1,v=3) > e + H2(n=B1,v=3)
+rates/MCCC/X1Sg-excitation/vi=3/MCCC-el-D2-B1Su_vf=12.X1Sg_vi=3.txt
+
+* USER COEFFICIENT B1_X1_12to3
+H2(n=B1,v=12) > H2(n=X1,v=3)
+112472420.2
+
+* MCCCDB B 3to13 
+e + H2(n=X1,v=3) > e + H2(n=B1,v=3)
+rates/MCCC/X1Sg-excitation/vi=3/MCCC-el-D2-B1Su_vf=13.X1Sg_vi=3.txt
+
+* USER COEFFICIENT B1_X1_13to3
+H2(n=B1,v=13) > H2(n=X1,v=3)
+165799994.9
+
+* MCCCDB B 3to14 
+e + H2(n=X1,v=3) > e + H2(n=B1,v=3)
+rates/MCCC/X1Sg-excitation/vi=3/MCCC-el-D2-B1Su_vf=14.X1Sg_vi=3.txt
+
+* USER COEFFICIENT B1_X1_14to3
+H2(n=B1,v=14) > H2(n=X1,v=3)
+89102234.7
+
+* MCCCDB B 4to0 
+e + H2(n=X1,v=4) > e + H2(n=B1,v=4)
+rates/MCCC/X1Sg-excitation/vi=4/MCCC-el-D2-B1Su_vf=0.X1Sg_vi=4.txt
+
+* USER COEFFICIENT B1_X1_0to4
+H2(n=B1,v=0) > H2(n=X1,v=4)
+17884996.87
+
+* MCCCDB B 4to1 
+e + H2(n=X1,v=4) > e + H2(n=B1,v=4)
+rates/MCCC/X1Sg-excitation/vi=4/MCCC-el-D2-B1Su_vf=1.X1Sg_vi=4.txt
+
+* USER COEFFICIENT B1_X1_1to4
+H2(n=B1,v=1) > H2(n=X1,v=4)
+59077184.730000004
+
+* MCCCDB B 4to2 
+e + H2(n=X1,v=4) > e + H2(n=B1,v=4)
+rates/MCCC/X1Sg-excitation/vi=4/MCCC-el-D2-B1Su_vf=2.X1Sg_vi=4.txt
+
+* USER COEFFICIENT B1_X1_2to4
+H2(n=B1,v=2) > H2(n=X1,v=4)
+54092841.34
+
+* MCCCDB B 4to3 
+e + H2(n=X1,v=4) > e + H2(n=B1,v=4)
+rates/MCCC/X1Sg-excitation/vi=4/MCCC-el-D2-B1Su_vf=3.X1Sg_vi=4.txt
+
+* USER COEFFICIENT B1_X1_3to4
+H2(n=B1,v=3) > H2(n=X1,v=4)
+4276238.435
+
+* MCCCDB B 4to4 
+e + H2(n=X1,v=4) > e + H2(n=B1,v=4)
+rates/MCCC/X1Sg-excitation/vi=4/MCCC-el-D2-B1Su_vf=4.X1Sg_vi=4.txt
+
+* USER COEFFICIENT B1_X1_4to4
+H2(n=B1,v=4) > H2(n=X1,v=4)
+21383136.45
+
+* MCCCDB B 4to5 
+e + H2(n=X1,v=4) > e + H2(n=B1,v=4)
+rates/MCCC/X1Sg-excitation/vi=4/MCCC-el-D2-B1Su_vf=5.X1Sg_vi=4.txt
+
+* USER COEFFICIENT B1_X1_5to4
+H2(n=B1,v=5) > H2(n=X1,v=4)
+48687756.84
+
+* MCCCDB B 4to6 
+e + H2(n=X1,v=4) > e + H2(n=B1,v=4)
+rates/MCCC/X1Sg-excitation/vi=4/MCCC-el-D2-B1Su_vf=6.X1Sg_vi=4.txt
+
+* USER COEFFICIENT B1_X1_6to4
+H2(n=B1,v=6) > H2(n=X1,v=4)
+6892377.103999999
+
+* MCCCDB B 4to7 
+e + H2(n=X1,v=4) > e + H2(n=B1,v=4)
+rates/MCCC/X1Sg-excitation/vi=4/MCCC-el-D2-B1Su_vf=7.X1Sg_vi=4.txt
+
+* USER COEFFICIENT B1_X1_7to4
+H2(n=B1,v=7) > H2(n=X1,v=4)
+19834715.84
+
+* MCCCDB B 4to8 
+e + H2(n=X1,v=4) > e + H2(n=B1,v=4)
+rates/MCCC/X1Sg-excitation/vi=4/MCCC-el-D2-B1Su_vf=8.X1Sg_vi=4.txt
+
+* USER COEFFICIENT B1_X1_8to4
+H2(n=B1,v=8) > H2(n=X1,v=4)
+52347660.099999994
+
+* MCCCDB B 4to9 
+e + H2(n=X1,v=4) > e + H2(n=B1,v=4)
+rates/MCCC/X1Sg-excitation/vi=4/MCCC-el-D2-B1Su_vf=9.X1Sg_vi=4.txt
+
+* USER COEFFICIENT B1_X1_9to4
+H2(n=B1,v=9) > H2(n=X1,v=4)
+6491389.828
+
+* MCCCDB B 4to10 
+e + H2(n=X1,v=4) > e + H2(n=B1,v=4)
+rates/MCCC/X1Sg-excitation/vi=4/MCCC-el-D2-B1Su_vf=10.X1Sg_vi=4.txt
+
+* USER COEFFICIENT B1_X1_10to4
+H2(n=B1,v=10) > H2(n=X1,v=4)
+28104106.270000003
+
+* MCCCDB B 4to11 
+e + H2(n=X1,v=4) > e + H2(n=B1,v=4)
+rates/MCCC/X1Sg-excitation/vi=4/MCCC-el-D2-B1Su_vf=11.X1Sg_vi=4.txt
+
+* USER COEFFICIENT B1_X1_11to4
+H2(n=B1,v=11) > H2(n=X1,v=4)
+68107953.25
+
+* MCCCDB B 4to12 
+e + H2(n=X1,v=4) > e + H2(n=B1,v=4)
+rates/MCCC/X1Sg-excitation/vi=4/MCCC-el-D2-B1Su_vf=12.X1Sg_vi=4.txt
+
+* USER COEFFICIENT B1_X1_12to4
+H2(n=B1,v=12) > H2(n=X1,v=4)
+5708391.4
+
+* MCCCDB B 4to13 
+e + H2(n=X1,v=4) > e + H2(n=B1,v=4)
+rates/MCCC/X1Sg-excitation/vi=4/MCCC-el-D2-B1Su_vf=13.X1Sg_vi=4.txt
+
+* USER COEFFICIENT B1_X1_13to4
+H2(n=B1,v=13) > H2(n=X1,v=4)
+61407981.6
+
+* MCCCDB B 4to14 
+e + H2(n=X1,v=4) > e + H2(n=B1,v=4)
+rates/MCCC/X1Sg-excitation/vi=4/MCCC-el-D2-B1Su_vf=14.X1Sg_vi=4.txt
+
+* USER COEFFICIENT B1_X1_14to4
+H2(n=B1,v=14) > H2(n=X1,v=4)
+187785856.6
+
+* MCCCDB B 5to0 
+e + H2(n=X1,v=5) > e + H2(n=B1,v=5)
+rates/MCCC/X1Sg-excitation/vi=5/MCCC-el-D2-B1Su_vf=0.X1Sg_vi=5.txt
+
+* USER COEFFICIENT B1_X1_0to5
+H2(n=B1,v=0) > H2(n=X1,v=5)
+25830859.94
+
+* MCCCDB B 5to1 
+e + H2(n=X1,v=5) > e + H2(n=B1,v=5)
+rates/MCCC/X1Sg-excitation/vi=5/MCCC-el-D2-B1Su_vf=1.X1Sg_vi=5.txt
+
+* USER COEFFICIENT B1_X1_1to5
+H2(n=B1,v=1) > H2(n=X1,v=5)
+62080700.74999999
+
+* MCCCDB B 5to2 
+e + H2(n=X1,v=5) > e + H2(n=B1,v=5)
+rates/MCCC/X1Sg-excitation/vi=5/MCCC-el-D2-B1Su_vf=2.X1Sg_vi=5.txt
+
+* USER COEFFICIENT B1_X1_2to5
+H2(n=B1,v=2) > H2(n=X1,v=5)
+28671834.569999997
+
+* MCCCDB B 5to3 
+e + H2(n=X1,v=5) > e + H2(n=B1,v=5)
+rates/MCCC/X1Sg-excitation/vi=5/MCCC-el-D2-B1Su_vf=3.X1Sg_vi=5.txt
+
+* USER COEFFICIENT B1_X1_3to5
+H2(n=B1,v=3) > H2(n=X1,v=5)
+2198275.0859999997
+
+* MCCCDB B 5to4 
+e + H2(n=X1,v=5) > e + H2(n=B1,v=5)
+rates/MCCC/X1Sg-excitation/vi=5/MCCC-el-D2-B1Su_vf=4.X1Sg_vi=5.txt
+
+* USER COEFFICIENT B1_X1_4to5
+H2(n=B1,v=4) > H2(n=X1,v=5)
+41557711.559999995
+
+* MCCCDB B 5to5 
+e + H2(n=X1,v=5) > e + H2(n=B1,v=5)
+rates/MCCC/X1Sg-excitation/vi=5/MCCC-el-D2-B1Su_vf=5.X1Sg_vi=5.txt
+
+* USER COEFFICIENT B1_X1_5to5
+H2(n=B1,v=5) > H2(n=X1,v=5)
+19145664.78
+
+* MCCCDB B 5to6 
+e + H2(n=X1,v=5) > e + H2(n=B1,v=5)
+rates/MCCC/X1Sg-excitation/vi=5/MCCC-el-D2-B1Su_vf=6.X1Sg_vi=5.txt
+
+* USER COEFFICIENT B1_X1_6to5
+H2(n=B1,v=6) > H2(n=X1,v=5)
+6826505.067
+
+* MCCCDB B 5to7 
+e + H2(n=X1,v=5) > e + H2(n=B1,v=5)
+rates/MCCC/X1Sg-excitation/vi=5/MCCC-el-D2-B1Su_vf=7.X1Sg_vi=5.txt
+
+* USER COEFFICIENT B1_X1_7to5
+H2(n=B1,v=7) > H2(n=X1,v=5)
+44335691.68
+
+* MCCCDB B 5to8 
+e + H2(n=X1,v=5) > e + H2(n=B1,v=5)
+rates/MCCC/X1Sg-excitation/vi=5/MCCC-el-D2-B1Su_vf=8.X1Sg_vi=5.txt
+
+* USER COEFFICIENT B1_X1_8to5
+H2(n=B1,v=8) > H2(n=X1,v=5)
+8006524.45
+
+* MCCCDB B 5to9 
+e + H2(n=X1,v=5) > e + H2(n=B1,v=5)
+rates/MCCC/X1Sg-excitation/vi=5/MCCC-el-D2-B1Su_vf=9.X1Sg_vi=5.txt
+
+* USER COEFFICIENT B1_X1_9to5
+H2(n=B1,v=9) > H2(n=X1,v=5)
+21959419.560000002
+
+* MCCCDB B 5to10 
+e + H2(n=X1,v=5) > e + H2(n=B1,v=5)
+rates/MCCC/X1Sg-excitation/vi=5/MCCC-el-D2-B1Su_vf=10.X1Sg_vi=5.txt
+
+* USER COEFFICIENT B1_X1_10to5
+H2(n=B1,v=10) > H2(n=X1,v=5)
+45879446.03
+
+* MCCCDB B 5to11 
+e + H2(n=X1,v=5) > e + H2(n=B1,v=5)
+rates/MCCC/X1Sg-excitation/vi=5/MCCC-el-D2-B1Su_vf=11.X1Sg_vi=5.txt
+
+* USER COEFFICIENT B1_X1_11to5
+H2(n=B1,v=11) > H2(n=X1,v=5)
+35976.08689
+
+* MCCCDB B 5to12 
+e + H2(n=X1,v=5) > e + H2(n=B1,v=5)
+rates/MCCC/X1Sg-excitation/vi=5/MCCC-el-D2-B1Su_vf=12.X1Sg_vi=5.txt
+
+* USER COEFFICIENT B1_X1_12to5
+H2(n=B1,v=12) > H2(n=X1,v=5)
+56159216.809999995
+
+* MCCCDB B 5to13 
+e + H2(n=X1,v=5) > e + H2(n=B1,v=5)
+rates/MCCC/X1Sg-excitation/vi=5/MCCC-el-D2-B1Su_vf=13.X1Sg_vi=5.txt
+
+* USER COEFFICIENT B1_X1_13to5
+H2(n=B1,v=13) > H2(n=X1,v=5)
+34572320.34
+
+* MCCCDB B 5to14 
+e + H2(n=X1,v=5) > e + H2(n=B1,v=5)
+rates/MCCC/X1Sg-excitation/vi=5/MCCC-el-D2-B1Su_vf=14.X1Sg_vi=5.txt
+
+* USER COEFFICIENT B1_X1_14to5
+H2(n=B1,v=14) > H2(n=X1,v=5)
+28254204.3
+
+* MCCCDB B 6to0 
+e + H2(n=X1,v=6) > e + H2(n=B1,v=6)
+rates/MCCC/X1Sg-excitation/vi=6/MCCC-el-D2-B1Su_vf=0.X1Sg_vi=6.txt
+
+* USER COEFFICIENT B1_X1_0to6
+H2(n=B1,v=0) > H2(n=X1,v=6)
+33675620.71
+
+* MCCCDB B 6to1 
+e + H2(n=X1,v=6) > e + H2(n=B1,v=6)
+rates/MCCC/X1Sg-excitation/vi=6/MCCC-el-D2-B1Su_vf=1.X1Sg_vi=6.txt
+
+* USER COEFFICIENT B1_X1_1to6
+H2(n=B1,v=1) > H2(n=X1,v=6)
+56975034.6
+
+* MCCCDB B 6to2 
+e + H2(n=X1,v=6) > e + H2(n=B1,v=6)
+rates/MCCC/X1Sg-excitation/vi=6/MCCC-el-D2-B1Su_vf=2.X1Sg_vi=6.txt
+
+* USER COEFFICIENT B1_X1_2to6
+H2(n=B1,v=2) > H2(n=X1,v=6)
+8861227.74
+
+* MCCCDB B 6to3 
+e + H2(n=X1,v=6) > e + H2(n=B1,v=6)
+rates/MCCC/X1Sg-excitation/vi=6/MCCC-el-D2-B1Su_vf=3.X1Sg_vi=6.txt
+
+* USER COEFFICIENT B1_X1_3to6
+H2(n=B1,v=3) > H2(n=X1,v=6)
+16980520.14
+
+* MCCCDB B 6to4 
+e + H2(n=X1,v=6) > e + H2(n=B1,v=6)
+rates/MCCC/X1Sg-excitation/vi=6/MCCC-el-D2-B1Su_vf=4.X1Sg_vi=6.txt
+
+* USER COEFFICIENT B1_X1_4to6
+H2(n=B1,v=4) > H2(n=X1,v=6)
+36564813.36
+
+* MCCCDB B 6to5 
+e + H2(n=X1,v=6) > e + H2(n=B1,v=6)
+rates/MCCC/X1Sg-excitation/vi=6/MCCC-el-D2-B1Su_vf=5.X1Sg_vi=6.txt
+
+* USER COEFFICIENT B1_X1_5to6
+H2(n=B1,v=5) > H2(n=X1,v=6)
+272136.2832
+
+* MCCCDB B 6to6 
+e + H2(n=X1,v=6) > e + H2(n=B1,v=6)
+rates/MCCC/X1Sg-excitation/vi=6/MCCC-el-D2-B1Su_vf=6.X1Sg_vi=6.txt
+
+* USER COEFFICIENT B1_X1_6to6
+H2(n=B1,v=6) > H2(n=X1,v=6)
+31609245.24
+
+* MCCCDB B 6to7 
+e + H2(n=X1,v=6) > e + H2(n=B1,v=6)
+rates/MCCC/X1Sg-excitation/vi=6/MCCC-el-D2-B1Su_vf=7.X1Sg_vi=6.txt
+
+* USER COEFFICIENT B1_X1_7to6
+H2(n=B1,v=7) > H2(n=X1,v=6)
+19460637.330000002
+
+* MCCCDB B 6to8 
+e + H2(n=X1,v=6) > e + H2(n=B1,v=6)
+rates/MCCC/X1Sg-excitation/vi=6/MCCC-el-D2-B1Su_vf=8.X1Sg_vi=6.txt
+
+* USER COEFFICIENT B1_X1_8to6
+H2(n=B1,v=8) > H2(n=X1,v=6)
+7903866.73
+
+* MCCCDB B 6to9 
+e + H2(n=X1,v=6) > e + H2(n=B1,v=6)
+rates/MCCC/X1Sg-excitation/vi=6/MCCC-el-D2-B1Su_vf=9.X1Sg_vi=6.txt
+
+* USER COEFFICIENT B1_X1_9to6
+H2(n=B1,v=9) > H2(n=X1,v=6)
+40903657.45
+
+* MCCCDB B 6to10 
+e + H2(n=X1,v=6) > e + H2(n=B1,v=6)
+rates/MCCC/X1Sg-excitation/vi=6/MCCC-el-D2-B1Su_vf=10.X1Sg_vi=6.txt
+
+* USER COEFFICIENT B1_X1_10to6
+H2(n=B1,v=10) > H2(n=X1,v=6)
+977737.012
+
+* MCCCDB B 6to11 
+e + H2(n=X1,v=6) > e + H2(n=B1,v=6)
+rates/MCCC/X1Sg-excitation/vi=6/MCCC-el-D2-B1Su_vf=11.X1Sg_vi=6.txt
+
+* USER COEFFICIENT B1_X1_11to6
+H2(n=B1,v=11) > H2(n=X1,v=6)
+39450895.17
+
+* MCCCDB B 6to12 
+e + H2(n=X1,v=6) > e + H2(n=B1,v=6)
+rates/MCCC/X1Sg-excitation/vi=6/MCCC-el-D2-B1Su_vf=12.X1Sg_vi=6.txt
+
+* USER COEFFICIENT B1_X1_12to6
+H2(n=B1,v=12) > H2(n=X1,v=6)
+20495769.34
+
+* MCCCDB B 6to13 
+e + H2(n=X1,v=6) > e + H2(n=B1,v=6)
+rates/MCCC/X1Sg-excitation/vi=6/MCCC-el-D2-B1Su_vf=13.X1Sg_vi=6.txt
+
+* USER COEFFICIENT B1_X1_13to6
+H2(n=B1,v=13) > H2(n=X1,v=6)
+23340632.52
+
+* MCCCDB B 6to14 
+e + H2(n=X1,v=6) > e + H2(n=B1,v=6)
+rates/MCCC/X1Sg-excitation/vi=6/MCCC-el-D2-B1Su_vf=14.X1Sg_vi=6.txt
+
+* USER COEFFICIENT B1_X1_14to6
+H2(n=B1,v=14) > H2(n=X1,v=6)
+54807556.83
+
+* MCCCDB B 7to0 
+e + H2(n=X1,v=7) > e + H2(n=B1,v=7)
+rates/MCCC/X1Sg-excitation/vi=7/MCCC-el-D2-B1Su_vf=0.X1Sg_vi=7.txt
+
+* USER COEFFICIENT B1_X1_0to7
+H2(n=B1,v=0) > H2(n=X1,v=7)
+40568464.440000005
+
+* MCCCDB B 7to1 
+e + H2(n=X1,v=7) > e + H2(n=B1,v=7)
+rates/MCCC/X1Sg-excitation/vi=7/MCCC-el-D2-B1Su_vf=1.X1Sg_vi=7.txt
+
+* USER COEFFICIENT B1_X1_1to7
+H2(n=B1,v=1) > H2(n=X1,v=7)
+46207639.65
+
+* MCCCDB B 7to2 
+e + H2(n=X1,v=7) > e + H2(n=B1,v=7)
+rates/MCCC/X1Sg-excitation/vi=7/MCCC-el-D2-B1Su_vf=2.X1Sg_vi=7.txt
+
+* USER COEFFICIENT B1_X1_2to7
+H2(n=B1,v=2) > H2(n=X1,v=7)
+358983.1589
+
+* MCCCDB B 7to3 
+e + H2(n=X1,v=7) > e + H2(n=B1,v=7)
+rates/MCCC/X1Sg-excitation/vi=7/MCCC-el-D2-B1Su_vf=3.X1Sg_vi=7.txt
+
+* USER COEFFICIENT B1_X1_3to7
+H2(n=B1,v=3) > H2(n=X1,v=7)
+31101400.61
+
+* MCCCDB B 7to4 
+e + H2(n=X1,v=7) > e + H2(n=B1,v=7)
+rates/MCCC/X1Sg-excitation/vi=7/MCCC-el-D2-B1Su_vf=4.X1Sg_vi=7.txt
+
+* USER COEFFICIENT B1_X1_4to7
+H2(n=B1,v=4) > H2(n=X1,v=7)
+17126729.62
+
+* MCCCDB B 7to5 
+e + H2(n=X1,v=7) > e + H2(n=B1,v=7)
+rates/MCCC/X1Sg-excitation/vi=7/MCCC-el-D2-B1Su_vf=5.X1Sg_vi=7.txt
+
+* USER COEFFICIENT B1_X1_5to7
+H2(n=B1,v=5) > H2(n=X1,v=7)
+8359604.79
+
+* MCCCDB B 7to6 
+e + H2(n=X1,v=7) > e + H2(n=B1,v=7)
+rates/MCCC/X1Sg-excitation/vi=7/MCCC-el-D2-B1Su_vf=6.X1Sg_vi=7.txt
+
+* USER COEFFICIENT B1_X1_6to7
+H2(n=B1,v=6) > H2(n=X1,v=7)
+32991235.91
+
+* MCCCDB B 7to7 
+e + H2(n=X1,v=7) > e + H2(n=B1,v=7)
+rates/MCCC/X1Sg-excitation/vi=7/MCCC-el-D2-B1Su_vf=7.X1Sg_vi=7.txt
+
+* USER COEFFICIENT B1_X1_7to7
+H2(n=B1,v=7) > H2(n=X1,v=7)
+59489.37103
+
+* MCCCDB B 7to8 
+e + H2(n=X1,v=7) > e + H2(n=B1,v=7)
+rates/MCCC/X1Sg-excitation/vi=7/MCCC-el-D2-B1Su_vf=8.X1Sg_vi=7.txt
+
+* USER COEFFICIENT B1_X1_8to7
+H2(n=B1,v=8) > H2(n=X1,v=7)
+32653709.769999996
+
+* MCCCDB B 7to9 
+e + H2(n=X1,v=7) > e + H2(n=B1,v=7)
+rates/MCCC/X1Sg-excitation/vi=7/MCCC-el-D2-B1Su_vf=9.X1Sg_vi=7.txt
+
+* USER COEFFICIENT B1_X1_9to7
+H2(n=B1,v=9) > H2(n=X1,v=7)
+9381515.73
+
+* MCCCDB B 7to10 
+e + H2(n=X1,v=7) > e + H2(n=B1,v=7)
+rates/MCCC/X1Sg-excitation/vi=7/MCCC-el-D2-B1Su_vf=10.X1Sg_vi=7.txt
+
+* USER COEFFICIENT B1_X1_10to7
+H2(n=B1,v=10) > H2(n=X1,v=7)
+20734526.31
+
+* MCCCDB B 7to11 
+e + H2(n=X1,v=7) > e + H2(n=B1,v=7)
+rates/MCCC/X1Sg-excitation/vi=7/MCCC-el-D2-B1Su_vf=11.X1Sg_vi=7.txt
+
+* USER COEFFICIENT B1_X1_11to7
+H2(n=B1,v=11) > H2(n=X1,v=7)
+26375256.94
+
+* MCCCDB B 7to12 
+e + H2(n=X1,v=7) > e + H2(n=B1,v=7)
+rates/MCCC/X1Sg-excitation/vi=7/MCCC-el-D2-B1Su_vf=12.X1Sg_vi=7.txt
+
+* USER COEFFICIENT B1_X1_12to7
+H2(n=B1,v=12) > H2(n=X1,v=7)
+9083652.799999999
+
+* MCCCDB B 7to13 
+e + H2(n=X1,v=7) > e + H2(n=B1,v=7)
+rates/MCCC/X1Sg-excitation/vi=7/MCCC-el-D2-B1Su_vf=13.X1Sg_vi=7.txt
+
+* USER COEFFICIENT B1_X1_13to7
+H2(n=B1,v=13) > H2(n=X1,v=7)
+42166658.49
+
+* MCCCDB B 7to14 
+e + H2(n=X1,v=7) > e + H2(n=B1,v=7)
+rates/MCCC/X1Sg-excitation/vi=7/MCCC-el-D2-B1Su_vf=14.X1Sg_vi=7.txt
+
+* USER COEFFICIENT B1_X1_14to7
+H2(n=B1,v=14) > H2(n=X1,v=7)
+4210055.313999999
+
+* MCCCDB B 8to0 
+e + H2(n=X1,v=8) > e + H2(n=B1,v=8)
+rates/MCCC/X1Sg-excitation/vi=8/MCCC-el-D2-B1Su_vf=0.X1Sg_vi=8.txt
+
+* USER COEFFICIENT B1_X1_0to8
+H2(n=B1,v=0) > H2(n=X1,v=8)
+45906665.879999995
+
+* MCCCDB B 8to1 
+e + H2(n=X1,v=8) > e + H2(n=B1,v=8)
+rates/MCCC/X1Sg-excitation/vi=8/MCCC-el-D2-B1Su_vf=1.X1Sg_vi=8.txt
+
+* USER COEFFICIENT B1_X1_1to8
+H2(n=B1,v=1) > H2(n=X1,v=8)
+33047231.03
+
+* MCCCDB B 8to2 
+e + H2(n=X1,v=8) > e + H2(n=B1,v=8)
+rates/MCCC/X1Sg-excitation/vi=8/MCCC-el-D2-B1Su_vf=2.X1Sg_vi=8.txt
+
+* USER COEFFICIENT B1_X1_2to8
+H2(n=B1,v=2) > H2(n=X1,v=8)
+2271613.139
+
+* MCCCDB B 8to3 
+e + H2(n=X1,v=8) > e + H2(n=B1,v=8)
+rates/MCCC/X1Sg-excitation/vi=8/MCCC-el-D2-B1Su_vf=3.X1Sg_vi=8.txt
+
+* USER COEFFICIENT B1_X1_3to8
+H2(n=B1,v=3) > H2(n=X1,v=8)
+34710752.72
+
+* MCCCDB B 8to4 
+e + H2(n=X1,v=8) > e + H2(n=B1,v=8)
+rates/MCCC/X1Sg-excitation/vi=8/MCCC-el-D2-B1Su_vf=4.X1Sg_vi=8.txt
+
+* USER COEFFICIENT B1_X1_4to8
+H2(n=B1,v=4) > H2(n=X1,v=8)
+2440687.293
+
+* MCCCDB B 8to5 
+e + H2(n=X1,v=8) > e + H2(n=B1,v=8)
+rates/MCCC/X1Sg-excitation/vi=8/MCCC-el-D2-B1Su_vf=5.X1Sg_vi=8.txt
+
+* USER COEFFICIENT B1_X1_5to8
+H2(n=B1,v=5) > H2(n=X1,v=8)
+24391318.73
+
+* MCCCDB B 8to6 
+e + H2(n=X1,v=8) > e + H2(n=B1,v=8)
+rates/MCCC/X1Sg-excitation/vi=8/MCCC-el-D2-B1Su_vf=6.X1Sg_vi=8.txt
+
+* USER COEFFICIENT B1_X1_6to8
+H2(n=B1,v=6) > H2(n=X1,v=8)
+13845571.129999999
+
+* MCCCDB B 8to7 
+e + H2(n=X1,v=8) > e + H2(n=B1,v=8)
+rates/MCCC/X1Sg-excitation/vi=8/MCCC-el-D2-B1Su_vf=7.X1Sg_vi=8.txt
+
+* USER COEFFICIENT B1_X1_7to8
+H2(n=B1,v=7) > H2(n=X1,v=8)
+11444002.65
+
+* MCCCDB B 8to8 
+e + H2(n=X1,v=8) > e + H2(n=B1,v=8)
+rates/MCCC/X1Sg-excitation/vi=8/MCCC-el-D2-B1Su_vf=8.X1Sg_vi=8.txt
+
+* USER COEFFICIENT B1_X1_8to8
+H2(n=B1,v=8) > H2(n=X1,v=8)
+25725091.380000003
+
+* MCCCDB B 8to9 
+e + H2(n=X1,v=8) > e + H2(n=B1,v=8)
+rates/MCCC/X1Sg-excitation/vi=8/MCCC-el-D2-B1Su_vf=9.X1Sg_vi=8.txt
+
+* USER COEFFICIENT B1_X1_9to8
+H2(n=B1,v=9) > H2(n=X1,v=8)
+2740183.414
+
+* MCCCDB B 8to10 
+e + H2(n=X1,v=8) > e + H2(n=B1,v=8)
+rates/MCCC/X1Sg-excitation/vi=8/MCCC-el-D2-B1Su_vf=10.X1Sg_vi=8.txt
+
+* USER COEFFICIENT B1_X1_10to8
+H2(n=B1,v=10) > H2(n=X1,v=8)
+33162332.11
+
+* MCCCDB B 8to11 
+e + H2(n=X1,v=8) > e + H2(n=B1,v=8)
+rates/MCCC/X1Sg-excitation/vi=8/MCCC-el-D2-B1Su_vf=11.X1Sg_vi=8.txt
+
+* USER COEFFICIENT B1_X1_11to8
+H2(n=B1,v=11) > H2(n=X1,v=8)
+34237.12733
+
+* MCCCDB B 8to12 
+e + H2(n=X1,v=8) > e + H2(n=B1,v=8)
+rates/MCCC/X1Sg-excitation/vi=8/MCCC-el-D2-B1Su_vf=12.X1Sg_vi=8.txt
+
+* USER COEFFICIENT B1_X1_12to8
+H2(n=B1,v=12) > H2(n=X1,v=8)
+37302082.44
+
+* MCCCDB B 8to13 
+e + H2(n=X1,v=8) > e + H2(n=B1,v=8)
+rates/MCCC/X1Sg-excitation/vi=8/MCCC-el-D2-B1Su_vf=13.X1Sg_vi=8.txt
+
+* USER COEFFICIENT B1_X1_13to8
+H2(n=B1,v=13) > H2(n=X1,v=8)
+321225.3384
+
+* MCCCDB B 8to14 
+e + H2(n=X1,v=8) > e + H2(n=B1,v=8)
+rates/MCCC/X1Sg-excitation/vi=8/MCCC-el-D2-B1Su_vf=14.X1Sg_vi=8.txt
+
+* USER COEFFICIENT B1_X1_14to8
+H2(n=B1,v=14) > H2(n=X1,v=8)
+43288894.02
+
+* MCCCDB B 9to0 
+e + H2(n=X1,v=9) > e + H2(n=B1,v=9)
+rates/MCCC/X1Sg-excitation/vi=9/MCCC-el-D2-B1Su_vf=0.X1Sg_vi=9.txt
+
+* USER COEFFICIENT B1_X1_0to9
+H2(n=B1,v=0) > H2(n=X1,v=9)
+49383807.29
+
+* MCCCDB B 9to1 
+e + H2(n=X1,v=9) > e + H2(n=B1,v=9)
+rates/MCCC/X1Sg-excitation/vi=9/MCCC-el-D2-B1Su_vf=1.X1Sg_vi=9.txt
+
+* USER COEFFICIENT B1_X1_1to9
+H2(n=B1,v=1) > H2(n=X1,v=9)
+20428886.28
+
+* MCCCDB B 9to2 
+e + H2(n=X1,v=9) > e + H2(n=B1,v=9)
+rates/MCCC/X1Sg-excitation/vi=9/MCCC-el-D2-B1Su_vf=2.X1Sg_vi=9.txt
+
+* USER COEFFICIENT B1_X1_2to9
+H2(n=B1,v=2) > H2(n=X1,v=9)
+10121895.65
+
+* MCCCDB B 9to3 
+e + H2(n=X1,v=9) > e + H2(n=B1,v=9)
+rates/MCCC/X1Sg-excitation/vi=9/MCCC-el-D2-B1Su_vf=3.X1Sg_vi=9.txt
+
+* USER COEFFICIENT B1_X1_3to9
+H2(n=B1,v=3) > H2(n=X1,v=9)
+27962563.05
+
+* MCCCDB B 9to4 
+e + H2(n=X1,v=9) > e + H2(n=B1,v=9)
+rates/MCCC/X1Sg-excitation/vi=9/MCCC-el-D2-B1Su_vf=4.X1Sg_vi=9.txt
+
+* USER COEFFICIENT B1_X1_4to9
+H2(n=B1,v=4) > H2(n=X1,v=9)
+950361.62
+
+* MCCCDB B 9to5 
+e + H2(n=X1,v=9) > e + H2(n=B1,v=9)
+rates/MCCC/X1Sg-excitation/vi=9/MCCC-el-D2-B1Su_vf=5.X1Sg_vi=9.txt
+
+* USER COEFFICIENT B1_X1_5to9
+H2(n=B1,v=5) > H2(n=X1,v=9)
+29320444.709999997
+
+* MCCCDB B 9to6 
+e + H2(n=X1,v=9) > e + H2(n=B1,v=9)
+rates/MCCC/X1Sg-excitation/vi=9/MCCC-el-D2-B1Su_vf=6.X1Sg_vi=9.txt
+
+* USER COEFFICIENT B1_X1_6to9
+H2(n=B1,v=6) > H2(n=X1,v=9)
+614103.1473000001
+
+* MCCCDB B 9to7 
+e + H2(n=X1,v=9) > e + H2(n=B1,v=9)
+rates/MCCC/X1Sg-excitation/vi=9/MCCC-el-D2-B1Su_vf=7.X1Sg_vi=9.txt
+
+* USER COEFFICIENT B1_X1_7to9
+H2(n=B1,v=7) > H2(n=X1,v=9)
+26524577.259999998
+
+* MCCCDB B 9to8 
+e + H2(n=X1,v=9) > e + H2(n=B1,v=9)
+rates/MCCC/X1Sg-excitation/vi=9/MCCC-el-D2-B1Su_vf=8.X1Sg_vi=9.txt
+
+* USER COEFFICIENT B1_X1_8to9
+H2(n=B1,v=8) > H2(n=X1,v=9)
+4645339.601
+
+* MCCCDB B 9to9 
+e + H2(n=X1,v=9) > e + H2(n=B1,v=9)
+rates/MCCC/X1Sg-excitation/vi=9/MCCC-el-D2-B1Su_vf=9.X1Sg_vi=9.txt
+
+* USER COEFFICIENT B1_X1_9to9
+H2(n=B1,v=9) > H2(n=X1,v=9)
+22345941.43
+
+* MCCCDB B 9to10 
+e + H2(n=X1,v=9) > e + H2(n=B1,v=9)
+rates/MCCC/X1Sg-excitation/vi=9/MCCC-el-D2-B1Su_vf=10.X1Sg_vi=9.txt
+
+* USER COEFFICIENT B1_X1_10to9
+H2(n=B1,v=10) > H2(n=X1,v=9)
+9593830.56
+
+* MCCCDB B 9to11 
+e + H2(n=X1,v=9) > e + H2(n=B1,v=9)
+rates/MCCC/X1Sg-excitation/vi=9/MCCC-el-D2-B1Su_vf=11.X1Sg_vi=9.txt
+
+* USER COEFFICIENT B1_X1_11to9
+H2(n=B1,v=11) > H2(n=X1,v=9)
+19864268.82
+
+* MCCCDB B 9to12 
+e + H2(n=X1,v=9) > e + H2(n=B1,v=9)
+rates/MCCC/X1Sg-excitation/vi=9/MCCC-el-D2-B1Su_vf=12.X1Sg_vi=9.txt
+
+* USER COEFFICIENT B1_X1_12to9
+H2(n=B1,v=12) > H2(n=X1,v=9)
+12384254.040000001
+
+* MCCCDB B 9to13 
+e + H2(n=X1,v=9) > e + H2(n=B1,v=9)
+rates/MCCC/X1Sg-excitation/vi=9/MCCC-el-D2-B1Su_vf=13.X1Sg_vi=9.txt
+
+* USER COEFFICIENT B1_X1_13to9
+H2(n=B1,v=13) > H2(n=X1,v=9)
+22331164.94
+
+* MCCCDB B 9to14 
+e + H2(n=X1,v=9) > e + H2(n=B1,v=9)
+rates/MCCC/X1Sg-excitation/vi=9/MCCC-el-D2-B1Su_vf=14.X1Sg_vi=9.txt
+
+* USER COEFFICIENT B1_X1_14to9
+H2(n=B1,v=14) > H2(n=X1,v=9)
+9495839.1
+
+* MCCCDB B 10to0 
+e + H2(n=X1,v=10) > e + H2(n=B1,v=10)
+rates/MCCC/X1Sg-excitation/vi=10/MCCC-el-D2-B1Su_vf=0.X1Sg_vi=10.txt
+
+* USER COEFFICIENT B1_X1_0to10
+H2(n=B1,v=0) > H2(n=X1,v=10)
+50973446.53
+
+* MCCCDB B 10to1 
+e + H2(n=X1,v=10) > e + H2(n=B1,v=10)
+rates/MCCC/X1Sg-excitation/vi=10/MCCC-el-D2-B1Su_vf=1.X1Sg_vi=10.txt
+
+* USER COEFFICIENT B1_X1_1to10
+H2(n=B1,v=1) > H2(n=X1,v=10)
+10338876.74
+
+* MCCCDB B 10to2 
+e + H2(n=X1,v=10) > e + H2(n=B1,v=10)
+rates/MCCC/X1Sg-excitation/vi=10/MCCC-el-D2-B1Su_vf=2.X1Sg_vi=10.txt
+
+* USER COEFFICIENT B1_X1_2to10
+H2(n=B1,v=2) > H2(n=X1,v=10)
+18988567.36
+
+* MCCCDB B 10to3 
+e + H2(n=X1,v=10) > e + H2(n=B1,v=10)
+rates/MCCC/X1Sg-excitation/vi=10/MCCC-el-D2-B1Su_vf=3.X1Sg_vi=10.txt
+
+* USER COEFFICIENT B1_X1_3to10
+H2(n=B1,v=3) > H2(n=X1,v=10)
+16505339.329999998
+
+* MCCCDB B 10to4 
+e + H2(n=X1,v=10) > e + H2(n=B1,v=10)
+rates/MCCC/X1Sg-excitation/vi=10/MCCC-el-D2-B1Su_vf=4.X1Sg_vi=10.txt
+
+* USER COEFFICIENT B1_X1_4to10
+H2(n=B1,v=4) > H2(n=X1,v=10)
+9040101.040000001
+
+* MCCCDB B 10to5 
+e + H2(n=X1,v=10) > e + H2(n=B1,v=10)
+rates/MCCC/X1Sg-excitation/vi=10/MCCC-el-D2-B1Su_vf=5.X1Sg_vi=10.txt
+
+* USER COEFFICIENT B1_X1_5to10
+H2(n=B1,v=5) > H2(n=X1,v=10)
+21040944.05
+
+* MCCCDB B 10to6 
+e + H2(n=X1,v=10) > e + H2(n=B1,v=10)
+rates/MCCC/X1Sg-excitation/vi=10/MCCC-el-D2-B1Su_vf=6.X1Sg_vi=10.txt
+
+* USER COEFFICIENT B1_X1_6to10
+H2(n=B1,v=6) > H2(n=X1,v=10)
+3913203.407
+
+* MCCCDB B 10to7 
+e + H2(n=X1,v=10) > e + H2(n=B1,v=10)
+rates/MCCC/X1Sg-excitation/vi=10/MCCC-el-D2-B1Su_vf=7.X1Sg_vi=10.txt
+
+* USER COEFFICIENT B1_X1_7to10
+H2(n=B1,v=7) > H2(n=X1,v=10)
+24035905.259999998
+
+* MCCCDB B 10to8 
+e + H2(n=X1,v=10) > e + H2(n=B1,v=10)
+rates/MCCC/X1Sg-excitation/vi=10/MCCC-el-D2-B1Su_vf=8.X1Sg_vi=10.txt
+
+* USER COEFFICIENT B1_X1_8to10
+H2(n=B1,v=8) > H2(n=X1,v=10)
+1500746.987
+
+* MCCCDB B 10to9 
+e + H2(n=X1,v=10) > e + H2(n=B1,v=10)
+rates/MCCC/X1Sg-excitation/vi=10/MCCC-el-D2-B1Su_vf=9.X1Sg_vi=10.txt
+
+* USER COEFFICIENT B1_X1_9to10
+H2(n=B1,v=9) > H2(n=X1,v=10)
+25889188.189999998
+
+* MCCCDB B 10to10 
+e + H2(n=X1,v=10) > e + H2(n=B1,v=10)
+rates/MCCC/X1Sg-excitation/vi=10/MCCC-el-D2-B1Su_vf=10.X1Sg_vi=10.txt
+
+* USER COEFFICIENT B1_X1_10to10
+H2(n=B1,v=10) > H2(n=X1,v=10)
+755296.3978
+
+* MCCCDB B 10to11 
+e + H2(n=X1,v=10) > e + H2(n=B1,v=10)
+rates/MCCC/X1Sg-excitation/vi=10/MCCC-el-D2-B1Su_vf=11.X1Sg_vi=10.txt
+
+* USER COEFFICIENT B1_X1_11to10
+H2(n=B1,v=11) > H2(n=X1,v=10)
+27179409.08
+
+* MCCCDB B 10to12 
+e + H2(n=X1,v=10) > e + H2(n=B1,v=10)
+rates/MCCC/X1Sg-excitation/vi=10/MCCC-el-D2-B1Su_vf=12.X1Sg_vi=10.txt
+
+* USER COEFFICIENT B1_X1_12to10
+H2(n=B1,v=12) > H2(n=X1,v=10)
+1369313.997
+
+* MCCCDB B 10to13 
+e + H2(n=X1,v=10) > e + H2(n=B1,v=10)
+rates/MCCC/X1Sg-excitation/vi=10/MCCC-el-D2-B1Su_vf=13.X1Sg_vi=10.txt
+
+* USER COEFFICIENT B1_X1_13to10
+H2(n=B1,v=13) > H2(n=X1,v=10)
+26960094.860000003
+
+* MCCCDB B 10to14 
+e + H2(n=X1,v=10) > e + H2(n=B1,v=10)
+rates/MCCC/X1Sg-excitation/vi=10/MCCC-el-D2-B1Su_vf=14.X1Sg_vi=10.txt
+
+* USER COEFFICIENT B1_X1_14to10
+H2(n=B1,v=14) > H2(n=X1,v=10)
+6407786.003
+
+* MCCCDB B 11to0 
+e + H2(n=X1,v=11) > e + H2(n=B1,v=11)
+rates/MCCC/X1Sg-excitation/vi=11/MCCC-el-D2-B1Su_vf=0.X1Sg_vi=11.txt
+
+* USER COEFFICIENT B1_X1_0to11
+H2(n=B1,v=0) > H2(n=X1,v=11)
+50849012.93
+
+* MCCCDB B 11to1 
+e + H2(n=X1,v=11) > e + H2(n=B1,v=11)
+rates/MCCC/X1Sg-excitation/vi=11/MCCC-el-D2-B1Su_vf=1.X1Sg_vi=11.txt
+
+* USER COEFFICIENT B1_X1_1to11
+H2(n=B1,v=1) > H2(n=X1,v=11)
+3681601.369
+
+* MCCCDB B 11to2 
+e + H2(n=X1,v=11) > e + H2(n=B1,v=11)
+rates/MCCC/X1Sg-excitation/vi=11/MCCC-el-D2-B1Su_vf=2.X1Sg_vi=11.txt
+
+* USER COEFFICIENT B1_X1_2to11
+H2(n=B1,v=2) > H2(n=X1,v=11)
+25404674.86
+
+* MCCCDB B 11to3 
+e + H2(n=X1,v=11) > e + H2(n=B1,v=11)
+rates/MCCC/X1Sg-excitation/vi=11/MCCC-el-D2-B1Su_vf=3.X1Sg_vi=11.txt
+
+* USER COEFFICIENT B1_X1_3to11
+H2(n=B1,v=3) > H2(n=X1,v=11)
+6298439.977
+
+* MCCCDB B 11to4 
+e + H2(n=X1,v=11) > e + H2(n=B1,v=11)
+rates/MCCC/X1Sg-excitation/vi=11/MCCC-el-D2-B1Su_vf=4.X1Sg_vi=11.txt
+
+* USER COEFFICIENT B1_X1_4to11
+H2(n=B1,v=4) > H2(n=X1,v=11)
+18565493.12
+
+* MCCCDB B 11to5 
+e + H2(n=X1,v=11) > e + H2(n=B1,v=11)
+rates/MCCC/X1Sg-excitation/vi=11/MCCC-el-D2-B1Su_vf=5.X1Sg_vi=11.txt
+
+* USER COEFFICIENT B1_X1_5to11
+H2(n=B1,v=5) > H2(n=X1,v=11)
+8613138.25
+
+* MCCCDB B 11to6 
+e + H2(n=X1,v=11) > e + H2(n=B1,v=11)
+rates/MCCC/X1Sg-excitation/vi=11/MCCC-el-D2-B1Su_vf=6.X1Sg_vi=11.txt
+
+* USER COEFFICIENT B1_X1_6to11
+H2(n=B1,v=6) > H2(n=X1,v=11)
+15115571.559999999
+
+* MCCCDB B 11to7 
+e + H2(n=X1,v=11) > e + H2(n=B1,v=11)
+rates/MCCC/X1Sg-excitation/vi=11/MCCC-el-D2-B1Su_vf=7.X1Sg_vi=11.txt
+
+* USER COEFFICIENT B1_X1_7to11
+H2(n=B1,v=7) > H2(n=X1,v=11)
+10275882.23
+
+* MCCCDB B 11to8 
+e + H2(n=X1,v=11) > e + H2(n=B1,v=11)
+rates/MCCC/X1Sg-excitation/vi=11/MCCC-el-D2-B1Su_vf=8.X1Sg_vi=11.txt
+
+* USER COEFFICIENT B1_X1_8to11
+H2(n=B1,v=8) > H2(n=X1,v=11)
+13749135.09
+
+* MCCCDB B 11to9 
+e + H2(n=X1,v=11) > e + H2(n=B1,v=11)
+rates/MCCC/X1Sg-excitation/vi=11/MCCC-el-D2-B1Su_vf=9.X1Sg_vi=11.txt
+
+* USER COEFFICIENT B1_X1_9to11
+H2(n=B1,v=9) > H2(n=X1,v=11)
+10691957.08
+
+* MCCCDB B 11to10 
+e + H2(n=X1,v=11) > e + H2(n=B1,v=11)
+rates/MCCC/X1Sg-excitation/vi=11/MCCC-el-D2-B1Su_vf=10.X1Sg_vi=11.txt
+
+* USER COEFFICIENT B1_X1_10to11
+H2(n=B1,v=10) > H2(n=X1,v=11)
+14752380.99
+
+* MCCCDB B 11to11 
+e + H2(n=X1,v=11) > e + H2(n=B1,v=11)
+rates/MCCC/X1Sg-excitation/vi=11/MCCC-el-D2-B1Su_vf=11.X1Sg_vi=11.txt
+
+* USER COEFFICIENT B1_X1_11to11
+H2(n=B1,v=11) > H2(n=X1,v=11)
+8842562.7
+
+* MCCCDB B 11to12 
+e + H2(n=X1,v=11) > e + H2(n=B1,v=11)
+rates/MCCC/X1Sg-excitation/vi=11/MCCC-el-D2-B1Su_vf=12.X1Sg_vi=11.txt
+
+* USER COEFFICIENT B1_X1_12to11
+H2(n=B1,v=12) > H2(n=X1,v=11)
+19151886.459999997
+
+* MCCCDB B 11to13 
+e + H2(n=X1,v=11) > e + H2(n=B1,v=11)
+rates/MCCC/X1Sg-excitation/vi=11/MCCC-el-D2-B1Su_vf=13.X1Sg_vi=11.txt
+
+* USER COEFFICIENT B1_X1_13to11
+H2(n=B1,v=13) > H2(n=X1,v=11)
+3667602.589
+
+* MCCCDB B 11to14 
+e + H2(n=X1,v=11) > e + H2(n=B1,v=11)
+rates/MCCC/X1Sg-excitation/vi=11/MCCC-el-D2-B1Su_vf=14.X1Sg_vi=11.txt
+
+* USER COEFFICIENT B1_X1_14to11
+H2(n=B1,v=14) > H2(n=X1,v=11)
+26190161.959999997
+
+* MCCCDB B 12to0 
+e + H2(n=X1,v=12) > e + H2(n=B1,v=12)
+rates/MCCC/X1Sg-excitation/vi=12/MCCC-el-D2-B1Su_vf=0.X1Sg_vi=12.txt
+
+* USER COEFFICIENT B1_X1_0to12
+H2(n=B1,v=0) > H2(n=X1,v=12)
+49305258.58
+
+* MCCCDB B 12to1 
+e + H2(n=X1,v=12) > e + H2(n=B1,v=12)
+rates/MCCC/X1Sg-excitation/vi=12/MCCC-el-D2-B1Su_vf=1.X1Sg_vi=12.txt
+
+* USER COEFFICIENT B1_X1_1to12
+H2(n=B1,v=1) > H2(n=X1,v=12)
+477941.68049999996
+
+* MCCCDB B 12to2 
+e + H2(n=X1,v=12) > e + H2(n=B1,v=12)
+rates/MCCC/X1Sg-excitation/vi=12/MCCC-el-D2-B1Su_vf=2.X1Sg_vi=12.txt
+
+* USER COEFFICIENT B1_X1_2to12
+H2(n=B1,v=2) > H2(n=X1,v=12)
+27879348.08
+
+* MCCCDB B 12to3 
+e + H2(n=X1,v=12) > e + H2(n=B1,v=12)
+rates/MCCC/X1Sg-excitation/vi=12/MCCC-el-D2-B1Su_vf=3.X1Sg_vi=12.txt
+
+* USER COEFFICIENT B1_X1_3to12
+H2(n=B1,v=3) > H2(n=X1,v=12)
+768120.8356999999
+
+* MCCCDB B 12to4 
+e + H2(n=X1,v=12) > e + H2(n=B1,v=12)
+rates/MCCC/X1Sg-excitation/vi=12/MCCC-el-D2-B1Su_vf=4.X1Sg_vi=12.txt
+
+* USER COEFFICIENT B1_X1_4to12
+H2(n=B1,v=4) > H2(n=X1,v=12)
+23507840.17
+
+* MCCCDB B 12to5 
+e + H2(n=X1,v=12) > e + H2(n=B1,v=12)
+rates/MCCC/X1Sg-excitation/vi=12/MCCC-el-D2-B1Su_vf=5.X1Sg_vi=12.txt
+
+* USER COEFFICIENT B1_X1_5to12
+H2(n=B1,v=5) > H2(n=X1,v=12)
+913887.0210000001
+
+* MCCCDB B 12to6 
+e + H2(n=X1,v=12) > e + H2(n=B1,v=12)
+rates/MCCC/X1Sg-excitation/vi=12/MCCC-el-D2-B1Su_vf=6.X1Sg_vi=12.txt
+
+* USER COEFFICIENT B1_X1_6to12
+H2(n=B1,v=6) > H2(n=X1,v=12)
+22084630.869999997
+
+* MCCCDB B 12to7 
+e + H2(n=X1,v=12) > e + H2(n=B1,v=12)
+rates/MCCC/X1Sg-excitation/vi=12/MCCC-el-D2-B1Su_vf=7.X1Sg_vi=12.txt
+
+* USER COEFFICIENT B1_X1_7to12
+H2(n=B1,v=7) > H2(n=X1,v=12)
+751617.8295
+
+* MCCCDB B 12to8 
+e + H2(n=X1,v=12) > e + H2(n=B1,v=12)
+rates/MCCC/X1Sg-excitation/vi=12/MCCC-el-D2-B1Su_vf=8.X1Sg_vi=12.txt
+
+* USER COEFFICIENT B1_X1_8to12
+H2(n=B1,v=8) > H2(n=X1,v=12)
+22073742.93
+
+* MCCCDB B 12to9 
+e + H2(n=X1,v=12) > e + H2(n=B1,v=12)
+rates/MCCC/X1Sg-excitation/vi=12/MCCC-el-D2-B1Su_vf=9.X1Sg_vi=12.txt
+
+* USER COEFFICIENT B1_X1_9to12
+H2(n=B1,v=9) > H2(n=X1,v=12)
+238826.9639
+
+* MCCCDB B 12to10 
+e + H2(n=X1,v=12) > e + H2(n=B1,v=12)
+rates/MCCC/X1Sg-excitation/vi=12/MCCC-el-D2-B1Su_vf=10.X1Sg_vi=12.txt
+
+* USER COEFFICIENT B1_X1_10to12
+H2(n=B1,v=10) > H2(n=X1,v=12)
+22788458.42
+
+* MCCCDB B 12to11 
+e + H2(n=X1,v=12) > e + H2(n=B1,v=12)
+rates/MCCC/X1Sg-excitation/vi=12/MCCC-el-D2-B1Su_vf=11.X1Sg_vi=12.txt
+
+* USER COEFFICIENT B1_X1_11to12
+H2(n=B1,v=11) > H2(n=X1,v=12)
+148853.694
+
+* MCCCDB B 12to12 
+e + H2(n=X1,v=12) > e + H2(n=B1,v=12)
+rates/MCCC/X1Sg-excitation/vi=12/MCCC-el-D2-B1Su_vf=12.X1Sg_vi=12.txt
+
+* USER COEFFICIENT B1_X1_12to12
+H2(n=B1,v=12) > H2(n=X1,v=12)
+22115739.27
+
+* MCCCDB B 12to13 
+e + H2(n=X1,v=12) > e + H2(n=B1,v=12)
+rates/MCCC/X1Sg-excitation/vi=12/MCCC-el-D2-B1Su_vf=13.X1Sg_vi=12.txt
+
+* USER COEFFICIENT B1_X1_13to12
+H2(n=B1,v=13) > H2(n=X1,v=12)
+4074656.0029999996
+
+* MCCCDB B 12to14 
+e + H2(n=X1,v=12) > e + H2(n=B1,v=12)
+rates/MCCC/X1Sg-excitation/vi=12/MCCC-el-D2-B1Su_vf=14.X1Sg_vi=12.txt
+
+* USER COEFFICIENT B1_X1_14to12
+H2(n=B1,v=14) > H2(n=X1,v=12)
+14109992.53
+
+* MCCCDB B 13to0 
+e + H2(n=X1,v=13) > e + H2(n=B1,v=13)
+rates/MCCC/X1Sg-excitation/vi=13/MCCC-el-D2-B1Su_vf=0.X1Sg_vi=13.txt
+
+* USER COEFFICIENT B1_X1_0to13
+H2(n=B1,v=0) > H2(n=X1,v=13)
+46689819.85
+
+* MCCCDB B 13to1 
+e + H2(n=X1,v=13) > e + H2(n=B1,v=13)
+rates/MCCC/X1Sg-excitation/vi=13/MCCC-el-D2-B1Su_vf=1.X1Sg_vi=13.txt
+
+* USER COEFFICIENT B1_X1_1to13
+H2(n=B1,v=1) > H2(n=X1,v=13)
+181066.44220000002
+
+* MCCCDB B 13to2 
+e + H2(n=X1,v=13) > e + H2(n=B1,v=13)
+rates/MCCC/X1Sg-excitation/vi=13/MCCC-el-D2-B1Su_vf=2.X1Sg_vi=13.txt
+
+* USER COEFFICIENT B1_X1_2to13
+H2(n=B1,v=2) > H2(n=X1,v=13)
+26547130.849999998
+
+* MCCCDB B 13to3 
+e + H2(n=X1,v=13) > e + H2(n=B1,v=13)
+rates/MCCC/X1Sg-excitation/vi=13/MCCC-el-D2-B1Su_vf=3.X1Sg_vi=13.txt
+
+* USER COEFFICIENT B1_X1_3to13
+H2(n=B1,v=3) > H2(n=X1,v=13)
+426682.8144
+
+* MCCCDB B 13to4 
+e + H2(n=X1,v=13) > e + H2(n=B1,v=13)
+rates/MCCC/X1Sg-excitation/vi=13/MCCC-el-D2-B1Su_vf=4.X1Sg_vi=13.txt
+
+* USER COEFFICIENT B1_X1_4to13
+H2(n=B1,v=4) > H2(n=X1,v=13)
+22260393.33
+
+* MCCCDB B 13to5 
+e + H2(n=X1,v=13) > e + H2(n=B1,v=13)
+rates/MCCC/X1Sg-excitation/vi=13/MCCC-el-D2-B1Su_vf=5.X1Sg_vi=13.txt
+
+* USER COEFFICIENT B1_X1_5to13
+H2(n=B1,v=5) > H2(n=X1,v=13)
+892266.683
+
+* MCCCDB B 13to6 
+e + H2(n=X1,v=13) > e + H2(n=B1,v=13)
+rates/MCCC/X1Sg-excitation/vi=13/MCCC-el-D2-B1Su_vf=6.X1Sg_vi=13.txt
+
+* USER COEFFICIENT B1_X1_6to13
+H2(n=B1,v=6) > H2(n=X1,v=13)
+20155910.07
+
+* MCCCDB B 13to7 
+e + H2(n=X1,v=13) > e + H2(n=B1,v=13)
+rates/MCCC/X1Sg-excitation/vi=13/MCCC-el-D2-B1Su_vf=7.X1Sg_vi=13.txt
+
+* USER COEFFICIENT B1_X1_7to13
+H2(n=B1,v=7) > H2(n=X1,v=13)
+1942097.4120000002
+
+* MCCCDB B 13to8 
+e + H2(n=X1,v=13) > e + H2(n=B1,v=13)
+rates/MCCC/X1Sg-excitation/vi=13/MCCC-el-D2-B1Su_vf=8.X1Sg_vi=13.txt
+
+* USER COEFFICIENT B1_X1_8to13
+H2(n=B1,v=8) > H2(n=X1,v=13)
+18079424.37
+
+* MCCCDB B 13to9 
+e + H2(n=X1,v=13) > e + H2(n=B1,v=13)
+rates/MCCC/X1Sg-excitation/vi=13/MCCC-el-D2-B1Su_vf=9.X1Sg_vi=13.txt
+
+* USER COEFFICIENT B1_X1_9to13
+H2(n=B1,v=9) > H2(n=X1,v=13)
+4402927.393999999
+
+* MCCCDB B 13to10 
+e + H2(n=X1,v=13) > e + H2(n=B1,v=13)
+rates/MCCC/X1Sg-excitation/vi=13/MCCC-el-D2-B1Su_vf=10.X1Sg_vi=13.txt
+
+* USER COEFFICIENT B1_X1_10to13
+H2(n=B1,v=10) > H2(n=X1,v=13)
+14405522.33
+
+* MCCCDB B 13to11 
+e + H2(n=X1,v=13) > e + H2(n=B1,v=13)
+rates/MCCC/X1Sg-excitation/vi=13/MCCC-el-D2-B1Su_vf=11.X1Sg_vi=13.txt
+
+* USER COEFFICIENT B1_X1_11to13
+H2(n=B1,v=11) > H2(n=X1,v=13)
+9758705.08
+
+* MCCCDB B 13to12 
+e + H2(n=X1,v=13) > e + H2(n=B1,v=13)
+rates/MCCC/X1Sg-excitation/vi=13/MCCC-el-D2-B1Su_vf=12.X1Sg_vi=13.txt
+
+* USER COEFFICIENT B1_X1_12to13
+H2(n=B1,v=12) > H2(n=X1,v=13)
+7383267.6559999995
+
+* MCCCDB B 13to13 
+e + H2(n=X1,v=13) > e + H2(n=B1,v=13)
+rates/MCCC/X1Sg-excitation/vi=13/MCCC-el-D2-B1Su_vf=13.X1Sg_vi=13.txt
+
+* USER COEFFICIENT B1_X1_13to13
+H2(n=B1,v=13) > H2(n=X1,v=13)
+18298738.59
+
+* MCCCDB B 13to14 
+e + H2(n=X1,v=13) > e + H2(n=B1,v=13)
+rates/MCCC/X1Sg-excitation/vi=13/MCCC-el-D2-B1Su_vf=14.X1Sg_vi=13.txt
+
+* USER COEFFICIENT B1_X1_14to13
+H2(n=B1,v=14) > H2(n=X1,v=13)
+126766.73000000001
+
+* MCCCDB B 14to0 
+e + H2(n=X1,v=14) > e + H2(n=B1,v=14)
+rates/MCCC/X1Sg-excitation/vi=14/MCCC-el-D2-B1Su_vf=0.X1Sg_vi=14.txt
+
+* USER COEFFICIENT B1_X1_0to14
+H2(n=B1,v=0) > H2(n=X1,v=14)
+43342556.010000005
+
+* MCCCDB B 14to1 
+e + H2(n=X1,v=14) > e + H2(n=B1,v=14)
+rates/MCCC/X1Sg-excitation/vi=14/MCCC-el-D2-B1Su_vf=1.X1Sg_vi=14.txt
+
+* USER COEFFICIENT B1_X1_1to14
+H2(n=B1,v=1) > H2(n=X1,v=14)
+1981682.8510000003
+
+* MCCCDB B 14to2 
+e + H2(n=X1,v=14) > e + H2(n=B1,v=14)
+rates/MCCC/X1Sg-excitation/vi=14/MCCC-el-D2-B1Su_vf=2.X1Sg_vi=14.txt
+
+* USER COEFFICIENT B1_X1_2to14
+H2(n=B1,v=2) > H2(n=X1,v=14)
+22480485.26
+
+* MCCCDB B 14to3 
+e + H2(n=X1,v=14) > e + H2(n=B1,v=14)
+rates/MCCC/X1Sg-excitation/vi=14/MCCC-el-D2-B1Su_vf=3.X1Sg_vi=14.txt
+
+* USER COEFFICIENT B1_X1_3to14
+H2(n=B1,v=3) > H2(n=X1,v=14)
+3841731.858
+
+* MCCCDB B 14to4 
+e + H2(n=X1,v=14) > e + H2(n=B1,v=14)
+rates/MCCC/X1Sg-excitation/vi=14/MCCC-el-D2-B1Su_vf=4.X1Sg_vi=14.txt
+
+* USER COEFFICIENT B1_X1_4to14
+H2(n=B1,v=4) > H2(n=X1,v=14)
+16597886.82
+
+* MCCCDB B 14to5 
+e + H2(n=X1,v=14) > e + H2(n=B1,v=14)
+rates/MCCC/X1Sg-excitation/vi=14/MCCC-el-D2-B1Su_vf=5.X1Sg_vi=14.txt
+
+* USER COEFFICIENT B1_X1_5to14
+H2(n=B1,v=5) > H2(n=X1,v=14)
+6232334.627
+
+* MCCCDB B 14to6 
+e + H2(n=X1,v=14) > e + H2(n=B1,v=14)
+rates/MCCC/X1Sg-excitation/vi=14/MCCC-el-D2-B1Su_vf=6.X1Sg_vi=14.txt
+
+* USER COEFFICIENT B1_X1_6to14
+H2(n=B1,v=6) > H2(n=X1,v=14)
+12365589.0
+
+* MCCCDB B 14to7 
+e + H2(n=X1,v=14) > e + H2(n=B1,v=14)
+rates/MCCC/X1Sg-excitation/vi=14/MCCC-el-D2-B1Su_vf=7.X1Sg_vi=14.txt
+
+* USER COEFFICIENT B1_X1_7to14
+H2(n=B1,v=7) > H2(n=X1,v=14)
+9590719.719999999
+
+* MCCCDB B 14to8 
+e + H2(n=X1,v=14) > e + H2(n=B1,v=14)
+rates/MCCC/X1Sg-excitation/vi=14/MCCC-el-D2-B1Su_vf=8.X1Sg_vi=14.txt
+
+* USER COEFFICIENT B1_X1_8to14
+H2(n=B1,v=8) > H2(n=X1,v=14)
+7851760.160000001
+
+* MCCCDB B 14to9 
+e + H2(n=X1,v=14) > e + H2(n=B1,v=14)
+rates/MCCC/X1Sg-excitation/vi=14/MCCC-el-D2-B1Su_vf=9.X1Sg_vi=14.txt
+
+* USER COEFFICIENT B1_X1_9to14
+H2(n=B1,v=9) > H2(n=X1,v=14)
+14158988.26
+
+* MCCCDB B 14to10 
+e + H2(n=X1,v=14) > e + H2(n=B1,v=14)
+rates/MCCC/X1Sg-excitation/vi=14/MCCC-el-D2-B1Su_vf=10.X1Sg_vi=14.txt
+
+* USER COEFFICIENT B1_X1_10to14
+H2(n=B1,v=10) > H2(n=X1,v=14)
+2819587.605
+
+* MCCCDB B 14to11 
+e + H2(n=X1,v=14) > e + H2(n=B1,v=14)
+rates/MCCC/X1Sg-excitation/vi=14/MCCC-el-D2-B1Su_vf=11.X1Sg_vi=14.txt
+
+* USER COEFFICIENT B1_X1_11to14
+H2(n=B1,v=11) > H2(n=X1,v=14)
+18721035.12
+
+* MCCCDB B 14to12 
+e + H2(n=X1,v=14) > e + H2(n=B1,v=14)
+rates/MCCC/X1Sg-excitation/vi=14/MCCC-el-D2-B1Su_vf=12.X1Sg_vi=14.txt
+
+* USER COEFFICIENT B1_X1_12to14
+H2(n=B1,v=12) > H2(n=X1,v=14)
+25010.375890000003
+
+* MCCCDB B 14to13 
+e + H2(n=X1,v=14) > e + H2(n=B1,v=14)
+rates/MCCC/X1Sg-excitation/vi=14/MCCC-el-D2-B1Su_vf=13.X1Sg_vi=14.txt
+
+* USER COEFFICIENT B1_X1_13to14
+H2(n=B1,v=13) > H2(n=X1,v=14)
+17491475.61
+
+* MCCCDB B 14to14 
+e + H2(n=X1,v=14) > e + H2(n=B1,v=14)
+rates/MCCC/X1Sg-excitation/vi=14/MCCC-el-D2-B1Su_vf=14.X1Sg_vi=14.txt
+
+* USER COEFFICIENT B1_X1_14to14
+H2(n=B1,v=14) > H2(n=X1,v=14)
+7425497.308999999
+
+
+
+** RATES
+# Define the files for the standard inputs
+H2VIBR  rates/h2vibr_ichi.tex
+HYDHEL rates/HYDHEL.tex
+
+** SETTINGS
+* vmax      14
+* n0
+H(n=1)      0e12
+H2(n=X1,v=0)     1e10
+* verbose   0   # Show verbose output

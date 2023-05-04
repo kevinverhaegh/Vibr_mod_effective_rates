@@ -1,103 +1,193 @@
-Diagnostic reaction matrix for CRUMPET run in /home/kobussen/Documents/Vibr_mod_effective_rates on 2023-05-04 15:48:09
+Diagnostic reaction matrix for CRUMPET run in /home/kobussen/Documents/Vibr_mod_effective_rates on 2023-05-04 18:38:11
 
 
 
 ======== H(n=1) ========
 H(n=1) DEPLETION:
-                 ['+1*H2VIBR_2.0q6*[ni]', '+1*H2VIBR_2.1q6*[ni]', '+1*H2VIBR_2.2q6*[ni]', '+1*H2VIBR_2.3q6*[ni]', '+1*H2VIBR_2.4q6*[ni]', '+1*H2VIBR_2.5q6*[ni]', '+1*H2VIBR_2.6q6*[ni]', '+1*H2VIBR_2.7q6*[ni]', '+1*H2VIBR_2.8q6*[ni]', '+1*H2VIBR_2.9q6*[ni]', '+1*H2VIBR_2.10q6*[ni]', '+1*H2VIBR_2.11q6*[ni]', '+1*H2VIBR_2.12q6*[ni]', '+1*H2VIBR_2.13q6*[ni]', '+1*H2VIBR_2.14q6*[ni]']
+                 []
 
 
 
 ======== H2+ ========
 H2+ DEPLETION:
-                 ['+1*H2VIBR_2.0q6*[ni]', '+1*H2VIBR_2.1q6*[ni]', '+1*H2VIBR_2.2q6*[ni]', '+1*H2VIBR_2.3q6*[ni]', '+1*H2VIBR_2.4q6*[ni]', '+1*H2VIBR_2.5q6*[ni]', '+1*H2VIBR_2.6q6*[ni]', '+1*H2VIBR_2.7q6*[ni]', '+1*H2VIBR_2.8q6*[ni]', '+1*H2VIBR_2.9q6*[ni]', '+1*H2VIBR_2.10q6*[ni]', '+1*H2VIBR_2.11q6*[ni]', '+1*H2VIBR_2.12q6*[ni]', '+1*H2VIBR_2.13q6*[ni]', '+1*H2VIBR_2.14q6*[ni]']
+                 []
 
 
 
-======== H2(v=0) ========
-H2(v=0) DEPLETION:
-                 ['-1*MCCCDB_0to0*[ne]', '+1*MCCCDB_0to0*[ne]', '-1*MCCCDB_0to1*[ne]', '-1*MCCCDB_0to2*[ne]', '-1*MCCCDB_0to3*[ne]', '-1*MCCCDB_0to4*[ne]', '-1*MCCCDB_0to5*[ne]', '-1*MCCCDB_0to6*[ne]', '-1*MCCCDB_0to7*[ne]', '-1*MCCCDB_0to8*[ne]', '-1*MCCCDB_0to9*[ne]', '-1*MCCCDB_0to10*[ne]', '-1*MCCCDB_0to11*[ne]', '-1*MCCCDB_0to12*[ne]', '-1*MCCCDB_0to13*[ne]', '-1*MCCCDB_0to14*[ne]', '+1*MCCCDB_1to0*[ne]', '+1*MCCCDB_2to0*[ne]', '+1*MCCCDB_3to0*[ne]', '+1*MCCCDB_4to0*[ne]', '+1*MCCCDB_5to0*[ne]', '+1*MCCCDB_6to0*[ne]', '+1*MCCCDB_7to0*[ne]', '+1*MCCCDB_8to0*[ne]', '+1*MCCCDB_9to0*[ne]', '+1*MCCCDB_10to0*[ne]', '+1*MCCCDB_11to0*[ne]', '+1*MCCCDB_12to0*[ne]', '+1*MCCCDB_13to0*[ne]', '+1*MCCCDB_14to0*[ne]', '-1*H2VIBR_2.0q6*[ni]']
+======== H2(n=X1,v=0) ========
+H2(n=X1,v=0) DEPLETION:
+                 ['-1*MCCCDB_0to0*[ne]', '-1*MCCCDB_0to1*[ne]', '-1*MCCCDB_0to2*[ne]', '-1*MCCCDB_0to3*[ne]', '-1*MCCCDB_0to4*[ne]', '-1*MCCCDB_0to5*[ne]', '-1*MCCCDB_0to6*[ne]', '-1*MCCCDB_0to7*[ne]', '-1*MCCCDB_0to8*[ne]', '-1*MCCCDB_0to9*[ne]', '-1*MCCCDB_0to10*[ne]', '-1*MCCCDB_0to11*[ne]', '-1*MCCCDB_0to12*[ne]', '-1*MCCCDB_0to13*[ne]', '-1*MCCCDB_0to14*[ne]', '+1*USER_B1_X10']
 
 
 
-======== H2(v=1) ========
-H2(v=1) DEPLETION:
-                 ['+1*MCCCDB_0to1*[ne]', '-1*MCCCDB_1to0*[ne]', '-1*MCCCDB_1to1*[ne]', '+1*MCCCDB_1to1*[ne]', '-1*MCCCDB_1to2*[ne]', '-1*MCCCDB_1to3*[ne]', '-1*MCCCDB_1to4*[ne]', '-1*MCCCDB_1to5*[ne]', '-1*MCCCDB_1to6*[ne]', '-1*MCCCDB_1to7*[ne]', '-1*MCCCDB_1to8*[ne]', '-1*MCCCDB_1to9*[ne]', '-1*MCCCDB_1to10*[ne]', '-1*MCCCDB_1to11*[ne]', '-1*MCCCDB_1to12*[ne]', '-1*MCCCDB_1to13*[ne]', '-1*MCCCDB_1to14*[ne]', '+1*MCCCDB_2to1*[ne]', '+1*MCCCDB_3to1*[ne]', '+1*MCCCDB_4to1*[ne]', '+1*MCCCDB_5to1*[ne]', '+1*MCCCDB_6to1*[ne]', '+1*MCCCDB_7to1*[ne]', '+1*MCCCDB_8to1*[ne]', '+1*MCCCDB_9to1*[ne]', '+1*MCCCDB_10to1*[ne]', '+1*MCCCDB_11to1*[ne]', '+1*MCCCDB_12to1*[ne]', '+1*MCCCDB_13to1*[ne]', '+1*MCCCDB_14to1*[ne]', '-1*H2VIBR_2.1q6*[ni]']
+======== H2(n=X1,v=1) ========
+H2(n=X1,v=1) DEPLETION:
+                 ['-1*MCCCDB_1to0*[ne]', '-1*MCCCDB_1to1*[ne]', '-1*MCCCDB_1to2*[ne]', '-1*MCCCDB_1to3*[ne]', '-1*MCCCDB_1to4*[ne]', '-1*MCCCDB_1to5*[ne]', '-1*MCCCDB_1to6*[ne]', '-1*MCCCDB_1to7*[ne]', '-1*MCCCDB_1to8*[ne]', '-1*MCCCDB_1to9*[ne]', '-1*MCCCDB_1to10*[ne]', '-1*MCCCDB_1to11*[ne]', '-1*MCCCDB_1to12*[ne]', '-1*MCCCDB_1to13*[ne]', '-1*MCCCDB_1to14*[ne]', '+1*USER_B1_X11']
 
 
 
-======== H2(v=2) ========
-H2(v=2) DEPLETION:
-                 ['+1*MCCCDB_0to2*[ne]', '+1*MCCCDB_1to2*[ne]', '-1*MCCCDB_2to0*[ne]', '-1*MCCCDB_2to1*[ne]', '-1*MCCCDB_2to2*[ne]', '+1*MCCCDB_2to2*[ne]', '-1*MCCCDB_2to3*[ne]', '-1*MCCCDB_2to4*[ne]', '-1*MCCCDB_2to5*[ne]', '-1*MCCCDB_2to6*[ne]', '-1*MCCCDB_2to7*[ne]', '-1*MCCCDB_2to8*[ne]', '-1*MCCCDB_2to9*[ne]', '-1*MCCCDB_2to10*[ne]', '-1*MCCCDB_2to11*[ne]', '-1*MCCCDB_2to12*[ne]', '-1*MCCCDB_2to13*[ne]', '-1*MCCCDB_2to14*[ne]', '+1*MCCCDB_3to2*[ne]', '+1*MCCCDB_4to2*[ne]', '+1*MCCCDB_5to2*[ne]', '+1*MCCCDB_6to2*[ne]', '+1*MCCCDB_7to2*[ne]', '+1*MCCCDB_8to2*[ne]', '+1*MCCCDB_9to2*[ne]', '+1*MCCCDB_10to2*[ne]', '+1*MCCCDB_11to2*[ne]', '+1*MCCCDB_12to2*[ne]', '+1*MCCCDB_13to2*[ne]', '+1*MCCCDB_14to2*[ne]', '-1*H2VIBR_2.2q6*[ni]']
+======== H2(n=X1,v=2) ========
+H2(n=X1,v=2) DEPLETION:
+                 ['-1*MCCCDB_2to0*[ne]', '-1*MCCCDB_2to1*[ne]', '-1*MCCCDB_2to2*[ne]', '-1*MCCCDB_2to3*[ne]', '-1*MCCCDB_2to4*[ne]', '-1*MCCCDB_2to5*[ne]', '-1*MCCCDB_2to6*[ne]', '-1*MCCCDB_2to7*[ne]', '-1*MCCCDB_2to8*[ne]', '-1*MCCCDB_2to9*[ne]', '-1*MCCCDB_2to10*[ne]', '-1*MCCCDB_2to11*[ne]', '-1*MCCCDB_2to12*[ne]', '-1*MCCCDB_2to13*[ne]', '-1*MCCCDB_2to14*[ne]', '+1*USER_B1_X12']
 
 
 
-======== H2(v=3) ========
-H2(v=3) DEPLETION:
-                 ['+1*MCCCDB_0to3*[ne]', '+1*MCCCDB_1to3*[ne]', '+1*MCCCDB_2to3*[ne]', '-1*MCCCDB_3to0*[ne]', '-1*MCCCDB_3to1*[ne]', '-1*MCCCDB_3to2*[ne]', '-1*MCCCDB_3to3*[ne]', '+1*MCCCDB_3to3*[ne]', '-1*MCCCDB_3to4*[ne]', '-1*MCCCDB_3to5*[ne]', '-1*MCCCDB_3to6*[ne]', '-1*MCCCDB_3to7*[ne]', '-1*MCCCDB_3to8*[ne]', '-1*MCCCDB_3to9*[ne]', '-1*MCCCDB_3to10*[ne]', '-1*MCCCDB_3to11*[ne]', '-1*MCCCDB_3to12*[ne]', '-1*MCCCDB_3to13*[ne]', '-1*MCCCDB_3to14*[ne]', '+1*MCCCDB_4to3*[ne]', '+1*MCCCDB_5to3*[ne]', '+1*MCCCDB_6to3*[ne]', '+1*MCCCDB_7to3*[ne]', '+1*MCCCDB_8to3*[ne]', '+1*MCCCDB_9to3*[ne]', '+1*MCCCDB_10to3*[ne]', '+1*MCCCDB_11to3*[ne]', '+1*MCCCDB_12to3*[ne]', '+1*MCCCDB_13to3*[ne]', '+1*MCCCDB_14to3*[ne]', '-1*H2VIBR_2.3q6*[ni]']
+======== H2(n=X1,v=3) ========
+H2(n=X1,v=3) DEPLETION:
+                 ['-1*MCCCDB_3to0*[ne]', '-1*MCCCDB_3to1*[ne]', '-1*MCCCDB_3to2*[ne]', '-1*MCCCDB_3to3*[ne]', '-1*MCCCDB_3to4*[ne]', '-1*MCCCDB_3to5*[ne]', '-1*MCCCDB_3to6*[ne]', '-1*MCCCDB_3to7*[ne]', '-1*MCCCDB_3to8*[ne]', '-1*MCCCDB_3to9*[ne]', '-1*MCCCDB_3to10*[ne]', '-1*MCCCDB_3to11*[ne]', '-1*MCCCDB_3to12*[ne]', '-1*MCCCDB_3to13*[ne]', '-1*MCCCDB_3to14*[ne]', '+1*USER_B1_X13']
 
 
 
-======== H2(v=4) ========
-H2(v=4) DEPLETION:
-                 ['+1*MCCCDB_0to4*[ne]', '+1*MCCCDB_1to4*[ne]', '+1*MCCCDB_2to4*[ne]', '+1*MCCCDB_3to4*[ne]', '-1*MCCCDB_4to0*[ne]', '-1*MCCCDB_4to1*[ne]', '-1*MCCCDB_4to2*[ne]', '-1*MCCCDB_4to3*[ne]', '-1*MCCCDB_4to4*[ne]', '+1*MCCCDB_4to4*[ne]', '-1*MCCCDB_4to5*[ne]', '-1*MCCCDB_4to6*[ne]', '-1*MCCCDB_4to7*[ne]', '-1*MCCCDB_4to8*[ne]', '-1*MCCCDB_4to9*[ne]', '-1*MCCCDB_4to10*[ne]', '-1*MCCCDB_4to11*[ne]', '-1*MCCCDB_4to12*[ne]', '-1*MCCCDB_4to13*[ne]', '-1*MCCCDB_4to14*[ne]', '+1*MCCCDB_5to4*[ne]', '+1*MCCCDB_6to4*[ne]', '+1*MCCCDB_7to4*[ne]', '+1*MCCCDB_8to4*[ne]', '+1*MCCCDB_9to4*[ne]', '+1*MCCCDB_10to4*[ne]', '+1*MCCCDB_11to4*[ne]', '+1*MCCCDB_12to4*[ne]', '+1*MCCCDB_13to4*[ne]', '+1*MCCCDB_14to4*[ne]', '-1*H2VIBR_2.4q6*[ni]']
+======== H2(n=X1,v=4) ========
+H2(n=X1,v=4) DEPLETION:
+                 ['-1*MCCCDB_4to0*[ne]', '-1*MCCCDB_4to1*[ne]', '-1*MCCCDB_4to2*[ne]', '-1*MCCCDB_4to3*[ne]', '-1*MCCCDB_4to4*[ne]', '-1*MCCCDB_4to5*[ne]', '-1*MCCCDB_4to6*[ne]', '-1*MCCCDB_4to7*[ne]', '-1*MCCCDB_4to8*[ne]', '-1*MCCCDB_4to9*[ne]', '-1*MCCCDB_4to10*[ne]', '-1*MCCCDB_4to11*[ne]', '-1*MCCCDB_4to12*[ne]', '-1*MCCCDB_4to13*[ne]', '-1*MCCCDB_4to14*[ne]', '+1*USER_B1_X14']
 
 
 
-======== H2(v=5) ========
-H2(v=5) DEPLETION:
-                 ['+1*MCCCDB_0to5*[ne]', '+1*MCCCDB_1to5*[ne]', '+1*MCCCDB_2to5*[ne]', '+1*MCCCDB_3to5*[ne]', '+1*MCCCDB_4to5*[ne]', '-1*MCCCDB_5to0*[ne]', '-1*MCCCDB_5to1*[ne]', '-1*MCCCDB_5to2*[ne]', '-1*MCCCDB_5to3*[ne]', '-1*MCCCDB_5to4*[ne]', '-1*MCCCDB_5to5*[ne]', '+1*MCCCDB_5to5*[ne]', '-1*MCCCDB_5to6*[ne]', '-1*MCCCDB_5to7*[ne]', '-1*MCCCDB_5to8*[ne]', '-1*MCCCDB_5to9*[ne]', '-1*MCCCDB_5to10*[ne]', '-1*MCCCDB_5to11*[ne]', '-1*MCCCDB_5to12*[ne]', '-1*MCCCDB_5to13*[ne]', '-1*MCCCDB_5to14*[ne]', '+1*MCCCDB_6to5*[ne]', '+1*MCCCDB_7to5*[ne]', '+1*MCCCDB_8to5*[ne]', '+1*MCCCDB_9to5*[ne]', '+1*MCCCDB_10to5*[ne]', '+1*MCCCDB_11to5*[ne]', '+1*MCCCDB_12to5*[ne]', '+1*MCCCDB_13to5*[ne]', '+1*MCCCDB_14to5*[ne]', '-1*H2VIBR_2.5q6*[ni]']
+======== H2(n=X1,v=5) ========
+H2(n=X1,v=5) DEPLETION:
+                 ['-1*MCCCDB_5to0*[ne]', '-1*MCCCDB_5to1*[ne]', '-1*MCCCDB_5to2*[ne]', '-1*MCCCDB_5to3*[ne]', '-1*MCCCDB_5to4*[ne]', '-1*MCCCDB_5to5*[ne]', '-1*MCCCDB_5to6*[ne]', '-1*MCCCDB_5to7*[ne]', '-1*MCCCDB_5to8*[ne]', '-1*MCCCDB_5to9*[ne]', '-1*MCCCDB_5to10*[ne]', '-1*MCCCDB_5to11*[ne]', '-1*MCCCDB_5to12*[ne]', '-1*MCCCDB_5to13*[ne]', '-1*MCCCDB_5to14*[ne]', '+1*USER_B1_X15']
 
 
 
-======== H2(v=6) ========
-H2(v=6) DEPLETION:
-                 ['+1*MCCCDB_0to6*[ne]', '+1*MCCCDB_1to6*[ne]', '+1*MCCCDB_2to6*[ne]', '+1*MCCCDB_3to6*[ne]', '+1*MCCCDB_4to6*[ne]', '+1*MCCCDB_5to6*[ne]', '-1*MCCCDB_6to0*[ne]', '-1*MCCCDB_6to1*[ne]', '-1*MCCCDB_6to2*[ne]', '-1*MCCCDB_6to3*[ne]', '-1*MCCCDB_6to4*[ne]', '-1*MCCCDB_6to5*[ne]', '-1*MCCCDB_6to6*[ne]', '+1*MCCCDB_6to6*[ne]', '-1*MCCCDB_6to7*[ne]', '-1*MCCCDB_6to8*[ne]', '-1*MCCCDB_6to9*[ne]', '-1*MCCCDB_6to10*[ne]', '-1*MCCCDB_6to11*[ne]', '-1*MCCCDB_6to12*[ne]', '-1*MCCCDB_6to13*[ne]', '-1*MCCCDB_6to14*[ne]', '+1*MCCCDB_7to6*[ne]', '+1*MCCCDB_8to6*[ne]', '+1*MCCCDB_9to6*[ne]', '+1*MCCCDB_10to6*[ne]', '+1*MCCCDB_11to6*[ne]', '+1*MCCCDB_12to6*[ne]', '+1*MCCCDB_13to6*[ne]', '+1*MCCCDB_14to6*[ne]', '-1*H2VIBR_2.6q6*[ni]']
+======== H2(n=X1,v=6) ========
+H2(n=X1,v=6) DEPLETION:
+                 ['-1*MCCCDB_6to0*[ne]', '-1*MCCCDB_6to1*[ne]', '-1*MCCCDB_6to2*[ne]', '-1*MCCCDB_6to3*[ne]', '-1*MCCCDB_6to4*[ne]', '-1*MCCCDB_6to5*[ne]', '-1*MCCCDB_6to6*[ne]', '-1*MCCCDB_6to7*[ne]', '-1*MCCCDB_6to8*[ne]', '-1*MCCCDB_6to9*[ne]', '-1*MCCCDB_6to10*[ne]', '-1*MCCCDB_6to11*[ne]', '-1*MCCCDB_6to12*[ne]', '-1*MCCCDB_6to13*[ne]', '-1*MCCCDB_6to14*[ne]', '+1*USER_B1_X16']
 
 
 
-======== H2(v=7) ========
-H2(v=7) DEPLETION:
-                 ['+1*MCCCDB_0to7*[ne]', '+1*MCCCDB_1to7*[ne]', '+1*MCCCDB_2to7*[ne]', '+1*MCCCDB_3to7*[ne]', '+1*MCCCDB_4to7*[ne]', '+1*MCCCDB_5to7*[ne]', '+1*MCCCDB_6to7*[ne]', '-1*MCCCDB_7to0*[ne]', '-1*MCCCDB_7to1*[ne]', '-1*MCCCDB_7to2*[ne]', '-1*MCCCDB_7to3*[ne]', '-1*MCCCDB_7to4*[ne]', '-1*MCCCDB_7to5*[ne]', '-1*MCCCDB_7to6*[ne]', '-1*MCCCDB_7to7*[ne]', '+1*MCCCDB_7to7*[ne]', '-1*MCCCDB_7to8*[ne]', '-1*MCCCDB_7to9*[ne]', '-1*MCCCDB_7to10*[ne]', '-1*MCCCDB_7to11*[ne]', '-1*MCCCDB_7to12*[ne]', '-1*MCCCDB_7to13*[ne]', '-1*MCCCDB_7to14*[ne]', '+1*MCCCDB_8to7*[ne]', '+1*MCCCDB_9to7*[ne]', '+1*MCCCDB_10to7*[ne]', '+1*MCCCDB_11to7*[ne]', '+1*MCCCDB_12to7*[ne]', '+1*MCCCDB_13to7*[ne]', '+1*MCCCDB_14to7*[ne]', '-1*H2VIBR_2.7q6*[ni]']
+======== H2(n=X1,v=7) ========
+H2(n=X1,v=7) DEPLETION:
+                 ['-1*MCCCDB_7to0*[ne]', '-1*MCCCDB_7to1*[ne]', '-1*MCCCDB_7to2*[ne]', '-1*MCCCDB_7to3*[ne]', '-1*MCCCDB_7to4*[ne]', '-1*MCCCDB_7to5*[ne]', '-1*MCCCDB_7to6*[ne]', '-1*MCCCDB_7to7*[ne]', '-1*MCCCDB_7to8*[ne]', '-1*MCCCDB_7to9*[ne]', '-1*MCCCDB_7to10*[ne]', '-1*MCCCDB_7to11*[ne]', '-1*MCCCDB_7to12*[ne]', '-1*MCCCDB_7to13*[ne]', '-1*MCCCDB_7to14*[ne]', '+1*USER_B1_X17']
 
 
 
-======== H2(v=8) ========
-H2(v=8) DEPLETION:
-                 ['+1*MCCCDB_0to8*[ne]', '+1*MCCCDB_1to8*[ne]', '+1*MCCCDB_2to8*[ne]', '+1*MCCCDB_3to8*[ne]', '+1*MCCCDB_4to8*[ne]', '+1*MCCCDB_5to8*[ne]', '+1*MCCCDB_6to8*[ne]', '+1*MCCCDB_7to8*[ne]', '-1*MCCCDB_8to0*[ne]', '-1*MCCCDB_8to1*[ne]', '-1*MCCCDB_8to2*[ne]', '-1*MCCCDB_8to3*[ne]', '-1*MCCCDB_8to4*[ne]', '-1*MCCCDB_8to5*[ne]', '-1*MCCCDB_8to6*[ne]', '-1*MCCCDB_8to7*[ne]', '-1*MCCCDB_8to8*[ne]', '+1*MCCCDB_8to8*[ne]', '-1*MCCCDB_8to9*[ne]', '-1*MCCCDB_8to10*[ne]', '-1*MCCCDB_8to11*[ne]', '-1*MCCCDB_8to12*[ne]', '-1*MCCCDB_8to13*[ne]', '-1*MCCCDB_8to14*[ne]', '+1*MCCCDB_9to8*[ne]', '+1*MCCCDB_10to8*[ne]', '+1*MCCCDB_11to8*[ne]', '+1*MCCCDB_12to8*[ne]', '+1*MCCCDB_13to8*[ne]', '+1*MCCCDB_14to8*[ne]', '-1*H2VIBR_2.8q6*[ni]']
+======== H2(n=X1,v=8) ========
+H2(n=X1,v=8) DEPLETION:
+                 ['-1*MCCCDB_8to0*[ne]', '-1*MCCCDB_8to1*[ne]', '-1*MCCCDB_8to2*[ne]', '-1*MCCCDB_8to3*[ne]', '-1*MCCCDB_8to4*[ne]', '-1*MCCCDB_8to5*[ne]', '-1*MCCCDB_8to6*[ne]', '-1*MCCCDB_8to7*[ne]', '-1*MCCCDB_8to8*[ne]', '-1*MCCCDB_8to9*[ne]', '-1*MCCCDB_8to10*[ne]', '-1*MCCCDB_8to11*[ne]', '-1*MCCCDB_8to12*[ne]', '-1*MCCCDB_8to13*[ne]', '-1*MCCCDB_8to14*[ne]', '+1*USER_B1_X18']
 
 
 
-======== H2(v=9) ========
-H2(v=9) DEPLETION:
-                 ['+1*MCCCDB_0to9*[ne]', '+1*MCCCDB_1to9*[ne]', '+1*MCCCDB_2to9*[ne]', '+1*MCCCDB_3to9*[ne]', '+1*MCCCDB_4to9*[ne]', '+1*MCCCDB_5to9*[ne]', '+1*MCCCDB_6to9*[ne]', '+1*MCCCDB_7to9*[ne]', '+1*MCCCDB_8to9*[ne]', '-1*MCCCDB_9to0*[ne]', '-1*MCCCDB_9to1*[ne]', '-1*MCCCDB_9to2*[ne]', '-1*MCCCDB_9to3*[ne]', '-1*MCCCDB_9to4*[ne]', '-1*MCCCDB_9to5*[ne]', '-1*MCCCDB_9to6*[ne]', '-1*MCCCDB_9to7*[ne]', '-1*MCCCDB_9to8*[ne]', '-1*MCCCDB_9to9*[ne]', '+1*MCCCDB_9to9*[ne]', '-1*MCCCDB_9to10*[ne]', '-1*MCCCDB_9to11*[ne]', '-1*MCCCDB_9to12*[ne]', '-1*MCCCDB_9to13*[ne]', '-1*MCCCDB_9to14*[ne]', '+1*MCCCDB_10to9*[ne]', '+1*MCCCDB_11to9*[ne]', '+1*MCCCDB_12to9*[ne]', '+1*MCCCDB_13to9*[ne]', '+1*MCCCDB_14to9*[ne]', '-1*H2VIBR_2.9q6*[ni]']
+======== H2(n=X1,v=9) ========
+H2(n=X1,v=9) DEPLETION:
+                 ['-1*MCCCDB_9to0*[ne]', '-1*MCCCDB_9to1*[ne]', '-1*MCCCDB_9to2*[ne]', '-1*MCCCDB_9to3*[ne]', '-1*MCCCDB_9to4*[ne]', '-1*MCCCDB_9to5*[ne]', '-1*MCCCDB_9to6*[ne]', '-1*MCCCDB_9to7*[ne]', '-1*MCCCDB_9to8*[ne]', '-1*MCCCDB_9to9*[ne]', '-1*MCCCDB_9to10*[ne]', '-1*MCCCDB_9to11*[ne]', '-1*MCCCDB_9to12*[ne]', '-1*MCCCDB_9to13*[ne]', '-1*MCCCDB_9to14*[ne]', '+1*USER_B1_X19']
 
 
 
-======== H2(v=10) ========
-H2(v=10) DEPLETION:
-                 ['+1*MCCCDB_0to10*[ne]', '+1*MCCCDB_1to10*[ne]', '+1*MCCCDB_2to10*[ne]', '+1*MCCCDB_3to10*[ne]', '+1*MCCCDB_4to10*[ne]', '+1*MCCCDB_5to10*[ne]', '+1*MCCCDB_6to10*[ne]', '+1*MCCCDB_7to10*[ne]', '+1*MCCCDB_8to10*[ne]', '+1*MCCCDB_9to10*[ne]', '-1*MCCCDB_10to0*[ne]', '-1*MCCCDB_10to1*[ne]', '-1*MCCCDB_10to2*[ne]', '-1*MCCCDB_10to3*[ne]', '-1*MCCCDB_10to4*[ne]', '-1*MCCCDB_10to5*[ne]', '-1*MCCCDB_10to6*[ne]', '-1*MCCCDB_10to7*[ne]', '-1*MCCCDB_10to8*[ne]', '-1*MCCCDB_10to9*[ne]', '-1*MCCCDB_10to10*[ne]', '+1*MCCCDB_10to10*[ne]', '-1*MCCCDB_10to11*[ne]', '-1*MCCCDB_10to12*[ne]', '-1*MCCCDB_10to13*[ne]', '-1*MCCCDB_10to14*[ne]', '+1*MCCCDB_11to10*[ne]', '+1*MCCCDB_12to10*[ne]', '+1*MCCCDB_13to10*[ne]', '+1*MCCCDB_14to10*[ne]', '-1*H2VIBR_2.10q6*[ni]']
+======== H2(n=X1,v=10) ========
+H2(n=X1,v=10) DEPLETION:
+                 ['-1*MCCCDB_10to0*[ne]', '-1*MCCCDB_10to1*[ne]', '-1*MCCCDB_10to2*[ne]', '-1*MCCCDB_10to3*[ne]', '-1*MCCCDB_10to4*[ne]', '-1*MCCCDB_10to5*[ne]', '-1*MCCCDB_10to6*[ne]', '-1*MCCCDB_10to7*[ne]', '-1*MCCCDB_10to8*[ne]', '-1*MCCCDB_10to9*[ne]', '-1*MCCCDB_10to10*[ne]', '-1*MCCCDB_10to11*[ne]', '-1*MCCCDB_10to12*[ne]', '-1*MCCCDB_10to13*[ne]', '-1*MCCCDB_10to14*[ne]', '+1*USER_B1_X110']
 
 
 
-======== H2(v=11) ========
-H2(v=11) DEPLETION:
-                 ['+1*MCCCDB_0to11*[ne]', '+1*MCCCDB_1to11*[ne]', '+1*MCCCDB_2to11*[ne]', '+1*MCCCDB_3to11*[ne]', '+1*MCCCDB_4to11*[ne]', '+1*MCCCDB_5to11*[ne]', '+1*MCCCDB_6to11*[ne]', '+1*MCCCDB_7to11*[ne]', '+1*MCCCDB_8to11*[ne]', '+1*MCCCDB_9to11*[ne]', '+1*MCCCDB_10to11*[ne]', '-1*MCCCDB_11to0*[ne]', '-1*MCCCDB_11to1*[ne]', '-1*MCCCDB_11to2*[ne]', '-1*MCCCDB_11to3*[ne]', '-1*MCCCDB_11to4*[ne]', '-1*MCCCDB_11to5*[ne]', '-1*MCCCDB_11to6*[ne]', '-1*MCCCDB_11to7*[ne]', '-1*MCCCDB_11to8*[ne]', '-1*MCCCDB_11to9*[ne]', '-1*MCCCDB_11to10*[ne]', '-1*MCCCDB_11to11*[ne]', '+1*MCCCDB_11to11*[ne]', '-1*MCCCDB_11to12*[ne]', '-1*MCCCDB_11to13*[ne]', '-1*MCCCDB_11to14*[ne]', '+1*MCCCDB_12to11*[ne]', '+1*MCCCDB_13to11*[ne]', '+1*MCCCDB_14to11*[ne]', '-1*H2VIBR_2.11q6*[ni]']
+======== H2(n=X1,v=11) ========
+H2(n=X1,v=11) DEPLETION:
+                 ['-1*MCCCDB_11to0*[ne]', '-1*MCCCDB_11to1*[ne]', '-1*MCCCDB_11to2*[ne]', '-1*MCCCDB_11to3*[ne]', '-1*MCCCDB_11to4*[ne]', '-1*MCCCDB_11to5*[ne]', '-1*MCCCDB_11to6*[ne]', '-1*MCCCDB_11to7*[ne]', '-1*MCCCDB_11to8*[ne]', '-1*MCCCDB_11to9*[ne]', '-1*MCCCDB_11to10*[ne]', '-1*MCCCDB_11to11*[ne]', '-1*MCCCDB_11to12*[ne]', '-1*MCCCDB_11to13*[ne]', '-1*MCCCDB_11to14*[ne]', '+1*USER_B1_X111']
 
 
 
-======== H2(v=12) ========
-H2(v=12) DEPLETION:
-                 ['+1*MCCCDB_0to12*[ne]', '+1*MCCCDB_1to12*[ne]', '+1*MCCCDB_2to12*[ne]', '+1*MCCCDB_3to12*[ne]', '+1*MCCCDB_4to12*[ne]', '+1*MCCCDB_5to12*[ne]', '+1*MCCCDB_6to12*[ne]', '+1*MCCCDB_7to12*[ne]', '+1*MCCCDB_8to12*[ne]', '+1*MCCCDB_9to12*[ne]', '+1*MCCCDB_10to12*[ne]', '+1*MCCCDB_11to12*[ne]', '-1*MCCCDB_12to0*[ne]', '-1*MCCCDB_12to1*[ne]', '-1*MCCCDB_12to2*[ne]', '-1*MCCCDB_12to3*[ne]', '-1*MCCCDB_12to4*[ne]', '-1*MCCCDB_12to5*[ne]', '-1*MCCCDB_12to6*[ne]', '-1*MCCCDB_12to7*[ne]', '-1*MCCCDB_12to8*[ne]', '-1*MCCCDB_12to9*[ne]', '-1*MCCCDB_12to10*[ne]', '-1*MCCCDB_12to11*[ne]', '-1*MCCCDB_12to12*[ne]', '+1*MCCCDB_12to12*[ne]', '-1*MCCCDB_12to13*[ne]', '-1*MCCCDB_12to14*[ne]', '+1*MCCCDB_13to12*[ne]', '+1*MCCCDB_14to12*[ne]', '-1*H2VIBR_2.12q6*[ni]']
+======== H2(n=X1,v=12) ========
+H2(n=X1,v=12) DEPLETION:
+                 ['-1*MCCCDB_12to0*[ne]', '-1*MCCCDB_12to1*[ne]', '-1*MCCCDB_12to2*[ne]', '-1*MCCCDB_12to3*[ne]', '-1*MCCCDB_12to4*[ne]', '-1*MCCCDB_12to5*[ne]', '-1*MCCCDB_12to6*[ne]', '-1*MCCCDB_12to7*[ne]', '-1*MCCCDB_12to8*[ne]', '-1*MCCCDB_12to9*[ne]', '-1*MCCCDB_12to10*[ne]', '-1*MCCCDB_12to11*[ne]', '-1*MCCCDB_12to12*[ne]', '-1*MCCCDB_12to13*[ne]', '-1*MCCCDB_12to14*[ne]', '+1*USER_B1_X112']
 
 
 
-======== H2(v=13) ========
-H2(v=13) DEPLETION:
-                 ['+1*MCCCDB_0to13*[ne]', '+1*MCCCDB_1to13*[ne]', '+1*MCCCDB_2to13*[ne]', '+1*MCCCDB_3to13*[ne]', '+1*MCCCDB_4to13*[ne]', '+1*MCCCDB_5to13*[ne]', '+1*MCCCDB_6to13*[ne]', '+1*MCCCDB_7to13*[ne]', '+1*MCCCDB_8to13*[ne]', '+1*MCCCDB_9to13*[ne]', '+1*MCCCDB_10to13*[ne]', '+1*MCCCDB_11to13*[ne]', '+1*MCCCDB_12to13*[ne]', '-1*MCCCDB_13to0*[ne]', '-1*MCCCDB_13to1*[ne]', '-1*MCCCDB_13to2*[ne]', '-1*MCCCDB_13to3*[ne]', '-1*MCCCDB_13to4*[ne]', '-1*MCCCDB_13to5*[ne]', '-1*MCCCDB_13to6*[ne]', '-1*MCCCDB_13to7*[ne]', '-1*MCCCDB_13to8*[ne]', '-1*MCCCDB_13to9*[ne]', '-1*MCCCDB_13to10*[ne]', '-1*MCCCDB_13to11*[ne]', '-1*MCCCDB_13to12*[ne]', '-1*MCCCDB_13to13*[ne]', '+1*MCCCDB_13to13*[ne]', '-1*MCCCDB_13to14*[ne]', '+1*MCCCDB_14to13*[ne]', '-1*H2VIBR_2.13q6*[ni]']
+======== H2(n=X1,v=13) ========
+H2(n=X1,v=13) DEPLETION:
+                 ['-1*MCCCDB_13to0*[ne]', '-1*MCCCDB_13to1*[ne]', '-1*MCCCDB_13to2*[ne]', '-1*MCCCDB_13to3*[ne]', '-1*MCCCDB_13to4*[ne]', '-1*MCCCDB_13to5*[ne]', '-1*MCCCDB_13to6*[ne]', '-1*MCCCDB_13to7*[ne]', '-1*MCCCDB_13to8*[ne]', '-1*MCCCDB_13to9*[ne]', '-1*MCCCDB_13to10*[ne]', '-1*MCCCDB_13to11*[ne]', '-1*MCCCDB_13to12*[ne]', '-1*MCCCDB_13to13*[ne]', '-1*MCCCDB_13to14*[ne]', '+1*USER_B1_X113']
 
 
 
-======== H2(v=14) ========
-H2(v=14) DEPLETION:
-                 ['+1*MCCCDB_0to14*[ne]', '+1*MCCCDB_1to14*[ne]', '+1*MCCCDB_2to14*[ne]', '+1*MCCCDB_3to14*[ne]', '+1*MCCCDB_4to14*[ne]', '+1*MCCCDB_5to14*[ne]', '+1*MCCCDB_6to14*[ne]', '+1*MCCCDB_7to14*[ne]', '+1*MCCCDB_8to14*[ne]', '+1*MCCCDB_9to14*[ne]', '+1*MCCCDB_10to14*[ne]', '+1*MCCCDB_11to14*[ne]', '+1*MCCCDB_12to14*[ne]', '+1*MCCCDB_13to14*[ne]', '-1*MCCCDB_14to0*[ne]', '-1*MCCCDB_14to1*[ne]', '-1*MCCCDB_14to2*[ne]', '-1*MCCCDB_14to3*[ne]', '-1*MCCCDB_14to4*[ne]', '-1*MCCCDB_14to5*[ne]', '-1*MCCCDB_14to6*[ne]', '-1*MCCCDB_14to7*[ne]', '-1*MCCCDB_14to8*[ne]', '-1*MCCCDB_14to9*[ne]', '-1*MCCCDB_14to10*[ne]', '-1*MCCCDB_14to11*[ne]', '-1*MCCCDB_14to12*[ne]', '-1*MCCCDB_14to13*[ne]', '-1*MCCCDB_14to14*[ne]', '+1*MCCCDB_14to14*[ne]', '-1*H2VIBR_2.14q6*[ni]']
+======== H2(n=X1,v=14) ========
+H2(n=X1,v=14) DEPLETION:
+                 ['-1*MCCCDB_14to0*[ne]', '-1*MCCCDB_14to1*[ne]', '-1*MCCCDB_14to2*[ne]', '-1*MCCCDB_14to3*[ne]', '-1*MCCCDB_14to4*[ne]', '-1*MCCCDB_14to5*[ne]', '-1*MCCCDB_14to6*[ne]', '-1*MCCCDB_14to7*[ne]', '-1*MCCCDB_14to8*[ne]', '-1*MCCCDB_14to9*[ne]', '-1*MCCCDB_14to10*[ne]', '-1*MCCCDB_14to11*[ne]', '-1*MCCCDB_14to12*[ne]', '-1*MCCCDB_14to13*[ne]', '-1*MCCCDB_14to14*[ne]', '+1*USER_B1_X114']
+
+
+
+======== H2(n=B1,v=0) ========
+H2(n=B1,v=0) DEPLETION:
+                 ['+1*MCCCDB_0to0*[ne]', '+1*MCCCDB_0to1*[ne]', '+1*MCCCDB_0to2*[ne]', '+1*MCCCDB_0to3*[ne]', '+1*MCCCDB_0to4*[ne]', '+1*MCCCDB_0to5*[ne]', '+1*MCCCDB_0to6*[ne]', '+1*MCCCDB_0to7*[ne]', '+1*MCCCDB_0to8*[ne]', '+1*MCCCDB_0to9*[ne]', '+1*MCCCDB_0to10*[ne]', '+1*MCCCDB_0to11*[ne]', '+1*MCCCDB_0to12*[ne]', '+1*MCCCDB_0to13*[ne]', '+1*MCCCDB_0to14*[ne]']
+
+
+
+======== H2(n=B1,v=1) ========
+H2(n=B1,v=1) DEPLETION:
+                 ['+1*MCCCDB_1to0*[ne]', '+1*MCCCDB_1to1*[ne]', '+1*MCCCDB_1to2*[ne]', '+1*MCCCDB_1to3*[ne]', '+1*MCCCDB_1to4*[ne]', '+1*MCCCDB_1to5*[ne]', '+1*MCCCDB_1to6*[ne]', '+1*MCCCDB_1to7*[ne]', '+1*MCCCDB_1to8*[ne]', '+1*MCCCDB_1to9*[ne]', '+1*MCCCDB_1to10*[ne]', '+1*MCCCDB_1to11*[ne]', '+1*MCCCDB_1to12*[ne]', '+1*MCCCDB_1to13*[ne]', '+1*MCCCDB_1to14*[ne]']
+
+
+
+======== H2(n=B1,v=2) ========
+H2(n=B1,v=2) DEPLETION:
+                 ['+1*MCCCDB_2to0*[ne]', '+1*MCCCDB_2to1*[ne]', '+1*MCCCDB_2to2*[ne]', '+1*MCCCDB_2to3*[ne]', '+1*MCCCDB_2to4*[ne]', '+1*MCCCDB_2to5*[ne]', '+1*MCCCDB_2to6*[ne]', '+1*MCCCDB_2to7*[ne]', '+1*MCCCDB_2to8*[ne]', '+1*MCCCDB_2to9*[ne]', '+1*MCCCDB_2to10*[ne]', '+1*MCCCDB_2to11*[ne]', '+1*MCCCDB_2to12*[ne]', '+1*MCCCDB_2to13*[ne]', '+1*MCCCDB_2to14*[ne]']
+
+
+
+======== H2(n=B1,v=3) ========
+H2(n=B1,v=3) DEPLETION:
+                 ['+1*MCCCDB_3to0*[ne]', '+1*MCCCDB_3to1*[ne]', '+1*MCCCDB_3to2*[ne]', '+1*MCCCDB_3to3*[ne]', '+1*MCCCDB_3to4*[ne]', '+1*MCCCDB_3to5*[ne]', '+1*MCCCDB_3to6*[ne]', '+1*MCCCDB_3to7*[ne]', '+1*MCCCDB_3to8*[ne]', '+1*MCCCDB_3to9*[ne]', '+1*MCCCDB_3to10*[ne]', '+1*MCCCDB_3to11*[ne]', '+1*MCCCDB_3to12*[ne]', '+1*MCCCDB_3to13*[ne]', '+1*MCCCDB_3to14*[ne]']
+
+
+
+======== H2(n=B1,v=4) ========
+H2(n=B1,v=4) DEPLETION:
+                 ['+1*MCCCDB_4to0*[ne]', '+1*MCCCDB_4to1*[ne]', '+1*MCCCDB_4to2*[ne]', '+1*MCCCDB_4to3*[ne]', '+1*MCCCDB_4to4*[ne]', '+1*MCCCDB_4to5*[ne]', '+1*MCCCDB_4to6*[ne]', '+1*MCCCDB_4to7*[ne]', '+1*MCCCDB_4to8*[ne]', '+1*MCCCDB_4to9*[ne]', '+1*MCCCDB_4to10*[ne]', '+1*MCCCDB_4to11*[ne]', '+1*MCCCDB_4to12*[ne]', '+1*MCCCDB_4to13*[ne]', '+1*MCCCDB_4to14*[ne]']
+
+
+
+======== H2(n=B1,v=5) ========
+H2(n=B1,v=5) DEPLETION:
+                 ['+1*MCCCDB_5to0*[ne]', '+1*MCCCDB_5to1*[ne]', '+1*MCCCDB_5to2*[ne]', '+1*MCCCDB_5to3*[ne]', '+1*MCCCDB_5to4*[ne]', '+1*MCCCDB_5to5*[ne]', '+1*MCCCDB_5to6*[ne]', '+1*MCCCDB_5to7*[ne]', '+1*MCCCDB_5to8*[ne]', '+1*MCCCDB_5to9*[ne]', '+1*MCCCDB_5to10*[ne]', '+1*MCCCDB_5to11*[ne]', '+1*MCCCDB_5to12*[ne]', '+1*MCCCDB_5to13*[ne]', '+1*MCCCDB_5to14*[ne]']
+
+
+
+======== H2(n=B1,v=6) ========
+H2(n=B1,v=6) DEPLETION:
+                 ['+1*MCCCDB_6to0*[ne]', '+1*MCCCDB_6to1*[ne]', '+1*MCCCDB_6to2*[ne]', '+1*MCCCDB_6to3*[ne]', '+1*MCCCDB_6to4*[ne]', '+1*MCCCDB_6to5*[ne]', '+1*MCCCDB_6to6*[ne]', '+1*MCCCDB_6to7*[ne]', '+1*MCCCDB_6to8*[ne]', '+1*MCCCDB_6to9*[ne]', '+1*MCCCDB_6to10*[ne]', '+1*MCCCDB_6to11*[ne]', '+1*MCCCDB_6to12*[ne]', '+1*MCCCDB_6to13*[ne]', '+1*MCCCDB_6to14*[ne]']
+
+
+
+======== H2(n=B1,v=7) ========
+H2(n=B1,v=7) DEPLETION:
+                 ['+1*MCCCDB_7to0*[ne]', '+1*MCCCDB_7to1*[ne]', '+1*MCCCDB_7to2*[ne]', '+1*MCCCDB_7to3*[ne]', '+1*MCCCDB_7to4*[ne]', '+1*MCCCDB_7to5*[ne]', '+1*MCCCDB_7to6*[ne]', '+1*MCCCDB_7to7*[ne]', '+1*MCCCDB_7to8*[ne]', '+1*MCCCDB_7to9*[ne]', '+1*MCCCDB_7to10*[ne]', '+1*MCCCDB_7to11*[ne]', '+1*MCCCDB_7to12*[ne]', '+1*MCCCDB_7to13*[ne]', '+1*MCCCDB_7to14*[ne]']
+
+
+
+======== H2(n=B1,v=8) ========
+H2(n=B1,v=8) DEPLETION:
+                 ['+1*MCCCDB_8to0*[ne]', '+1*MCCCDB_8to1*[ne]', '+1*MCCCDB_8to2*[ne]', '+1*MCCCDB_8to3*[ne]', '+1*MCCCDB_8to4*[ne]', '+1*MCCCDB_8to5*[ne]', '+1*MCCCDB_8to6*[ne]', '+1*MCCCDB_8to7*[ne]', '+1*MCCCDB_8to8*[ne]', '+1*MCCCDB_8to9*[ne]', '+1*MCCCDB_8to10*[ne]', '+1*MCCCDB_8to11*[ne]', '+1*MCCCDB_8to12*[ne]', '+1*MCCCDB_8to13*[ne]', '+1*MCCCDB_8to14*[ne]']
+
+
+
+======== H2(n=B1,v=9) ========
+H2(n=B1,v=9) DEPLETION:
+                 ['+1*MCCCDB_9to0*[ne]', '+1*MCCCDB_9to1*[ne]', '+1*MCCCDB_9to2*[ne]', '+1*MCCCDB_9to3*[ne]', '+1*MCCCDB_9to4*[ne]', '+1*MCCCDB_9to5*[ne]', '+1*MCCCDB_9to6*[ne]', '+1*MCCCDB_9to7*[ne]', '+1*MCCCDB_9to8*[ne]', '+1*MCCCDB_9to9*[ne]', '+1*MCCCDB_9to10*[ne]', '+1*MCCCDB_9to11*[ne]', '+1*MCCCDB_9to12*[ne]', '+1*MCCCDB_9to13*[ne]', '+1*MCCCDB_9to14*[ne]']
+
+
+
+======== H2(n=B1,v=10) ========
+H2(n=B1,v=10) DEPLETION:
+                 ['+1*MCCCDB_10to0*[ne]', '+1*MCCCDB_10to1*[ne]', '+1*MCCCDB_10to2*[ne]', '+1*MCCCDB_10to3*[ne]', '+1*MCCCDB_10to4*[ne]', '+1*MCCCDB_10to5*[ne]', '+1*MCCCDB_10to6*[ne]', '+1*MCCCDB_10to7*[ne]', '+1*MCCCDB_10to8*[ne]', '+1*MCCCDB_10to9*[ne]', '+1*MCCCDB_10to10*[ne]', '+1*MCCCDB_10to11*[ne]', '+1*MCCCDB_10to12*[ne]', '+1*MCCCDB_10to13*[ne]', '+1*MCCCDB_10to14*[ne]']
+
+
+
+======== H2(n=B1,v=11) ========
+H2(n=B1,v=11) DEPLETION:
+                 ['+1*MCCCDB_11to0*[ne]', '+1*MCCCDB_11to1*[ne]', '+1*MCCCDB_11to2*[ne]', '+1*MCCCDB_11to3*[ne]', '+1*MCCCDB_11to4*[ne]', '+1*MCCCDB_11to5*[ne]', '+1*MCCCDB_11to6*[ne]', '+1*MCCCDB_11to7*[ne]', '+1*MCCCDB_11to8*[ne]', '+1*MCCCDB_11to9*[ne]', '+1*MCCCDB_11to10*[ne]', '+1*MCCCDB_11to11*[ne]', '+1*MCCCDB_11to12*[ne]', '+1*MCCCDB_11to13*[ne]', '+1*MCCCDB_11to14*[ne]']
+
+
+
+======== H2(n=B1,v=12) ========
+H2(n=B1,v=12) DEPLETION:
+                 ['+1*MCCCDB_12to0*[ne]', '+1*MCCCDB_12to1*[ne]', '+1*MCCCDB_12to2*[ne]', '+1*MCCCDB_12to3*[ne]', '+1*MCCCDB_12to4*[ne]', '+1*MCCCDB_12to5*[ne]', '+1*MCCCDB_12to6*[ne]', '+1*MCCCDB_12to7*[ne]', '+1*MCCCDB_12to8*[ne]', '+1*MCCCDB_12to9*[ne]', '+1*MCCCDB_12to10*[ne]', '+1*MCCCDB_12to11*[ne]', '+1*MCCCDB_12to12*[ne]', '+1*MCCCDB_12to13*[ne]', '+1*MCCCDB_12to14*[ne]']
+
+
+
+======== H2(n=B1,v=13) ========
+H2(n=B1,v=13) DEPLETION:
+                 ['+1*MCCCDB_13to0*[ne]', '+1*MCCCDB_13to1*[ne]', '+1*MCCCDB_13to2*[ne]', '+1*MCCCDB_13to3*[ne]', '+1*MCCCDB_13to4*[ne]', '+1*MCCCDB_13to5*[ne]', '+1*MCCCDB_13to6*[ne]', '+1*MCCCDB_13to7*[ne]', '+1*MCCCDB_13to8*[ne]', '+1*MCCCDB_13to9*[ne]', '+1*MCCCDB_13to10*[ne]', '+1*MCCCDB_13to11*[ne]', '+1*MCCCDB_13to12*[ne]', '+1*MCCCDB_13to13*[ne]', '+1*MCCCDB_13to14*[ne]']
+
+
+
+======== H2(n=B1,v=14) ========
+H2(n=B1,v=14) DEPLETION:
+                 ['+1*MCCCDB_14to0*[ne]', '+1*MCCCDB_14to1*[ne]', '+1*MCCCDB_14to2*[ne]', '+1*MCCCDB_14to3*[ne]', '+1*MCCCDB_14to4*[ne]', '+1*MCCCDB_14to5*[ne]', '+1*MCCCDB_14to6*[ne]', '+1*MCCCDB_14to7*[ne]', '+1*MCCCDB_14to8*[ne]', '+1*MCCCDB_14to9*[ne]', '+1*MCCCDB_14to10*[ne]', '+1*MCCCDB_14to11*[ne]', '+1*MCCCDB_14to12*[ne]', '+1*MCCCDB_14to13*[ne]', '+1*MCCCDB_14to14*[ne]', '-1*USER_B1_X10', '-1*USER_B1_X11', '-1*USER_B1_X12', '-1*USER_B1_X13', '-1*USER_B1_X14', '-1*USER_B1_X15', '-1*USER_B1_X16', '-1*USER_B1_X17', '-1*USER_B1_X18', '-1*USER_B1_X19', '-1*USER_B1_X110', '-1*USER_B1_X111', '-1*USER_B1_X112', '-1*USER_B1_X113', '-1*USER_B1_X114']
