@@ -57,7 +57,7 @@ def laporta_to_mccc(file, E):
 
 
                 table_deex = table
-                table_deex[:,1] = table[:,1]*np.exp(-(E[j]-E[i])/table[:,0])
+                table_deex[:,1] = table[:,1]*np.exp((E[j]-E[i])/table[:,0])
 
                 string_deex = numpy_array_to_string(table_deex)
                 filename_deex = f'rates/Laporta/vibr_trans/vi={j}_vf={i}.txt'

@@ -154,12 +154,12 @@ def gen_input(new_file_name, B_X = True, C_X = True, ion = True, diss = True, vi
 
     # Excitation and emission from B1Su to ground
     if B_X:
-        B_X_rate = FC_factors('Table 2 Franck-Condon Factors/D2_B1-X1_FCF.dat', 7.7771e+08)
+        B_X_rate = FC_factors('Fantz/Table 2 Franck-Condon Factors/D2_B1-X1_FCF.dat', 7.7771e+08)
         string += rea_X1_B1Su(B_X_rate)
 
     # Excitation and emission from C1Pu to ground
     if C_X: 
-        C_X_rate = FC_factors('Table 2 Franck-Condon Factors/D2_C1-X1_FCF.dat', 1.0532e+09)
+        C_X_rate = FC_factors('Fantz/Table 2 Franck-Condon Factors/D2_C1-X1_FCF.dat', 1.0532e+09)
         string += rea_X1_C1Pu(C_X_rate)
 
     # Ionization from ground
@@ -194,7 +194,7 @@ def gen_input(new_file_name, B_X = True, C_X = True, ion = True, diss = True, vi
         f.write(string)
 
     
-gen_input('input_new.dat', B_X=False, C_X=False, ion = False, diss=False, cx_ichi = False, diss_ion = False)
+gen_input('input_new.dat')
 
         
 
