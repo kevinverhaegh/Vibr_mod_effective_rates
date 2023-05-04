@@ -18,6 +18,24 @@ def extract_table(lines, initial_state, final_state):
     table = np.array(table)
     return table
 
+def extract_table_diss_att(lines, initial_state):
+
+    for i,line in enumerate(lines): 
+        if f'PROCESS: E + D2(X,v={initial_state}) -> D(1s) + D-(1s2), Attachment' in line:
+            start_index = i+5
+
+    table = []
+    for line in lines[start_index:]:
+        try: 
+            number = [float(line.split()[0]), float(line.split()[1])]
+            table.append(number)
+        except ValueError:
+            break
+    
+    table = np.array(table)
+    return table
+
+
 def numpy_array_to_string(arr):
     # Convert the numpy array to a string in the required format
     s = ''
@@ -38,7 +56,7 @@ def D2_energies(file):
 
 
 
-def laporta_to_mccc(file, E):
+def laporta_to_mccc_vibr_trans(file, E):
 
     a0 = 5.29177210903e-11
 
@@ -69,10 +87,31 @@ def laporta_to_mccc(file, E):
                     dest.write(string_deex)
 
 
+def laporta_to_mccc_diss_attachment(file):
+    
+    a0 = 5.29177210903e-11
+
+    with open(file, 'r') as f:
+        lines = f.readlines()
+
+        for i in range(15):
+                table = extract_table_diss_att(lines,i)
+
+                # Unit conversion
+                table[:,1] = a0**-2*table[:,1]
+
+                string = numpy_array_to_string(table)
+                filename = f'rates/Laporta/diss_attachment/vi={i}.txt'
+
+                with open(filename, 'w') as dest: 
+                    dest.write(string)
+
+
 
 
 
 E = D2_energies('Fantz/Table 1 Vib Eigenvalues/X1_EV.txt')
-laporta_to_mccc('rates/Laporta/Cross section.txt', E) ##Add energies from franck condon paper
+# laporta_to_mccc_vibr_trans('rates/Laporta/vibr_trans/Cross section.txt', E) ##Add energies from franck condon paper
+laporta_to_mccc_diss_attachment('rates/Laporta/diss_attachment/Cross section.txt')
 
 print('Done')

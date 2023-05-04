@@ -1,6 +1,4 @@
 import numpy as np
-i =0
-j=0
+from Input_Generator import gen_input
 
-with open(f'rates/Laporta/vibr_trans/vi={i}_vf={j}.tex', 'w') as f:
-    f.write('hello')
+gen_input('input_new.dat')

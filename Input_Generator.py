@@ -68,6 +68,14 @@ def rea_vibr_trans():
                 f'rates/Laporta/vibr_trans/vi={i}_vf={j}.txt\n\n'
     return t
 
+def rea_diss_att():
+    t = '' 
+    for i in range(15):
+        t +=f'* MCCCDB att {i}\n'+\
+                f'e + H2(v={i}) > H(n=1) + H-\n'+\
+                f'rates/Laporta/diss_attachment/vi={i}.txt\n\n'
+    return t
+
 
             
 def D2_energies(file):
@@ -102,7 +110,7 @@ def FC_factors(file_name, nu_eff):
     return coeffs
     
 
-def gen_input(new_file_name, B_X = True, C_X = True, ion = True, diss = True, vibr = True, cx_ichi = True, diss_ion = True):
+def gen_input(new_file_name, B_X = False, C_X = False, ion = False, diss = False, vibr = False, cx_ichi = False, diss_ion = False, diss_att=False):
 
     ## TITLE 
     string = '# This is an input file for the UEDGE Python CRM\n'+\
@@ -130,6 +138,11 @@ def gen_input(new_file_name, B_X = True, C_X = True, ion = True, diss = True, vi
     if C_X:
         string+='* H2(n=C)\n'+\
 	            '   V 12.41104\n'
+        
+    # Input negative ions
+    if diss_att:
+        string+='* H-\n'+\
+                '   V -0.75\n' 
     
     string +='\n\n'
 
@@ -174,6 +187,11 @@ def gen_input(new_file_name, B_X = True, C_X = True, ion = True, diss = True, vi
         string += '* HYDHEL H.2 2.2.10\n'+\
                     'e + H2(v=0) > 2*e + p + H(n=1)\n\n'
     
+    # Dissociative attachment
+    if diss_att:
+        string+=rea_diss_att()
+        
+    
     string +='\n\n'
 
     ## RATES
@@ -194,7 +212,7 @@ def gen_input(new_file_name, B_X = True, C_X = True, ion = True, diss = True, vi
         f.write(string)
 
     
-gen_input('input_new.dat')
+gen_input('input_new.dat', vibr=True, cx_ichi=True)
 
         
 
