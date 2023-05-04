@@ -106,3 +106,5 @@ run_demo(input_crm)
 # input_crm = 'input.dat'
 # #simple input file with additional dissociation & molecular depletion channels
 # run_demo(input_crm)
+
+# Get MCCC rate data using crm.reactions['MCCCDB']['trans']['0to0'].integrated(Te,Ti)
