@@ -37,15 +37,15 @@ def get_coeffs(file_name, nu_eff):
 
     return table
 
-def rea_X1_B1Su(arr):
+def rea_el_exc(arr, initial_state, final_state):
     t = ''
     for i in range(15):
         for j in range(15):
-            t +=f'* MCCCDB B {i}to{j} \n'+\
-                f'e + H2(n=X1,v={i}) > e + H2(n=B1,v={i})\n'+\
-                f'rates/MCCC/X1Sg-excitation/vi={i}/MCCC-el-D2-B1Su_vf={j}.X1Sg_vi={i}.txt\n\n'+\
-                f'* USER COEFFICIENT B1_X1_{j}to{i}\n'+\
-                f'H2(n=B1,v={j}) > H2(n=X1,v={i})\n'+\
+            t +='* MCCCDB '+initial_state+'_'+final_state+f' {i}to{j} \n'+\
+                f'e + H2(n='+initial_state[:2]+f',v={i}) > e + H2(n='+final_state[:2]+f',v={i})\n'+\
+                'rates/MCCC/'+initial_state+f'-excitation/vi={i}/MCCC-el-D2-'+final_state+f'_vf={j}.'+initial_state+f'_vi={i}.txt\n\n'+\
+                f'* USER COEFFICIENT '+initial_state+'_'+final_state+f'{j}to{i}\n'+\
+                'H2(n='+final_state[:2]+f',v={j}) > H2(n='+initial_state[:2]+f',v={i})\n'+\
                 f'{arr[i,j]}\n\n'
     return t
 
@@ -54,12 +54,28 @@ def rea_vibr_trans():
     for i in range(15):
         for j in range(15):
             t +=f'* MCCCDB trans {i}to{j}\n'+\
-                f'e + H2(v={i}) > e + H2(v={j})\n'+\
+                f'e + H2(n=X1,v={i}) > e + H2(n=X1,v={j})\n'+\
                 f'rates/Laporta/vibr_trans/vi={i}_vf={j}.txt\n\n'
     return t
 
+def rea_ion_state(state):
+    t = ''
+    for i in range(15):
+        t +='* MCCCDB ion '+state+f'{i} \n'+\
+            'e + H2(n='+state[:2]+f',v={i}) > 2*e + H2+\n'+\
+            'rates/MCCC/'+state+f'-ionization/vi={i}/MCCC-el-D2-TICS.'+state+f'_vi={i}.txt\n\n'
+    return t
 
-def gen_input(new_file_name, B_X = False, vibr = False, C_X=False):
+def rea_diss_att(state):
+    t = '' 
+    for i in range(15):
+        t += '* MCCCDB att '+state+f'{i}\n'+\
+                'e + H2(n='+state[:2]+f',v={i}) > H(n=1) + H-\n'+\
+                'rates/Laporta/diss_attachment_'+state+f'/vi={i}.txt\n\n'
+    return t
+
+
+def gen_input(new_file_name, B_X = False, vibr_hyd = False, vibr_lap=False, C_X=False, ion_X1=False, ion_B1=False, diss_att_X1=False, diss_att_B1 = False):
 
     ## TITLE 
     string = '# This is an input file for the UEDGE Python CRM\n'+\
@@ -81,8 +97,12 @@ def gen_input(new_file_name, B_X = False, vibr = False, C_X=False):
     if B_X:
         string+=species_state('B1')
     if C_X:
-        string+='* H2(n=C)\n'+\
-	            '   V 12.41104\n'
+        string+=species_state('C1')
+        
+    # Input negative ions
+    if diss_att_X1 or diss_att_B1:
+        string+='* H-\n'+\
+                '   V -0.75\n' 
         
     string +='\n\n'
 
@@ -99,13 +119,34 @@ def gen_input(new_file_name, B_X = False, vibr = False, C_X=False):
     string+='** REACTIONS\n\n'
 
     # Vibrational transitions (change later to Laporta)
-    if vibr:
+    if vibr_hyd:
         string+='* H2VIBR H.2 2.$v&\n' +\
-                'e + H2(v=$) > e + H2(v=&)\n\n' 
+                'e + H2(n=X1,v=$) > e + H2(n=X1,v=&)\n\n'
     
+    if vibr_lap:
+        string+=rea_vibr_trans()
+    
+    # Excitation and decay from electronizally excited states
     if B_X:
         B_X_rate = get_coeffs('Fantz/Table 2 Franck-Condon Factors/D2_B1-X1_FCF.dat', 7.7771e+08)
-        string += rea_X1_B1Su(B_X_rate)
+        string += rea_el_exc(B_X_rate, 'X1Sg', 'B1Su')
+    if C_X:
+        C_X_rate = get_coeffs('Fantz/Table 2 Franck-Condon Factors/D2_C1-X1_FCF.dat', 1.0532e+09)
+        string += rea_el_exc(C_X_rate, 'X1Sg', 'C1Pu')
+    
+    # Ionization 
+    if ion_X1:
+        string+=rea_ion_state('X1Sg')
+    if ion_B1: 
+        string+=rea_ion_state('B1Su')
+    
+    # Dissociative attachment
+    if diss_att_X1:
+        string+=rea_diss_att('X1Sg')
+    if diss_att_B1:
+        string+=rea_diss_att('B1Su')
+
+    
 
     string +='\n\n'
 
@@ -128,6 +169,6 @@ def gen_input(new_file_name, B_X = False, vibr = False, C_X=False):
 
 
 
-gen_input('input_res.dat',B_X = True, vibr=True)
+gen_input('input_res.dat', vibr_lap=True, B_X=True)
 
 

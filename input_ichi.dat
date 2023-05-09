@@ -72,7 +72,7 @@ e + H2(v=0) > 2*e + p + H(n=1)
 ** RATES
 # Define the files for the standard inputs
 H2VIBR  rates/h2vibr_ichi.tex
-HYDHEL rates/hydhel.tex
+HYDHEL rates/HYDHEL.tex
 
 ** SETTINGS
 # Define the most central parameters to the simulations

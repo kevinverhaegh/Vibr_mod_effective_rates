@@ -21,7 +21,7 @@ def extract_table(lines, initial_state, final_state):
 def extract_table_diss_att(lines, initial_state):
 
     for i,line in enumerate(lines): 
-        if f'PROCESS: E + D2(X,v={initial_state}) -> D(1s) + D-(1s2), Attachment' in line:
+        if f'PROCESS: E + D2(B,v={initial_state}) -> D(n=2) + D-(1s2), Attachment' in line:
             start_index = i+5
 
     table = []
@@ -101,7 +101,7 @@ def laporta_to_mccc_diss_attachment(file):
                 table[:,1] = a0**-2*table[:,1]
 
                 string = numpy_array_to_string(table)
-                filename = f'rates/Laporta/diss_attachment/vi={i}.txt'
+                filename = f'rates/Laporta/diss_attachment_B1Su/vi={i}.txt'
 
                 with open(filename, 'w') as dest: 
                     dest.write(string)
@@ -112,6 +112,6 @@ def laporta_to_mccc_diss_attachment(file):
 
 E = D2_energies('Fantz/Table 1 Vib Eigenvalues/X1_EV.txt')
 # laporta_to_mccc_vibr_trans('rates/Laporta/vibr_trans/Cross section.txt', E) ##Add energies from franck condon paper
-laporta_to_mccc_diss_attachment('rates/Laporta/diss_attachment/Cross section.txt')
+laporta_to_mccc_diss_attachment('rates/Laporta/diss_attachment_B1Su/Cross section.txt')
 
 print('Done')

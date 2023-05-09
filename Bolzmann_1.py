@@ -37,7 +37,7 @@ def fit_eval(coeffs, x):
 
 Te_min = 0.1
 Te_max = 100
-Te_reso = int(2e2)
+Te_reso = int(1e2)
 
 input_crm = 'input_new.dat'
 fv, Tev = vibr_dist(input_crm,iso_mass=2, Te_reso=Te_reso)
@@ -85,18 +85,19 @@ plt.title("Deviation from Bolxmann distribution as a function of temperature")
 # Plot of distribution at given temperature
 i = 90
 plt.figure()
-plt.yscale('log')
-plt.plot(np.linspace(0,14,15),fv[:, i], 'o')
+# plt.yscale('log')
+plt.plot(np.linspace(0,14,15),fv[:, i], 'o', label='Calculated data')
 
 x = 0.5+np.linspace(0,14,15)
 y = np.log(fv[:,i])
 c = np.flip(np.polyfit(x,y, 1))
 
 fit = fit_eval(c,x)
-plt.plot(x-0.5,fit, '--')
+plt.plot(x-0.5,fit, '--', label='Exponential fit')
 plt.title('T = %1.2f eV' %Tev[i])
 plt.xlabel('Vibrational level')
 plt.ylabel('Fractional abundance')
+plt.legend()
 plt.show()
 
 print('hello')

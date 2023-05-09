@@ -54,7 +54,7 @@ def rea_diss_att():
     for i in range(15):
         t +=f'* MCCCDB att {i}\n'+\
                 f'e + H2(v={i}) > H(n=1) + H-\n'+\
-                f'rates/Laporta/diss_attachment/vi={i}.txt\n\n'
+                f'rates/Laporta/diss_attachment_X1Sg/vi={i}.txt\n\n'
     return t
 
 
@@ -91,7 +91,7 @@ def FC_factors(file_name, nu_eff):
     return coeffs
     
 
-def gen_input(new_file_name, B_X = False, C_X = False, ion = False, diss = False, vibr = False, cx_ichi = False, diss_ion = False, diss_att=False):
+def gen_input(new_file_name, B_X = False, C_X = False, ion = False, diss = False, vibr = False, vibr_old=False, cx = False, diss_ion = False, diss_att=False, diss_att_old=False):
 
     ## TITLE 
     string = '# This is an input file for the UEDGE Python CRM\n'+\
@@ -121,7 +121,7 @@ def gen_input(new_file_name, B_X = False, C_X = False, ion = False, diss = False
 	            '   V 12.41104\n'
         
     # Input negative ions
-    if diss_att:
+    if diss_att or diss_att_old:
         string+='* H-\n'+\
                 '   V -0.75\n' 
     
@@ -139,10 +139,14 @@ def gen_input(new_file_name, B_X = False, C_X = False, ion = False, diss = False
     ## REACTIONS
     string+='** REACTIONS\n\n'
 
+    #  Vibrational transitions
     if vibr:
         string+=rea_vibr_trans()
+    if vibr_old:
+        string+='* H2VIBR H.2 2.$v&\n' +\
+                    'e + H2(v=$) > e + H2(v=&)\n\n' 
     
-    if cx_ichi:
+    if cx:
         string +='* H2VIBR H.2 2.$q6\n'+\
                     'p + H2(v=$) > H2+ + H(n=1)\n\n'
 
@@ -193,8 +197,7 @@ def gen_input(new_file_name, B_X = False, C_X = False, ion = False, diss = False
         f.write(string)
 
     
-gen_input('input_new.dat', vibr=True, cx_ichi=True)
-
+gen_input('input_new.dat', vibr=True, cx=True, ion=True, diss=True)
         
 
 

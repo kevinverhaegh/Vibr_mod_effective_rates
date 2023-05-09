@@ -30,6 +30,7 @@ def run_demo(input_crm,iso_mass=1,T_request=1, ichi=False,Te_max=100,Te_reso=int
     #calculate vibrational distribution using Tiv = Tev/iso_mass
     for i in range(0,len(Tev)):
         fv_H2[:,i]=crm.steady_state(Tev[i],ne[i],Ti=Tiv[i],plot=False,dt=True)[indx_H2v]
+        print(i)
 
     #normalise vibrational distribution by dividing the distribution values to the sum of the distribution
     fv_H2 = fv_H2/(np.sum(fv_H2,axis=0)[None,:])
@@ -45,8 +46,16 @@ def run_demo(input_crm,iso_mass=1,T_request=1, ichi=False,Te_max=100,Te_reso=int
     vibr_resolved_Diss = np.zeros([15,len(Tev)])
     vibr_resolved_Ion = np.zeros([15,len(Tev)])
 
+    states = ['a3Sg', 'B1Su', 'Bp1Su', 'C1Pu', 'c3Pu', 'D1Pu', 'd3Pu', 'e3Su', 'EF1Sg', 'g3Sg', 'GK1Sg', 'H1Sg', 'h3Sg', 'I1Pg', 'i3Pg', 'J1Dg', 'j3Dg']
     for i in range(0,15):
         vibr_resolved_CX[i,:] = eval_1D(X.reactions['H2VIBR']['H.2']['2.'+str(i)+'L2'],Tiv)
+
+        # for j in range(len(Tev)):
+        #     vibr_resolved_Ion[i,j] = crm.reactions['MCCCDB']['ion'][f'{i}'].integrated(Tev[j],0)
+
+            # for state in states:
+            #     vibr_resolved_Diss[i,j] += crm.reactions['MCCCDB']['diss']['X_'+state+f'{i}'].integrated(Tev[j],0)
+
         vibr_resolved_Diss[i,:] = eval_1D(X.reactions['H2VIBR']['H.2']['2.'+str(i)+'L1'],Tev)
         vibr_resolved_Ion[i,:] = eval_1D(X.reactions['H2VIBR']['H.2']['2.'+str(i)+'L4'],Tev)
 
@@ -139,8 +148,8 @@ co_cx, co_diss, co_ion, eff_mol_cx, eff_mol_diss, eff_mol_ion, vibr_h2vibr = run
 
 replace_block_1d('rates/amjuel.tex', 3131, co_cx, new_file_name='rates/amjuel_altered.tex')
 replace_block_1d('rates/amjuel_altered.tex', 3157, co_diss, overwrite=True)
-replace_block_1d('rates/amjuel_altered.tex', 3169, co_ion, overwrite=True)
-replace_block_1d('rates/amjuel_altered.tex', 3183, co_cx_ichi, overwrite=True)
+replace_block_1d('rates/amjuel_altered.tex', 3183, co_ion, overwrite=True)
+replace_block_1d('rates/amjuel_altered.tex', 3209, co_cx_ichi, overwrite=True)
 
 import CRUMPET
 
@@ -182,4 +191,5 @@ plt.title('Vibr. distribution as function of T, H2VIBR')
 
 plt.show()
 
+print('Done')
 # replace_block_1d('C:/Users/Gebruiker/OneDrive - TU Eindhoven/Documenten/Masters/Internship/Vibr_mod_effective_rates/rates/amjuel.tex',  3131, co)
