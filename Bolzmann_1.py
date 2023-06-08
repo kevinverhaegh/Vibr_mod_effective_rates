@@ -11,7 +11,7 @@ def vibr_dist(input_crm,iso_mass=1, Te_max=100,Te_reso=int(1e3),Te_min=0.1):
     crm = CRUMPET.Crumpet(input_crm)
 
     #make Te & ne vectors
-    Tev = np.linspace(Te_min,Te_max,Te_reso)
+    Tev = 10**np.linspace(np.log10(Te_min),np.log10(Te_max),Te_reso)
     Tiv = Tev/iso_mass # Assume Ti=Te
     ne = 1e19*np.ones(np.shape(Tev)) #assume electron density is 1e19 m-3 (should not impact the rates)
     crm.source[2] = 1e-100 #add small source for numerical stability (only needed if reactions that dissociate are included)
@@ -45,6 +45,7 @@ def fit_eval(coeffs, x):
         o = o + coeffs[i]*x**i
     return np.exp(o)
 
+#%%
 Te_min = 0.1
 Te_max = 100
 Te_reso = int(1e2)
@@ -66,7 +67,7 @@ def err_bolzmann(fv_H2, T):
 
     for i in range(len(T)):
         fit = np.flip(np.polyfit(x,np.log(fv_H2[:,i]), 1))
-        err[i] = np.sqrt(np.sum(((fit_eval(fit,x)-fv_H2[:,i])/fit_eval(fit,x))**2/len(T)))
+        err[i] = np.sqrt(np.sum(((fit_eval(fit,x)-fv_H2[:,i]))**2/len(T)))
         coeff[i] = fit[1]
     return err, coeff
 
@@ -74,12 +75,19 @@ def err_bolzmann(fv_H2, T):
 # err_ichi, coeff_ichi = err_bolzmann(fv_ichi, Tev)
 err, coeff = err_bolzmann(fv, Tev)
 E = D2_energies('Fantz/Table 1 Vib Eigenvalues/X1_EV.txt')
+#%%
 
+plt.figure()
+plt.loglog(Tev,np.transpose(fv[2:17]))
+plt.xlabel('Temperature (eV)')
+plt.ylabel('Fractional abundance of vibrational distribution')
+plt.title('Vibr. distribution as function of T')
 
 # Plot of Ichihara fit coefficients
 # plt.plot(Tev, coeff_ichi, label='Ichihara')
+plt.figure()
 plt.plot(Tev, coeff, label='H2VIBR')
-plt.ylabel('Decay constant')
+plt.ylabel(r'$C^{-1}$')
 plt.xlabel('Temperature (eV)')
 
 
@@ -95,7 +103,7 @@ plt.title("Deviation from Bolxmann distribution as a function of temperature")
 
 
 # Plot of distribution at given temperature
-i = 90
+i = 10
 plt.figure()
 plt.yscale('log')
 plt.plot(E,fv[:, i], 'o', label='Calculated data')
@@ -106,10 +114,25 @@ c = np.flip(np.polyfit(E,y, 1))
 fit = fit_eval(c,E)
 plt.plot(E,fit, '--', label='Exponential fit')
 plt.title('T = %1.2f eV' %Tev[i])
-plt.xlabel('Vibrational level')
+plt.xlabel('E (eV)')
 plt.ylabel('Fractional abundance')
 plt.legend()
 plt.show()
 
+e=1.602e-19
+nu=3.2e10
+h=6.626e-34
+kb = 1.38e-23
+
+V = 0.000232108
+
+
+C = np.polyfit(Tev*e/kb,1/coeff,2)[1]
+print('Is '+str(-C)+' close to '+str(V)+'?')
+
+
+
 print('hello')
 
+
+# %%

@@ -204,7 +204,7 @@ def gen_input(new_file_name, B_X = False, C_X = False, ion = False, diss = False
         f.write(string)
 
     
-gen_input('input_false.dat', B_X = True, C_X=True)
+gen_input('input_false.dat', vibr=True, B_X = True, ion=True,diss=True,diss_att=True,cx=True,C_X=True)
         
 
 

@@ -6,6 +6,7 @@ indx_EF1 = np.append(47,np.arange(48,62))
 indx_a3 = np.append(62,np.arange(63,77))
 indx_c3 = np.append(77,np.arange(78,92))
 indx_d3 = np.append(92,np.arange(93,107))
+indx_mol = np.append(2,np.arange(3,107))
 
 
 def eval_1D(coeff, T):
@@ -29,14 +30,15 @@ def run_demo(input_crm,iso_mass=1,T_request=1, ichi=False,Te_max=100,Te_reso=int
     crm = CRUMPET.Crumpet(input_crm)
 
     #make Te & ne vectors
-    # Tev = 10**np.linspace(np.log10(Te_min),np.log10(Te_max),Te_reso)
-    Tev = 10*np.ones(Te_reso)
+    Tev = 10**np.linspace(np.log10(Te_min),np.log10(Te_max),Te_reso)
+    # Tev = 80*np.ones(Te_reso)
     Tiv = Tev/iso_mass # Assume Ti=Te
-    ne = 1e19*np.linspace(1e-7,1, len(Tev)) #assume electron density is 1e19 m-3 (should not impact the rates)
-    crm.source[2] = 1e-10 #add small source for numerical stability (only needed if reactions that dissociate are included)
+    # ne = 1e19*np.linspace(1e-7,1, len(Tev)) #assume electron density is 1e19 m-3 (should not impact the rates)
+    ne = 1e16*np.ones(len(Tev))
+    # crm.source[2] = 1e-10 #add small source for numerical stability (only needed if reactions that dissociate are included)
 
     #compute vibrational distribution H2
-    fv_H2 = np.zeros([108,len(Tev)])
+    fv_H2 = np.zeros([len(crm.species),len(Tev)])
 
     #calculate vibrational distribution using Tiv = Tev/iso_mass
     for i in range(0,len(Tev)):
@@ -44,7 +46,7 @@ def run_demo(input_crm,iso_mass=1,T_request=1, ichi=False,Te_max=100,Te_reso=int
         print(i)
 
     #normalise vibrational distribution by dividing the distribution values to the sum of the distribution
-    fv_H2 = fv_H2/(np.sum(fv_H2[indx_X1],axis=0)[None,:])
+    fv_H2 = fv_H2/(np.sum(fv_H2[indx_mol],axis=0)[None,:])
 
     #Get vibrationally resolved molecular CX rates from H2VIBR
 
@@ -56,6 +58,7 @@ def run_demo(input_crm,iso_mass=1,T_request=1, ichi=False,Te_max=100,Te_reso=int
     vibr_resolved_CX = np.zeros([15,len(Tev)])
     vibr_resolved_Diss = np.zeros([15,len(Tev)])
     vibr_resolved_DA = np.zeros([15,len(Tev)])
+    vibr_resolved_DA_B1 = np.zeros([15,len(Tev)])
 
     states = [indx_X1, indx_B1, indx_C1, indx_EF1, indx_a3, indx_c3]
     vibr_resolved_Ion = np.zeros([15,len(Tev),len(states)])
@@ -75,6 +78,7 @@ def run_demo(input_crm,iso_mass=1,T_request=1, ichi=False,Te_max=100,Te_reso=int
 
         # vibr_resolved_Ion[i,:] = eval_1D(X.reactions['H2VIBR']['H.2']['2.'+str(i)+'L2'],Tev)
         vibr_resolved_DA[i,:] = eval_1D(X.reactions['H2VIBR']['H.2']['2.'+str(i)+'L4'],Tev)
+        vibr_resolved_DA_B1[i,:] = eval_1D(X.reactions['H2VIBR']['H.2']['2.'+str(i)+'Z4'],Tev)
 
         for j in range(len(states)):
             labels = ['2.'+str(i)+'L2', '2.'+str(i)+'B1','2.'+str(i)+'C2','4.'+str(i)+'L2', '5.'+str(i)+'L2', '7.'+str(i)+'L2']
@@ -106,14 +110,18 @@ def run_demo(input_crm,iso_mass=1,T_request=1, ichi=False,Te_max=100,Te_reso=int
 
     #Now use fv_H2 as a weight and sum the total reaction rate to generate the effective rate
     eff_mol_cx = np.sum(vibr_resolved_CX*fv_H2[indx_X1],axis=0)
-    # eff_mol_diss = np.sum(vibr_resolved_Diss*fv_H2[indx_X1], axis=0)
-    eff_mol_diss = np.sum(vibr_resolved_Diss*fv_H2[indx_X1]+diss_decay_b3*fv_H2[indx_a3], axis=0)
+    eff_mol_diss = np.sum(vibr_resolved_Diss*fv_H2[indx_X1], axis=0)
+    # eff_mol_diss = np.sum(vibr_resolved_Diss*fv_H2[indx_X1]+diss_decay_b3*fv_H2[indx_a3], axis=0)
     # eff_mol_ion = np.sum(vibr_resolved_Ion*fv_H2, axis=0)
-    eff_mol_DA = np.sum(vibr_resolved_DA*fv_H2[indx_X1], axis=0)
+    # eff_mol_DA = np.sum(vibr_resolved_DA*fv_H2[indx_X1], axis=0)
+    eff_mol_DA = np.sum(vibr_resolved_DA*fv_H2[indx_X1]+vibr_resolved_DA_B1*fv_H2[indx_B1], axis=0)
 
     eff_mol_ion = np.zeros(len(Tev))
     for i, state in enumerate(states):
         eff_mol_ion += np.sum(fv_H2[state,:]*vibr_resolved_Ion[:,:,i],axis=0)
+
+
+
 
     # Calculate logarithmic fit coefficients for the effective rates
     p_cx = np.flip(np.polyfit(np.log(Tev),np.log(eff_mol_cx/1e-6),8))
@@ -174,7 +182,7 @@ import matplotlib.pyplot as plt
 # plt.title('CX effective rate Ichihara')
 # plt.legend()
 
-input_crm = 'input_res.dat'
+input_crm = 'input_fin.dat'
 co_cx, co_diss, co_ion, eff_mol_cx, eff_mol_diss, eff_mol_ion, eff_mol_DA, vibr_h2vibr = run_demo(input_crm, iso_mass=2,Te_min=Te_min,Te_max=Te_max,Te_reso=Te_reso)
 
 # replace_block_1d('rates/amjuel.tex', 3131, co_cx, new_file_name='rates/amjuel_altered.tex')
@@ -185,20 +193,20 @@ co_cx, co_diss, co_ion, eff_mol_cx, eff_mol_diss, eff_mol_ion, eff_mol_DA, vibr_
 import CRUMPET
 
 plt.figure()
-# plt.loglog(Tev,eff_mol_cx,'b',label='Charge Exchange')
-# plt.plot(Tev, eff_mol_diss,'g', label='Dissociation')
-# plt.plot(Tev, eff_mol_ion,'r', label='Ionization')
+plt.loglog(Tev,eff_mol_cx,'b',label='Charge Exchange')
+plt.plot(Tev, eff_mol_diss,'g', label='Dissociation')
+plt.plot(Tev, eff_mol_ion,'r', label='Ionization')
 
-plt.loglog(ne,eff_mol_cx,'b',label='Charge Exchange')
-plt.plot(ne, eff_mol_diss,'g', label='Dissociation')
-plt.plot(ne, eff_mol_ion,'r', label='Ionization')
+# plt.loglog(ne,eff_mol_cx,'b',label='Charge Exchange')
+# plt.plot(ne, eff_mol_diss,'g', label='Dissociation')
+# plt.plot(ne, eff_mol_ion,'r', label='Ionization')
 
 # plt.plot(Tev, eff_mol_DA,'c', label='Dissociative Attachment')
 # plt.plot(Tev, fit_h2vibr,  '--', label='Fit')
 X = CRUMPET.ratedata.RateData(rates={'HYDHEL': '/rates/HYDHEL.tex'})
-# plt.plot(Tev, eval_1D(X.reactions['HYDHEL']['H.2']['2.2.9'],Tev),'r--',label='Ionization HYDHEL')
-# plt.plot(Tev, eval_1D(X.reactions['HYDHEL']['H.2']['2.2.5'],Tev),'g--',label='Dissociation HYDHEL')
-# plt.plot(Tev, eval_1D(X.reactions['HYDHEL']['H.2']['3.2.3'],Tev/2),'b--',label='Charge exchange HYDHEL')
+plt.plot(Tev, eval_1D(X.reactions['HYDHEL']['H.2']['2.2.9'],Tev),'r--',label='Ionization HYDHEL')
+plt.plot(Tev, eval_1D(X.reactions['HYDHEL']['H.2']['2.2.5'],Tev),'g--',label='Dissociation HYDHEL')
+plt.plot(Tev, eval_1D(X.reactions['HYDHEL']['H.2']['3.2.3'],Tev/2),'b--',label='Charge exchange HYDHEL')
 plt.xlabel('Temperature (eV)')
 plt.ylabel('Effective rate')
 plt.title('Effective rates for different reactions')
@@ -220,11 +228,11 @@ plt.legend()
 # plt.title('Vibr. distribution as function of T, Ichihara')
 
 plt.figure()
-# plt.loglog(Tev,np.transpose(vibr_h2vibr[indx_X1]))
-plt.loglog(ne,np.transpose(vibr_h2vibr[indx_X1]))
+plt.loglog(Tev,np.transpose(vibr_h2vibr[indx_X1]))
+# plt.loglog(ne,np.transpose(vibr_h2vibr[indx_X1]))
 plt.xlabel('Temperature (eV)')
 plt.ylabel('Fractional abundance of vibrational distribution')
-plt.title('Vibr. distribution as function of T, H2VIBR')
+plt.title('Vibr. distribution as function of T')
 
 
 

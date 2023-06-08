@@ -133,21 +133,20 @@ def insert_string(file_name, file_name_new, string, line_num):
 
 
 
-Tev = np.linspace(0.2,100, 100)
+Tev = np.linspace(0.1,100, 1000)
 Tiv = Tev # Assume Ti=Te
 ne = 1e19*np.ones(np.shape(Tev)) #assume electron density is 1e19 m-3 (should not impact the rates)
 
 
-
 full_string = ''
-with open('rates/Laporta/diss_attachment_B1Su/Cross section.txt', 'r') as file:
+with open('rates/Laporta/diss_attachment_X1Sg/Cross section.txt', 'r') as file:
     lines1 = file.readlines()
 
 # with open('rates/Laporta/diss_attachment_X1Sg/Cross section exc.txt', 'r') as file:
 #     lines2 = file.readlines()
 
 
-state = 'B1Su'
+state = 'X1Sg'
 for i in range(15):
     # table1 = extract_table(lines1,i)
     # table2 = extract_table(lines2,i)
@@ -164,8 +163,8 @@ for i in range(15):
 
 plt.show()
 
-with open('rates/h2vibr_custom.tex', 'a') as file:
-    file.write(full_string)
+# with open('rates/h2vibr_custom.tex', 'a') as file:
+#     file.write(full_string)
 
 
 print('Done')

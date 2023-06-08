@@ -4,12 +4,8 @@
 # Comments marked by '#'. input cards started by '** ', subcards by '* '
 
 ** SPECIES
-* H(n=1)
-	V 2.375
 * H2+
 	V 15.56
-* H2(v=0)
-	V 0.27504
 * H2(v=1)
 	V 0.79104
 * H2(v=2)
@@ -45,6 +41,10 @@
 	V 0
 * p
 	V 15.975
+* H(n=1)
+	V 2.375
+* H2(v=0)
+	V 0.27504
 
 ** REACTIONS
 # The reactions to be considered from AMJUEL/HYDHEL/H2VIBR listed below.
@@ -89,6 +89,5 @@ HYDHEL rates/HYDHEL.tex
 # Initial densities
 # Species without specified densities are assumed to be zero at t=0
 * n0
-H(n=1)      0e12
-H2(v=0)     1e10
+# H2(v=1)     1e10
 * verbose   0   # Show verbose output

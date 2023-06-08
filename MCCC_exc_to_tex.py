@@ -83,16 +83,49 @@ def fit_temp(table, Tev, E_init, E_final, i_vibr, f_vibr):
 
     return fit, fit_deex, rates
 
-def numpy_to_string(i_state, f_state,i): 
-    part_1 = "\subsection{\n" +\
-                f"Reaction 2.{i}c1\n"+\
-                f"$ e + H_2(v={i}) \\rightarrow e + H2(n="+f_state[0]+")+ $ (electronic excitation)\n" +\
-                "}\n"+\
-                "Rate coeff. for H2 at rest, derived by integrating MCCC cross sections over Bolzmann distribution\n"+\
-                "Excitation rates from "+i_state+" to "+f_state+" \n"+\
-                "\n"+\
-                "\\begin{small}\\begin{verbatim}\n"+\
-                "\n"
+def fit_temp_unr(table, Tev, E_init, E_final, i_vibr):
+
+    # Add extrapolation in loglog space 
+    logtable = np.log(table)
+    o = interpolate.interp1d(logtable[:,0], logtable[:,1], fill_value = 'extrapolate')
+    table = np.exp(np.transpose([np.linspace(min(logtable[:,0]),np.log(5000),1000), o(np.linspace(min(logtable[:,0]),np.log(5000),1000))]))
+
+    # Calculating rates as function of temperature
+    rates = np.zeros(len(Tev))
+    for i in range(len(Tev)):
+        rates[i] = calc_rates(table[:,0],table[:,1],Tev[i]) # 1e-6 because units!!!!!
+
+    # Deexcitation using detailed balance
+    rates_deex = rates*np.exp((E_final-E_init[i_vibr])/Tev)
+
+    
+
+    fit = np.flip(np.polyfit(np.log(Tev),np.log(rates/1e-6),8)) 
+    fit_deex = np.flip(np.polyfit(np.log(Tev),np.log(rates_deex/1e-6),8))
+
+    return fit, fit_deex, rates
+
+def numpy_to_string(i_state, f_state,i, direction):
+    if direction=='u':
+        part_1 = "\subsection{\n" +\
+                    f"Reaction 14.{i}"+direction+"1\n"+\
+                    "$ e + H_2(n="+i_state+f",v={i}) \\rightarrow e + H2(n="+f_state+")+ $ (electronic excitation)\n" +\
+                    "}\n"+\
+                    "Rate coeff. for H2 at rest, derived by integrating MCCC cross sections over Bolzmann distribution\n"+\
+                    "Excitation rates from "+i_state+" to "+f_state+". Upper state is vibrationally unresolved \n"+\
+                    "\n"+\
+                    "\\begin{small}\\begin{verbatim}\n"+\
+                    "\n"
+    if direction=='d':
+        part_1 = "\subsection{\n" +\
+                    f"Reaction 14.{i}"+direction+"1\n"+\
+                    "$ e + H_2(n="+i_state+") \\rightarrow e + H2(n="+f_state+f",v={i})+ $ (electronic excitation)\n" +\
+                    "}\n"+\
+                    "Rate coeff. for H2 at rest, derived by integrating MCCC cross sections over Bolzmann distribution\n"+\
+                    "Excitation rates from "+i_state+" to "+f_state+". Upper state is vibrationally unresolved \n"+\
+                    "\n"+\
+                    "\\begin{small}\\begin{verbatim}\n"+\
+                    "\n"       
                 
     part_2 =   "\n"+\
                 "\\end{verbatim}\end{small}\n"+\
@@ -146,13 +179,20 @@ Tev = 10**np.linspace(np.log10(0.2),np.log10(100),100)
 
 
 def unresolved(i_state,f_state):
+    E_init = D2_energies('Fantz/Table 1 Vib Eigenvalues/'+i_state[:-2]+'_EV.txt')
+    E_final = D2_energies('Fantz/Table 1 Vib Eigenvalues/'+f_state[:-2]+'_EV.txt')[0]
+
     full_string = ''
     for i in range(15):
-        table = extract_table(i_state,f_state,i)
-        fit, rates = fit_temp(table,Tev)
 
-        str1,str2=numpy_to_string_res(i_state,f_state,i,j)
+        table = extract_table(i_state,f_state,i)
+        fit, fit_deex, rates = fit_temp_unr(table,Tev,E_init, E_final,i )
+
+        str1,str2=numpy_to_string(i_state,f_state,i,'u')
         full_string += str1+block_string(fit)+str2
+
+        str1,str2=numpy_to_string(f_state,i_state,i,'d')
+        full_string += str1+block_string(fit_deex)+str2
         
         plt.plot(Tev, rates)
     plt.show()
@@ -183,6 +223,7 @@ def resolved(i_state, f_state):
 
             str1,str2=numpy_to_string_res(f_state,i_state,j,i,'d')
             full_string += str1+block_string(fit_deex)+str2
+
     return full_string
 
 def resolved_exc(i_state,f_state):
@@ -223,7 +264,9 @@ def resolved_exc(i_state,f_state):
 
 i_state = 'c3Pu'
 f_state = 'd3Pu'
-full_string = resolved_exc(i_state, f_state)      
+full_string = resolved_exc(i_state, f_state)  
+
+# full_string = unresolved('X1Sg', 'C1Pu')   
 
 
 
@@ -242,8 +285,8 @@ full_string = resolved_exc(i_state, f_state)
 # plt.show()
 
 
-with open('rates/h2vibr_custom.tex','a') as file:
-    file.write(full_string)
+# with open('rates/h2vibr_custom.tex','a') as file:
+#     file.write(full_string)
 
 
 print('Done')

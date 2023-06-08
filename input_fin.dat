@@ -3,12 +3,7 @@
 # May 2023
 
 ** SPECIES
-* H(n=1)
-    V 2.375
-* H2+
-    V 15.56
-* H2(n=X1,v=0)
-   V 0.19652
+
 * H2(n=X1,v=1)
    V 0.56765
 * H2(n=X1,v=2)
@@ -217,8 +212,10 @@
    V 16.10766
 * H2(n=d3,v=14)
    V 16.2136
+* H2+
+    V 15.56
 * H-
-   V -0.75 
+   V -0.75
 
 
 ** BACKGROUND
@@ -226,138 +223,80 @@
     V 0
 * p
     V 15.975
+* H(n=1)
+    V 2.375
+* H2(n=X1,v=0)
+    V 0.19652
 
 
 ** REACTIONS
 
-# Vibrational transitions in ground state
 * H2VIBR H.2 2.$t&
 e + H2(n=X1,v=$) > e + H2(n=X1,v=&)
 
-# Vibrational transitions in B1
-* H2VIBR H.2 3.$t&
-e + H2(n=B1,v=$) > e + H2(n=B1,v=&)
-
-# Excitation from X1 to B1
-* H2VIBR H.2 1.$u&
-e + H2(n=X1,v=$) > e + H2(n=B1,v=&)
-
-* H2VIBR H.2 1.$d&
-e + H2(n=B1,v=$) > e + H2(n=X1,v=&)
-
-# Excitation from X1 to C1
-* H2VIBR H.2 3.$u&
-e + H2(n=X1,v=$) > e + H2(n=C1,v=&)
-
-* H2VIBR H.2 3.$d&
-e + H2(n=C1,v=$) > e + H2(n=X1,v=&)
-
-# Excitation from X1 to EF1
-* H2VIBR H.2 4.$u&
-e + H2(n=X1,v=$) > e + H2(n=EF1,v=&)
-
-* H2VIBR H.2 4.$d&
-e + H2(n=EF1,v=$) > e + H2(n=X1,v=&)
-
-# Excitation from X1 to a3
-* H2VIBR H.2 5.$u&
-e + H2(n=X1,v=$) > e + H2(n=a3,v=&)
-
-* H2VIBR H.2 5.$d&
-e + H2(n=a3,v=$) > e + H2(n=X1,v=&)
-
-# Excitation from X1 to c3
-* H2VIBR H.2 6.$u&
-e + H2(n=X1,v=$) > e + H2(n=c3,v=&)
-
-* H2VIBR H.2 6.$d&
-e + H2(n=c3,v=$) > e + H2(n=X1,v=&)
-
-# Excitation from X1 to d3
-* H2VIBR H.2 7.$u&
-e + H2(n=X1,v=$) > e + H2(n=d3,v=&)
-
-* H2VIBR H.2 7.$d&
-e + H2(n=d3,v=$) > e + H2(n=X1,v=&)
-
-# Excitation from B1 to C1
-* H2VIBR H.2 8.$u&
-e + H2(n=B1,v=$) > e + H2(n=C1,v=&)
-
-* H2VIBR H.2 8.$d&
-e + H2(n=C1,v=$) > e + H2(n=B1,v=&)
-
-# Excitation from B1 to EF1
-* H2VIBR H.2 9.$u&
-e + H2(n=B1,v=$) > e + H2(n=EF1,v=&)
-
-* H2VIBR H.2 9.$d&
-e + H2(n=EF1,v=$) > e + H2(n=B1,v=&)
-
-# Excitation from C1 to EF1
-* H2VIBR H.2 10.$u&
-e + H2(n=C1,v=$) > e + H2(n=EF1,v=&)
-
-* H2VIBR H.2 10.$d&
-e + H2(n=EF1,v=$) > e + H2(n=C1,v=&)
-
-# Excitation from a3 to d3
-* H2VIBR H.2 11.$u&
-e + H2(n=a3,v=$) > e + H2(n=d3,v=&)
-
-* H2VIBR H.2 11.$d&
-e + H2(n=d3,v=$) > e + H2(n=a3,v=&)
-
-# Excitation from c3 to d3
-* H2VIBR H.2 12.$u&
-e + H2(n=c3,v=$) > e + H2(n=d3,v=&)
-
-* H2VIBR H.2 12.$d&
-e + H2(n=d3,v=$) > e + H2(n=c3,v=&)
-
-# Ionization from X1
-* H2VIBR H.2 2.$l2
-e + H2(n=X1,v=$) > e + H2+
-
-# Ionization from B1
-* H2VIBR H.2 2.$b1
-e + H2(n=B1,v=$) > e + H2+
-
-# Ionization from C1
-* H2VIBR H.2 2.$c2
-e + H2(n=C1,v=$) > e + H2+
-
-# Ionization from EF1
-* H2VIBR H.2 4.$l2
-e + H2(n=EF1,v=$) > e + H2+
-
-# Ionization from a3
-* H2VIBR H.2 5.$l2
-e + H2(n=a3,v=$) > e + H2+
-
-# Ionization from c3
-* H2VIBR H.2 7.$l2
-e + H2(n=c3,v=$) > e + H2+
-
-# Molecular Charge Exchange
 * H2VIBR H.2 2.$q6
 p + H2(n=X1,v=$) > H2+ + H(n=1)
 
-# Dissociative attachment from X1
-* H2VIBR H.2 2.$l4
-e + H2(n=X1,v=$) > H(n=1) + H-
-
-# Dissociative attachment from B1
-* H2VIBR H.2 2.$z4
-e + H2(n=B1,v=$) > H(n=1) + H-
-
-# Dissociative Excitation from X1
 * H2VIBR H.2 2.$l1
 e + H2(n=X1,v=$) > e + 2*H(n=1)
 
+* H2VIBR H.2 2.$l2
+e + H2(n=X1,v=$) > e + H2+
 
+* AMJUEL H.4 2.2.11
+e + H2+ > 2*e + 2*p
 
-# Coefficients for radiative decay from B1Su 
+* AMJUEL H.4 2.2.12
+e + H2+ > e + p + H(n=1)
+
+* AMJUEL H.4 2.2.14
+e + H2+ > 2*H(n=1)
+
+* AMJUEL H.4 7.2.3a
+p + H- > 2*H(n=1)
+
+* AMJUEL H.4 7.2.3b
+p + H- > 2*e + p + H(n=1)
+
+* H2VIBR H.2 3.$t&
+e + H2(n=B1,v=$) > e + H2(n=B1,v=&)
+
+* H2VIBR H.2 1.$u&
+e + H2(n=X1,v=$) > e + H2(n=B1,v=&)
+
+* H2VIBR H.2 2.$b1
+e + H2(n=B1,v=$) > e + H2+
+
+* H2VIBR H.2 3.$u&
+e + H2(n=X1,v=$) > e + H2(n=C1,v=&)
+
+* H2VIBR H.2 2.$c2
+e + H2(n=C1,v=$) > e + H2+
+
+* H2VIBR H.2 4.$u&
+e + H2(n=X1,v=$) > e + H2(n=EF1,v=&)
+
+* H2VIBR H.2 4.$l2
+e + H2(n=EF1,v=$) > e + H2+
+
+* H2VIBR H.2 5.$u&
+e + H2(n=X1,v=$) > e + H2(n=a3,v=&)
+
+* H2VIBR H.2 5.$l2
+e + H2(n=a3,v=$) > e + H2+
+
+* H2VIBR H.2 6.$u&
+e + H2(n=X1,v=$) > e + H2(n=c3,v=&)
+
+* H2VIBR H.2 5.$l2
+e + H2(n=c3,v=$) > e + H2+
+
+* H2VIBR H.2 7.$u&
+e + H2(n=X1,v=$) > e + H2(n=d3,v=&)
+
+* H2VIBR H.2 5.$l2
+e + H2(n=d3,v=$) > e + H2+
+
 * USER COEFFICIENT B1Su_X1Sg0to0
 H2(n=B1,v=0) > H2(n=X1,v=0)
 1055300.0
@@ -5758,64 +5697,64 @@ H2(n=C1,v=14) > H2(n=EF1,v=13)
 H2(n=C1,v=14) > H2(n=EF1,v=14)
 78924.0
 
-* USER COEFFICIENT a3Sg_v=0
-e + H2(n=a3,v=0) > e + 2*H(n=1)
+* USER COEFFICIENT a3Sg_b3Sg0
+H2(n=a3,v=0) > 2*H(n=1)
 83897300.0
 
-* USER COEFFICIENT a3Sg_v=1
-e + H2(n=a3,v=1) > e + 2*H(n=1)
+* USER COEFFICIENT a3Sg_b3Sg1
+H2(n=a3,v=1) > 2*H(n=1)
 92659300.0
 
-* USER COEFFICIENT a3Sg_v=2
-e + H2(n=a3,v=2) > e + 2*H(n=1)
+* USER COEFFICIENT a3Sg_b3Sg2
+H2(n=a3,v=2) > 2*H(n=1)
 100828000.0
 
-* USER COEFFICIENT a3Sg_v=3
-e + H2(n=a3,v=3) > e + 2*H(n=1)
+* USER COEFFICIENT a3Sg_b3Sg3
+H2(n=a3,v=3) > 2*H(n=1)
 108308000.0
 
-* USER COEFFICIENT a3Sg_v=4
-e + H2(n=a3,v=4) > e + 2*H(n=1)
+* USER COEFFICIENT a3Sg_b3Sg4
+H2(n=a3,v=4) > 2*H(n=1)
 115095000.0
 
-* USER COEFFICIENT a3Sg_v=5
-e + H2(n=a3,v=5) > e + 2*H(n=1)
+* USER COEFFICIENT a3Sg_b3Sg5
+H2(n=a3,v=5) > 2*H(n=1)
 121640000.0
 
-* USER COEFFICIENT a3Sg_v=6
-e + H2(n=a3,v=6) > e + 2*H(n=1)
+* USER COEFFICIENT a3Sg_b3Sg6
+H2(n=a3,v=6) > 2*H(n=1)
 128076000.0
 
-* USER COEFFICIENT a3Sg_v=7
-e + H2(n=a3,v=7) > e + 2*H(n=1)
+* USER COEFFICIENT a3Sg_b3Sg7
+H2(n=a3,v=7) > 2*H(n=1)
 134503000.0
 
-* USER COEFFICIENT a3Sg_v=8
-e + H2(n=a3,v=8) > e + 2*H(n=1)
+* USER COEFFICIENT a3Sg_b3Sg8
+H2(n=a3,v=8) > 2*H(n=1)
 141028000.0
 
-* USER COEFFICIENT a3Sg_v=9
-e + H2(n=a3,v=9) > e + 2*H(n=1)
+* USER COEFFICIENT a3Sg_b3Sg9
+H2(n=a3,v=9) > 2*H(n=1)
 147893000.0
 
-* USER COEFFICIENT a3Sg_v=10
-e + H2(n=a3,v=10) > e + 2*H(n=1)
+* USER COEFFICIENT a3Sg_b3Sg10
+H2(n=a3,v=10) > 2*H(n=1)
 155118000.0
 
-* USER COEFFICIENT a3Sg_v=11
-e + H2(n=a3,v=11) > e + 2*H(n=1)
+* USER COEFFICIENT a3Sg_b3Sg11
+H2(n=a3,v=11) > 2*H(n=1)
 163227000.0
 
-* USER COEFFICIENT a3Sg_v=12
-e + H2(n=a3,v=12) > e + 2*H(n=1)
+* USER COEFFICIENT a3Sg_b3Sg12
+H2(n=a3,v=12) > 2*H(n=1)
 172346000.0
 
-* USER COEFFICIENT a3Sg_v=13
-e + H2(n=a3,v=13) > e + 2*H(n=1)
+* USER COEFFICIENT a3Sg_b3Sg13
+H2(n=a3,v=13) > 2*H(n=1)
 183139000.0
 
-* USER COEFFICIENT a3Sg_v=14
-e + H2(n=a3,v=14) > e + 2*H(n=1)
+* USER COEFFICIENT a3Sg_b3Sg14
+H2(n=a3,v=14) > 2*H(n=1)
 197053000.0
 
 * USER COEFFICIENT c3Pu_a3Sg0to0
@@ -8518,15 +8457,21 @@ H2(n=d3,v=14) > H2(n=a3,v=13)
 H2(n=d3,v=14) > H2(n=a3,v=14)
 59140.0
 
+* H2VIBR H.2 2.$l4
+e + H2(n=X1,v=$) > H(n=1) + H-
+
+* H2VIBR H.2 2.$z4
+e + H2(n=B1,v=$) > H(n=1) + H-
+
+
 
 ** RATES
 # Define the files for the standard inputs
 H2VIBR  rates/h2vibr_custom.tex
 HYDHEL rates/HYDHEL.tex
+AMJUEL rates/amjuel.tex
 
 ** SETTINGS
 * vmax      14
 * n0
-H(n=1)      0e12
-H2(n=X1,v=0)     1e10
 * verbose   0   # Show verbose output
