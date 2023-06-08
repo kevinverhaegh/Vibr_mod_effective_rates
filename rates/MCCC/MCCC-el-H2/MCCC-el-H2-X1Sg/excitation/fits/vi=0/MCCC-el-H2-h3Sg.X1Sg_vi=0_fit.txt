@@ -1,0 +1,16 @@
+# Analytic fits to MCCC calculations of electron scattering on molecular hydrogen
+# Adiabatic nuclei calculations performed with the spheroidal MCCC(210) model
+# Reference: Scarlett et al. Atom. Data Nucl. Data Tables (2021)
+# MCCC Database: mccc-db.org
+# This file: e + H2(X1Sg,vi=0) -> e + H2(h3Sg) all bound vf + dissociative excitation (DE)
+#
+# Fitting function: |(x-1)/x * (a0^2/x + a1/x^2 + a2/x^3 + a3/x^4 + a4/x^5)|
+#                   where x = energy / threshold_energy
+# Yields integrated cross section in atomic units
+
+# vf    vi  threshold (eV)   a0            a1            a2            a3            a4
+   0 <-  0  1.38434E+01    7.37590E-02  -9.48370E-02   5.44460E-01  -1.08610E+00   7.96430E-01
+   1 <-  0  1.40942E+01    9.90030E-02  -1.70300E-01   9.74880E-01  -1.96020E+00   1.45000E+00
+   2 <-  0  1.43292E+01    1.09180E-01  -2.05450E-01   1.16020E+00  -2.33990E+00   1.71670E+00
+   3 <-  0  1.45445E+01    1.04060E-01  -1.85640E-01   1.04120E+00  -2.10770E+00   1.54440E+00
+  DE <-  0  1.46815E+01    8.86000E-02  -1.47660E-01   9.92720E-01  -2.16220E+00   1.98040E+00

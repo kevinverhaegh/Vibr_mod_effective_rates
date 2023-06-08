@@ -15,10 +15,15 @@ def ichihara_rates(iso_mass = 1):
     from scipy.interpolate import interp1d
 
     #make interpolation object
-    f_ichi = interp1d(ichi_tab['T'], 1e-6*ichi_tab['MolCX_Ichi_01'], bounds_error=False,
-                        fill_value=(1e-6*ichi_tab['MolCX_Ichi_01'][:, 0], 1e-6*ichi_tab['MolCX_Ichi_01'][:, -1])) #interpolate Ichihara tables at EH2=0.1 eV. Nearest neighbour extrapolation
+    f_ichi = interp1d(np.log(ichi_tab['T']),np.log(ichi_tab['MolCX_Ichi_01']), 
+                      fill_value = 'extrapolate')
 
-    return f_ichi(Tiv/iso_mass)
+
+    # f_ichi = interp1d(ichi_tab['T'], 1e-6*ichi_tab['MolCX_Ichi_01'], bounds_error=False,
+    #                     fill_value=(1e-6*ichi_tab['MolCX_Ichi_01'][:, 0], 1e-6*ichi_tab['MolCX_Ichi_01'][:, -1])) #interpolate Ichihara tables at EH2=0.1 eV. Nearest neighbour extrapolation
+
+    return 1e-6*np.exp(f_ichi(np.log(Tiv/iso_mass)))
+    # return f_ichi(Tiv/iso_mass)
 
 def ichi_fit(input_rates):
     fit = np.zeros((15,9))
@@ -65,10 +70,8 @@ def numpy_to_string(i):
     return part_1, part_2
 
 
-full_string = ''
-coeffs = np.random.rand(15,9)
 
-def gen_full_string():
+def gen_full_string(coeffs):
     full_string = ''
     for i in range(15):
         str1, str2 = numpy_to_string(i)
@@ -95,16 +98,18 @@ def insert_string(file_name, file_name_new, string, line_num):
    
 rates = ichihara_rates()
 coeffs = ichi_fit(rates)
-full_string = gen_full_string()
+full_string = gen_full_string(coeffs)
 
-insert_string('rates/h2vibr.tex', 'rates/h2vibr_ichi.tex', full_string, 2565)
+# insert_string('rates/h2vibr.tex', 'rates/h2vibr_ichi.tex', full_string, 2565)
 
-print(numpy_to_string(coeffs))
+# print(numpy_to_string(coeffs))
 
-dat_file = open("rates/custom_ichi.tex", 'w')
-dat_file.write(full_string)
-dat_file.close()
+# dat_file = open("rates/custom_ichi.tex", 'w')
+# dat_file.write(full_string)
+# dat_file.close()
 
+# with open('rates/h2vibr_custom.tex','a') as file:
+#     file.write(full_string)
 
 import matplotlib.pyplot as plt
 
@@ -112,9 +117,10 @@ colors = plt.cm.rainbow(np.linspace(0, 1, 15))
 plt.figure()
 for i in range(15):
     plt.loglog(Tev,rates[i,:],c=colors[i],label='v=%i' %i)
-    fit = eval_1D(coeffs[i,:],Tev)
-    plt.loglog(Tev, fit, '--', c=colors[i], label='vf=%i' %i)
+    # fit = eval_1D(coeffs[i,:],Tev)
+    # plt.loglog(Tev, fit, '--', c=colors[i], label='vf=%i' %i)
 plt.xlabel('Temperature (eV)')
 plt.legend()
 plt.show()
 
+print('Done')

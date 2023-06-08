@@ -1,0 +1,339 @@
+# This is an input file for the UEDGE Python CRM
+# Created from scratch by Stijn Kobussen
+# May 2023
+
+** SPECIES
+* H(n=1)
+    V 2.375
+* H2+
+    V 15.56
+* H2(n=X1,v=0)
+   V 0.19652
+* H2(n=X1,v=1)
+   V 0.56765
+* H2(n=X1,v=2)
+   V 0.92411
+* H2(n=X1,v=3)
+   V 1.2662
+* H2(n=X1,v=4)
+   V 1.59408
+* H2(n=X1,v=5)
+   V 1.9078
+* H2(n=X1,v=6)
+   V 2.20734
+* H2(n=X1,v=7)
+   V 2.49267
+* H2(n=X1,v=8)
+   V 2.76373
+* H2(n=X1,v=9)
+   V 3.02042
+* H2(n=X1,v=10)
+   V 3.26256
+* H2(n=X1,v=11)
+   V 3.48988
+* H2(n=X1,v=12)
+   V 3.70193
+* H2(n=X1,v=13)
+   V 3.8981
+* H2(n=X1,v=14)
+   V 4.07762
+* H2(n=B1,v=0)
+   V 11.4287
+* H2(n=B1,v=1)
+   V 11.54571
+* H2(n=B1,v=2)
+   V 11.6603
+* H2(n=B1,v=3)
+   V 11.77259
+* H2(n=B1,v=4)
+   V 11.88269
+* H2(n=B1,v=5)
+   V 11.99067
+* H2(n=B1,v=6)
+   V 12.09655
+* H2(n=B1,v=7)
+   V 12.20037
+* H2(n=B1,v=8)
+   V 12.30215
+* H2(n=B1,v=9)
+   V 12.40192
+* H2(n=B1,v=10)
+   V 12.49971
+* H2(n=B1,v=11)
+   V 12.59552
+* H2(n=B1,v=12)
+   V 12.68939
+* H2(n=B1,v=13)
+   V 12.78133
+* H2(n=B1,v=14)
+   V 12.87136
+* H2(n=C1,v=0)
+   V 12.519
+* H2(n=C1,v=1)
+   V 12.725
+* H2(n=C1,v=2)
+   V 12.92258
+* H2(n=C1,v=3)
+   V 13.11189
+* H2(n=C1,v=4)
+   V 13.29304
+* H2(n=C1,v=5)
+   V 13.46611
+* H2(n=C1,v=6)
+   V 13.63116
+* H2(n=C1,v=7)
+   V 13.78818
+* H2(n=C1,v=8)
+   V 13.93715
+* H2(n=C1,v=9)
+   V 14.07799
+* H2(n=C1,v=10)
+   V 14.21058
+* H2(n=C1,v=11)
+   V 14.3347
+* H2(n=C1,v=12)
+   V 14.45009
+* H2(n=C1,v=13)
+   V 14.55637
+* H2(n=C1,v=14)
+   V 14.37598
+* H2(n=EF1,v=0)
+   V 12.52735
+* H2(n=EF1,v=1)
+   V 12.57037
+* H2(n=EF1,v=2)
+   V 12.67656
+* H2(n=EF1,v=3)
+   V 12.73658
+* H2(n=EF1,v=4)
+   V 12.77937
+* H2(n=EF1,v=5)
+   V 12.87869
+* H2(n=EF1,v=6)
+   V 12.93363
+* H2(n=EF1,v=7)
+   V 12.97427
+* H2(n=EF1,v=8)
+   V 13.06512
+* H2(n=EF1,v=9)
+   V 13.11205
+* H2(n=EF1,v=10)
+   V 13.15377
+* H2(n=EF1,v=11)
+   V 13.22766
+* H2(n=EF1,v=12)
+   V 13.27729
+* H2(n=EF1,v=13)
+   V 13.33329
+* H2(n=EF1,v=14)
+   V 13.39805
+* H2(n=a3,v=0)
+   V 12.01766
+* H2(n=a3,v=1)
+   V 12.24272
+* H2(n=a3,v=2)
+   V 12.4592
+* H2(n=a3,v=3)
+   V 12.6673
+* H2(n=a3,v=4)
+   V 12.86718
+* H2(n=a3,v=5)
+   V 13.05897
+* H2(n=a3,v=6)
+   V 13.24279
+* H2(n=a3,v=7)
+   V 13.41871
+* H2(n=a3,v=8)
+   V 13.58674
+* H2(n=a3,v=9)
+   V 13.74689
+* H2(n=a3,v=10)
+   V 13.89907
+* H2(n=a3,v=11)
+   V 14.04316
+* H2(n=a3,v=12)
+   V 14.17893
+* H2(n=a3,v=13)
+   V 14.30597
+* H2(n=a3,v=14)
+   V 14.42382
+* H2(n=c3,v=0)
+   V 11.99769
+* H2(n=c3,v=1)
+   V 12.20628
+* H2(n=c3,v=2)
+   V 12.40719
+* H2(n=c3,v=3)
+   V 12.60055
+* H2(n=c3,v=4)
+   V 12.78655
+* H2(n=c3,v=5)
+   V 12.96528
+* H2(n=c3,v=6)
+   V 13.13686
+* H2(n=c3,v=7)
+   V 13.30135
+* H2(n=c3,v=8)
+   V 13.45882
+* H2(n=c3,v=9)
+   V 13.60928
+* H2(n=c3,v=10)
+   V 13.75273
+* H2(n=c3,v=11)
+   V 13.88915
+* H2(n=c3,v=12)
+   V 14.01847
+* H2(n=c3,v=13)
+   V 14.14057
+* H2(n=c3,v=14)
+   V 14.25531
+* H2(n=d3,v=0)
+   V 14.08412
+* H2(n=d3,v=1)
+   V 14.28421
+* H2(n=d3,v=2)
+   V 14.47636
+* H2(n=d3,v=3)
+   V 14.66079
+* H2(n=d3,v=4)
+   V 14.83769
+* H2(n=d3,v=5)
+   V 15.00719
+* H2(n=d3,v=6)
+   V 15.16942
+* H2(n=d3,v=7)
+   V 15.3245
+* H2(n=d3,v=8)
+   V 15.47252
+* H2(n=d3,v=9)
+   V 15.61353
+* H2(n=d3,v=10)
+   V 15.74759
+* H2(n=d3,v=11)
+   V 15.87467
+* H2(n=d3,v=12)
+   V 15.99472
+* H2(n=d3,v=13)
+   V 16.10766
+* H2(n=d3,v=14)
+   V 16.2136
+* H-
+   V -0.75 
+
+
+** BACKGROUND
+* e
+    V 0
+* p
+    V 15.975
+
+
+** REACTIONS
+
+# Vibrational transitions in ground state
+# * H2VIBR H.2 2.$t&
+# e + H2(n=X1,v=$) > e + H2(n=X1,v=&)
+
+# Vibrational transitions in B1
+# * H2VIBR H.2 3.$t&
+# e + H2(n=B1,v=$) > e + H2(n=B1,v=&)
+
+# Excitation from X1 to B1
+* H2VIBR H.2 1.$u&
+e + H2(n=X1,v=$) > e + H2(n=B1,v=&)
+
+* H2VIBR H.2 1.$d&
+e + H2(n=B1,v=$) > e + H2(n=X1,v=&)
+
+# Excitation from X1 to C1
+* H2VIBR H.2 3.$u&
+e + H2(n=X1,v=$) > e + H2(n=C1,v=&)
+
+* H2VIBR H.2 3.$d&
+e + H2(n=C1,v=$) > e + H2(n=X1,v=&)
+
+# Excitation from X1 to EF1
+* H2VIBR H.2 4.$u&
+e + H2(n=X1,v=$) > e + H2(n=EF1,v=&)
+
+* H2VIBR H.2 4.$d&
+e + H2(n=EF1,v=$) > e + H2(n=X1,v=&)
+
+# Excitation from X1 to a3
+* H2VIBR H.2 5.$u&
+e + H2(n=X1,v=$) > e + H2(n=a3,v=&)
+
+* H2VIBR H.2 5.$d&
+e + H2(n=a3,v=$) > e + H2(n=X1,v=&)
+
+# Excitation from X1 to c3
+* H2VIBR H.2 6.$u&
+e + H2(n=X1,v=$) > e + H2(n=c3,v=&)
+
+* H2VIBR H.2 6.$d&
+e + H2(n=c3,v=$) > e + H2(n=X1,v=&)
+
+# Excitation from X1 to d3
+* H2VIBR H.2 7.$u&
+e + H2(n=X1,v=$) > e + H2(n=d3,v=&)
+
+* H2VIBR H.2 7.$d&
+e + H2(n=d3,v=$) > e + H2(n=X1,v=&)
+
+
+
+
+
+
+# Ionization from X1
+# * H2VIBR H.2 2.$l2
+# e + H2(n=X1,v=$) > e + 2*H(n=1)
+
+# Ionization from B1
+# * H2VIBR H.2 2.$b1
+# e + H2(n=B1,v=$) > e + 2*H(n=1)
+
+# Ionization from C1
+# * H2VIBR H.2 2.$c2
+# e + H2(n=C1,v=$) > e + 2*H(n=1)
+
+# Ionization from EF1
+# * H2VIBR H.2 4.$l2
+# e + H2(n=EF1,v=$) > e + 2*H(n=1)
+
+# Ionization from a3
+# * H2VIBR H.2 5.$l2
+# e + H2(n=a3,v=$) > e + 2*H(n=1)
+
+# Ionization from c3
+# * H2VIBR H.2 7.$l2
+# e + H2(n=c3,v=$) > e + 2*H(n=1)
+
+# Molecular Charge Exchange
+# * H2VIBR H.2 2.$q6
+# p + H2(n=X1,v=$) > H2+ + H(n=1)
+
+# Dissociative attachment
+# * H2VIBR H.2 2.$l4
+# e + H2(n=X1,v=$) > H(n=1) + H-
+
+# Dissociative Excitation
+# * H2VIBR H.2 2.$l1
+# e + H2(n=X1,v=$) > e + 2*H(n=1)
+
+
+
+
+
+
+** RATES
+# Define the files for the standard inputs
+H2VIBR  rates/h2vibr_custom.tex
+HYDHEL rates/HYDHEL.tex
+
+** SETTINGS
+* vmax      14
+* n0
+H(n=1)      0e12
+H2(n=X1,v=0)     1e10
+* verbose   0   # Show verbose output

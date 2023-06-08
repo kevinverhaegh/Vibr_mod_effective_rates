@@ -29,6 +29,16 @@ def vibr_dist(input_crm,iso_mass=1, Te_max=100,Te_reso=int(1e3),Te_min=0.1):
 
     return fv_H2, Tev
 
+def D2_energies(file):
+    E = np.zeros(15)
+
+    with open(file, 'r') as f:
+        lines = f.readlines()
+        for i in range(15):
+            line = lines[i+1]
+            E[i] = float(line.split()[2])
+    return E
+
 def fit_eval(coeffs, x):
     o = np.zeros(np.shape(x))
     for i in range(0,len(coeffs)):
@@ -39,7 +49,7 @@ Te_min = 0.1
 Te_max = 100
 Te_reso = int(1e2)
 
-input_crm = 'input_new.dat'
+input_crm = 'input_false.dat'
 fv, Tev = vibr_dist(input_crm,iso_mass=2, Te_reso=Te_reso)
 
 # input_crm = 'input_ichi.dat'
@@ -63,6 +73,8 @@ def err_bolzmann(fv_H2, T):
 
 # err_ichi, coeff_ichi = err_bolzmann(fv_ichi, Tev)
 err, coeff = err_bolzmann(fv, Tev)
+E = D2_energies('Fantz/Table 1 Vib Eigenvalues/X1_EV.txt')
+
 
 # Plot of Ichihara fit coefficients
 # plt.plot(Tev, coeff_ichi, label='Ichihara')
@@ -85,15 +97,14 @@ plt.title("Deviation from Bolxmann distribution as a function of temperature")
 # Plot of distribution at given temperature
 i = 90
 plt.figure()
-# plt.yscale('log')
-plt.plot(np.linspace(0,14,15),fv[:, i], 'o', label='Calculated data')
+plt.yscale('log')
+plt.plot(E,fv[:, i], 'o', label='Calculated data')
 
-x = 0.5+np.linspace(0,14,15)
 y = np.log(fv[:,i])
-c = np.flip(np.polyfit(x,y, 1))
+c = np.flip(np.polyfit(E,y, 1))
 
-fit = fit_eval(c,x)
-plt.plot(x-0.5,fit, '--', label='Exponential fit')
+fit = fit_eval(c,E)
+plt.plot(E,fit, '--', label='Exponential fit')
 plt.title('T = %1.2f eV' %Tev[i])
 plt.xlabel('Vibrational level')
 plt.ylabel('Fractional abundance')

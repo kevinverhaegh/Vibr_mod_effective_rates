@@ -3,10 +3,13 @@ import numpy as np
 def rea_X1_B1Su(arr):
     t = ''
     for i in range(15):
-        t +=f'* MCCCDB B {i} \n'+\
-            f'e + H2(v={i}) > e + H2(n=B)\n'+\
-            f'rates/MCCC/X1Sg-excitation/vi={i}/MCCC-el-D2-B1Su_bound.X1Sg_vi={i}.txt\n\n'+\
-            f'* USER COEFFICIENT B_X{i}\n'+\
+        # t +=f'* MCCCDB B {i} \n'+\
+        #     f'e + H2(v={i}) > e + H2(n=B)\n'+\
+        #     f'rates/MCCC/X1Sg-excitation/vi={i}/MCCC-el-D2-B1Su_bound.X1Sg_vi={i}.txt\n\n'+\
+        #     f'* USER COEFFICIENT B_X{i}\n'+\
+        #     f'H2(n=B) > H2(v={i})\n'+\
+        #     f'{arr[i]}\n\n'
+        t +=f'* USER COEFFICIENT B_X{i}\n'+\
             f'H2(n=B) > H2(v={i})\n'+\
             f'{arr[i]}\n\n'
     return t
@@ -14,10 +17,13 @@ def rea_X1_B1Su(arr):
 def rea_X1_C1Pu(arr):
     t = ''
     for i in range(15):
-        t +=f'* MCCCDB C {i} \n'+\
-            f'e + H2(v={i}) > e + H2(n=C)\n'+\
-            f'rates/MCCC/X1Sg-excitation/vi={i}/MCCC-el-D2-C1Pu_bound.X1Sg_vi={i}.txt\n\n'+\
-            f'* USER COEFFICIENT C_X{i}\n'+\
+        # t +=f'* MCCCDB C {i} \n'+\
+        #     f'e + H2(v={i}) > e + H2(n=C)\n'+\
+        #     f'rates/MCCC/X1Sg-excitation/vi={i}/MCCC-el-D2-C1Pu_bound.X1Sg_vi={i}.txt\n\n'+\
+        #     f'* USER COEFFICIENT C_X{i}\n'+\
+        #     f'H2(n=C) > H2(v={i})\n'+\
+        #     f'{arr[i]}\n\n'
+        t +=f'* USER COEFFICIENT C_X{i}\n'+\
             f'H2(n=C) > H2(v={i})\n'+\
             f'{arr[i]}\n\n'
     return t
@@ -141,7 +147,8 @@ def gen_input(new_file_name, B_X = False, C_X = False, ion = False, diss = False
 
     #  Vibrational transitions
     if vibr:
-        string+=rea_vibr_trans()
+        string+='* H2VIBR H.2 2.$t&\n' +\
+                    'e + H2(v=$) > e + H2(v=&)\n\n' 
     if vibr_old:
         string+='* H2VIBR H.2 2.$v&\n' +\
                     'e + H2(v=$) > e + H2(v=&)\n\n' 
@@ -182,7 +189,7 @@ def gen_input(new_file_name, B_X = False, C_X = False, ion = False, diss = False
     ## RATES
     string += '** RATES\n'+\
                 '# Define the files for the standard inputs\n'+\
-                'H2VIBR  rates/h2vibr_ichi.tex\n'+\
+                'H2VIBR  rates/h2vibr_ichi_lap.tex\n'+\
                 'HYDHEL rates/HYDHEL.tex\n\n'
 
     ## SETTINGS
@@ -197,7 +204,7 @@ def gen_input(new_file_name, B_X = False, C_X = False, ion = False, diss = False
         f.write(string)
 
     
-gen_input('input_new.dat', vibr=True, cx=True, ion=True, diss=True)
+gen_input('input_false.dat', B_X = True, C_X=True)
         
 
 

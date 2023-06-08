@@ -12,10 +12,12 @@ def run_demo(input_crm,iso_mass=1,T_request=1):
     crm = CRUMPET.Crumpet(input_crm)
 
     #make Te & ne vectors
-    Tev = np.linspace(0.2,100, 100)
+    # Tev = 10**np.linspace(np.log(0.2),np.log(100), 100)
+    Tev = 10*np.ones(100)
     Tiv = Tev # Assume Ti=Te
-    ne = 1e19*np.ones(np.shape(Tev)) #assume electron density is 1e19 m-3 (should not impact the rates)
-    crm.source[2] = 1e10 #add small source for numerical stability (only needed if reactions that dissociate are included)
+    # ne = 1e19*np.ones(np.shape(Tev)) #assume electron density is 1e19 m-3 (should not impact the rates)
+    ne = 1e14*np.linspace(1,1e6, len(Tev))
+    crm.source[2] = 1e-100 #add small source for numerical stability (only needed if reactions that dissociate are included)
 
     #compute vibrational distribution H2
     fv_H2 = np.zeros([15,len(Tev)])
@@ -64,18 +66,18 @@ def run_demo(input_crm,iso_mass=1,T_request=1):
     #show a plot comparing different effective rates
     import matplotlib.pyplot as plt
     plt.figure()
-    plt.loglog(Tev,np.transpose(fv_H2))
-    plt.xlabel('Temperature (eV)')
+    plt.loglog(ne,np.transpose(fv_H2))
+    plt.xlabel('Density')
     plt.ylabel('Fractional abundance of vibrational distribution')
     plt.title('Vibr. distribution as function of T')
     plt.show()
 
-    plt.figure()
-    plt.loglog(Tev,eff_mol_cx,label='Effective rate (NEW)')
-    plt.loglog(Tev,h3_2_3_tab,label='Tabulated rate')
-    plt.loglog(Tev,eff_mol_cx_ichi,label='Effective rate - Ichihara (NEW)')
-    plt.xlabel('Temperature (eV)')
-    plt.legend()
+    # plt.figure()
+    # plt.loglog(Tev,eff_mol_cx,label='Effective rate (NEW)')
+    # plt.loglog(Tev,h3_2_3_tab,label='Tabulated rate')
+    # plt.loglog(Tev,eff_mol_cx_ichi,label='Effective rate - Ichihara (NEW)')
+    # plt.xlabel('Temperature (eV)')
+    # plt.legend()
 
     #Compare vibrational distribution to Boltzmann and map to upper state
     indx = np.argmin(np.abs(Tev-T_request))
