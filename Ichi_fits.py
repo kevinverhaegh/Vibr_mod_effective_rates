@@ -1,7 +1,9 @@
 import numpy as np
 import matplotlib
+import CRUMPET
 
-Tev = np.linspace(0.01,100,1000)
+
+Tev = np.linspace(0.1,5,1000)
 Tiv = Tev # Assume Ti=Te
 
 
@@ -111,6 +113,9 @@ full_string = gen_full_string(coeffs)
 # with open('rates/h2vibr_custom.tex','a') as file:
 #     file.write(full_string)
 
+X=CRUMPET.ratedata.RateData(rates={'AMJUEL' : '/rates/amjuel.tex', 'H2VIBR' : '/rates/h2vibr.tex'})
+
+
 import matplotlib.pyplot as plt
 
 colors = plt.cm.rainbow(np.linspace(0, 1, 15))
@@ -120,7 +125,13 @@ for i in range(15):
     # fit = eval_1D(coeffs[i,:],Tev)
     # plt.loglog(Tev, fit, '--', c=colors[i], label='vf=%i' %i)
 plt.xlabel('Temperature (eV)')
-plt.legend()
+# plt.legend()
+plt.figure()
+for i in range (15):
+    plt.loglog(Tev,eval_1D(X.reactions['H2VIBR']['H.2']['2.'+str(i)+'L2'],Tev))
+plt.ylim()
 plt.show()
+
+
 
 print('Done')
