@@ -2,7 +2,7 @@
 from xml.etree.ElementTree import C14NWriterTarget
 import numpy as np
 
-def get_energies(state, vmax = 14):
+def get_energies(state, vmax = 14,isotope=2):
     '''
     Retrieves vibrational eigenvalues (Energy levels) for molecular deuterium from Fantz et al.
 
@@ -11,8 +11,9 @@ def get_energies(state, vmax = 14):
         state : string
             Determines which electronically excited state you want the energies of (e.g. X1Sg or EF1Sg).
         vmax: integer (default: 14)
-            Maximum vibrational quantum number you want to retrieve. 
-
+            Maximum vibrational quantum number you want to retrieve.
+        isotope: integer (default: 2)
+            Isotope mass (1 = hydrogen, 2 = deuterium, 3 = tritium)
     '''
 
     E = np.zeros(vmax+1)
@@ -20,10 +21,7 @@ def get_energies(state, vmax = 14):
         lines = f.readlines()
         for i in range(vmax+1):
             line = lines[i+1].replace('*','0')
-            if i<15:
-                E[i] = float(line.split()[2])
-            else:
-                E[i] = float(line.split()[1])
+            E[i] = float(line.split()[isotope])
     return E
 
 
@@ -202,9 +200,9 @@ def get_coeffs_unr(i_state, f_state, nu_eff):
     return coeffs
 
 
-def gen_input(new_file_name, vibr_resolved=True, rad_decay=True, inter_states = True, coll_deex = True, incl_ground=False, ion = False, B1 = False, 
-              d3=False, c3 = False, vibr_hyd = False, diss = False, a3=False, EF1=False, mol_cx=False, diss_ion=False,
-              vibr_lap=False, C1=False, diss_att_X1=False, diss_att_B1 = False, diss_att_old=False, MA=False, MA_min=False):
+def gen_input(new_file_name, vibr_resolved=True, rad_decay=True, inter_states = True, coll_deex = True, incl_ground=False, ion = False, ion_hyd=False, B1 = False,
+              d3=False, c3 = False, vibr_hyd = False, diss = False, diss_hyd = False, a3=False, EF1=False, mol_cx=False, mol_cx_hyd=False,diss_ion=False,
+              vibr_lap=False, C1=False, diss_att_X1=False, diss_att_B1 = False, diss_att_old=False, MA=False, MA_min=False,MolIonR=False):
     '''
     Generates an input.dat file for CRUMPET. It uses a custom file in the same format as the H2VIBR database. 
 
@@ -214,7 +212,7 @@ def gen_input(new_file_name, vibr_resolved=True, rad_decay=True, inter_states = 
             desired path for the input file.
 
         vibr_resolved : bool (default: True)
-            switch to determine whether the electronically excited states are 
+            switch to determine whether the electronically excited states are
             vibrationally resolved. If vibr_resolved = False, The model will not consider 
             the vibrational distribution in the excited states. 
 
@@ -299,12 +297,13 @@ def gen_input(new_file_name, vibr_resolved=True, rad_decay=True, inter_states = 
             
         # Input molecular ions and H-
             # Input species molecular ions
-        if ion:
-            string+='* H2+\n'+\
-                '    V 15.56\n'
-        if diss_att_X1 or diss_att_B1:
-            string+='* H-\n'+\
-                    '   V -0.75\n' 
+        if not MolIonR:
+            if ion or mol_cx_hyd or mol_cx:
+                string+='* H2+\n'+\
+                    '    V 15.56\n'
+            if diss_att_X1 or diss_att_B1 or diss_att_old:
+                string+='* H-\n'+\
+                        '   V -0.75\n'
             
         string +='\n\n'
 
@@ -319,6 +318,11 @@ def gen_input(new_file_name, vibr_resolved=True, rad_decay=True, inter_states = 
         if not incl_ground:
               string+='* H2(n=X1,v=0)\n'+\
                         '    V 0.19652\n'
+        if MolIonR:
+            string+='* H2+\n'+\
+                    '    V 15.56\n'+\
+                    '* H-\n' +\
+                    '    V -0.75\n'
 
         string+='\n\n'
 
@@ -327,7 +331,7 @@ def gen_input(new_file_name, vibr_resolved=True, rad_decay=True, inter_states = 
 
         # Vibrational transitions
         if vibr_hyd:
-            string+='* H2VIBR H.2 2.$v&\n' +\
+            string+='* H2VIBR_OR H.2 2.$v&\n' +\
                     'e + H2(n=X1,v=$) > e + H2(n=X1,v=&)\n\n'
         
         if vibr_lap:
@@ -336,14 +340,25 @@ def gen_input(new_file_name, vibr_resolved=True, rad_decay=True, inter_states = 
         
         if mol_cx:
             string+='* H2VIBR H.2 2.$q6\n'+\
-                    'p + H2(n=X1,v=$) > H2+ + H(n=1)\n\n' 
+                    'p + H2(n=X1,v=$) > H2+ + H(n=1)\n\n'
+
+        if mol_cx_hyd:
+            string+='* H2VIBR_OR H.2 2.$l2\n'+\
+                    'p + H2(n=X1,v=$) > H2+ + H(n=1)\n\n'
         
         if diss:
             string+='* H2VIBR H.2 2.$l1\n'+\
                     'e + H2(n=X1,v=$) > e + 2*H(n=1)\n\n'
+
+        if diss_hyd:
+            string+='* H2VIBR_OR H.2 2.$l1\n'+\
+                'e + H2(n=X1,v=$) > e + 2*H(n=1)\n\n'
         
         if ion: 
             string+='* H2VIBR H.2 2.$l2\n'+\
+                    'e + H2(n=X1,v=$) > e + H2+\n\n'
+        if ion_hyd:
+            string+='* H2VIBR_OR H.2 2.$l4\n'+\
                     'e + H2(n=X1,v=$) > e + H2+\n\n'
             
         if diss_ion:
@@ -513,7 +528,7 @@ def gen_input(new_file_name, vibr_resolved=True, rad_decay=True, inter_states = 
                     '   V 12.41104\n'
             
 
-        if ion:
+        if ion or ion_hyd:
             string+='* H2+\n'+\
                 '    V 15.56\n'
         # Input negative ions
@@ -545,12 +560,16 @@ def gen_input(new_file_name, vibr_resolved=True, rad_decay=True, inter_states = 
             string+='* H2VIBR H.2 2.$t&\n' +\
                         'e + H2(n=X1,v=$) > e + H2(n=X1,v=&)\n\n' 
         if vibr_hyd:
-            string+='* H2VIBR H.2 2.$v&\n' +\
+            string+='* H2VIBR_OR H.2 2.$v&\n' +\
                         'e + H2(n=X1,v=$) > e + H2(n=X1,v=&)\n\n' 
         
         # Molecular charge exchange
         if mol_cx:
             string +='* H2VIBR H.2 2.$q6\n'+\
+                        'p + H2(n=X1,v=$) > H2+ + H(n=1)\n\n'
+
+        if mol_cx_hyd:
+            string +='* H2VIBR_OR H.2 2.$l2\n'+\
                         'p + H2(n=X1,v=$) > H2+ + H(n=1)\n\n'
         
         # Ionization from ground
@@ -558,9 +577,17 @@ def gen_input(new_file_name, vibr_resolved=True, rad_decay=True, inter_states = 
             string+='* H2VIBR H.2 2.$l2\n'+\
                     'e + H2(n=X1,v=$) > e + H2+\n\n'
 
+        if ion_hyd:
+            string += '* H2VIBR_OR H.2 2.$l4\n' + \
+                          'e + H2(n=X1,v=$) > e + H2+\n\n'
+
         # Dissociation from ground
         if diss:
             string+='* H2VIBR H.2 2.$l1\n'+\
+                    'e + H2(n=X1,v=$) > e + 2*H(n=1)\n\n'
+
+        if diss_hyd:
+            string+='* H2VIBR_OR H.2 2.$l1\n'+\
                     'e + H2(n=X1,v=$) > e + 2*H(n=1)\n\n'
         
         # Dissociative ionization
@@ -637,7 +664,11 @@ def gen_input(new_file_name, vibr_resolved=True, rad_decay=True, inter_states = 
                 '# Define the files for the standard inputs\n'+\
                 'H2VIBR  rates/h2vibr_custom.tex\n'+\
                 'HYDHEL rates/HYDHEL.tex\n'+\
-                'AMJUEL rates/amjuel.tex\n\n'
+                'AMJUEL rates/amjuel.tex\n'
+    if mol_cx_hyd or vibr_hyd or diss_hyd:
+        string += 'H2VIBR_OR rates/h2vibr.tex\n\n'
+    else:
+        string += '\n'
 
     ## SETTINGS
     string +='** SETTINGS\n'+\
@@ -806,7 +837,6 @@ def vibr_dist(crm, Tev, ne, iso_mass=2, incl_ground=False):
     # fv_H2 = fv_H2.reshape([])
 
     return fv
-
 
 
 def fit_eval(coeffs, x):
@@ -1062,6 +1092,21 @@ def block_string(X):
             '  b3 ' + output_string(X[3]) + '  b4 ' + output_string(X[4]) + '  b5 ' + output_string(X[5])+'\n'+\
             '  b6 ' + output_string(X[6]) + '  b7 ' + output_string(X[7]) + '  b8 ' + output_string(X[8])+'\n'
     return block
+
+def insert_string(file_name, file_name_new, string, line_num):
+    # Copy file into new file
+    import shutil
+    shutil.copyfile(file_name, file_name_new)
+
+    # Create lines variable with all the line numbers of the file
+    with open(file_name_new, 'r') as f:
+        lines = f.readlines()
+
+    with open(file_name_new, 'r+') as f:
+        for i, line in enumerate(lines):
+            if i == line_num:
+                f.write(string + '\n')
+            f.write(line)
 
 def get_teq(crm, T_final, ne, tau, delta=1e-3, T_init=None, iso_mass=2):
 
