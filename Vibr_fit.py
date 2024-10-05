@@ -8,6 +8,14 @@ indx_c3 = np.append(77,np.arange(78,92))
 indx_d3 = np.append(92,np.arange(93,107))
 indx_mol = np.append(2,np.arange(3,107))
 
+indx_X1 = np.arange(0,15)
+indx_B1 = np.arange(15,30)
+indx_C1 = np.arange(30,45)
+indx_EF1 = np.arange(45,60)
+indx_a3 = np.arange(60,75)
+indx_c3 = np.arange(75,90)
+indx_d3 = np.arange(90,105)
+indx_mol = np.arange(0,105)
 
 def eval_1D(coeff, T):
     
@@ -74,7 +82,7 @@ def run_demo(input_crm,iso_mass=1,T_request=1, ichi=False,Te_max=100,Te_reso=int
             #     vibr_resolved_Diss[i,j] += crm.reactions['MCCCDB']['diss']['X_'+state+f'{i}'].integrated(Tev[j],0)
 
         vibr_resolved_Diss[i,:] = eval_1D(X.reactions['H2VIBR']['H.2']['2.'+str(i)+'L1'],Tev)
-        diss_decay_b3[i,:] = 1/ne*crm.reactions['USER']['COEFFICIENT'][f'a3Sg_v={i}'].coeffs # Look up the units !!!
+        #diss_decay_b3[i,:] = 1/ne*crm.reactions['USER']['COEFFICIENT'][f'a3Sg_b3Sg{i}'].coeffs # Look up the units !!!
 
         # vibr_resolved_Ion[i,:] = eval_1D(X.reactions['H2VIBR']['H.2']['2.'+str(i)+'L2'],Tev)
         vibr_resolved_DA[i,:] = eval_1D(X.reactions['H2VIBR']['H.2']['2.'+str(i)+'L4'],Tev)

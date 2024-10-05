@@ -120,10 +120,14 @@ import matplotlib.pyplot as plt
 
 colors = plt.cm.rainbow(np.linspace(0, 1, 15))
 plt.figure()
+import mat73, os
+ichi_tables = os.path.join(os.path.dirname(__file__), 'MolCX_Ichi.mat')
+ichi_tab = mat73.loadmat(ichi_tables)
 for i in range(15):
-    plt.loglog(Tev,rates[i,:],c=colors[i],label='v=%i' %i)
-    # fit = eval_1D(coeffs[i,:],Tev)
-    # plt.loglog(Tev, fit, '--', c=colors[i], label='vf=%i' %i)
+    #plt.loglog(Tev,rates[i,:],c=colors[i],label='v=%i' %i)
+    plt.loglog(ichi_tab['T'],1e-6 * ichi_tab['MolCX_Ichi_01'][i,:],'+',label='y=%i' %i)
+    fit = eval_1D(coeffs[i,:],Tev)
+    plt.loglog(Tev, fit, '--', c=colors[i], label='vf=%i' %i)
 plt.xlabel('Temperature (eV)')
 # plt.legend()
 plt.figure()

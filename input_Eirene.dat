@@ -4,8 +4,6 @@
 
 ** SPECIES
 
-* H2(n=X1,v=0)
-    V 0.19652
 * H2(n=X1,v=1)
    V 0.56765
 * H2(n=X1,v=2)
@@ -43,21 +41,27 @@
     V 15.975
 * H(n=1)
     V 2.375
+* H2(n=X1,v=0)
+    V 0.19652
+* H2+
+    V 15.56
+* H-
+    V -0.75
 
 
 ** REACTIONS
 
-* H2VIBR H.2 2.$v&
+* H2VIBR_OR H.2 2.$v&
 e + H2(n=X1,v=$) > e + H2(n=X1,v=&)
 
-* H2VIBR H.2 2.$l2
-p + H2(n=X1, v=$) > H2+ + H(n=1)
+* H2VIBR_OR H.2 2.$l2
+p + H2(n=X1,v=$) > H2+ + H(n=1)
 
-* H2VIBR H.2 2.$l1
+* H2VIBR_OR H.2 2.$l1
 e + H2(n=X1,v=$) > e + 2*H(n=1)
 
-* AMJUEL H.4 2.2.10
-e + H2(n=X1,v=0) > 2*e + p + H(n=1)
+* H2VIBR_OR H.2 2.$l4
+e + H2(n=X1,v=$) > e + H2+
 
 
 
@@ -66,9 +70,9 @@ e + H2(n=X1,v=0) > 2*e + p + H(n=1)
 H2VIBR  rates/h2vibr_custom.tex
 HYDHEL rates/HYDHEL.tex
 AMJUEL rates/amjuel.tex
+H2VIBR_OR rates/h2vibr.tex
 
 ** SETTINGS
 * vmax      14
 * n0
-H2(n=X1,v=0)  1e10
 * verbose   0   # Show verbose output
