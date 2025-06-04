@@ -37,7 +37,7 @@ Ichi_D2_v = 1e-6 * np.exp(f((np.vstack([E_D2_m.ravel(),np.log(T_m.ravel()),np.lo
 p_Ichi_D2_v = ichi_fit(Tv, Ichi_D2_v)
 
 E_T2_m, T_m, = np.meshgrid(E_T2,Tv,indexing='ij')
-Ichi_T2_v = 1e-6 * np.exp(f((np.vstack([E_D2_m.ravel(),np.log(T_m.ravel()),np.log(np.full(T_m.size,0.1))]).T))).reshape(len(E_H2),len(Tv))
+Ichi_T2_v = 1e-6 * np.exp(f((np.vstack([E_T2_m.ravel(),np.log(T_m.ravel()),np.log(np.full(T_m.size,0.1))]).T))).reshape(len(E_H2),len(Tv))
 p_Ichi_T2_v = ichi_fit(Tv, Ichi_T2_v)
 
 #store rates

@@ -202,7 +202,7 @@ def get_coeffs_unr(i_state, f_state, nu_eff):
 
 def gen_input(new_file_name, vibr_resolved=True, rad_decay=True, inter_states = True, coll_deex = True, incl_ground=False, ion = False, ion_hyd=False, B1 = False,
               d3=False, c3 = False, vibr_hyd = False, diss = False, diss_hyd = False, a3=False, EF1=False, mol_cx=False, mol_cx_hyd=False,diss_ion=False,
-              vibr_lap=False, C1=False, diss_att_X1=False, diss_att_B1 = False, diss_att_old=False, MA=False, MA_min=False,MolIonR=False):
+              vibr_lap=False, C1=False, diss_att_X1=False, diss_att_B1 = False, diss_att_old=False, MA=False, MA_min=False,MolIonR=False,molcxindx='q6'):
     '''
     Generates an input.dat file for CRUMPET. It uses a custom file in the same format as the H2VIBR database. 
 
@@ -339,7 +339,7 @@ def gen_input(new_file_name, vibr_resolved=True, rad_decay=True, inter_states = 
                     'e + H2(n=X1,v=$) > e + H2(n=X1,v=&)\n\n'
         
         if mol_cx:
-            string+='* H2VIBR H.2 2.$q6\n'+\
+            string+='* H2VIBR H.2 2.$'+molcxindx+'\n'+\
                     'p + H2(n=X1,v=$) > H2+ + H(n=1)\n\n'
 
         if mol_cx_hyd:
